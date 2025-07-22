@@ -9,6 +9,10 @@ CLEAR_LOG_ON_RUN = True
 logfolder = f"{datetime.now().strftime("%Y-%m-%d")}"
 
 if CLEAR_LOG_ON_RUN:
+    if not os.path.exists("logs"):
+        os.makedirs("logs")
+    if not os.path.exists("Stored_logs"):
+        os.makedirs("Stored_logs")
     if not os.path.exists(f"Stored_logs/{logfolder}"):
         os.makedirs(f"Stored_logs/{logfolder}")
     with open(f"Stored_logs/{logfolder}/run_log_{datetime.now().strftime("%Y-%m-%d")}.txt", 'a') as f, open("logs/run_log.txt", 'r') as f2:
