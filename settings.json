@@ -1,0 +1,37 @@
+{
+  "credentials": {
+    "username": 5036816925,
+    "password": "UsRc-lQ6",
+    "server": "MetaQuotes-Demo",
+    "mt5path": "C:/Program Files/MetaTrader 5/terminal64.exe"
+  },
+  "strategy": {
+    "symbols": ["EURUSD", "GBPUSD", "XAUUSD", "EURGBP", "EURNZD"],
+    "risk_percent": 1.0,
+    "minimum_rr": 2.5,
+    "maximum_rr": 10.0,
+    "dynamic_rr": true,
+    "timeframes": {
+      "htf": "H1",
+      "ltf": "M5"
+    },
+    "session_times": {
+      "start": "02:55",
+      "end": "23:59"
+    },
+    "use_sweep_filter": true,
+    "confirm_bos": true,
+    "use_fvg_entry": true,
+    "detect_wicks": false,
+    "use_ltf_reversal": false,
+    "min_fvg_size": 0.5,
+    "sl_under_fvg": true,
+    "fvg_sl_offset": 3.5,
+
+    "use_adaptive_risk": true,
+    "min_risk_percent": 0.5,
+    "max_risk_percent": 3.0,
+    "max_risk_per_day_percent": 0.0,
+    "max_trades_per_day": 0
+  }
+}
