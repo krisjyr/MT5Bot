@@ -1,436 +1,805 @@
-"""
-Strategy Function Test Suite
-Tests all imported functions in strategy.py to ensure they work correctly
-"""
-
+import MetaTrader5 as mt5
+import pandas as pd
+from datetime import datetime, timedelta
 import sys
 import os
-import traceback
-from datetime import datetime, timedelta
-import pandas as pd
-import numpy as np
+import json
+import time
+from tqdm import tqdm
 
-# Mock MetaTrader5 for testing
-class MockMT5:
-    TIMEFRAME_M1 = 1
-    TIMEFRAME_M5 = 5
-    TIMEFRAME_M15 = 15
-    TIMEFRAME_H1 = 60
-    TIMEFRAME_H4 = 240
-    TIMEFRAME_D1 = 1440
-    
-    @staticmethod
-    def copy_rates_from_pos(symbol, timeframe, start, count):
-        """Generate mock OHLC data"""
-        np.random.seed(42)  # For reproducible results
-        
-        # Base price varies by symbol
-        if symbol.startswith("XAU"):
-            base_price = 2000.0
-            volatility = 20.0
-        elif "JPY" in symbol:
-            base_price = 150.0
-            volatility = 2.0
-        else:
-            base_price = 1.1000
-            volatility = 0.01
-            
-        # Generate realistic OHLC data
-        data = []
-        current_time = int(datetime.now().timestamp()) - (count * timeframe * 60)
-        
-        for i in range(count):
-            # Random walk for realistic price movement
-            change = np.random.normal(0, volatility * 0.001)
-            base_price += change
-            
-            # Generate OHLC
-            open_price = base_price
-            high_range = abs(np.random.normal(0, volatility * 0.002))
-            low_range = abs(np.random.normal(0, volatility * 0.002))
-            
-            high_price = open_price + high_range
-            low_price = open_price - low_range
-            close_price = open_price + np.random.normal(0, volatility * 0.001)
-            
-            # Ensure OHLC relationship is valid
-            high_price = max(high_price, open_price, close_price)
-            low_price = min(low_price, open_price, close_price)
-            
-            data.append({
-                'time': current_time + (i * timeframe * 60),
-                'open': round(open_price, 5),
-                'high': round(high_price, 5),
-                'low': round(low_price, 5),
-                'close': round(close_price, 5),
-                'tick_volume': np.random.randint(100, 1000),
-                'spread': 0,
-                'real_volume': 0
-            })
-            
-            base_price = close_price
-        
-        return np.array([(d['time'], d['open'], d['high'], d['low'], d['close'], 
-                         d['tick_volume'], d['spread'], d['real_volume']) for d in data],
-                       dtype=[('time', 'i8'), ('open', 'f8'), ('high', 'f8'), 
-                             ('low', 'f8'), ('close', 'f8'), ('tick_volume', 'i8'),
-                             ('spread', 'i4'), ('real_volume', 'i8')])
+import pyperclip
+import tkinter as tk
 
-# Mock logger functions
-def mock_log(message, highlight=False):
-    print(f"[LOG] {message}")
+# Add necessary imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.loader import load_settings
+from utils.logger import log_info, log_success, log_warning, log_error, log_skip, log_trade
+from utils.timeframes import timeframe_map
+from core.risk_manager import calculate_position_size
 
-# Mock modules
-sys.modules['MetaTrader5'] = MockMT5()
-
-# Mock imports
-class MockLogger:
-    @staticmethod
-    def log_info(msg, highlight=False): mock_log(f"INFO: {msg}", highlight)
-    @staticmethod
-    def log_success(msg, highlight=False): mock_log(f"SUCCESS: {msg}", highlight)
-    @staticmethod
-    def log_warning(msg, highlight=False): mock_log(f"WARNING: {msg}", highlight)
-    @staticmethod
-    def log_error(msg, highlight=False): mock_log(f"ERROR: {msg}", highlight)
-    @staticmethod
-    def log_fatal(msg, highlight=False): mock_log(f"FATAL: {msg}", highlight)
-    @staticmethod
-    def log_skip(msg, highlight=False): mock_log(f"SKIP: {msg}", highlight)
-    @staticmethod
-    def log_trade(msg, highlight=False): mock_log(f"TRADE: {msg}", highlight)
-    @staticmethod
-    def log_debug(msg, symbol="", debug_type=""): mock_log(f"DEBUG [{symbol}] {debug_type}: {msg}")
-
-class MockRiskManager:
-    @staticmethod
-    def calculate_position_size(symbol, entry, sl, risk_percent):
-        # Simple mock calculation
-        pip_value = 0.0001 if "JPY" not in symbol else 0.01
-        if symbol.startswith("XAU"):
-            pip_value = 0.10
-        
-        risk_pips = abs(entry - sl) / pip_value
-        if risk_pips == 0:
-            return 0
-        
-        account_balance = 10000  # Mock balance
-        risk_amount = account_balance * (risk_percent / 100)
-        position_size = risk_amount / (risk_pips * 10)  # $10 per pip for standard lot
-        
-        return max(0.01, min(position_size, 10.0))  # Clamp between 0.01 and 10 lots
-
-class MockOrderManager:
-    @staticmethod
-    def send_order(symbol, lot_size, direction, sl, tp, magic=0):
-        # Mock successful order
-        if lot_size > 0 and sl != 0 and tp != 0:
-            return True, "Order placed successfully"
-        return False, "Invalid parameters"
-
-class MockHTFSweepDetector:
-    def __init__(self, window=100, strength=2):
-        self.window = window
-        self.strength = strength
-    
-    def run(self, df, debug=False):
-        df = df.copy()
-        df['htf_high_sweep'] = False
-        df['htf_low_sweep'] = False
-        
-        # Mock some sweep signals
-        if len(df) > 10:
-            df.loc[df.index[-5], 'htf_high_sweep'] = True  # Bearish sweep
-            df.loc[df.index[-3], 'htf_low_sweep'] = True   # Bullish sweep
-        
-        return df
-
-class MockFVGDetector:
-    @staticmethod
-    def find_fvg_multi_tf_safe(symbol, min_size, timeframes, candles_to_fetch, 
-                              timeframe_map, mt5_module, min_gap_percentage, 
-                              direction=None, debug=False):
-        # Mock FVG data
-        if np.random.random() > 0.5:  # 50% chance of finding FVG
-            base_price = 1.1000 if "JPY" not in symbol else 150.0
-            if symbol.startswith("XAU"):
-                base_price = 2000.0
-                
-            return {
-                'low': base_price - 0.001,
-                'high': base_price + 0.001,
-                'type': direction or ('Bullish' if np.random.random() > 0.5 else 'Bearish'),
-                'timeframe': 'M15',
-                'timestamp': int(datetime.now().timestamp()) - 3600
-            }
-        return None
-    
-    @staticmethod
-    def detect_fvg_across_timeframes(symbol, timeframes, fvg, mt5_module, timeframe_map):
-        # Mock FVG tap detection
-        return np.random.random() > 0.3  # 70% chance of being tapped
-
-class MockRRProcessor:
-    @staticmethod
-    def process_trade_data(symbol, state, min_rr, max_rr, dynamic_rr, tf_data):
-        # Mock R:R calculation
-        if state.entry_price and state.stop_loss:
-            # Calculate basic R:R
-            pip_value = 0.0001 if "JPY" not in symbol else 0.01
-            if symbol.startswith("XAU"):
-                pip_value = 0.10
-                
-            sl_distance = abs(state.entry_price - state.stop_loss)
-            tp_distance = sl_distance * max(min_rr, 3.0)  # Default 3:1 R:R
-            
-            if state.direction == "Bullish":
-                state.take_profit = state.entry_price + tp_distance
-            else:
-                state.take_profit = state.entry_price - tp_distance
-                
-            state.rr = tp_distance / sl_distance if sl_distance > 0 else min_rr
-
-# Mock the imports
-sys.modules['utils.logger'] = MockLogger()
-sys.modules['core.risk_manager'] = MockRiskManager()
-sys.modules['utils.timeframes'] = type('TimeframeModule', (), {
-    'timeframe_map': {
-        'M1': MockMT5.TIMEFRAME_M1,
-        'M5': MockMT5.TIMEFRAME_M5,
-        'M15': MockMT5.TIMEFRAME_M15,
-        'H1': MockMT5.TIMEFRAME_H1,
-        'H4': MockMT5.TIMEFRAME_H4,
-        'D1': MockMT5.TIMEFRAME_D1
-    }
-})()
-sys.modules['core.order_manager'] = MockOrderManager()
-sys.modules['core.htf_detect'] = type('HTFModule', (), {'HTFSweepDetector': MockHTFSweepDetector})()
-sys.modules['core.fvg_detect'] = MockFVGDetector()
-sys.modules['core.rr_processing'] = MockRRProcessor()
-
-# Import the BOS functions (assuming they're available)
+# Import strategy components
 try:
-    from core.bos_detect import adaptive_risk_bos, confirm_break_of_structure
-    BOS_AVAILABLE = True
-except ImportError:
-    print("Warning: BOS detection functions not available, using mocks")
-    BOS_AVAILABLE = False
-    
-    def adaptive_risk_bos(data, direction, symbol, base_risk, min_risk, max_risk):
-        confirmed = np.random.random() > 0.4  # 60% success rate
-        adjusted_risk = np.random.uniform(min_risk, max_risk) if confirmed else base_risk
-        details = {
-            'confirmed': confirmed,
-            'reason': 'Break confirmed' if confirmed else 'No break detected',
-            'structure_level': 1.1000,
-            'break_distance_pips': np.random.uniform(1, 20) if confirmed else 0,
-            'direction': direction.capitalize()
-        }
-        return confirmed, adjusted_risk, details
-    
-    def confirm_break_of_structure(data, direction, symbol):
-        confirmed = np.random.random() > 0.4
-        return {
-            'confirmed': confirmed,
-            'reason': 'Break confirmed' if confirmed else 'No break detected',
-            'structure_level': 1.1000,
-            'break_distance_pips': np.random.uniform(1, 20) if confirmed else 0,
-            'direction': direction.capitalize()
-        }
+    from strategy import process_symbol, data_cache
+    import strategy
+except ImportError as e:
+    print(f"Warning: Could not import some strategy components: {e}")
+    data_cache = {}
+    strategy = None
 
-def test_function(func_name, func, *args, **kwargs):
-    """Test a single function with error handling"""
+# Initialize symbol_states dictionary
+symbol_states = {}
+
+class BacktestSymbolState:
+    """Extended SymbolState for backtest with timeout functionality."""
+    def __init__(self):
+        self.reset()
+    
+    def reset(self):
+        self.sweep_confirmed = False
+        self.fvg_tapped = False
+        self.bos_confirmed = False
+        self.entry_price = None
+        self.take_profit = None
+        self.stop_loss = None
+        self.direction = None
+        self.order_sent = False
+        self.fail_timer = None
+        self.fvg = None
+        self.adjusted_risk = None
+        self.rr = None
+        self.last_updated = datetime.now()
+        self.htf_signal_time = None
+        self.htf_attempts = 0
+        self.max_attempts = 4
+        self.timeout_minutes = 15
+        self._previous_sweep_state = False
+        self._previous_fvg_state = False
+        self._previous_bos_state = False
+    
+    def is_stale(self, timeout=10):
+        return datetime.now() - self.last_updated > timedelta(minutes=timeout)
+    
+    def update(self):
+        """Override update to handle HTF timeout logic."""
+        self.last_updated = datetime.now()
+        current_time = getattr(self, '_current_backtest_time', datetime.now())
+        
+        #print(f"[BACKTEST] State.update() called at {current_time} - sweep:{self.sweep_confirmed}, bos:{self.bos_confirmed}")
+        
+        if self.sweep_confirmed and not self._previous_sweep_state:
+            if not self.htf_signal_time:
+                self.htf_signal_time = current_time
+                self.htf_attempts = 0
+                #print(f"[BACKTEST] HTF sweep timer started - 15min timeout window")
+        
+        if self.bos_confirmed and not self._previous_bos_state:
+            if self.htf_signal_time:
+                time_elapsed = (current_time - self.htf_signal_time).total_seconds() / 60
+                #print(f"[BACKTEST] BoS confirmed - Timer: {time_elapsed:.1f}min, Attempt: {self.htf_attempts}")
+        
+        #if hasattr(self, '_debug_updates'):
+            #print(f"[DEBUG] State.update() called - sweep:{self.sweep_confirmed}, bos:{self.bos_confirmed}, backtest_time:{self.htf_signal_time}, attempts:{self.htf_attempts}")
+        
+        self._previous_sweep_state = self.sweep_confirmed
+        self._previous_fvg_state = self.fvg_tapped
+        self._previous_bos_state = self.bos_confirmed
+    
+    def check_htf_timeout(self, current_time):
+        """Check if HTF signal has timed out and should be reset."""
+        if not self.sweep_confirmed or not self.htf_signal_time:
+            return False
+        
+        time_elapsed = (current_time - self.htf_signal_time).total_seconds() / 60
+        self.htf_attempts += 1
+        
+        if time_elapsed > self.timeout_minutes or self.htf_attempts > self.max_attempts:
+            return True
+        return False
+    
+    def set_backtest_time(self, current_time):
+        """Set the current backtest time for timeout calculations."""
+        self._current_backtest_time = current_time
+
+# Mapping of MT5 timeframes to minutes
+TIMEFRAME_TO_MINUTES = {
+    mt5.TIMEFRAME_M1: 1,
+    mt5.TIMEFRAME_M5: 5,
+    mt5.TIMEFRAME_M15: 15,
+    mt5.TIMEFRAME_M30: 30,
+    mt5.TIMEFRAME_H1: 60,
+    mt5.TIMEFRAME_H4: 240,
+    mt5.TIMEFRAME_D1: 1440,
+    mt5.TIMEFRAME_W1: 10080,
+    mt5.TIMEFRAME_MN1: 43200
+}
+
+def get_timeframe_minutes(timeframe):
+    """Convert MT5 timeframe constant to minutes."""
+    return TIMEFRAME_TO_MINUTES.get(timeframe, 60)  # Default to H1 if unknown
+
+
+def fetch_htf_data_direct(symbol, htf_timeframe, end_time, num_candles=200):
+    """
+    Fetch HTF data directly from MT5 instead of aggregating.
+    
+    Args:
+        symbol: Trading symbol
+        htf_timeframe: MT5 timeframe constant for HTF
+        end_time: End timestamp (pd.Timestamp)
+        num_candles: Number of HTF candles to fetch
+    
+    Returns:
+        List of HTF candle dictionaries
+    """
     try:
-        print(f"\n{'='*50}")
-        print(f"Testing: {func_name}")
-        print(f"{'='*50}")
+        if not mt5.initialize():
+            log_error("MT5 initialization failed for HTF data fetch", quiet=True)
+            return None
         
-        result = func(*args, **kwargs)
-        print(f"✅ SUCCESS: {func_name} executed without errors")
-        print(f"Result type: {type(result)}")
-        if hasattr(result, '__len__') and len(str(result)) < 200:
-            print(f"Result: {result}")
-        elif isinstance(result, (dict, list, tuple)):
-            print(f"Result preview: {str(result)[:200]}...")
+        # Fetch HTF candles
+        rates = mt5.copy_rates_from(
+            symbol,
+            htf_timeframe,
+            end_time.to_pydatetime(),
+            num_candles
+        )
         
-        return True, result
+        if rates is None or len(rates) == 0:
+            log_error(f"Failed to fetch HTF data for {symbol}", quiet=True)
+            return None
         
+        # Convert to list of dictionaries
+        htf_data = []
+        for rate in rates:
+            htf_data.append({
+                'time': int(rate['time']),
+                'open': float(rate['open']),
+                'high': float(rate['high']),
+                'low': float(rate['low']),
+                'close': float(rate['close']),
+                'tick_volume': int(rate['tick_volume'])
+            })
+        
+        return htf_data
+    
     except Exception as e:
-        print(f"❌ FAILED: {func_name}")
-        print(f"Error: {str(e)}")
-        print(f"Traceback: {traceback.format_exc()}")
-        return False, None
+        log_error(f"Error fetching HTF data for {symbol}: {str(e)}", quiet=True)
+        return None
 
-def create_mock_data():
-    """Create mock data for testing"""
-    mt5 = MockMT5()
-    
-    # Mock OHLC data
-    ohlc_data = mt5.copy_rates_from_pos("EURUSD", MockMT5.TIMEFRAME_M15, 0, 100)
-    
-    # Convert to DataFrame
-    df = pd.DataFrame(ohlc_data)
-    df['time'] = pd.to_datetime(df['time'], unit='s')
-    
-    return ohlc_data, df
 
-def test_bos_functions():
-    """Test Break of Structure functions"""
-    print("\n" + "="*60)
-    print("TESTING BREAK OF STRUCTURE FUNCTIONS")
-    print("="*60)
+def aggregate_candles_to_timeframe(candles, target_timeframe_minutes, current_time):
+    """
+    Aggregate candles to a target timeframe.
     
-    # Create test data
-    ohlc_data, df = create_mock_data()
+    Args:
+        candles: List of candle dictionaries with 'time', 'open', 'high', 'low', 'close', 'tick_volume'
+        target_timeframe_minutes: Target timeframe in minutes
+        current_time: Current timestamp to avoid future candles
     
-    # Test confirm_break_of_structure
-    success1, result1 = test_function(
-        "confirm_break_of_structure",
-        confirm_break_of_structure,
-        ohlc_data, "bullish", "EURUSD"
-    )
+    Returns:
+        List of aggregated candles
+    """
+    if not candles or target_timeframe_minutes <= 0:
+        return []
     
-    # Test adaptive_risk_bos
-    success2, result2 = test_function(
-        "adaptive_risk_bos",
-        adaptive_risk_bos,
-        ohlc_data, "bullish", "EURUSD", 2.0, 0.5, 5.0
-    )
+    aggregated = []
+    current_period_candles = []
+    current_period_start = None
     
-    return success1 and success2
-
-def test_utility_functions():
-    """Test utility functions"""
-    print("\n" + "="*60)
-    print("TESTING UTILITY FUNCTIONS")
-    print("="*60)
-    
-    # Test pips_to_price function
-    def pips_to_price(symbol: str, pips: float) -> float:
-        symbol = symbol.upper()
-        if symbol.startswith("XAU"):
-            return pips * 0.10
-        elif "JPY" in symbol:
-            return pips * 0.01
+    for candle in candles:
+        candle_time = pd.Timestamp(candle['time'], unit='s')
+        
+        # Skip future candles
+        if candle_time > current_time:
+            break
+        
+        # Calculate period start for this candle
+        if target_timeframe_minutes >= 1440:  # Daily or higher
+            period_start = candle_time.replace(hour=0, minute=0, second=0, microsecond=0)
+            if target_timeframe_minutes == 10080:  # Weekly
+                period_start = period_start - pd.Timedelta(days=period_start.dayofweek)
+            elif target_timeframe_minutes == 43200:  # Monthly
+                period_start = period_start.replace(day=1)
+        elif target_timeframe_minutes >= 60:  # Hourly
+            hours_to_align = target_timeframe_minutes // 60
+            aligned_hour = (candle_time.hour // hours_to_align) * hours_to_align
+            period_start = candle_time.replace(hour=aligned_hour, minute=0, second=0, microsecond=0)
+        else:  # Minutes
+            aligned_minute = (candle_time.minute // target_timeframe_minutes) * target_timeframe_minutes
+            period_start = candle_time.replace(minute=aligned_minute, second=0, microsecond=0)
+        
+        # Initialize first period
+        if current_period_start is None:
+            current_period_start = period_start
+        
+        # Check if we're still in the same period
+        if period_start == current_period_start:
+            current_period_candles.append(candle)
         else:
-            return pips * 0.0001
+            # New period - finalize previous period
+            if current_period_candles:
+                aggregated_candle = {
+                    'time': int(current_period_start.timestamp()),
+                    'open': current_period_candles[0]['open'],
+                    'high': max(c['high'] for c in current_period_candles),
+                    'low': min(c['low'] for c in current_period_candles),
+                    'close': current_period_candles[-1]['close'],
+                    'tick_volume': sum(c['tick_volume'] for c in current_period_candles)
+                }
+                aggregated.append(aggregated_candle)
+            
+            # Start new period
+            current_period_start = period_start
+            current_period_candles = [candle]
     
-    success1, _ = test_function("pips_to_price (EURUSD)", pips_to_price, "EURUSD", 10.0)
-    success2, _ = test_function("pips_to_price (USDJPY)", pips_to_price, "USDJPY", 10.0)
-    success3, _ = test_function("pips_to_price (XAUUSD)", pips_to_price, "XAUUSD", 10.0)
+    # Finalize last period
+    if current_period_candles:
+        aggregated_candle = {
+            'time': int(current_period_start.timestamp()),
+            'open': current_period_candles[0]['open'],
+            'high': max(c['high'] for c in current_period_candles),
+            'low': min(c['low'] for c in current_period_candles),
+            'close': current_period_candles[-1]['close'],
+            'tick_volume': sum(c['tick_volume'] for c in current_period_candles)
+        }
+        aggregated.append(aggregated_candle)
     
-    return success1 and success2 and success3
+    return aggregated
 
-def test_ltf_reversal():
-    """Test LTF reversal detection"""
-    print("\n" + "="*60)
-    print("TESTING LTF REVERSAL DETECTION")
-    print("="*60)
-    
-    def detect_ltf_reversal(data, direction, fvg_sl):
-        last = data[-1]
-        prev = data[-2]
 
-        if direction == "Bullish":
-            if last['close'] > last['open'] and prev['close'] < prev['open'] and last['close'] > prev['open']:
-                return last['close'], fvg_sl, "Bullish"
+def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_timeframe, use_direct_htf=False):
+    """Prepare historical HTF and LTF data for backtest at specific timestamp."""
+    try:
+        current_time = pd.Timestamp(rates[current_index]["time"], unit="s")
+        
+        # Prepare LTF data (last 100 candles)
+        ltf_start = max(0, current_index - 100)
+        ltf_data = rates[ltf_start:current_index + 1]
+        
+        # Get timeframe intervals in minutes
+        ltf_minutes = get_timeframe_minutes(ltf_timeframe)
+        htf_minutes = get_timeframe_minutes(htf_timeframe)
+        
+        # Validate that HTF is actually higher than LTF
+        if htf_minutes <= ltf_minutes:
+            log_error(f"HTF ({htf_minutes}m) must be greater than LTF ({ltf_minutes}m) for {symbol}", quiet=True)
+            return {
+                'htf_data': [],  # Return empty list instead of None
+                'ltf_data': ltf_data,
+                'current_time': current_time
+            }
+        
+        # Calculate minimum LTF candles needed for HTF aggregation
+        candles_per_htf = htf_minutes // ltf_minutes if ltf_minutes > 0 else 1
+        min_ltf_candles_needed = candles_per_htf * 100
+        
+        # Calculate how many historical candles we can safely use
+        # Need to leave enough room for lookback in aggregation
+        safe_start = max(0, current_index - (min_ltf_candles_needed + 200))
+        all_rates = rates[safe_start:current_index + 1]
+        
+        if len(all_rates) < min_ltf_candles_needed:
+            # Not enough data yet - return empty HTF data
+            return {
+                'htf_data': [],  # Return empty list instead of None
+                'ltf_data': ltf_data,
+                'current_time': current_time
+            }
+        
+        # Prepare HTF data
+        if use_direct_htf:
+            # Fetch HTF data directly from MT5
+            htf_data = fetch_htf_data_direct(symbol, htf_timeframe, current_time, num_candles=200)
+            if htf_data is None:
+                htf_data = []  # Ensure we return a list
+        else:
+            # Aggregate LTF candles to HTF
+            htf_data = aggregate_candles_to_timeframe(all_rates, htf_minutes, current_time)
+            if htf_data is None:
+                htf_data = []  # Ensure we return a list
+        
+        # Additional validation
+        if not isinstance(htf_data, list):
+            log_warning(f"HTF data is not a list for {symbol}, converting", quiet=True)
+            htf_data = list(htf_data) if htf_data else []
+        
+        # Only return HTF data if we have sufficient candles
+        if len(htf_data) < 100:
+            log_warning(f"Insufficient HTF candles for {symbol}: {len(htf_data)}/100", quiet=True)
+            htf_data = []
+        
+        return {
+            'htf_data': htf_data,
+            'ltf_data': ltf_data,
+            'current_time': current_time
+        }
+    
+    except Exception as e:
+        log_error(f"Error preparing historical data for {symbol}: {str(e)}", quiet=True)
+        return {
+            'htf_data': [],  # Return empty list instead of None
+            'ltf_data': rates[max(0, current_index-50):current_index+1],
+            'current_time': pd.Timestamp(rates[current_index]["time"], unit="s")
+        }
 
-        if direction == "Bearish":
-            if last['close'] < last['open'] and prev['close'] > prev['open'] and last['close'] < prev['open']:
-                return last['close'], fvg_sl, "Bearish"
+def load_settings():
+    """Load settings from settings.json."""
+    try:
+        with open("settings.json", "r") as f:
+            return json.load(f)
+    except Exception as e:
+        log_error(f"Error loading settings: {str(e)}", quiet=True)
+        return None
 
-        return None, None, None
-    
-    ohlc_data, _ = create_mock_data()
-    
-    success1, _ = test_function(
-        "detect_ltf_reversal (Bullish)",
-        detect_ltf_reversal,
-        ohlc_data, "Bullish", 1.0950
-    )
-    
-    success2, _ = test_function(
-        "detect_ltf_reversal (Bearish)",
-        detect_ltf_reversal,
-        ohlc_data, "Bearish", 1.1050
-    )
-    
-    return success1 and success2
+def create_simplified_strategy_settings(original_settings):
+    """Create simplified settings for more reliable backtest results."""
+    simplified = original_settings.copy()
+    if "timeframes" not in simplified:
+        simplified["timeframes"] = {"htf": "H1", "ltf": "M1"}
+    if "risk_percent" not in simplified:
+        simplified["risk_percent"] = 2.0
+    simplified["use_sweep_filter"] = False
+    simplified["confirm_bos"] = False
+    simplified["use_ltf_reversal"] = False
+    simplified["use_news_filter"] = False
+    simplified["use_rsi_filter"] = False
+    simplified["use_daily_bias"] = False
+    simplified["use_consolidation_filter"] = False
+    simplified["use_volatility_filter"] = False
+    simplified["min_fvg_size"] = 3.0 if "XAU" in simplified.get("backtest", {}).get("symbols", []) else 0.3
+    simplified["use_fvg_entry"] = True
+    return simplified
 
-def test_mock_integrations():
-    """Test mock integrations"""
-    print("\n" + "="*60)
-    print("TESTING MOCK INTEGRATIONS")
-    print("="*60)
-    
-    # Test HTF Sweep Detector
-    detector = MockHTFSweepDetector()
-    _, df = create_mock_data()
-    success1, _ = test_function("HTFSweepDetector.run", detector.run, df, debug=False)
-    
-    # Test FVG functions
-    success2, _ = test_function(
-        "find_fvg_multi_tf_safe",
-        MockFVGDetector.find_fvg_multi_tf_safe,
-        "EURUSD", 0.0001, {}, 100, {}, MockMT5(), 0.01, "Bullish", False
-    )
-    
-    # Test Risk Manager
-    success3, _ = test_function(
-        "calculate_position_size",
-        MockRiskManager.calculate_position_size,
-        "EURUSD", 1.1000, 1.0950, 2.0
-    )
-    
-    # Test Order Manager
-    success4, _ = test_function(
-        "send_order",
-        MockOrderManager.send_order,
-        "EURUSD", 0.1, "Bullish", 1.0950, 1.1150, 12345
-    )
-    
-    return success1 and success2 and success3 and success4
+def pips_to_price(symbol: str, pips: float) -> float:
+    symbol = symbol.upper()
+    if symbol.startswith("XAU"):
+        return pips * 0.01
+    elif "JPY" in symbol:
+        return pips * 0.001
+    return pips * 0.00001
 
-def main():
-    """Main test runner"""
-    print("="*60)
-    print("STRATEGY FUNCTION TEST SUITE")
-    print("="*60)
-    print(f"Test started at: {datetime.now()}")
+def run_backtest(settings):
+    """Run backtest for given date range and settings."""
+    global symbol_states
     
-    test_results = []
+    if not mt5.initialize(login=settings["credentials"]["username"], 
+                         password=settings["credentials"]["password"], 
+                         server=settings["credentials"]["server"], 
+                         path=settings["credentials"]["mt5path"]):
+        log_error("MT5 initialization failed", quiet=True)
+        return None
+
+    # Clear all caches to prevent stale data
+    data_cache.clear()
     
-    # Run all tests
-    test_results.append(("BOS Functions", test_bos_functions()))
-    test_results.append(("Utility Functions", test_utility_functions()))
-    test_results.append(("LTF Reversal", test_ltf_reversal()))
-    test_results.append(("Mock Integrations", test_mock_integrations()))
+    TIMEFRAME_MAP = {
+    'M1': mt5.TIMEFRAME_M1,
+    'M3': mt5.TIMEFRAME_M3,
+    'M5': mt5.TIMEFRAME_M5,
+    'M15': mt5.TIMEFRAME_M15,
+    'M30': mt5.TIMEFRAME_M30,
+    'H1': mt5.TIMEFRAME_H1,
+    'H4': mt5.TIMEFRAME_H4,
+    'D1': mt5.TIMEFRAME_D1,
+    'W1': mt5.TIMEFRAME_W1,
+    'MN1': mt5.TIMEFRAME_MN1
+    }
     
-    # Summary
-    print("\n" + "="*60)
-    print("TEST SUMMARY")
-    print("="*60)
-    
-    passed = 0
-    total = len(test_results)
-    
-    for test_name, success in test_results:
-        status = "✅ PASSED" if success else "❌ FAILED"
-        print(f"{test_name}: {status}")
-        if success:
-            passed += 1
-    
-    print(f"\nOverall: {passed}/{total} test groups passed")
-    
-    if passed == total:
-        print("🎉 All tests passed! Your strategy functions are working correctly.")
+    backtest_settings = settings["backtest"]
+    strategy_settings = create_simplified_strategy_settings(settings)
+    strategy_settings.update(backtest_settings)
+    symbols = backtest_settings["symbols"]
+    ltf_string = backtest_settings["timeframes"]["ltf"]
+    htf_string = backtest_settings["timeframes"]["htf"]
+    ltf_timeframe = TIMEFRAME_MAP.get(ltf_string, mt5.TIMEFRAME_M1)
+    htf_timeframe = TIMEFRAME_MAP.get(htf_string, mt5.TIMEFRAME_H1)
+    end_date = datetime.strptime(backtest_settings["end_date"], "%Y-%m-%d")
+    length_days = int(backtest_settings["length_days"])
+    start_date = end_date - timedelta(days=length_days)
+    initial_balance = backtest_settings["initial_balance"]
+    leverage = backtest_settings["leverage"]
+    spread = backtest_settings["spread"]
+    risk_percent = backtest_settings["risk_percent"]
+    minimum_rr = backtest_settings["minimum_rr"]
+    max_trades_per_day = backtest_settings.get("max_trades_per_day", 5)
+
+    total_trades = 0
+    wins = 0
+    losses = 0
+    total_pips = 0.0
+    balance = initial_balance
+    trade_log = []
+    daily_trade_counts = {symbol: {} for symbol in symbols}
+    start_time = datetime.now()
+    quiet_logging = backtest_settings.get("quiet_logging", True)
+
+    for symbol in symbols:
+        symbol_states[symbol] = BacktestSymbolState()
+        if strategy:
+            strategy.symbol_states[symbol] = symbol_states[symbol]
+        symbol_states[symbol]._debug_updates = False  # Set to True to enable debug prints
+        active_trades = {}
+        
+        log_info(f"Fetching data for {symbol} from {start_date} to {end_date}", quiet=quiet_logging)
+        cache_key = f"{symbol}_{ltf_timeframe}_{start_date}_{end_date}"
+        if cache_key not in data_cache:
+            fetch_start = time.time()
+            rates = mt5.copy_rates_range(symbol, ltf_timeframe, start_date, end_date)
+            fetch_time = time.time() - fetch_start
+            log_info(f"Data fetch for {symbol} took {fetch_time:.2f} seconds", quiet=quiet_logging)
+            if rates is None or len(rates) < 100:
+                log_error(f"Insufficient data for {symbol}: {len(rates) if rates is not None else 'None'} candles", quiet=quiet_logging)
+                continue
+            data_cache[cache_key] = rates
+        else:
+            rates = data_cache[cache_key]
+            log_info(f"Using cached data for {symbol}", quiet=quiet_logging)
+        
+        
+        # Calculate minimum starting index based on timeframes
+        ltf_minutes = get_timeframe_minutes(ltf_timeframe)
+        htf_minutes = get_timeframe_minutes(htf_timeframe)
+        candles_per_htf = htf_minutes // ltf_minutes if ltf_minutes > 0 else 1
+        min_start_index = max(200, candles_per_htf * 100)  # 100 HTF candles minimum
+        
+        log_info(f"Starting backtest at index {min_start_index} with length of {len(rates)} (need {candles_per_htf} LTF candles per HTF candle)", quiet=quiet_logging)
+        
+        if len(rates) < min_start_index:
+            log_error(f"Insufficient data for {symbol}: have {len(rates)}, need {min_start_index} candles. Increase length_days or use shorter timeframes.", quiet=quiet_logging)
+            continue
+
+        log_info(f"Processing {symbol} with {len(rates)} candles", quiet=quiet_logging)
+        progress_bar = tqdm(total=len(rates) - min_start_index, desc=f"Backtesting {symbol}", unit="candle", position=0)
+        symbol_start_time = time.time()
+        trade_signals_found = 0
+
+        for i in range(min_start_index, len(rates)):
+            strategy_settings["current_time"] = pd.Timestamp(rates[i]["time"], unit="s")
+            current_date = strategy_settings["current_time"].date()
+            if current_date not in daily_trade_counts[symbol]:
+                daily_trade_counts[symbol][current_date] = 0
+            if daily_trade_counts[symbol][current_date] >= max_trades_per_day:
+                progress_bar.update(1) 
+                continue
+
+            if symbol in active_trades:
+                trade = active_trades[symbol]
+                high = rates[i]["high"]
+                low = rates[i]["low"]
+                outcome = None
+                if trade["direction"] == "Bullish" and high >= trade["tp_price"]:
+                    outcome = "Win"
+                    pips = trade["tp_distance"]
+                elif trade["direction"] == "Bearish" and low <= trade["tp_price"]:
+                    outcome = "Win"
+                    pips = trade["tp_distance"]
+                elif trade["direction"] == "Bullish" and low <= trade["sl_price"]:
+                    outcome = "Loss"
+                    pips = -trade["sl_distance"]
+                elif trade["direction"] == "Bearish" and high >= trade["sl_price"]:
+                    outcome = "Loss"
+                    pips = -trade["sl_distance"]
+                if outcome:
+                    profit = pips * trade["pip_value"] * trade["lot_size"] * leverage
+                    balance += profit
+                    total_pips += pips
+                    total_trades += 1
+                    daily_trade_counts[symbol][current_date] += 1
+                    if outcome == "Win":
+                        wins += 1
+                    else:
+                        losses += 1
+                    trade["outcome"] = outcome
+                    trade["pips"] = pips
+                    trade["profit"] = profit
+                    trade_log.append(trade)
+                    log_trade(f"{symbol} | {trade['direction']} @ {trade['entry_price']:.5f} | "
+                             f"SL: {trade['sl_price']:.5f} | TP: {trade['tp_price']:.5f} | "
+                             f"Lot: {trade['lot_size']:.2f} | RR: {trade['rr']} | Outcome: {outcome} | "
+                             f"Pips: {pips:.2f} | Profit: ${profit:.2f}", 
+                             tradelog=True, quiet=quiet_logging)
+                    del active_trades[symbol]
+                    symbol_states[symbol].reset()
+
+            if symbol not in active_trades:
+                try:
+                    state = symbol_states[symbol]
+                    current_time = strategy_settings["current_time"]
+                    state.set_backtest_time(current_time)
+                    state.update()
+                    
+                    # Add timeout protection for infinite loops
+                    start_processing_time = time.time()
+                    MAX_PROCESSING_TIME = 5.0  # 5 seconds max per candle
+                    
+                    if state.sweep_confirmed and state.htf_signal_time:
+                        if state.check_htf_timeout(current_time):
+                            time_elapsed = (current_time - state.htf_signal_time).total_seconds() / 60
+                            log_warning(f"HTF timeout for {symbol} - Resetting after {time_elapsed:.1f}min, {state.htf_attempts} attempts", quiet=quiet_logging)
+                            state.reset()
+                            progress_bar.update(1)
+                            
+                            continue
+                        else:
+                            time_elapsed = (current_time - state.htf_signal_time).total_seconds() / 60
+                            log_info(f"HTF active for {symbol} - Attempt {state.htf_attempts}/{state.max_attempts}, Time: {time_elapsed:.1f}min", quiet=quiet_logging)
+                    
+                    
+                    # Check processing time before expensive operations
+                    if time.time() - start_processing_time > MAX_PROCESSING_TIME:
+                        log_warning(f"Processing timeout for {symbol} at candle {i}, skipping", quiet=quiet_logging)
+                        progress_bar.update(1)
+                        
+                        continue
+                    
+                    backtest_data = prepare_historical_data(symbol, rates, i, ltf_timeframe, htf_timeframe, use_direct_htf=True)
+                    
+                    # Validate backtest data
+                    if not backtest_data:
+                        log_warning(f"No backtest data returned for {symbol} at index {i}", quiet=quiet_logging)
+                        progress_bar.update(1)
+                        continue
+
+                    ltf_data = backtest_data.get('ltf_data')
+                    htf_data = backtest_data.get('htf_data')
+                    
+                    # Validate LTF data
+                    if ltf_data is None or len(ltf_data) == 0:
+                        log_warning(f"Invalid LTF data for {symbol} at index {i}", quiet=quiet_logging)
+                        progress_bar.update(1)
+                        continue
+                
+                    # Validate HTF data - Skip if not enough HTF candles yet
+                    if htf_data is None or len(htf_data) < 100:
+                        # Don't log every time - this is expected at the start
+                        if i == min_start_index:
+                            log_info(f"Waiting for sufficient HTF data for {symbol} (have {len(htf_data) if htf_data else 0}/100 candles)", 
+                                    quiet=quiet_logging)
+                        progress_bar.update(1)
+                        continue
+
+                    # Debug logging (less verbose)
+                    if i % 500 == 0:  # Log every 500 candles instead of 100
+                        log_info(f"[DEBUG] {symbol} @ {current_time}: "
+                                f"HTF={len(htf_data)}, LTF={len(ltf_data)}", 
+                                quiet=quiet_logging)
+                    
+                    # Sync state
+                    if strategy and symbol in symbol_states:
+                        strategy.symbol_states[symbol] = symbol_states[symbol]
+                        symbol_states[symbol].set_backtest_time(current_time)
+                        symbol_states[symbol].update()
+                    
+                    # Process the symbol
+                    try:
+                        success, adjusted_risk = process_symbol(symbol, strategy_settings, 
+                                                              quiet=quiet_logging, backtest=True,
+                                                              backtest_data=backtest_data)
+                    except Exception as process_error:
+                        log_error(f"process_symbol failed for {symbol} at {current_time}: {str(process_error)}", quiet=quiet_logging)
+                        success, adjusted_risk = False, 0.0
+                        progress_bar.update(1)
+                        continue
+                    
+                    # Check processing time again
+                    if time.time() - start_processing_time > MAX_PROCESSING_TIME:
+                        log_warning(f"Processing timeout after process_symbol for {symbol}, skipping trade setup", quiet=quiet_logging)
+                        progress_bar.update(1)
+                        
+                        continue
+                    
+                    if success:
+                        trade_signals_found += 1
+                        state = symbol_states.get(symbol, BacktestSymbolState())
+                        
+                        # Validate state data before creating trade
+                        entry_price = getattr(state, 'entry_price', None) or rates[i]["close"]
+                        direction = getattr(state, 'direction', None)
+                        
+                        if not direction:
+                            direction = "Bullish" if rates[i]["close"] > rates[i]["open"] else "Bearish"
+                        
+                        stop_loss = getattr(state, 'stop_loss', None)
+                        if not stop_loss:
+                            spread_offset = pips_to_price(symbol, spread)
+                            stop_loss = (entry_price - spread_offset if direction == "Bullish" 
+                                       else entry_price + spread_offset)
+                        
+                        take_profit = getattr(state, 'take_profit', None)
+                        if not take_profit:
+                            sl_distance = abs(entry_price - stop_loss)
+                            take_profit = (entry_price + (sl_distance * minimum_rr) if direction == "Bullish"
+                                         else entry_price - (sl_distance * minimum_rr))
+                        
+                        # Validate trade parameters
+                        pip_value = 0.10 if symbol.startswith("XAU") else 0.01 if "JPY" in symbol else 0.0001
+                        sl_distance = abs(entry_price - stop_loss) / pip_value
+                        tp_distance = abs(take_profit - entry_price) / pip_value
+                        
+                        if sl_distance <= 0 or tp_distance <= 0:
+                            log_warning(f"Invalid distances for {symbol}: SL={sl_distance:.2f}, TP={tp_distance:.2f}", 
+                                       quiet=quiet_logging)
+                            progress_bar.update(1)
+                            
+                            continue
+                        
+                        # Calculate lot size with error handling
+                        try:
+                            lot_size = calculate_position_size(symbol, entry_price, stop_loss, 
+                                                             adjusted_risk, balance)
+                        except Exception as lot_error:
+                            log_error(f"Lot size calculation failed for {symbol}: {str(lot_error)}", quiet=quiet_logging)
+                            lot_size = 0
+                        
+                        if lot_size > 0 and sl_distance > 0:
+                            active_trades[symbol] = {
+                                "symbol": symbol,
+                                "direction": direction,
+                                "entry_price": entry_price,
+                                "sl_price": stop_loss,
+                                "tp_price": take_profit,
+                                "rr": tp_distance / sl_distance if sl_distance > 0 else minimum_rr,
+                                "lot_size": lot_size,
+                                "entry_time": strategy_settings["current_time"],
+                                "pip_value": pip_value,
+                                "sl_distance": sl_distance,
+                                "tp_distance": tp_distance
+                            }
+                            state.reset()
+                        else:
+                            log_warning(f"Invalid trade parameters for {symbol}: lot_size={lot_size}, sl_distance={sl_distance}", 
+                                       quiet=quiet_logging)
+                
+                except KeyboardInterrupt:
+                    log_info("Backtest interrupted by user", quiet=quiet_logging)
+                    progress_bar.close()
+                    break
+                except Exception as e:
+                    log_error(f"Error processing {symbol} at {strategy_settings.get('current_time', 'unknown')} (line {e.__traceback__.tb_lineno}): {str(e)}", 
+                             quiet=quiet_logging)
+                    # Continue processing instead of breaking
+                    
+            progress_bar.update(1)
+            
+        # Handle early termination gracefully
+        if 'KeyboardInterrupt' in str(locals().get('e', '')):
+            log_info(f"Backtest interrupted for {symbol}", quiet=quiet_logging)
+            break
+            
+        progress_bar.close()
+        symbol_time = time.time() - symbol_start_time
+        log_info(f"Processing {symbol} took {symbol_time:.2f} seconds "
+                f"({len(rates)/symbol_time:.2f} candles/s)", quiet=quiet_logging)
+        log_info(f"Trade signals found for {symbol}: {trade_signals_found}", quiet=quiet_logging)
+
+    end_time = datetime.now()
+    duration = (end_time - start_time).total_seconds()
+    final_balance = balance
+    percentage_increase = ((final_balance - initial_balance) / initial_balance) * 100
+    win_rate = (wins / total_trades * 100) if total_trades > 0 else 0
+    avg_rr = sum(t["rr"] for t in trade_log) / total_trades if total_trades > 0 else 0
+
+    print("\n" + "="*50)
+    print("BACKTEST SUMMARY")
+    print("="*50)
+    print(f"Period: {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}")
+    print(f"Duration: {length_days} days")
+    print(f"Symbols: {', '.join(symbols)}")
+    print(f"Initial Balance: ${initial_balance:,.2f}")
+    print(f"Final Balance: ${final_balance:,.2f}")
+    print(f"Total Profit/Loss: ${final_balance - initial_balance:,.2f}")
+    print(f"Percentage Return: {percentage_increase:.2f}%")
+    print(f"Total Trades: {total_trades}")
+    print(f"Wins: {wins}")
+    print(f"Losses: {losses}")
+    print(f"Win Rate: {win_rate:.2f}%")
+    print(f"Average RR: {avg_rr:.2f}")
+    print(f"Total Pips: {total_pips:.2f}")
+    print(f"Backtest Duration: {duration:.2f} seconds")
+    print("="*50)
+
+    if trade_log:
+        print("\nTRADE DETAILS:")
+        print("-" * 120)
+        print(f"{'Symbol':<8} {'Direction':<8} {'Entry':<10} {'SL':<10} {'TP':<10} {'RR':<6} "
+              f"{'Lot':<6} {'Entry Time':<19} {'Outcome':<7} {'Pips':<8} {'Profit':<10}")
+        print("-" * 120)
+        text_to_copy = ""
+        for trade in trade_log:
+            print(f"{trade['symbol']:<8} {trade['direction']:<8} {trade['entry_price']:<10.5f} "
+                  f"{trade['sl_price']:<10.5f} {trade['tp_price']:<10.5f} {trade['rr']:<6.2f} "
+                  f"{trade['lot_size']:<6.2f} {str(trade['entry_time']):<19} "
+                  f"{trade['outcome']:<7} {trade['pips']:<8.2f} ${trade['profit']:<10.2f}")
+            copyable = f"&emsp;array.push(trade_data, \"{str(trade['entry_time'])}|{trade['entry_price']}|{trade['sl_price']}|{trade['tp_price']}|{trade['direction']}\")\n"
+            text_to_copy += copyable
+
+
+        # --- Small floating window with copy button ---
+        root = tk.Tk()
+        root.title("Copy Trade Data")
+        root.geometry("230x80")
+        root.resizable(False, False)
+
+        def copy_text():
+            pyperclip.copy(text_to_copy)
+            status_label.config(text="Copied to clipboard!")
+
+        btn = tk.Button(root, text="Copy Trade Data", command=copy_text, width=20)
+        btn.pack(pady=10)
+
+        status_label = tk.Label(root, text="")
+        status_label.pack()
+
+        root.mainloop()
     else:
-        print("⚠️  Some tests failed. Check the output above for details.")
+        print("\nNo trades were executed during the backtest period.")
+        print("Consider:")
+        print("- Checking if your strategy parameters are too restrictive")
+        print("- Verifying that market conditions during the test period match your strategy")
+        print("- Reviewing the FVG detection and other entry criteria")
+
+    mt5.shutdown()
+    return trade_log
+
+
+def validate_backtest_settings(settings):
+    """Validate backtest settings and warn about potential issues."""
+    backtest = settings.get("backtest", {})
     
-    print(f"\nTest completed at: {datetime.now()}")
+    length_days = int(backtest.get("length_days", 5))
+    ltf = backtest.get("timeframes", {}).get("ltf", "M1")
+    htf = backtest.get("timeframes", {}).get("htf", "H1")
     
-    return passed == total
+    # Calculate expected candles
+    candles_per_day = {
+        "M1": 1440,
+        "M5": 288,
+        "M15": 96,
+        "M30": 48,
+        "H1": 24,
+        "H4": 6,
+        "D1": 1
+    }
+    
+    expected_ltf_candles = candles_per_day.get(ltf, 1440) * length_days
+    
+    TIMEFRAME_MAP = {
+        'M1': mt5.TIMEFRAME_M1, 'M5': mt5.TIMEFRAME_M5,
+        'M15': mt5.TIMEFRAME_M15, 'M30': mt5.TIMEFRAME_M30,
+        'H1': mt5.TIMEFRAME_H1, 'H4': mt5.TIMEFRAME_H4,
+        'D1': mt5.TIMEFRAME_D1
+    }
+    
+    ltf_minutes = get_timeframe_minutes(TIMEFRAME_MAP[ltf])
+    htf_minutes = get_timeframe_minutes(TIMEFRAME_MAP[htf])
+    candles_per_htf = htf_minutes // ltf_minutes
+    min_candles_needed = candles_per_htf * 100
+    
+    if expected_ltf_candles < min_candles_needed:
+        recommended_days = (min_candles_needed / candles_per_day.get(ltf, 1440)) + 1
+        print(f"\n{'='*60}")
+        print(f"⚠️  WARNING: Insufficient data for {ltf}→{htf} backtest")
+        print(f"{'='*60}")
+        print(f"Expected candles: {expected_ltf_candles}")
+        print(f"Minimum needed: {min_candles_needed}")
+        print(f"Current length: {length_days} days")
+        print(f"Recommended: {int(recommended_days)} days minimum")
+        print(f"{'='*60}\n")
+        return False
+    
+    return True
 
 if __name__ == "__main__":
-    success = main()
-    sys.exit(0 if success else 1)
+    settings = load_settings()
+    if settings:
+        # Validate settings before running
+        if validate_backtest_settings(settings):
+            run_backtest(settings)
+        else:
+            print("\n!!! Backtest aborted due to insufficient data length.")
+            print("Solution: Increase 'length_days' in your backtest settings.")
+            print(f"   For M1→H1: Recommend at least 7 days")
+            print(f"   For M5→H1: Recommend at least 2 days")
+            print(f"   For M1→H4: Recommend at least 28 days")
+    else:
+        print("Failed to load settings")

@@ -15,7 +15,7 @@ def find_fvg(symbol, timeframe):
 
 def get_ohlc(symbol, timeframe, bars=100):
     tf_map = {
-        #"M1": mt5.TIMEFRAME_M1,
+        "M1": mt5.TIMEFRAME_M1,
         "M5": mt5.TIMEFRAME_M5,
         "M15": mt5.TIMEFRAME_M15,
         "H1": mt5.TIMEFRAME_H1,

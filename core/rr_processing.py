@@ -1,84 +1,196 @@
-from utils.logger import log_info, log_error
+import pandas as pd
+import numpy as np
+import MetaTrader5 as mt5
+from utils.logger import log_info, log_error, log_warning
 
-def get_high_liquidity_points(symbol, current_price, direction, tf_data):
-    try:
-        # Get historical data for the symbol
-        df = tf_data
-        if df is None or len(df) < 20:
+# Cache for liquidity points
+liquidity_cache = {}
+
+def calculate_stop_loss(symbol, entry_price, direction, fixed_sl_enabled, default_sl_pips):
+    """Calculate stop loss based on fixed or dynamic settings."""
+    if fixed_sl_enabled:
+        # Use fixed pip-based stop loss
+        symbol_info = mt5.symbol_info(symbol)
+        if not symbol_info:
+            log_error(f"Cannot get symbol info for {symbol}")
             return None
-            
-        # Calculate pivot points (highs and lows)
-        highs = df['high'].rolling(window=5, center=True).max()
-        lows = df['low'].rolling(window=5, center=True).min()
+        
+        point = symbol_info.point
+        print(f"POINT: {point}")
+        digits = symbol_info.digits
+        
+        # Convert pips to price distance (handle 3/5 digit vs 2/4 digit quotes)
+        pip_multiplier = 10 if digits in [3, 5] else 1
+        sl_distance = default_sl_pips * pip_multiplier * point
+        
+        if direction == "Bullish":
+            stop_loss = entry_price - sl_distance
+        else:  # Bearish
+            stop_loss = entry_price + sl_distance
+        
+        log_info(f"Fixed SL for {symbol}: {stop_loss:.5f} ({default_sl_pips} pips)")
+        return round(stop_loss, digits)
+    else:
+        # Dynamic SL will be calculated elsewhere (e.g., ATR-based, structure-based)
+        # This function returns None to indicate dynamic calculation is needed
+        return None
+    
+def calculate_take_profit(symbol, entry_price, stop_loss, direction, rr_ratio):
+    """Calculate take profit based on stop loss and risk-reward ratio."""
+    symbol_info = mt5.symbol_info(symbol)
+    if not symbol_info:
+        log_error(f"Cannot get symbol info for {symbol}")
+        return None
+    
+    digits = symbol_info.digits
+    risk_distance = abs(entry_price - stop_loss)
+    reward_distance = risk_distance * rr_ratio
+    
+    if direction == "Bullish":
+        take_profit = entry_price + reward_distance
+    else:  # Bearish
+        take_profit = entry_price - reward_distance
+    
+    log_info(f"Calculated TP for {symbol}: {take_profit:.5f} (RR={rr_ratio:.2f})")
+    return round(take_profit, digits)
+
+def get_high_liquidity_points(symbol, current_price, direction, tf_data, quiet=False):
+    """Identify high-liquidity points (support/resistance) efficiently."""
+    try:
+        # Validate data
+        df = pd.DataFrame(tf_data)
+        if len(df) < 20:
+            log_error(f"Insufficient data for {symbol}: {len(df)} candles", quiet=quiet)
+            return None
+        
+        # Calculate pivot points (vectorized)
+        window = 5
+        df['high_pivot'] = df['high'].rolling(window=window, center=True).max()
+        df['low_pivot'] = df['low'].rolling(window=window, center=True).min()
         
         # Identify significant levels (touched multiple times)
-        resistance_levels = []
-        support_levels = []
-        
-        # Find resistance levels (previous highs)
-        for i in range(len(df)):
-            if df['high'].iloc[i] == highs.iloc[i]:
-                level = df['high'].iloc[i]
-                # Count how many times price touched this level (within small range)
-                touches = sum(1 for price in df['high'] if abs(price - level) <= level * 0.001)
-                if touches >= 2:  # Level touched at least twice
-                    resistance_levels.append(level)
-        
-        # Find support levels (previous lows)
-        for i in range(len(df)):
-            if df['low'].iloc[i] == lows.iloc[i]:
-                level = df['low'].iloc[i]
-                touches = sum(1 for price in df['low'] if abs(price - level) <= level * 0.001)
-                if touches >= 2:
-                    support_levels.append(level)
-        
-        # Remove duplicates and sort
-        resistance_levels = sorted(list(set(resistance_levels)), reverse=True)
-        support_levels = sorted(list(set(support_levels)))
-        
-        # Find the nearest level in trade direction
-        if direction == "Bullish":
-            # Look for resistance above current price
-            target_levels = [level for level in resistance_levels if level > current_price]
-            return min(target_levels) if target_levels else None
-        else:  # Bearish
-            # Look for support below current price
-            target_levels = [level for level in support_levels if level < current_price]
-            return max(target_levels) if target_levels else None
-            
-    except Exception as e:
-        log_error(f"Error finding liquidity points for {symbol}: {e}")
-        return None
-
-def process_trade_data(symbol,state, min_rr=1.0, max_rr=5.0, dynamic_rr=False, tf_data=None):    
-    if dynamic_rr:
-        # Try to find high liquidity points
-        liquidity_target = get_high_liquidity_points(
-            symbol, 
-            state.entry_price, 
-            state.direction,
-            tf_data=tf_data
+        tolerance = 0.001  # 0.1% price tolerance
+        df['high_touches'] = df['high'].apply(
+            lambda x: np.sum(np.abs(df['high'] - x) <= x * tolerance)
+        )
+        df['low_touches'] = df['low'].apply(
+            lambda x: np.sum(np.abs(df['low'] - x) <= x * tolerance)
         )
         
-        if liquidity_target:
-            # Calculate the RR ratio this would give us
-            risk_distance = abs(state.entry_price - state.stop_loss)
-            reward_distance = abs(liquidity_target - state.entry_price)
-            potential_rr = reward_distance / risk_distance if risk_distance > 0 else 0
-            
-            # Use liquidity target if RR is reasonable (between min_rr and max_rr)
-            if min_rr <= potential_rr <= max_rr:
-                log_info(f"Using liquidity target for {symbol}: RR={potential_rr:.2f}")
-                state.take_profit = liquidity_target
-                state.rr = potential_rr
-            else:
-                log_info(f"Liquidity target RR ({potential_rr:.2f}) outside bounds for {symbol}, using min RR")
-        else:
-            log_info(f"No suitable liquidity points found for {symbol}, using min RR")
+        # Filter levels with multiple touches (>=2)
+        resistance_levels = df[df['high'] == df['high_pivot']]['high'][df['high_touches'] >= 2].drop_duplicates().sort_values(ascending=False)
+        support_levels = df[df['low'] == df['low_pivot']]['low'][df['low_touches'] >= 2].drop_duplicates().sort_values()
+        
+        # Find nearest level in trade direction
+        target = None
+        if direction == "Bullish":
+            target_levels = resistance_levels[resistance_levels > current_price]
+            if not target_levels.empty:
+                target = target_levels.min()
+        else:  # Bearish
+            target_levels = support_levels[support_levels < current_price]
+            if not target_levels.empty:
+                target = target_levels.max()
+        
+        return target
     
+    except Exception as e:
+        log_error(f"Error finding liquidity points for {symbol}: {str(e)}", quiet=quiet)
+        return None
 
-    rr_distance = abs(state.entry_price - state.stop_loss) * min_rr
-    take_profit = (state.entry_price + rr_distance if state.direction == "Bullish" else state.entry_price - rr_distance)
+def process_trade_data(symbol, state, settings, tf_data=None, quiet=False):
+    """
+    Process trade data to set stop-loss and take-profit.
     
-    state.take_profit = take_profit
-    state.rr = min_rr
+    Args:
+        symbol: Trading symbol
+        state: Trade state object with entry_price, direction, etc.
+        settings: Strategy settings dictionary
+        tf_data: Timeframe data for liquidity analysis
+        quiet: Suppress non-critical logs
+    """
+    try:
+        # Extract settings
+        dynamic_rr = settings.get("dynamic_rr", False)
+        fixed_sl = settings.get("fixed_stop_loss", False)
+        min_rr = settings.get("minimum_rr", 3.0)
+        max_rr = settings.get("maximum_rr", 4.0)
+        default_sl_pips = settings.get("default_stop_loss_pips", 500)
+        
+        # Validate entry price
+        if state.entry_price is None:
+            log_error(f"Entry price is None for {symbol}", quiet=quiet)
+            return False
+        
+        # Step 1: Calculate Stop Loss
+        if fixed_sl:
+            # Use fixed pip-based stop loss
+            state.stop_loss = calculate_stop_loss(
+                symbol, 
+                state.entry_price, 
+                state.direction, 
+                True, 
+                default_sl_pips
+            )
+            if state.stop_loss is None:
+                log_error(f"Failed to calculate fixed SL for {symbol}", quiet=quiet)
+                return False
+        else:
+            # Stop loss should already be set dynamically (e.g., from structure/ATR)
+            if state.stop_loss is None:
+                log_error(f"Dynamic SL not set for {symbol}", quiet=quiet)
+                return False
+        
+        # Step 2: Calculate Take Profit
+        if dynamic_rr and tf_data is not None:
+            # Try to find liquidity-based target
+            liquidity_target = get_high_liquidity_points(
+                symbol, 
+                state.entry_price, 
+                state.direction, 
+                tf_data, 
+                quiet=quiet
+            )
+            
+            if liquidity_target:
+                risk_distance = abs(state.entry_price - state.stop_loss)
+                reward_distance = abs(liquidity_target - state.entry_price)
+                potential_rr = reward_distance / risk_distance if risk_distance > 0 else 0
+                
+                if min_rr <= potential_rr <= max_rr:
+                    state.take_profit = liquidity_target
+                    state.rr = potential_rr
+                    log_info(f"Dynamic TP (liquidity) for {symbol}: {liquidity_target:.5f}, RR={potential_rr:.2f}", quiet=quiet)
+                    return True
+                else:
+                    log_warning(f"Liquidity RR ({potential_rr:.2f}) outside [{min_rr}, {max_rr}] for {symbol}", quiet=quiet)
+        
+            # Fallback to fixed RR if liquidity target not suitable
+            if state.take_profit is None:
+                state.take_profit = calculate_take_profit(
+                    symbol,
+                    state.entry_price,
+                    state.stop_loss,
+                    state.direction,
+                    min_rr
+                )
+            
+                state.rr = min_rr
+                log_info(f"Fallback TP (fixed RR) for {symbol}: {state.take_profit:.5f}, RR={min_rr:.2f}", quiet=quiet)
+                return True
+        else:
+            # Fixed RR calculation
+            state.take_profit = calculate_take_profit(
+                symbol,
+                state.entry_price,
+                state.stop_loss,
+                state.direction,
+                min_rr
+            )
+            state.rr = min_rr
+            log_info(f"Fixed RR TP for {symbol}: {state.take_profit:.5f}, RR={min_rr:.2f}", quiet=quiet)
+            return True
+    
+    except Exception as e:
+        log_error(f"Error processing trade data for {symbol}: {str(e)}", quiet=quiet)
+        return False

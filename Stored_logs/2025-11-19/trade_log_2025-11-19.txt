@@ -1,0 +1,112 @@
+[2025-08-22 00:00:12] [INFO] Daily bias for EURUSD: Bearish
+[2025-08-22 00:00:12] [INFO] Daily bias for GBPUSD: Bearish
+[2025-08-22 00:00:12] [INFO] Daily bias for XAUUSD: Neutral
+[2025-08-22 00:00:12] [INFO] Daily bias for EURGBP: Bullish
+[2025-08-22 00:00:12] [INFO] Daily bias for EURNZD: Neutral
+[2025-08-22 00:01:15] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-11-19 18:49:38] [ERROR] initialize() failed:
+[2025-11-19 18:49:43] [ERROR] initialize() failed:
+[2025-11-19 18:49:48] [ERROR] initialize() failed:
+[2025-11-19 18:50:42] [ERROR] initialize() failed:
+[2025-11-19 18:50:47] [ERROR] initialize() failed:
+[2025-11-19 18:50:54] [ERROR] initialize() failed:
+[2025-11-19 18:53:27] [INFO] Daily bias for EURUSD: Neutral
+[2025-11-19 18:53:27] [INFO] Daily bias for GBPUSD: Neutral
+[2025-11-19 18:53:27] [INFO] Daily bias for XAUUSD: Neutral
+[2025-11-19 18:53:27] [INFO] Daily bias for EURGBP: Neutral
+[2025-11-19 18:53:27] [INFO] Daily bias for EURNZD: Bullish
+[2025-11-19 18:53:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:53:28] [SUCCESS] FVG found for XAUUSD: 4088.77000 - 4107.18000 | Type: Bullish | Timeframe: H1
+[2025-11-19 18:53:28] [SUCCESS] FVG SL set for XAUUSD: SL=4088.37000
+[2025-11-19 18:53:59] [SUCCESS] FVG found for XAUUSD: 4088.77000 - 4107.18000 | Type: Bullish | Timeframe: H1
+[2025-11-19 18:53:59] [SUCCESS] FVG SL set for XAUUSD: SL=4088.37000
+[2025-11-19 18:54:30] [SUCCESS] FVG found for XAUUSD: 4088.77000 - 4107.18000 | Type: Bullish | Timeframe: H1
+[2025-11-19 18:54:30] [SUCCESS] FVG SL set for XAUUSD: SL=4088.37000
+[2025-11-19 18:55:01] [SUCCESS] FVG found for XAUUSD: 4088.77000 - 4107.18000 | Type: Bullish | Timeframe: H1
+[2025-11-19 18:55:01] [SUCCESS] FVG SL set for XAUUSD: SL=4088.37000
+[2025-11-19 18:55:32] [SUCCESS] FVG found for XAUUSD: 4088.77000 - 4107.18000 | Type: Bullish | Timeframe: H1
+[2025-11-19 18:56:03] [SUCCESS] FVG found for XAUUSD: 4088.77000 - 4107.18000 | Type: Bullish | Timeframe: H1
+[2025-11-19 18:56:34] [SUCCESS] FVG found for XAUUSD: 4088.77000 - 4107.18000 | Type: Bullish | Timeframe: H1
+[2025-11-19 18:57:21] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:57:21] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:57:22] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:22] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:22] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:25] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:26] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:29] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:57:29] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:57:35] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:35] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:35] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:38] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:57:42] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:42] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:44] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:44] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:55] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:55] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:57:56] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:58:09] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:58:09] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:58:09] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:58:11] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:58:21] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:58:22] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:58:24] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:58:24] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-11-19 18:58:40] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-11-19 18:59:42] [INFO] Daily bias for EURUSD: Neutral
+[2025-11-19 18:59:42] [INFO] Daily bias for GBPUSD: Neutral
+[2025-11-19 18:59:42] [INFO] Daily bias for XAUUSD: Neutral
+[2025-11-19 18:59:42] [INFO] Daily bias for EURGBP: Neutral
+[2025-11-19 18:59:42] [INFO] Daily bias for EURNZD: Neutral
+[2025-11-19 19:40:53] [INFO] Daily bias for EURUSD: Neutral
+[2025-11-19 19:40:53] [INFO] Daily bias for GBPUSD: Bearish
+[2025-11-19 19:40:53] [INFO] Daily bias for XAUUSD: Neutral
+[2025-11-19 19:40:53] [INFO] Daily bias for EURGBP: Bullish
+[2025-11-19 19:40:53] [INFO] Daily bias for EURNZD: Bullish
+[2025-11-19 19:41:21] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:21] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:41:21] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:41:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:41:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:41:34] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:34] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:34] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:35] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:36] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:46] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:41:48] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:49] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:49] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:41:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:41:56] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:56] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:41:57] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:42:00] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:42:00] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:42:06] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:42:06] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:42:06] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:42:08] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:42:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:42:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 19:42:21] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:42:27] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:42:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:42:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:47] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:49] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:49] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:51] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:51] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:52] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:52] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:52] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-11-19 19:43:57] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-11-19 23:13:51] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0

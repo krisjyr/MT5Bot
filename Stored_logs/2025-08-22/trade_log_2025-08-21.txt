@@ -1,0 +1,15 @@
+[2025-08-21 21:04:18] [INFO] Daily bias for EURUSD: Neutral
+[2025-08-21 21:04:18] [INFO] Daily bias for GBPUSD: Neutral
+[2025-08-21 21:04:18] [INFO] Daily bias for XAUUSD: Bearish
+[2025-08-21 21:04:18] [INFO] Daily bias for EURGBP: Neutral
+[2025-08-21 21:04:18] [INFO] Daily bias for EURNZD: Neutral
+[2025-08-21 21:26:08] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-21 21:36:26] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-21 21:46:45] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-21 21:57:03] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-21 22:05:16] [SUCCESS] FVG found for EURNZD: 1.99386 - 1.99447 | Type: Bullish | Timeframe: M5
+[2025-08-21 22:05:47] [SUCCESS] FVG found for EURNZD: 1.99386 - 1.99447 | Type: Bullish | Timeframe: M5
+[2025-08-21 22:06:18] [SUCCESS] FVG found for EURNZD: 1.99386 - 1.99447 | Type: Bullish | Timeframe: M5
+[2025-08-21 22:06:49] [SUCCESS] FVG found for EURNZD: 1.99386 - 1.99447 | Type: Bullish | Timeframe: M5
+[2025-08-21 23:40:41] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-21 23:50:59] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0

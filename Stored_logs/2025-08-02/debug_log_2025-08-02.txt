@@ -1,0 +1,2240 @@
+[2025-08-02 00:55:29] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:29] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:29] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:29] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:29] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:29] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:30] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:30] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:31] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:31] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:31] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:31] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:42] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:48] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:48] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:48] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:48] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:48] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:48] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:48] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:55:48] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:04] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:04] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:04] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:04] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:20] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:20] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:20] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:20] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:33] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:56:33] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:10] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:10] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:10] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:10] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:24] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:24] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:24] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:24] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:24] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:24] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:24] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 00:57:24] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754085e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:09] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:09] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:09] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:09] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:09] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:09] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:10] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:10] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:11] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:11] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:11] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:11] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:22] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:41] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:41] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:41] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:41] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:41] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:41] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:41] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:41] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:43] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:43] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:43] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:43] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:43] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:43] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:43] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:43] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:59] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:59] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:59] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:05:59] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:12] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:49] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:49] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:49] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:06:50] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:07:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:07:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:07:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:07:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:07:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:07:04] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:07:04] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-02 01:07:04] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high   size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  3301.32  3338.85  37.53           91  ...      3338.85  XAUUSD         H1    1.754086e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+

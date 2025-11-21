@@ -1,0 +1,30 @@
+[2025-07-27 22:49:11] [INFO] Initializing MT5...
+[2025-07-27 22:49:15] [SUCCESS] MT5 initialized and logged in.
+
+[2025-07-27 22:49:15] [INFO] Initializing MT5...
+[2025-07-27 22:49:15] [SUCCESS] MT5 initialized and logged in.
+
+[2025-07-27 22:49:15] [INFO] Initializing MT5...
+[2025-07-27 22:49:15] [SUCCESS] MT5 initialized and logged in.
+
+[2025-07-27 22:49:15] [ERROR] FXStreet API error for EURUSD: name 'requests' is not defined
+[2025-07-27 22:49:15] [ERROR] FXStreet API error for GBPUSD: name 'requests' is not defined
+[2025-07-27 22:49:15] [ERROR] FXStreet API error for XAUUSD: name 'requests' is not defined
+[2025-07-27 22:49:15] [ERROR] FXStreet API error for EURGBP: name 'requests' is not defined
+[2025-07-27 22:49:15] [ERROR] FXStreet API error for EURNZD: name 'requests' is not defined
+[2025-07-27 22:49:15] [WARN] Weekend detected. No trading activity.
+[2025-07-27 22:53:03] [INFO] Initializing MT5...
+[2025-07-27 22:53:03] [SUCCESS] MT5 initialized and logged in.
+
+[2025-07-27 22:53:03] [INFO] Initializing MT5...
+[2025-07-27 22:53:03] [SUCCESS] MT5 initialized and logged in.
+
+[2025-07-27 22:53:03] [INFO] Initializing MT5...
+[2025-07-27 22:53:03] [SUCCESS] MT5 initialized and logged in.
+
+[2025-07-27 22:53:03] [ERROR] FXStreet API error for EURUSD: name 'requests' is not defined
+[2025-07-27 22:53:03] [ERROR] FXStreet API error for GBPUSD: name 'requests' is not defined
+[2025-07-27 22:53:03] [ERROR] FXStreet API error for XAUUSD: name 'requests' is not defined
+[2025-07-27 22:53:03] [ERROR] FXStreet API error for EURGBP: name 'requests' is not defined
+[2025-07-27 22:53:03] [ERROR] FXStreet API error for EURNZD: name 'requests' is not defined
+[2025-07-27 22:53:03] [WARN] Weekend detected. No trading activity.

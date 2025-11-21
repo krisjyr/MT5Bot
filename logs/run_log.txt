@@ -1,0 +1,1608 @@
+[2025-11-21 18:08:21] [INFO] Fetching data for XAUUSD from 2025-11-13 00:00:00 to 2025-11-20 00:00:00
+[2025-11-21 18:08:21] [INFO] Data fetch for XAUUSD took 0.00 seconds
+[2025-11-21 18:08:21] [INFO] Starting backtest at index 6000 with length of 6894 (need 60 LTF candles per HTF candle)
+[2025-11-21 18:08:21] [INFO] Processing XAUUSD with 6894 candles
+[2025-11-21 18:08:21] [INFO] [DEBUG] XAUUSD @ 2025-11-19 07:07:00: HTF=200, LTF=101
+[2025-11-21 18:08:21] [INFO] Processing XAUUSD
+[2025-11-21 18:08:21] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:21] [INFO] Processing XAUUSD
+[2025-11-21 18:08:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:22] [INFO] Processing XAUUSD
+[2025-11-21 18:08:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:22] [INFO] Processing XAUUSD
+[2025-11-21 18:08:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:22] [INFO] Processing XAUUSD
+[2025-11-21 18:08:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:22] [INFO] Processing XAUUSD
+[2025-11-21 18:08:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:22] [INFO] Processing XAUUSD
+[2025-11-21 18:08:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:22] [INFO] Processing XAUUSD
+[2025-11-21 18:08:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:22] [INFO] Processing XAUUSD
+[2025-11-21 18:08:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:23] [INFO] Processing XAUUSD
+[2025-11-21 18:08:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:23] [INFO] Processing XAUUSD
+[2025-11-21 18:08:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:23] [INFO] Processing XAUUSD
+[2025-11-21 18:08:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:23] [INFO] Processing XAUUSD
+[2025-11-21 18:08:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:23] [INFO] Processing XAUUSD
+[2025-11-21 18:08:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:23] [INFO] Processing XAUUSD
+[2025-11-21 18:08:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:23] [INFO] Processing XAUUSD
+[2025-11-21 18:08:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:24] [INFO] Processing XAUUSD
+[2025-11-21 18:08:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:24] [INFO] Processing XAUUSD
+[2025-11-21 18:08:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:24] [INFO] Processing XAUUSD
+[2025-11-21 18:08:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:24] [INFO] Processing XAUUSD
+[2025-11-21 18:08:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:24] [INFO] Processing XAUUSD
+[2025-11-21 18:08:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:24] [INFO] Processing XAUUSD
+[2025-11-21 18:08:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:25] [INFO] Processing XAUUSD
+[2025-11-21 18:08:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:25] [INFO] Processing XAUUSD
+[2025-11-21 18:08:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:25] [INFO] Processing XAUUSD
+[2025-11-21 18:08:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:25] [INFO] Processing XAUUSD
+[2025-11-21 18:08:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:25] [INFO] Processing XAUUSD
+[2025-11-21 18:08:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:25] [INFO] Processing XAUUSD
+[2025-11-21 18:08:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:25] [INFO] Processing XAUUSD
+[2025-11-21 18:08:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:26] [INFO] Processing XAUUSD
+[2025-11-21 18:08:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:26] [INFO] Processing XAUUSD
+[2025-11-21 18:08:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:26] [INFO] Processing XAUUSD
+[2025-11-21 18:08:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:26] [INFO] Processing XAUUSD
+[2025-11-21 18:08:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:26] [INFO] Processing XAUUSD
+[2025-11-21 18:08:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:26] [INFO] Processing XAUUSD
+[2025-11-21 18:08:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:27] [INFO] Processing XAUUSD
+[2025-11-21 18:08:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:27] [INFO] Processing XAUUSD
+[2025-11-21 18:08:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:27] [INFO] Processing XAUUSD
+[2025-11-21 18:08:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:27] [INFO] Processing XAUUSD
+[2025-11-21 18:08:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:27] [INFO] Processing XAUUSD
+[2025-11-21 18:08:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:27] [INFO] Processing XAUUSD
+[2025-11-21 18:08:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:27] [INFO] Processing XAUUSD
+[2025-11-21 18:08:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:28] [INFO] Processing XAUUSD
+[2025-11-21 18:08:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:28] [INFO] Processing XAUUSD
+[2025-11-21 18:08:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:28] [INFO] Processing XAUUSD
+[2025-11-21 18:08:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:28] [INFO] Processing XAUUSD
+[2025-11-21 18:08:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:28] [INFO] Processing XAUUSD
+[2025-11-21 18:08:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:28] [INFO] Processing XAUUSD
+[2025-11-21 18:08:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:28] [INFO] Processing XAUUSD
+[2025-11-21 18:08:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:29] [INFO] Processing XAUUSD
+[2025-11-21 18:08:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:29] [INFO] Processing XAUUSD
+[2025-11-21 18:08:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:29] [INFO] Processing XAUUSD
+[2025-11-21 18:08:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:29] [INFO] Processing XAUUSD
+[2025-11-21 18:08:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:29] [INFO] Processing XAUUSD
+[2025-11-21 18:08:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:29] [INFO] Processing XAUUSD
+[2025-11-21 18:08:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:30] [INFO] Processing XAUUSD
+[2025-11-21 18:08:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:30] [INFO] Processing XAUUSD
+[2025-11-21 18:08:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:30] [INFO] Processing XAUUSD
+[2025-11-21 18:08:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:30] [INFO] Processing XAUUSD
+[2025-11-21 18:08:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:30] [INFO] Processing XAUUSD
+[2025-11-21 18:08:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:30] [INFO] Processing XAUUSD
+[2025-11-21 18:08:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:30] [INFO] Processing XAUUSD
+[2025-11-21 18:08:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:31] [INFO] Processing XAUUSD
+[2025-11-21 18:08:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:31] [INFO] Processing XAUUSD
+[2025-11-21 18:08:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:31] [INFO] Processing XAUUSD
+[2025-11-21 18:08:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:31] [INFO] Processing XAUUSD
+[2025-11-21 18:08:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:31] [INFO] Processing XAUUSD
+[2025-11-21 18:08:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:31] [INFO] Processing XAUUSD
+[2025-11-21 18:08:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:32] [INFO] Processing XAUUSD
+[2025-11-21 18:08:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:32] [INFO] Processing XAUUSD
+[2025-11-21 18:08:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:32] [INFO] Processing XAUUSD
+[2025-11-21 18:08:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:32] [INFO] Processing XAUUSD
+[2025-11-21 18:08:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:32] [INFO] Processing XAUUSD
+[2025-11-21 18:08:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:32] [INFO] Processing XAUUSD
+[2025-11-21 18:08:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:32] [INFO] Processing XAUUSD
+[2025-11-21 18:08:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:33] [INFO] Processing XAUUSD
+[2025-11-21 18:08:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:33] [INFO] Processing XAUUSD
+[2025-11-21 18:08:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:33] [INFO] Processing XAUUSD
+[2025-11-21 18:08:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:33] [INFO] Processing XAUUSD
+[2025-11-21 18:08:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:33] [INFO] Processing XAUUSD
+[2025-11-21 18:08:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:33] [INFO] Processing XAUUSD
+[2025-11-21 18:08:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:33] [INFO] Processing XAUUSD
+[2025-11-21 18:08:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:34] [INFO] Processing XAUUSD
+[2025-11-21 18:08:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:34] [INFO] Processing XAUUSD
+[2025-11-21 18:08:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:34] [INFO] Processing XAUUSD
+[2025-11-21 18:08:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:34] [INFO] Processing XAUUSD
+[2025-11-21 18:08:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:34] [INFO] Processing XAUUSD
+[2025-11-21 18:08:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:34] [INFO] Processing XAUUSD
+[2025-11-21 18:08:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:34] [INFO] Processing XAUUSD
+[2025-11-21 18:08:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:35] [INFO] Processing XAUUSD
+[2025-11-21 18:08:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:35] [INFO] Processing XAUUSD
+[2025-11-21 18:08:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:35] [INFO] Processing XAUUSD
+[2025-11-21 18:08:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:35] [INFO] Processing XAUUSD
+[2025-11-21 18:08:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:35] [INFO] Processing XAUUSD
+[2025-11-21 18:08:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:35] [INFO] Processing XAUUSD
+[2025-11-21 18:08:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:36] [INFO] Processing XAUUSD
+[2025-11-21 18:08:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:36] [INFO] Processing XAUUSD
+[2025-11-21 18:08:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:36] [INFO] Processing XAUUSD
+[2025-11-21 18:08:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:36] [INFO] Processing XAUUSD
+[2025-11-21 18:08:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:36] [INFO] Processing XAUUSD
+[2025-11-21 18:08:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:36] [INFO] Processing XAUUSD
+[2025-11-21 18:08:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:36] [INFO] Processing XAUUSD
+[2025-11-21 18:08:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:37] [INFO] Processing XAUUSD
+[2025-11-21 18:08:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:37] [INFO] Processing XAUUSD
+[2025-11-21 18:08:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:37] [INFO] Processing XAUUSD
+[2025-11-21 18:08:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:37] [INFO] Processing XAUUSD
+[2025-11-21 18:08:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:37] [INFO] Processing XAUUSD
+[2025-11-21 18:08:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:37] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:00:00
+[2025-11-21 18:08:38] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:00:00: Close 4092.16000 not below last low 4089.21000
+[2025-11-21 18:08:38] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:01:00: Close 4092.19000 not below last low 4089.21000
+[2025-11-21 18:08:38] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:02:00: Close 4092.51000 not below last low 4089.21000
+[2025-11-21 18:08:38] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:03:00: Close 4092.51000 not below last low 4089.21000
+[2025-11-21 18:08:38] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:38] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:04:00: Close 4092.44000 not below last low 4089.21000
+[2025-11-21 18:08:38] [WARN] HTF timeout for XAUUSD - Resetting after 5.0min, 5 attempts
+[2025-11-21 18:08:38] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:06:00
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:06:00: Close 4089.94000 not below last low 4089.21000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [INFO] BoS confirmed for XAUUSD: Bearish break below 4089.21000
+[2025-11-21 18:08:39] [INFO] Adaptive risk for XAUUSD: 0.78% (ATR factor: 0.78)
+[2025-11-21 18:08:39] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 09:07:00: Risk=0.78%
+[2025-11-21 18:08:39] [INFO] Entry price set for XAUUSD: 4087.18000
+[2025-11-21 18:08:39] [INFO] Fixed SL for XAUUSD: 4092.18000 (500 pips)
+[2025-11-21 18:08:39] [INFO] Calculated TP for XAUUSD: 4072.18000 (RR=3.00)
+[2025-11-21 18:08:39] [INFO] Fallback TP (fixed RR) for XAUUSD: 4072.18000, RR=3.00
+[2025-11-21 18:08:39] [TRADE] XAUUSD | Bearish @ 4087.18000 | SL: 4092.18000 | TP: 4072.18000 | Lot: 0.20
+[2025-11-21 18:08:39] [SUCCESS] Trade simulated for XAUUSD in backtest
+[2025-11-21 18:08:39] [TRADE] XAUUSD | Bearish @ 4087.18000 | SL: 4092.18000 | TP: 4072.18000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:35:00
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:35:00: Close 4090.79000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:36:00: Close 4092.39000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:37:00: Close 4093.13000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:38:00: Close 4092.91000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:39:00: Close 4093.98000 not below last low 4084.98000
+[2025-11-21 18:08:39] [WARN] HTF timeout for XAUUSD - Resetting after 5.0min, 5 attempts
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:41:00
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:41:00: Close 4094.79000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:42:00: Close 4094.81000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:43:00: Close 4095.01000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:44:00: Close 4094.89000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:45:00: Close 4094.91000 not below last low 4084.98000
+[2025-11-21 18:08:39] [WARN] HTF timeout for XAUUSD - Resetting after 5.0min, 5 attempts
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:47:00
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:47:00: Close 4095.41000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:48:00: Close 4095.94000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:49:00: Close 4094.84000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:50:00: Close 4095.41000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:51:00: Close 4093.73000 not below last low 4084.98000
+[2025-11-21 18:08:39] [WARN] HTF timeout for XAUUSD - Resetting after 5.0min, 5 attempts
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:53:00
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:53:00: Close 4093.16000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:54:00: Close 4091.98000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:55:00: Close 4091.01000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:56:00: Close 4089.10000 not below last low 4084.98000
+[2025-11-21 18:08:39] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:39] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:57:00: Close 4088.38000 not below last low 4084.98000
+[2025-11-21 18:08:39] [WARN] HTF timeout for XAUUSD - Resetting after 5.0min, 5 attempts
+[2025-11-21 18:08:39] [INFO] Processing XAUUSD
+[2025-11-21 18:08:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:59:00
+[2025-11-21 18:08:40] [SKIP] BoS failed for XAUUSD at 2025-11-19 09:59:00: Close 4087.10000 not below last low 4084.98000
+[2025-11-21 18:08:40] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:08:40] [INFO] Processing XAUUSD
+[2025-11-21 18:08:40] [INFO] BoS confirmed for XAUUSD: Bearish break below 4084.98000
+[2025-11-21 18:08:40] [INFO] Adaptive risk for XAUUSD: 1.11% (ATR factor: 1.11)
+[2025-11-21 18:08:40] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 10:00:00: Risk=1.11%
+[2025-11-21 18:08:40] [INFO] Entry price set for XAUUSD: 4084.66000
+[2025-11-21 18:08:40] [INFO] Fixed SL for XAUUSD: 4089.66000 (500 pips)
+[2025-11-21 18:08:40] [INFO] Calculated TP for XAUUSD: 4069.66000 (RR=3.00)
+[2025-11-21 18:08:40] [INFO] Fallback TP (fixed RR) for XAUUSD: 4069.66000, RR=3.00
+[2025-11-21 18:08:40] [TRADE] XAUUSD | Bearish @ 4084.66000 | SL: 4089.66000 | TP: 4069.66000 | Lot: 0.20
+[2025-11-21 18:08:40] [SUCCESS] Trade simulated for XAUUSD in backtest
+[2025-11-21 18:08:40] [TRADE] XAUUSD | Bearish @ 4084.66000 | SL: 4089.66000 | TP: 4069.66000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 18:08:40] [INFO] Processing XAUUSD
+[2025-11-21 18:08:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:40] [INFO] Processing XAUUSD
+[2025-11-21 18:08:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:40] [INFO] Processing XAUUSD
+[2025-11-21 18:08:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:40] [INFO] Processing XAUUSD
+[2025-11-21 18:08:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:40] [INFO] Processing XAUUSD
+[2025-11-21 18:08:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:40] [INFO] Processing XAUUSD
+[2025-11-21 18:08:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:40] [INFO] Processing XAUUSD
+[2025-11-21 18:08:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:41] [INFO] Processing XAUUSD
+[2025-11-21 18:08:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:41] [INFO] Processing XAUUSD
+[2025-11-21 18:08:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:41] [INFO] Processing XAUUSD
+[2025-11-21 18:08:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:41] [INFO] Processing XAUUSD
+[2025-11-21 18:08:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:41] [INFO] Processing XAUUSD
+[2025-11-21 18:08:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:41] [INFO] Processing XAUUSD
+[2025-11-21 18:08:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:42] [INFO] Processing XAUUSD
+[2025-11-21 18:08:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:42] [INFO] Processing XAUUSD
+[2025-11-21 18:08:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:42] [INFO] Processing XAUUSD
+[2025-11-21 18:08:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:42] [INFO] Processing XAUUSD
+[2025-11-21 18:08:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:42] [INFO] Processing XAUUSD
+[2025-11-21 18:08:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:42] [INFO] Processing XAUUSD
+[2025-11-21 18:08:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:42] [INFO] Processing XAUUSD
+[2025-11-21 18:08:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:43] [INFO] Processing XAUUSD
+[2025-11-21 18:08:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:43] [INFO] Processing XAUUSD
+[2025-11-21 18:08:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:43] [INFO] Processing XAUUSD
+[2025-11-21 18:08:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:43] [INFO] Processing XAUUSD
+[2025-11-21 18:08:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:43] [INFO] Processing XAUUSD
+[2025-11-21 18:08:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:43] [INFO] Processing XAUUSD
+[2025-11-21 18:08:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:43] [INFO] Processing XAUUSD
+[2025-11-21 18:08:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:44] [INFO] Processing XAUUSD
+[2025-11-21 18:08:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:44] [INFO] Processing XAUUSD
+[2025-11-21 18:08:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:44] [INFO] Processing XAUUSD
+[2025-11-21 18:08:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:44] [INFO] Processing XAUUSD
+[2025-11-21 18:08:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:44] [INFO] Processing XAUUSD
+[2025-11-21 18:08:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:44] [INFO] Processing XAUUSD
+[2025-11-21 18:08:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:45] [INFO] Processing XAUUSD
+[2025-11-21 18:08:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:45] [INFO] Processing XAUUSD
+[2025-11-21 18:08:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:45] [INFO] Processing XAUUSD
+[2025-11-21 18:08:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:45] [INFO] Processing XAUUSD
+[2025-11-21 18:08:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:45] [INFO] Processing XAUUSD
+[2025-11-21 18:08:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:45] [INFO] Processing XAUUSD
+[2025-11-21 18:08:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:45] [INFO] Processing XAUUSD
+[2025-11-21 18:08:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:46] [INFO] Processing XAUUSD
+[2025-11-21 18:08:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:46] [INFO] Processing XAUUSD
+[2025-11-21 18:08:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:46] [INFO] Processing XAUUSD
+[2025-11-21 18:08:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:46] [INFO] Processing XAUUSD
+[2025-11-21 18:08:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:46] [INFO] Processing XAUUSD
+[2025-11-21 18:08:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:46] [INFO] Processing XAUUSD
+[2025-11-21 18:08:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:46] [INFO] Processing XAUUSD
+[2025-11-21 18:08:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:47] [INFO] Processing XAUUSD
+[2025-11-21 18:08:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:47] [INFO] Processing XAUUSD
+[2025-11-21 18:08:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:47] [INFO] Processing XAUUSD
+[2025-11-21 18:08:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:47] [INFO] Processing XAUUSD
+[2025-11-21 18:08:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:47] [INFO] Processing XAUUSD
+[2025-11-21 18:08:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:47] [INFO] Processing XAUUSD
+[2025-11-21 18:08:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:48] [INFO] Processing XAUUSD
+[2025-11-21 18:08:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:48] [INFO] Processing XAUUSD
+[2025-11-21 18:08:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:48] [INFO] Processing XAUUSD
+[2025-11-21 18:08:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:48] [INFO] Processing XAUUSD
+[2025-11-21 18:08:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:48] [INFO] Processing XAUUSD
+[2025-11-21 18:08:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:48] [INFO] Processing XAUUSD
+[2025-11-21 18:08:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:48] [INFO] Processing XAUUSD
+[2025-11-21 18:08:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:49] [INFO] Processing XAUUSD
+[2025-11-21 18:08:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:49] [INFO] Processing XAUUSD
+[2025-11-21 18:08:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:49] [INFO] Processing XAUUSD
+[2025-11-21 18:08:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:49] [INFO] Processing XAUUSD
+[2025-11-21 18:08:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:49] [INFO] Processing XAUUSD
+[2025-11-21 18:08:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:49] [INFO] Processing XAUUSD
+[2025-11-21 18:08:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:49] [INFO] Processing XAUUSD
+[2025-11-21 18:08:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:50] [INFO] Processing XAUUSD
+[2025-11-21 18:08:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:50] [INFO] Processing XAUUSD
+[2025-11-21 18:08:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:50] [INFO] Processing XAUUSD
+[2025-11-21 18:08:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:50] [INFO] Processing XAUUSD
+[2025-11-21 18:08:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:50] [INFO] Processing XAUUSD
+[2025-11-21 18:08:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:50] [INFO] Processing XAUUSD
+[2025-11-21 18:08:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:50] [INFO] Processing XAUUSD
+[2025-11-21 18:08:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:51] [INFO] Processing XAUUSD
+[2025-11-21 18:08:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:51] [INFO] Processing XAUUSD
+[2025-11-21 18:08:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:51] [INFO] Processing XAUUSD
+[2025-11-21 18:08:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:51] [INFO] Processing XAUUSD
+[2025-11-21 18:08:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:51] [INFO] Processing XAUUSD
+[2025-11-21 18:08:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:51] [INFO] Processing XAUUSD
+[2025-11-21 18:08:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:52] [INFO] Processing XAUUSD
+[2025-11-21 18:08:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:52] [INFO] Processing XAUUSD
+[2025-11-21 18:08:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:52] [INFO] Processing XAUUSD
+[2025-11-21 18:08:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:52] [INFO] Processing XAUUSD
+[2025-11-21 18:08:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:52] [INFO] Processing XAUUSD
+[2025-11-21 18:08:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:52] [INFO] Processing XAUUSD
+[2025-11-21 18:08:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:52] [INFO] Processing XAUUSD
+[2025-11-21 18:08:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:53] [INFO] Processing XAUUSD
+[2025-11-21 18:08:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:53] [INFO] Processing XAUUSD
+[2025-11-21 18:08:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:53] [INFO] Processing XAUUSD
+[2025-11-21 18:08:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:53] [INFO] Processing XAUUSD
+[2025-11-21 18:08:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:53] [INFO] Processing XAUUSD
+[2025-11-21 18:08:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:53] [INFO] Processing XAUUSD
+[2025-11-21 18:08:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:53] [INFO] Processing XAUUSD
+[2025-11-21 18:08:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:54] [INFO] Processing XAUUSD
+[2025-11-21 18:08:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:54] [INFO] Processing XAUUSD
+[2025-11-21 18:08:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:54] [INFO] Processing XAUUSD
+[2025-11-21 18:08:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:54] [INFO] Processing XAUUSD
+[2025-11-21 18:08:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:54] [INFO] Processing XAUUSD
+[2025-11-21 18:08:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:54] [INFO] Processing XAUUSD
+[2025-11-21 18:08:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:54] [INFO] Processing XAUUSD
+[2025-11-21 18:08:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:55] [INFO] Processing XAUUSD
+[2025-11-21 18:08:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:55] [INFO] Processing XAUUSD
+[2025-11-21 18:08:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:55] [INFO] Processing XAUUSD
+[2025-11-21 18:08:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:55] [INFO] Processing XAUUSD
+[2025-11-21 18:08:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:55] [INFO] Processing XAUUSD
+[2025-11-21 18:08:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:55] [INFO] Processing XAUUSD
+[2025-11-21 18:08:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:56] [INFO] Processing XAUUSD
+[2025-11-21 18:08:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:56] [INFO] Processing XAUUSD
+[2025-11-21 18:08:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:56] [INFO] Processing XAUUSD
+[2025-11-21 18:08:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:56] [INFO] Processing XAUUSD
+[2025-11-21 18:08:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:56] [INFO] Processing XAUUSD
+[2025-11-21 18:08:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:56] [INFO] Processing XAUUSD
+[2025-11-21 18:08:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:56] [INFO] Processing XAUUSD
+[2025-11-21 18:08:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:57] [INFO] Processing XAUUSD
+[2025-11-21 18:08:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:57] [INFO] Processing XAUUSD
+[2025-11-21 18:08:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:57] [INFO] Processing XAUUSD
+[2025-11-21 18:08:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:57] [INFO] Processing XAUUSD
+[2025-11-21 18:08:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:57] [INFO] Processing XAUUSD
+[2025-11-21 18:08:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:57] [INFO] Processing XAUUSD
+[2025-11-21 18:08:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:57] [INFO] Processing XAUUSD
+[2025-11-21 18:08:58] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:58] [INFO] Processing XAUUSD
+[2025-11-21 18:08:58] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:58] [INFO] Processing XAUUSD
+[2025-11-21 18:08:58] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:58] [INFO] Processing XAUUSD
+[2025-11-21 18:08:58] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:58] [INFO] Processing XAUUSD
+[2025-11-21 18:08:58] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:58] [INFO] Processing XAUUSD
+[2025-11-21 18:08:58] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:58] [INFO] Processing XAUUSD
+[2025-11-21 18:08:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:59] [INFO] Processing XAUUSD
+[2025-11-21 18:08:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:59] [INFO] Processing XAUUSD
+[2025-11-21 18:08:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:59] [INFO] Processing XAUUSD
+[2025-11-21 18:08:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:59] [INFO] Processing XAUUSD
+[2025-11-21 18:08:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:59] [INFO] Processing XAUUSD
+[2025-11-21 18:08:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:59] [INFO] Processing XAUUSD
+[2025-11-21 18:08:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:08:59] [INFO] Processing XAUUSD
+[2025-11-21 18:09:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:00] [INFO] Processing XAUUSD
+[2025-11-21 18:09:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:00] [INFO] Processing XAUUSD
+[2025-11-21 18:09:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:00] [INFO] Processing XAUUSD
+[2025-11-21 18:09:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:00] [INFO] Processing XAUUSD
+[2025-11-21 18:09:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:00] [INFO] Processing XAUUSD
+[2025-11-21 18:09:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:00] [INFO] Processing XAUUSD
+[2025-11-21 18:09:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:01] [INFO] Processing XAUUSD
+[2025-11-21 18:09:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:01] [INFO] Processing XAUUSD
+[2025-11-21 18:09:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:01] [INFO] Processing XAUUSD
+[2025-11-21 18:09:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:01] [INFO] Processing XAUUSD
+[2025-11-21 18:09:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:01] [INFO] Processing XAUUSD
+[2025-11-21 18:09:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:01] [INFO] Processing XAUUSD
+[2025-11-21 18:09:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:01] [INFO] Processing XAUUSD
+[2025-11-21 18:09:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:02] [INFO] Processing XAUUSD
+[2025-11-21 18:09:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:02] [INFO] Processing XAUUSD
+[2025-11-21 18:09:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:02] [INFO] Processing XAUUSD
+[2025-11-21 18:09:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:02] [INFO] Processing XAUUSD
+[2025-11-21 18:09:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:02] [INFO] Processing XAUUSD
+[2025-11-21 18:09:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:02] [INFO] Processing XAUUSD
+[2025-11-21 18:09:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:02] [INFO] Processing XAUUSD
+[2025-11-21 18:09:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:03] [INFO] Processing XAUUSD
+[2025-11-21 18:09:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:03] [INFO] Processing XAUUSD
+[2025-11-21 18:09:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:03] [INFO] Processing XAUUSD
+[2025-11-21 18:09:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:03] [INFO] Processing XAUUSD
+[2025-11-21 18:09:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:03] [INFO] Processing XAUUSD
+[2025-11-21 18:09:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:03] [INFO] Processing XAUUSD
+[2025-11-21 18:09:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:03] [INFO] Processing XAUUSD
+[2025-11-21 18:09:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:04] [INFO] Processing XAUUSD
+[2025-11-21 18:09:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:04] [INFO] Processing XAUUSD
+[2025-11-21 18:09:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:04] [INFO] Processing XAUUSD
+[2025-11-21 18:09:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:04] [INFO] Processing XAUUSD
+[2025-11-21 18:09:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:04] [INFO] Processing XAUUSD
+[2025-11-21 18:09:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:04] [INFO] Processing XAUUSD
+[2025-11-21 18:09:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:04] [INFO] Processing XAUUSD
+[2025-11-21 18:09:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:05] [INFO] Processing XAUUSD
+[2025-11-21 18:09:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:05] [INFO] Processing XAUUSD
+[2025-11-21 18:09:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:05] [INFO] Processing XAUUSD
+[2025-11-21 18:09:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:05] [INFO] Processing XAUUSD
+[2025-11-21 18:09:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:05] [INFO] Processing XAUUSD
+[2025-11-21 18:09:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:05] [INFO] Processing XAUUSD
+[2025-11-21 18:09:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:05] [INFO] Processing XAUUSD
+[2025-11-21 18:09:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:06] [INFO] Processing XAUUSD
+[2025-11-21 18:09:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:06] [INFO] Processing XAUUSD
+[2025-11-21 18:09:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:06] [INFO] Processing XAUUSD
+[2025-11-21 18:09:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:06] [INFO] Processing XAUUSD
+[2025-11-21 18:09:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:06] [INFO] Processing XAUUSD
+[2025-11-21 18:09:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:06] [INFO] Processing XAUUSD
+[2025-11-21 18:09:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:06] [INFO] Processing XAUUSD
+[2025-11-21 18:09:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:07] [INFO] Processing XAUUSD
+[2025-11-21 18:09:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:07] [INFO] Processing XAUUSD
+[2025-11-21 18:09:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:07] [INFO] Processing XAUUSD
+[2025-11-21 18:09:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:07] [INFO] Processing XAUUSD
+[2025-11-21 18:09:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:07] [INFO] Processing XAUUSD
+[2025-11-21 18:09:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:07] [INFO] Processing XAUUSD
+[2025-11-21 18:09:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:07] [INFO] Processing XAUUSD
+[2025-11-21 18:09:08] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:08] [INFO] Processing XAUUSD
+[2025-11-21 18:09:08] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:08] [INFO] Processing XAUUSD
+[2025-11-21 18:09:08] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:08] [INFO] Processing XAUUSD
+[2025-11-21 18:09:08] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:08] [INFO] Processing XAUUSD
+[2025-11-21 18:09:08] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:08] [INFO] Processing XAUUSD
+[2025-11-21 18:09:08] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:08] [INFO] Processing XAUUSD
+[2025-11-21 18:09:09] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:09] [INFO] Processing XAUUSD
+[2025-11-21 18:09:09] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:09] [INFO] Processing XAUUSD
+[2025-11-21 18:09:09] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:09] [INFO] Processing XAUUSD
+[2025-11-21 18:09:09] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:09] [INFO] Processing XAUUSD
+[2025-11-21 18:09:09] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:09] [INFO] Processing XAUUSD
+[2025-11-21 18:09:09] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:09] [INFO] Processing XAUUSD
+[2025-11-21 18:09:09] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:09] [INFO] Processing XAUUSD
+[2025-11-21 18:09:10] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:10] [INFO] Processing XAUUSD
+[2025-11-21 18:09:10] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:10] [INFO] Processing XAUUSD
+[2025-11-21 18:09:10] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:10] [INFO] Processing XAUUSD
+[2025-11-21 18:09:10] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:10] [INFO] Processing XAUUSD
+[2025-11-21 18:09:10] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:10] [INFO] Processing XAUUSD
+[2025-11-21 18:09:10] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:10] [INFO] Processing XAUUSD
+[2025-11-21 18:09:10] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:10] [INFO] Processing XAUUSD
+[2025-11-21 18:09:11] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:11] [INFO] Processing XAUUSD
+[2025-11-21 18:09:11] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:11] [INFO] Processing XAUUSD
+[2025-11-21 18:09:11] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:11] [INFO] Processing XAUUSD
+[2025-11-21 18:09:11] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:11] [INFO] Processing XAUUSD
+[2025-11-21 18:09:11] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:11] [INFO] Processing XAUUSD
+[2025-11-21 18:09:11] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:11] [INFO] Processing XAUUSD
+[2025-11-21 18:09:12] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:12] [INFO] Processing XAUUSD
+[2025-11-21 18:09:12] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:12] [INFO] Processing XAUUSD
+[2025-11-21 18:09:12] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:12] [INFO] Processing XAUUSD
+[2025-11-21 18:09:12] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:12] [INFO] Processing XAUUSD
+[2025-11-21 18:09:12] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:12] [INFO] Processing XAUUSD
+[2025-11-21 18:09:12] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:12] [INFO] Processing XAUUSD
+[2025-11-21 18:09:12] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:12] [INFO] Processing XAUUSD
+[2025-11-21 18:09:13] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:13] [INFO] Processing XAUUSD
+[2025-11-21 18:09:13] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:13] [INFO] Processing XAUUSD
+[2025-11-21 18:09:13] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:13] [INFO] Processing XAUUSD
+[2025-11-21 18:09:13] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:13] [INFO] Processing XAUUSD
+[2025-11-21 18:09:13] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:13] [INFO] Processing XAUUSD
+[2025-11-21 18:09:13] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:13] [INFO] Processing XAUUSD
+[2025-11-21 18:09:13] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:13] [INFO] Processing XAUUSD
+[2025-11-21 18:09:14] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:14] [INFO] Processing XAUUSD
+[2025-11-21 18:09:14] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:14] [INFO] Processing XAUUSD
+[2025-11-21 18:09:14] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:14] [INFO] Processing XAUUSD
+[2025-11-21 18:09:14] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:14] [INFO] Processing XAUUSD
+[2025-11-21 18:09:14] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:14] [INFO] Processing XAUUSD
+[2025-11-21 18:09:14] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:14] [INFO] Processing XAUUSD
+[2025-11-21 18:09:15] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:15] [INFO] Processing XAUUSD
+[2025-11-21 18:09:15] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:15] [INFO] Processing XAUUSD
+[2025-11-21 18:09:15] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:15] [INFO] Processing XAUUSD
+[2025-11-21 18:09:15] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:15] [INFO] Processing XAUUSD
+[2025-11-21 18:09:15] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:15] [INFO] Processing XAUUSD
+[2025-11-21 18:09:15] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:15] [INFO] Processing XAUUSD
+[2025-11-21 18:09:15] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:15] [INFO] Processing XAUUSD
+[2025-11-21 18:09:16] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:16] [INFO] Processing XAUUSD
+[2025-11-21 18:09:16] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:16] [INFO] Processing XAUUSD
+[2025-11-21 18:09:16] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:16] [INFO] Processing XAUUSD
+[2025-11-21 18:09:16] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:16] [INFO] Processing XAUUSD
+[2025-11-21 18:09:16] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:16] [INFO] Processing XAUUSD
+[2025-11-21 18:09:16] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:16] [INFO] Processing XAUUSD
+[2025-11-21 18:09:16] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:16] [INFO] Processing XAUUSD
+[2025-11-21 18:09:17] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:17] [INFO] Processing XAUUSD
+[2025-11-21 18:09:17] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:17] [INFO] Processing XAUUSD
+[2025-11-21 18:09:17] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:17] [INFO] Processing XAUUSD
+[2025-11-21 18:09:17] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:17] [INFO] Processing XAUUSD
+[2025-11-21 18:09:17] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:17] [INFO] Processing XAUUSD
+[2025-11-21 18:09:17] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:17] [INFO] Processing XAUUSD
+[2025-11-21 18:09:17] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:17] [INFO] Processing XAUUSD
+[2025-11-21 18:09:18] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:18] [INFO] [DEBUG] XAUUSD @ 2025-11-19 15:27:00: HTF=200, LTF=101
+[2025-11-21 18:09:18] [INFO] Processing XAUUSD
+[2025-11-21 18:09:18] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:18] [INFO] Processing XAUUSD
+[2025-11-21 18:09:18] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:18] [INFO] Processing XAUUSD
+[2025-11-21 18:09:18] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:18] [INFO] Processing XAUUSD
+[2025-11-21 18:09:18] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:18] [INFO] Processing XAUUSD
+[2025-11-21 18:09:18] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:18] [INFO] Processing XAUUSD
+[2025-11-21 18:09:19] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:19] [INFO] Processing XAUUSD
+[2025-11-21 18:09:19] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:19] [INFO] Processing XAUUSD
+[2025-11-21 18:09:19] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:19] [INFO] Processing XAUUSD
+[2025-11-21 18:09:19] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:19] [INFO] Processing XAUUSD
+[2025-11-21 18:09:19] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:19] [INFO] Processing XAUUSD
+[2025-11-21 18:09:19] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:19] [INFO] Processing XAUUSD
+[2025-11-21 18:09:19] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:19] [INFO] Processing XAUUSD
+[2025-11-21 18:09:20] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:20] [INFO] Processing XAUUSD
+[2025-11-21 18:09:20] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:20] [INFO] Processing XAUUSD
+[2025-11-21 18:09:20] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:20] [INFO] Processing XAUUSD
+[2025-11-21 18:09:20] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:20] [INFO] Processing XAUUSD
+[2025-11-21 18:09:20] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:20] [INFO] Processing XAUUSD
+[2025-11-21 18:09:20] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:20] [INFO] Processing XAUUSD
+[2025-11-21 18:09:20] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:20] [INFO] Processing XAUUSD
+[2025-11-21 18:09:21] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:21] [INFO] Processing XAUUSD
+[2025-11-21 18:09:21] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:21] [INFO] Processing XAUUSD
+[2025-11-21 18:09:21] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:21] [INFO] Processing XAUUSD
+[2025-11-21 18:09:21] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:21] [INFO] Processing XAUUSD
+[2025-11-21 18:09:21] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:21] [INFO] Processing XAUUSD
+[2025-11-21 18:09:21] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:21] [INFO] Processing XAUUSD
+[2025-11-21 18:09:21] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:22] [INFO] Processing XAUUSD
+[2025-11-21 18:09:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:22] [INFO] Processing XAUUSD
+[2025-11-21 18:09:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:22] [INFO] Processing XAUUSD
+[2025-11-21 18:09:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:22] [INFO] Processing XAUUSD
+[2025-11-21 18:09:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:22] [INFO] Processing XAUUSD
+[2025-11-21 18:09:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:22] [INFO] Processing XAUUSD
+[2025-11-21 18:09:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:22] [INFO] Processing XAUUSD
+[2025-11-21 18:09:22] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:22] [INFO] Processing XAUUSD
+[2025-11-21 18:09:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:23] [INFO] Processing XAUUSD
+[2025-11-21 18:09:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:23] [INFO] Processing XAUUSD
+[2025-11-21 18:09:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:23] [INFO] Processing XAUUSD
+[2025-11-21 18:09:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:23] [INFO] Processing XAUUSD
+[2025-11-21 18:09:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:23] [INFO] Processing XAUUSD
+[2025-11-21 18:09:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:23] [INFO] Processing XAUUSD
+[2025-11-21 18:09:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:23] [INFO] Processing XAUUSD
+[2025-11-21 18:09:23] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:23] [INFO] Processing XAUUSD
+[2025-11-21 18:09:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:24] [INFO] Processing XAUUSD
+[2025-11-21 18:09:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:24] [INFO] Processing XAUUSD
+[2025-11-21 18:09:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:24] [INFO] Processing XAUUSD
+[2025-11-21 18:09:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:24] [INFO] Processing XAUUSD
+[2025-11-21 18:09:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:24] [INFO] Processing XAUUSD
+[2025-11-21 18:09:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:24] [INFO] Processing XAUUSD
+[2025-11-21 18:09:24] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:24] [INFO] Processing XAUUSD
+[2025-11-21 18:09:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:25] [INFO] Processing XAUUSD
+[2025-11-21 18:09:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:25] [INFO] Processing XAUUSD
+[2025-11-21 18:09:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:25] [INFO] Processing XAUUSD
+[2025-11-21 18:09:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:25] [INFO] Processing XAUUSD
+[2025-11-21 18:09:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:25] [INFO] Processing XAUUSD
+[2025-11-21 18:09:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:25] [INFO] Processing XAUUSD
+[2025-11-21 18:09:25] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:25] [INFO] Processing XAUUSD
+[2025-11-21 18:09:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:26] [INFO] Processing XAUUSD
+[2025-11-21 18:09:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:26] [INFO] Processing XAUUSD
+[2025-11-21 18:09:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:26] [INFO] Processing XAUUSD
+[2025-11-21 18:09:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:26] [INFO] Processing XAUUSD
+[2025-11-21 18:09:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:26] [INFO] Processing XAUUSD
+[2025-11-21 18:09:26] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:26] [INFO] Processing XAUUSD
+[2025-11-21 18:09:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:27] [INFO] Processing XAUUSD
+[2025-11-21 18:09:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:27] [INFO] Processing XAUUSD
+[2025-11-21 18:09:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:27] [INFO] Processing XAUUSD
+[2025-11-21 18:09:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:27] [INFO] Processing XAUUSD
+[2025-11-21 18:09:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:27] [INFO] Processing XAUUSD
+[2025-11-21 18:09:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:27] [INFO] Processing XAUUSD
+[2025-11-21 18:09:27] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:27] [INFO] Processing XAUUSD
+[2025-11-21 18:09:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:28] [INFO] Processing XAUUSD
+[2025-11-21 18:09:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:28] [INFO] Processing XAUUSD
+[2025-11-21 18:09:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:28] [INFO] Processing XAUUSD
+[2025-11-21 18:09:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:28] [INFO] Processing XAUUSD
+[2025-11-21 18:09:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:28] [INFO] Processing XAUUSD
+[2025-11-21 18:09:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:28] [INFO] Processing XAUUSD
+[2025-11-21 18:09:28] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:28] [INFO] Processing XAUUSD
+[2025-11-21 18:09:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:29] [INFO] Processing XAUUSD
+[2025-11-21 18:09:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:29] [INFO] Processing XAUUSD
+[2025-11-21 18:09:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:29] [INFO] Processing XAUUSD
+[2025-11-21 18:09:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:29] [INFO] Processing XAUUSD
+[2025-11-21 18:09:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:29] [INFO] Processing XAUUSD
+[2025-11-21 18:09:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:29] [INFO] Processing XAUUSD
+[2025-11-21 18:09:29] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:29] [INFO] Processing XAUUSD
+[2025-11-21 18:09:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:30] [INFO] Processing XAUUSD
+[2025-11-21 18:09:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:30] [INFO] Processing XAUUSD
+[2025-11-21 18:09:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:30] [INFO] Processing XAUUSD
+[2025-11-21 18:09:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:30] [INFO] Processing XAUUSD
+[2025-11-21 18:09:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:30] [INFO] Processing XAUUSD
+[2025-11-21 18:09:30] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:30] [INFO] Processing XAUUSD
+[2025-11-21 18:09:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:31] [INFO] Processing XAUUSD
+[2025-11-21 18:09:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:31] [INFO] Processing XAUUSD
+[2025-11-21 18:09:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:31] [INFO] Processing XAUUSD
+[2025-11-21 18:09:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:31] [INFO] Processing XAUUSD
+[2025-11-21 18:09:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:31] [INFO] Processing XAUUSD
+[2025-11-21 18:09:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:31] [INFO] Processing XAUUSD
+[2025-11-21 18:09:31] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:31] [INFO] Processing XAUUSD
+[2025-11-21 18:09:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:32] [INFO] Processing XAUUSD
+[2025-11-21 18:09:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:32] [INFO] Processing XAUUSD
+[2025-11-21 18:09:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:32] [INFO] Processing XAUUSD
+[2025-11-21 18:09:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:32] [INFO] Processing XAUUSD
+[2025-11-21 18:09:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:32] [INFO] Processing XAUUSD
+[2025-11-21 18:09:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:32] [INFO] Processing XAUUSD
+[2025-11-21 18:09:32] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:32] [INFO] Processing XAUUSD
+[2025-11-21 18:09:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:33] [INFO] Processing XAUUSD
+[2025-11-21 18:09:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:33] [INFO] Processing XAUUSD
+[2025-11-21 18:09:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:33] [INFO] Processing XAUUSD
+[2025-11-21 18:09:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:33] [INFO] Processing XAUUSD
+[2025-11-21 18:09:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:33] [INFO] Processing XAUUSD
+[2025-11-21 18:09:33] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:33] [INFO] Processing XAUUSD
+[2025-11-21 18:09:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:34] [INFO] Processing XAUUSD
+[2025-11-21 18:09:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:34] [INFO] Processing XAUUSD
+[2025-11-21 18:09:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:34] [INFO] Processing XAUUSD
+[2025-11-21 18:09:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:34] [INFO] Processing XAUUSD
+[2025-11-21 18:09:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:34] [INFO] Processing XAUUSD
+[2025-11-21 18:09:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:34] [INFO] Processing XAUUSD
+[2025-11-21 18:09:34] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:34] [INFO] Processing XAUUSD
+[2025-11-21 18:09:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:35] [INFO] Processing XAUUSD
+[2025-11-21 18:09:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:35] [INFO] Processing XAUUSD
+[2025-11-21 18:09:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:35] [INFO] Processing XAUUSD
+[2025-11-21 18:09:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:35] [INFO] Processing XAUUSD
+[2025-11-21 18:09:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:35] [INFO] Processing XAUUSD
+[2025-11-21 18:09:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:35] [INFO] Processing XAUUSD
+[2025-11-21 18:09:35] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:35] [INFO] Processing XAUUSD
+[2025-11-21 18:09:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:36] [INFO] Processing XAUUSD
+[2025-11-21 18:09:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:36] [INFO] Processing XAUUSD
+[2025-11-21 18:09:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:36] [INFO] Processing XAUUSD
+[2025-11-21 18:09:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:36] [INFO] Processing XAUUSD
+[2025-11-21 18:09:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:36] [INFO] Processing XAUUSD
+[2025-11-21 18:09:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:36] [INFO] Processing XAUUSD
+[2025-11-21 18:09:36] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:36] [INFO] Processing XAUUSD
+[2025-11-21 18:09:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:37] [INFO] Processing XAUUSD
+[2025-11-21 18:09:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:37] [INFO] Processing XAUUSD
+[2025-11-21 18:09:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:37] [INFO] Processing XAUUSD
+[2025-11-21 18:09:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:37] [INFO] Processing XAUUSD
+[2025-11-21 18:09:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:37] [INFO] Processing XAUUSD
+[2025-11-21 18:09:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:37] [INFO] Processing XAUUSD
+[2025-11-21 18:09:37] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:37] [INFO] Processing XAUUSD
+[2025-11-21 18:09:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:38] [INFO] Processing XAUUSD
+[2025-11-21 18:09:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:38] [INFO] Processing XAUUSD
+[2025-11-21 18:09:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:38] [INFO] Processing XAUUSD
+[2025-11-21 18:09:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:38] [INFO] Processing XAUUSD
+[2025-11-21 18:09:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:38] [INFO] Processing XAUUSD
+[2025-11-21 18:09:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:38] [INFO] Processing XAUUSD
+[2025-11-21 18:09:38] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:38] [INFO] Processing XAUUSD
+[2025-11-21 18:09:39] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:39] [INFO] Processing XAUUSD
+[2025-11-21 18:09:39] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:39] [INFO] Processing XAUUSD
+[2025-11-21 18:09:39] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:39] [INFO] Processing XAUUSD
+[2025-11-21 18:09:39] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:39] [INFO] Processing XAUUSD
+[2025-11-21 18:09:39] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:39] [INFO] Processing XAUUSD
+[2025-11-21 18:09:39] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:39] [INFO] Processing XAUUSD
+[2025-11-21 18:09:39] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:39] [INFO] Processing XAUUSD
+[2025-11-21 18:09:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:40] [INFO] Processing XAUUSD
+[2025-11-21 18:09:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:40] [INFO] Processing XAUUSD
+[2025-11-21 18:09:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:40] [INFO] Processing XAUUSD
+[2025-11-21 18:09:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:40] [INFO] Processing XAUUSD
+[2025-11-21 18:09:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:40] [INFO] Processing XAUUSD
+[2025-11-21 18:09:40] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:40] [INFO] Processing XAUUSD
+[2025-11-21 18:09:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:41] [INFO] Processing XAUUSD
+[2025-11-21 18:09:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:41] [INFO] Processing XAUUSD
+[2025-11-21 18:09:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:41] [INFO] Processing XAUUSD
+[2025-11-21 18:09:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:41] [INFO] Processing XAUUSD
+[2025-11-21 18:09:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:41] [INFO] Processing XAUUSD
+[2025-11-21 18:09:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:41] [INFO] Processing XAUUSD
+[2025-11-21 18:09:41] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:41] [INFO] Processing XAUUSD
+[2025-11-21 18:09:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:42] [INFO] Processing XAUUSD
+[2025-11-21 18:09:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:42] [INFO] Processing XAUUSD
+[2025-11-21 18:09:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:42] [INFO] Processing XAUUSD
+[2025-11-21 18:09:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:42] [INFO] Processing XAUUSD
+[2025-11-21 18:09:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:42] [INFO] Processing XAUUSD
+[2025-11-21 18:09:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:42] [INFO] Processing XAUUSD
+[2025-11-21 18:09:42] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:42] [INFO] Processing XAUUSD
+[2025-11-21 18:09:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:43] [INFO] Processing XAUUSD
+[2025-11-21 18:09:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:43] [INFO] Processing XAUUSD
+[2025-11-21 18:09:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:43] [INFO] Processing XAUUSD
+[2025-11-21 18:09:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:43] [INFO] Processing XAUUSD
+[2025-11-21 18:09:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:43] [INFO] Processing XAUUSD
+[2025-11-21 18:09:43] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:43] [INFO] Processing XAUUSD
+[2025-11-21 18:09:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:44] [INFO] Processing XAUUSD
+[2025-11-21 18:09:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:44] [INFO] Processing XAUUSD
+[2025-11-21 18:09:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:44] [INFO] Processing XAUUSD
+[2025-11-21 18:09:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:44] [INFO] Processing XAUUSD
+[2025-11-21 18:09:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:44] [INFO] Processing XAUUSD
+[2025-11-21 18:09:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:44] [INFO] Processing XAUUSD
+[2025-11-21 18:09:44] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:44] [INFO] Processing XAUUSD
+[2025-11-21 18:09:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:45] [INFO] Processing XAUUSD
+[2025-11-21 18:09:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:45] [INFO] Processing XAUUSD
+[2025-11-21 18:09:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:45] [INFO] Processing XAUUSD
+[2025-11-21 18:09:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:45] [INFO] Processing XAUUSD
+[2025-11-21 18:09:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:45] [INFO] Processing XAUUSD
+[2025-11-21 18:09:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:45] [INFO] Processing XAUUSD
+[2025-11-21 18:09:45] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:45] [INFO] Processing XAUUSD
+[2025-11-21 18:09:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:46] [INFO] Processing XAUUSD
+[2025-11-21 18:09:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:46] [INFO] Processing XAUUSD
+[2025-11-21 18:09:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:46] [INFO] Processing XAUUSD
+[2025-11-21 18:09:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:46] [INFO] Processing XAUUSD
+[2025-11-21 18:09:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:46] [INFO] Processing XAUUSD
+[2025-11-21 18:09:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:46] [INFO] Processing XAUUSD
+[2025-11-21 18:09:46] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:46] [INFO] Processing XAUUSD
+[2025-11-21 18:09:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:47] [INFO] Processing XAUUSD
+[2025-11-21 18:09:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:47] [INFO] Processing XAUUSD
+[2025-11-21 18:09:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:47] [INFO] Processing XAUUSD
+[2025-11-21 18:09:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:47] [INFO] Processing XAUUSD
+[2025-11-21 18:09:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:47] [INFO] Processing XAUUSD
+[2025-11-21 18:09:47] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:47] [INFO] Processing XAUUSD
+[2025-11-21 18:09:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:48] [INFO] Processing XAUUSD
+[2025-11-21 18:09:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:48] [INFO] Processing XAUUSD
+[2025-11-21 18:09:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:48] [INFO] Processing XAUUSD
+[2025-11-21 18:09:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:48] [INFO] Processing XAUUSD
+[2025-11-21 18:09:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:48] [INFO] Processing XAUUSD
+[2025-11-21 18:09:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:48] [INFO] Processing XAUUSD
+[2025-11-21 18:09:48] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:48] [INFO] Processing XAUUSD
+[2025-11-21 18:09:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:49] [INFO] Processing XAUUSD
+[2025-11-21 18:09:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:49] [INFO] Processing XAUUSD
+[2025-11-21 18:09:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:49] [INFO] Processing XAUUSD
+[2025-11-21 18:09:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:49] [INFO] Processing XAUUSD
+[2025-11-21 18:09:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:49] [INFO] Processing XAUUSD
+[2025-11-21 18:09:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:49] [INFO] Processing XAUUSD
+[2025-11-21 18:09:49] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:49] [INFO] Processing XAUUSD
+[2025-11-21 18:09:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:50] [INFO] Processing XAUUSD
+[2025-11-21 18:09:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:50] [INFO] Processing XAUUSD
+[2025-11-21 18:09:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:50] [INFO] Processing XAUUSD
+[2025-11-21 18:09:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:50] [INFO] Processing XAUUSD
+[2025-11-21 18:09:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:50] [INFO] Processing XAUUSD
+[2025-11-21 18:09:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:50] [INFO] Processing XAUUSD
+[2025-11-21 18:09:50] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:50] [INFO] Processing XAUUSD
+[2025-11-21 18:09:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:51] [INFO] Processing XAUUSD
+[2025-11-21 18:09:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:51] [INFO] Processing XAUUSD
+[2025-11-21 18:09:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:51] [INFO] Processing XAUUSD
+[2025-11-21 18:09:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:51] [INFO] Processing XAUUSD
+[2025-11-21 18:09:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:51] [INFO] Processing XAUUSD
+[2025-11-21 18:09:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:51] [INFO] Processing XAUUSD
+[2025-11-21 18:09:51] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:51] [INFO] Processing XAUUSD
+[2025-11-21 18:09:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:52] [INFO] Processing XAUUSD
+[2025-11-21 18:09:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:52] [INFO] Processing XAUUSD
+[2025-11-21 18:09:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:52] [INFO] Processing XAUUSD
+[2025-11-21 18:09:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:52] [INFO] Processing XAUUSD
+[2025-11-21 18:09:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:52] [INFO] Processing XAUUSD
+[2025-11-21 18:09:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:52] [INFO] Processing XAUUSD
+[2025-11-21 18:09:52] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:52] [INFO] Processing XAUUSD
+[2025-11-21 18:09:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:53] [INFO] Processing XAUUSD
+[2025-11-21 18:09:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:53] [INFO] Processing XAUUSD
+[2025-11-21 18:09:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:53] [INFO] Processing XAUUSD
+[2025-11-21 18:09:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:53] [INFO] Processing XAUUSD
+[2025-11-21 18:09:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:53] [INFO] Processing XAUUSD
+[2025-11-21 18:09:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:53] [INFO] Processing XAUUSD
+[2025-11-21 18:09:53] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:53] [INFO] Processing XAUUSD
+[2025-11-21 18:09:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:54] [INFO] Processing XAUUSD
+[2025-11-21 18:09:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:54] [INFO] Processing XAUUSD
+[2025-11-21 18:09:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:54] [INFO] Processing XAUUSD
+[2025-11-21 18:09:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:54] [INFO] Processing XAUUSD
+[2025-11-21 18:09:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:54] [INFO] Processing XAUUSD
+[2025-11-21 18:09:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:54] [INFO] Processing XAUUSD
+[2025-11-21 18:09:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:54] [INFO] Processing XAUUSD
+[2025-11-21 18:09:54] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:54] [INFO] Processing XAUUSD
+[2025-11-21 18:09:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:55] [INFO] Processing XAUUSD
+[2025-11-21 18:09:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:55] [INFO] Processing XAUUSD
+[2025-11-21 18:09:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:55] [INFO] Processing XAUUSD
+[2025-11-21 18:09:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:55] [INFO] Processing XAUUSD
+[2025-11-21 18:09:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:55] [INFO] Processing XAUUSD
+[2025-11-21 18:09:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:55] [INFO] Processing XAUUSD
+[2025-11-21 18:09:55] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:55] [INFO] Processing XAUUSD
+[2025-11-21 18:09:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:56] [INFO] Processing XAUUSD
+[2025-11-21 18:09:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:56] [INFO] Processing XAUUSD
+[2025-11-21 18:09:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:56] [INFO] Processing XAUUSD
+[2025-11-21 18:09:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:56] [INFO] Processing XAUUSD
+[2025-11-21 18:09:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:56] [INFO] Processing XAUUSD
+[2025-11-21 18:09:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:56] [INFO] Processing XAUUSD
+[2025-11-21 18:09:56] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:56] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:00:00
+[2025-11-21 18:09:57] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:00:00: Close 4079.15000 not above last high 4081.20000
+[2025-11-21 18:09:57] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:01:00: Close 4079.81000 not above last high 4081.20000
+[2025-11-21 18:09:57] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:02:00: Close 4080.70000 not above last high 4081.20000
+[2025-11-21 18:09:57] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:03:00: Close 4080.58000 not above last high 4081.20000
+[2025-11-21 18:09:57] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:57] [INFO] BoS confirmed for XAUUSD: Bullish break above 4081.20000
+[2025-11-21 18:09:57] [INFO] Adaptive risk for XAUUSD: 0.58% (ATR factor: 0.58)
+[2025-11-21 18:09:57] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:04:00: Risk=0.58%
+[2025-11-21 18:09:57] [INFO] Entry price set for XAUUSD: 4082.36000
+[2025-11-21 18:09:57] [INFO] Fixed SL for XAUUSD: 4077.36000 (500 pips)
+[2025-11-21 18:09:57] [INFO] Calculated TP for XAUUSD: 4097.36000 (RR=3.00)
+[2025-11-21 18:09:57] [INFO] Fallback TP (fixed RR) for XAUUSD: 4097.36000, RR=3.00
+[2025-11-21 18:09:57] [TRADE] XAUUSD | Bullish @ 4082.36000 | SL: 4077.36000 | TP: 4097.36000 | Lot: 0.20
+[2025-11-21 18:09:57] [SUCCESS] Trade simulated for XAUUSD in backtest
+[2025-11-21 18:09:57] [TRADE] XAUUSD | Bullish @ 4082.36000 | SL: 4077.36000 | TP: 4097.36000 | Lot: 0.19 | RR: 2.999999999999909 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 18:09:57] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:33:00
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:33:00: Close 4078.16000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:34:00: Close 4077.55000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:35:00: Close 4077.45000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:36:00: Close 4080.66000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:37:00: Close 4083.02000 not above last high 4086.53000
+[2025-11-21 18:09:58] [WARN] HTF timeout for XAUUSD - Resetting after 5.0min, 5 attempts
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:39:00
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:39:00: Close 4081.83000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:40:00: Close 4079.73000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:41:00: Close 4079.14000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:42:00: Close 4078.82000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:43:00: Close 4078.31000 not above last high 4086.53000
+[2025-11-21 18:09:58] [WARN] HTF timeout for XAUUSD - Resetting after 5.0min, 5 attempts
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:45:00
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:45:00: Close 4079.44000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 1/4, Time: 1.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:46:00: Close 4079.11000 not above last high 4086.53000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 2/4, Time: 2.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:47:00: Close 4079.59000 not above last high 4084.51000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 3/4, Time: 3.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:48:00: Close 4081.06000 not above last high 4084.51000
+[2025-11-21 18:09:58] [INFO] HTF active for XAUUSD - Attempt 4/4, Time: 4.0min
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] BoS failed for XAUUSD at 2025-11-19 20:49:00: Close 4081.46000 not above last high 4084.51000
+[2025-11-21 18:09:58] [WARN] HTF timeout for XAUUSD - Resetting after 5.0min, 5 attempts
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:51:00
+[2025-11-21 18:09:58] [INFO] BoS confirmed for XAUUSD: Bullish break above 4084.51000
+[2025-11-21 18:09:58] [INFO] Adaptive risk for XAUUSD: 0.95% (ATR factor: 0.95)
+[2025-11-21 18:09:58] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:51:00: Risk=0.95%
+[2025-11-21 18:09:58] [INFO] Entry price set for XAUUSD: 4087.27000
+[2025-11-21 18:09:58] [INFO] Fixed SL for XAUUSD: 4082.27000 (500 pips)
+[2025-11-21 18:09:58] [INFO] Calculated TP for XAUUSD: 4102.27000 (RR=3.00)
+[2025-11-21 18:09:58] [INFO] Fallback TP (fixed RR) for XAUUSD: 4102.27000, RR=3.00
+[2025-11-21 18:09:58] [TRADE] XAUUSD | Bullish @ 4087.27000 | SL: 4082.27000 | TP: 4102.27000 | Lot: 0.20
+[2025-11-21 18:09:58] [SUCCESS] Trade simulated for XAUUSD in backtest
+[2025-11-21 18:09:58] [TRADE] XAUUSD | Bullish @ 4087.27000 | SL: 4082.27000 | TP: 4102.27000 | Lot: 0.19 | RR: 3.000000000000091 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:58] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:58] [INFO] Processing XAUUSD
+[2025-11-21 18:09:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:59] [INFO] Processing XAUUSD
+[2025-11-21 18:09:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:59] [INFO] Processing XAUUSD
+[2025-11-21 18:09:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:59] [INFO] Processing XAUUSD
+[2025-11-21 18:09:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:59] [INFO] Processing XAUUSD
+[2025-11-21 18:09:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:59] [INFO] Processing XAUUSD
+[2025-11-21 18:09:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:59] [INFO] Processing XAUUSD
+[2025-11-21 18:09:59] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:09:59] [INFO] Processing XAUUSD
+[2025-11-21 18:10:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:00] [INFO] Processing XAUUSD
+[2025-11-21 18:10:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:00] [INFO] Processing XAUUSD
+[2025-11-21 18:10:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:00] [INFO] Processing XAUUSD
+[2025-11-21 18:10:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:00] [INFO] Processing XAUUSD
+[2025-11-21 18:10:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:00] [INFO] Processing XAUUSD
+[2025-11-21 18:10:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:00] [INFO] Processing XAUUSD
+[2025-11-21 18:10:00] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:00] [INFO] Processing XAUUSD
+[2025-11-21 18:10:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:01] [INFO] Processing XAUUSD
+[2025-11-21 18:10:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:01] [INFO] Processing XAUUSD
+[2025-11-21 18:10:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:01] [INFO] Processing XAUUSD
+[2025-11-21 18:10:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:01] [INFO] Processing XAUUSD
+[2025-11-21 18:10:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:01] [INFO] Processing XAUUSD
+[2025-11-21 18:10:01] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:01] [INFO] Processing XAUUSD
+[2025-11-21 18:10:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:02] [INFO] Processing XAUUSD
+[2025-11-21 18:10:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:02] [INFO] Processing XAUUSD
+[2025-11-21 18:10:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:02] [INFO] Processing XAUUSD
+[2025-11-21 18:10:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:02] [INFO] Processing XAUUSD
+[2025-11-21 18:10:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:02] [INFO] Processing XAUUSD
+[2025-11-21 18:10:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:02] [INFO] Processing XAUUSD
+[2025-11-21 18:10:02] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:02] [INFO] Processing XAUUSD
+[2025-11-21 18:10:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:03] [INFO] Processing XAUUSD
+[2025-11-21 18:10:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:03] [INFO] Processing XAUUSD
+[2025-11-21 18:10:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:03] [INFO] Processing XAUUSD
+[2025-11-21 18:10:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:03] [INFO] Processing XAUUSD
+[2025-11-21 18:10:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:03] [INFO] Processing XAUUSD
+[2025-11-21 18:10:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:03] [INFO] Processing XAUUSD
+[2025-11-21 18:10:03] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:04] [INFO] Processing XAUUSD
+[2025-11-21 18:10:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:04] [INFO] Processing XAUUSD
+[2025-11-21 18:10:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:04] [INFO] Processing XAUUSD
+[2025-11-21 18:10:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:04] [INFO] Processing XAUUSD
+[2025-11-21 18:10:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:04] [INFO] Processing XAUUSD
+[2025-11-21 18:10:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:04] [INFO] Processing XAUUSD
+[2025-11-21 18:10:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:04] [INFO] Processing XAUUSD
+[2025-11-21 18:10:04] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:04] [INFO] Processing XAUUSD
+[2025-11-21 18:10:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:05] [INFO] Processing XAUUSD
+[2025-11-21 18:10:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:05] [INFO] Processing XAUUSD
+[2025-11-21 18:10:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:05] [INFO] Processing XAUUSD
+[2025-11-21 18:10:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:05] [INFO] Processing XAUUSD
+[2025-11-21 18:10:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:05] [INFO] Processing XAUUSD
+[2025-11-21 18:10:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:05] [INFO] Processing XAUUSD
+[2025-11-21 18:10:05] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:05] [INFO] Processing XAUUSD
+[2025-11-21 18:10:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:06] [INFO] Processing XAUUSD
+[2025-11-21 18:10:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:06] [INFO] Processing XAUUSD
+[2025-11-21 18:10:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:06] [INFO] Processing XAUUSD
+[2025-11-21 18:10:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:06] [INFO] Processing XAUUSD
+[2025-11-21 18:10:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:06] [INFO] Processing XAUUSD
+[2025-11-21 18:10:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:06] [INFO] Processing XAUUSD
+[2025-11-21 18:10:06] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:06] [INFO] Processing XAUUSD
+[2025-11-21 18:10:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:07] [INFO] Processing XAUUSD
+[2025-11-21 18:10:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:07] [INFO] Processing XAUUSD
+[2025-11-21 18:10:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:07] [INFO] Processing XAUUSD
+[2025-11-21 18:10:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:07] [INFO] Processing XAUUSD
+[2025-11-21 18:10:07] [SKIP] No sweep detected on HTF for XAUUSD
+[2025-11-21 18:10:07] [INFO] Processing XAUUSD took 105.93 seconds (65.08 candles/s)
+[2025-11-21 18:10:07] [INFO] Trade signals found for XAUUSD: 4

@@ -1,0 +1,350 @@
+[2025-08-05 00:20:21] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754342e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754342e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:20:52] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754342e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754342e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:21:23] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754342e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754342e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:21:54] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:22:25] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:22:56] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:23:26] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:23:57] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:24:28] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:24:59] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95633  1.95835  0.00202           97  ...      1.95835  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:25:30] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           97  ...      1.95858  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           97  ...      1.95858  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:35:49] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           95  ...      1.95858  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           95  ...      1.95858  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:36:19] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           95  ...      1.95858  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           95  ...      1.95858  EURNZD         M5    1.754343e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:46:38] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           93  ...      1.95858  EURNZD         M5    1.754344e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           93  ...      1.95858  EURNZD         M5    1.754344e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:47:08] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           93  ...      1.95858  EURNZD         M5    1.754344e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           93  ...      1.95858  EURNZD         M5    1.754344e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:47:39] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           93  ...      1.95858  EURNZD         M5    1.754344e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           93  ...      1.95858  EURNZD         M5    1.754344e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:55:24] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:55:55] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:56:25] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:56:56] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:57:27] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:57:58] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:58:30] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:59:01] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-08-05 00:59:32] Detected FVG for EURNZD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.95763  1.95858  0.00095           91  ...      1.95858  EURNZD         M5    1.754345e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+

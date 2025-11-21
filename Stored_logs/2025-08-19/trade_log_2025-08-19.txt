@@ -1,0 +1,6 @@
+[2025-08-15 00:00:02] [INFO] Daily bias for EURUSD: Neutral
+[2025-08-15 00:00:02] [INFO] Daily bias for GBPUSD: Neutral
+[2025-08-15 00:00:02] [INFO] Daily bias for XAUUSD: Bearish
+[2025-08-15 00:00:02] [INFO] Daily bias for EURGBP: Neutral
+[2025-08-15 00:00:02] [INFO] Daily bias for EURNZD: Bullish
+[2025-08-15 00:04:11] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0

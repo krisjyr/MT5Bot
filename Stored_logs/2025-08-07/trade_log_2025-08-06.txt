@@ -1,0 +1,320 @@
+[2025-08-06 00:00:02] [INFO] Daily bias for EURUSD: Neutral
+[2025-08-06 00:00:02] [INFO] Daily bias for GBPUSD: Neutral
+[2025-08-06 00:00:02] [INFO] Daily bias for XAUUSD: Neutral
+[2025-08-06 00:00:02] [INFO] Daily bias for EURGBP: Neutral
+[2025-08-06 00:00:02] [INFO] Daily bias for EURNZD: Neutral
+[2025-08-06 04:25:44] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:25:44] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:26:14] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:26:45] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:26:45] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:26:45] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:28:18] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:28:18] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:28:18] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:28:18] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:28:49] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:28:49] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:28:50] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:28:50] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:29:21] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:29:21] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:29:21] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:29:21] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:29:52] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:29:52] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:29:52] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:29:52] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:30:23] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:30:23] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:30:23] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:30:23] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:30:54] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:30:54] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:31:25] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:31:56] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:31:56] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:31:56] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:42:15] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:42:15] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:42:15] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:42:15] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:52:34] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-06 04:52:34] [SUCCESS] FVG found for EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:52:34] [SUCCESS] FVG SL set for EURUSD: SL=1.15621
+[2025-08-06 04:52:34] [SUCCESS] FVG tapped on EURUSD: 1.15661 - 1.15768 | Type: Bullish | Timeframe: H1
+[2025-08-06 04:57:43] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-06 07:48:52] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 07:59:11] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 09:27:14] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-06 09:28:15] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 09:37:28] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-06 09:38:30] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 09:47:42] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-06 09:48:43] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 09:57:56] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-06 09:58:58] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 11:19:32] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-06 11:29:50] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-06 11:40:08] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-06 11:50:26] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-06 13:08:10] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:08:10] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:08:10] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:08:10] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:08:10] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:08:40] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:08:40] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:08:41] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:08:41] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:09:11] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:09:12] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:09:12] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:09:12] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:09:42] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:09:42] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:09:43] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:09:43] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:10:13] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:10:13] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:10:44] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:11:14] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:11:45] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:12:16] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:12:16] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:12:16] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:12:47] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:12:47] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:12:47] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:12:47] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:13:18] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:13:18] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:13:18] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:13:18] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:13:49] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:13:49] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:13:49] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:13:49] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:14:20] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:14:20] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:14:20] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:14:20] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:14:51] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:14:51] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:14:51] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:14:51] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:15:22] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:15:22] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:15:52] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:16:23] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:16:53] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:17:24] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:17:24] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:17:24] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:17:55] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:17:55] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:17:55] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:17:56] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:18:26] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:18:27] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:18:27] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:18:27] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:18:27] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:18:58] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:18:58] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:18:58] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:18:58] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:19:29] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:19:29] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:19:29] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:19:29] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:20:00] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:20:00] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:20:00] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:20:00] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:20:31] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:20:31] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:21:01] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:21:32] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:21:32] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:22:02] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:22:33] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:22:33] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:22:33] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:23:04] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:23:04] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:23:04] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:23:04] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:23:35] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:23:35] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:23:35] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:23:35] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:24:05] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:24:05] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:24:05] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:24:05] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:24:36] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:24:36] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:24:36] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:24:36] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:25:07] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:25:07] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:25:07] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:25:07] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:25:38] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:25:38] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:26:08] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:26:38] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:27:09] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:27:39] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:28:10] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:28:40] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:28:40] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:28:40] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:28:41] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:29:11] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:29:11] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:29:11] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:29:11] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:29:42] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:29:42] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:29:42] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:29:42] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:30:13] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:30:13] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:30:13] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:30:13] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:30:43] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:30:43] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:31:14] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:31:44] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:31:45] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:32:15] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:32:45] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:33:16] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:33:46] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:33:46] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:33:46] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:34:17] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:34:17] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:34:17] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:34:17] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:34:48] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:34:48] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:34:48] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:34:48] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:35:18] [SUCCESS] FVG found for EURUSD: 1.15971 - 1.16002 | Type: Bearish | Timeframe: M5
+[2025-08-06 13:35:18] [SUCCESS] FVG SL set for EURUSD: SL=1.16042
+[2025-08-06 13:35:18] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:35:19] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:35:19] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:35:19] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:35:49] [SUCCESS] FVG found for EURUSD: 1.15971 - 1.16002 | Type: Bearish | Timeframe: M5
+[2025-08-06 13:35:49] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:35:49] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:36:20] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:36:20] [SUCCESS] FVG found for EURUSD: 1.15971 - 1.16002 | Type: Bearish | Timeframe: M5
+[2025-08-06 13:36:50] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:37:21] [SUCCESS] FVG found for EURUSD: 1.15971 - 1.16002 | Type: Bearish | Timeframe: M5
+[2025-08-06 13:37:21] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:37:51] [SUCCESS] FVG found for EURUSD: 1.15971 - 1.16002 | Type: Bearish | Timeframe: M5
+[2025-08-06 13:37:51] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:38:22] [SUCCESS] FVG found for EURUSD: 1.15971 - 1.16002 | Type: Bearish | Timeframe: M5
+[2025-08-06 13:38:22] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:38:52] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:38:52] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:38:52] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:38:53] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:38:53] [SUCCESS] FVG found for EURUSD: 1.15971 - 1.16002 | Type: Bearish | Timeframe: M5
+[2025-08-06 13:38:53] [SUCCESS] FVG SL set for EURUSD: SL=1.16042
+[2025-08-06 13:38:53] [SUCCESS] FVG tapped on EURUSD: 1.15971 - 1.16002 | Type: Bearish | Timeframe: M5
+[2025-08-06 13:39:23] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:39:23] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:39:23] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:39:23] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:39:54] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:39:54] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:39:54] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:39:54] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:40:25] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:40:25] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:40:25] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:40:25] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:40:56] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:40:56] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:41:26] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:41:56] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:41:57] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:42:27] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:42:57] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:42:57] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:42:57] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:43:28] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:43:28] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:43:28] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:43:28] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:43:59] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:43:59] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:43:59] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:43:59] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:44:30] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:44:30] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:44:30] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:44:30] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:45:01] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:45:01] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:45:31] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:45:31] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:46:01] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:46:32] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:47:02] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:47:02] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:47:02] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:47:33] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:47:33] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:47:33] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:47:33] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:48:04] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:48:04] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:48:04] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:48:04] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:48:35] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:48:35] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:48:35] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:48:35] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:49:05] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:49:05] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:49:05] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:49:05] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:49:36] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:49:36] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:49:36] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:49:36] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:50:07] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:50:07] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:50:37] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:51:07] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:51:38] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:52:08] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:52:08] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:52:08] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:52:09] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-06 13:52:40] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:52:40] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:52:40] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:52:40] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:53:10] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:53:10] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:53:10] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:53:10] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:53:41] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:53:41] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:53:41] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:53:41] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:54:12] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 13:54:12] [SUCCESS] FVG found for EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:54:12] [SUCCESS] FVG SL set for EURNZD: SL=1.95680
+[2025-08-06 13:54:12] [SUCCESS] FVG tapped on EURNZD: 1.95526 - 1.95640 | Type: Bearish | Timeframe: H1
+[2025-08-06 13:55:43] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-06 21:42:54] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-06 21:53:13] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0

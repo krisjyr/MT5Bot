@@ -1,0 +1,406 @@
+[2025-08-02 00:00:29] [INFO] Daily bias for EURUSD: Neutral
+[2025-08-02 00:00:29] [INFO] Daily bias for GBPUSD: Neutral
+[2025-08-02 00:00:29] [INFO] Daily bias for XAUUSD: Neutral
+[2025-08-02 00:00:29] [INFO] Daily bias for EURGBP: Bullish
+[2025-08-02 00:00:29] [INFO] Daily bias for EURNZD: Bullish
+[2025-08-02 00:05:25] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:21:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:23:53] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:25:01] [INFO] Daily bias for EURUSD: Neutral
+[2025-08-02 00:25:01] [INFO] Daily bias for GBPUSD: Neutral
+[2025-08-02 00:25:01] [INFO] Daily bias for XAUUSD: Neutral
+[2025-08-02 00:25:01] [INFO] Daily bias for EURGBP: Bullish
+[2025-08-02 00:25:01] [INFO] Daily bias for EURNZD: Bullish
+[2025-08-02 00:34:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:38:22] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:44:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:55:29] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:55:29] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:55:29] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:29] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:29] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:29] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:29] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:29] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:29] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:29] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:29] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:29] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:29] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:29] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:29] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:29] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:30] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:30] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:30] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:30] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:31] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:31] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:31] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:31] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:31] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:31] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:31] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:31] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:31] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:33] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:55:36] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:55:36] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:55:42] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:42] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:42] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:48] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:48] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:48] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:48] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:48] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:48] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:48] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:48] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:48] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:48] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:55:48] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:48] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:48] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:48] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:48] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:48] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:55:48] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:55:48] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:01] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:56:01] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:01] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:01] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:01] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:01] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:01] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:01] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:01] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:01] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:56:01] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:01] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:01] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:01] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:01] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:01] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:01] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:01] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:03] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:56:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:03] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:56:04] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:04] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:04] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:04] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:04] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:04] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:04] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:04] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:19] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:56:20] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:20] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:20] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:20] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:20] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:20] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:20] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:20] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:24] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:56:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:56:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:32] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:32] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:33] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:33] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:33] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:56:33] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:56:45] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:52] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:52] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:52] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:56:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:57:10] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:57:10] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:10] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:10] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:10] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:10] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:10] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:10] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:10] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:21] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 00:57:24] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:57:24] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:24] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:24] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:24] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:24] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:24] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:24] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:24] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:24] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 00:57:24] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:24] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:24] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:24] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:24] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:24] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 00:57:24] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 00:57:24] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:05:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:05:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:09] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:09] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:09] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:09] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:09] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:09] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:09] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:09] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:09] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:09] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:09] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:09] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:10] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:10] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:10] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:10] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:11] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:11] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:11] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:11] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:11] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:11] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:11] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:11] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:11] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:12] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:12] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:13] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:05:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:05:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:05:22] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:22] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:22] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:28] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:28] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:28] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:28] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:28] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:28] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:28] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:28] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:28] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:28] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:28] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:28] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:28] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:28] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:28] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:28] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:41] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:41] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:41] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:41] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:41] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:41] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:41] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:41] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:41] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:41] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:41] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:41] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:41] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:41] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:41] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:41] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:41] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:43] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:43] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:43] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:43] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:43] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:43] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:43] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:43] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:43] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:43] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:43] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:43] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:43] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:43] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:43] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:43] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:43] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:43] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:05:59] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:59] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:59] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:59] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:59] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:59] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:05:59] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:05:59] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:04] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:12] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:06:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:12] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:06:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:12] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:12] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:25] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:30] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:30] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:31] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:31] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:31] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:06:49] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:06:49] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:49] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:49] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:49] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:49] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:49] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:06:50] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:06:50] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:07:00] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-02 01:07:03] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:07:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:07:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:07:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:07:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:07:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:07:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:07:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:07:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:07:03] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0
+[2025-08-02 01:07:03] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:07:03] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:07:04] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:07:04] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:07:04] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:07:04] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000
+[2025-08-02 01:07:04] [SUCCESS] FVG found for XAUUSD: 3301.32000 - 3338.85000 | Type: Bullish | Timeframe: H1
+[2025-08-02 01:07:04] [SUCCESS] FVG SL set for XAUUSD: SL=3300.92000

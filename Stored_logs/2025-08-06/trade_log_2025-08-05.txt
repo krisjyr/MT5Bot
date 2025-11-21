@@ -1,0 +1,134 @@
+[2025-08-05 15:14:19] [INFO] Daily bias for EURUSD: Neutral
+[2025-08-05 15:14:19] [INFO] Daily bias for GBPUSD: Neutral
+[2025-08-05 15:14:19] [INFO] Daily bias for XAUUSD: Neutral
+[2025-08-05 15:14:19] [INFO] Daily bias for EURGBP: Neutral
+[2025-08-05 15:14:19] [INFO] Daily bias for EURNZD: Neutral
+[2025-08-05 16:31:07] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 16:35:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-05 16:35:15] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:35:45] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:36:16] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:36:47] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:37:17] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:37:17] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:37:48] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:37:48] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:38:19] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:38:19] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:38:49] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:38:49] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:39:20] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:39:20] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:39:51] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:39:51] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:40:22] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:40:52] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:41:23] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:41:24] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 16:41:54] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:42:25] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:42:25] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:42:55] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:42:55] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:43:26] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:43:26] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:43:57] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:43:57] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:44:27] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:44:27] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:44:58] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:44:58] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:45:30] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-05 16:45:30] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:46:00] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:46:31] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:47:01] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:47:32] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:47:32] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:48:03] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:48:03] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:48:33] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:48:33] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:49:04] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:49:04] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:49:35] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:49:35] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:50:05] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:50:05] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:50:36] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:51:07] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:51:38] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:51:38] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 16:52:09] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:52:39] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:52:39] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:53:10] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:53:10] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:53:41] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:53:41] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:54:11] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:54:11] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:54:42] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:54:42] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:55:13] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:55:13] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:55:13] [SUCCESS] FVG SL set for GBPUSD: SL=1.32894
+[2025-08-05 16:55:13] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:55:44] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:55:44] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-05 16:55:44] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:56:15] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:56:15] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:56:45] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:56:45] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:57:16] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:57:16] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:57:47] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:57:47] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:57:47] [SUCCESS] FVG SL set for GBPUSD: SL=1.32894
+[2025-08-05 16:57:47] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:58:17] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:58:17] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:58:17] [SUCCESS] FVG SL set for GBPUSD: SL=1.32894
+[2025-08-05 16:58:17] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:58:48] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:58:48] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:58:48] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:58:48] [SUCCESS] FVG SL set for GBPUSD: SL=1.32894
+[2025-08-05 16:59:19] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:59:19] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:59:19] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:59:19] [SUCCESS] FVG SL set for GBPUSD: SL=1.32894
+[2025-08-05 16:59:50] [SUCCESS] FVG found for GBPUSD: 1.32816 - 1.32854 | Type: Bearish | Timeframe: M5
+[2025-08-05 16:59:50] [SUCCESS] FVG found for XAUUSD: 3354.28000 - 3359.03000 | Type: Bearish | Timeframe: H1
+[2025-08-05 16:59:50] [SUCCESS] FVG SL set for XAUUSD: SL=3359.43000
+[2025-08-05 16:59:50] [SUCCESS] FVG SL set for GBPUSD: SL=1.32894
+[2025-08-05 17:00:20] [SUCCESS] FVG found for GBPUSD: 1.32775 - 1.32809 | Type: Bearish | Timeframe: M5
+[2025-08-05 17:00:20] [SUCCESS] FVG SL set for GBPUSD: SL=1.32849
+[2025-08-05 17:00:20] [SUCCESS] FVG tapped on GBPUSD: 1.32775 - 1.32809 | Type: Bearish | Timeframe: M5
+[2025-08-05 17:48:33] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-05 17:54:44] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-05 17:54:45] [SUCCESS] FVG found for EURUSD: 1.15646 - 1.15705 | Type: Bearish | Timeframe: H1
+[2025-08-05 17:54:45] [SUCCESS] FVG SL set for EURUSD: SL=1.15745
+[2025-08-05 17:55:15] [SUCCESS] FVG found for EURUSD: 1.15646 - 1.15705 | Type: Bearish | Timeframe: H1
+[2025-08-05 17:55:15] [SUCCESS] FVG SL set for EURUSD: SL=1.15745
+[2025-08-05 17:55:46] [SUCCESS] FVG found for EURUSD: 1.15646 - 1.15705 | Type: Bearish | Timeframe: H1
+[2025-08-05 17:56:17] [SUCCESS] FVG found for EURUSD: 1.15646 - 1.15705 | Type: Bearish | Timeframe: H1
+[2025-08-05 17:56:47] [SUCCESS] FVG found for EURUSD: 1.15646 - 1.15705 | Type: Bearish | Timeframe: H1
+[2025-08-05 17:56:47] [SUCCESS] FVG SL set for EURUSD: SL=1.15745
+[2025-08-05 17:57:18] [SUCCESS] FVG found for EURUSD: 1.15646 - 1.15705 | Type: Bearish | Timeframe: H1
+[2025-08-05 17:57:18] [SUCCESS] FVG SL set for EURUSD: SL=1.15745
+[2025-08-05 17:57:49] [SUCCESS] FVG found for EURUSD: 1.15646 - 1.15705 | Type: Bearish | Timeframe: H1
+[2025-08-05 17:57:49] [SUCCESS] FVG SL set for EURUSD: SL=1.15745
+[2025-08-05 17:57:49] [SUCCESS] FVG tapped on EURUSD: 1.15646 - 1.15705 | Type: Bearish | Timeframe: H1
+[2025-08-05 17:58:50] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bearish | Score: 1.0
+[2025-08-05 18:04:59] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 18:04:59] [SUCCESS] FVG found for GBPUSD: 1.32775 - 1.32809 | Type: Bearish | Timeframe: M5
+[2025-08-05 18:04:59] [SUCCESS] FVG SL set for GBPUSD: SL=1.32849
+[2025-08-05 18:04:59] [SUCCESS] FVG tapped on GBPUSD: 1.32775 - 1.32809 | Type: Bearish | Timeframe: M5
+[2025-08-05 18:05:30] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 18:15:47] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 18:26:05] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 18:36:24] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 18:46:43] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-05 18:57:01] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0

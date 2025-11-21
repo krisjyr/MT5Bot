@@ -1,0 +1,117 @@
+[2025-11-21 06:08:37] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:00:00
+[2025-11-21 06:08:37] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:06:00
+[2025-11-21 06:08:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:12:00
+[2025-11-21 06:08:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:18:00
+[2025-11-21 06:08:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:24:00
+[2025-11-21 06:08:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:30:00
+[2025-11-21 06:08:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:36:00
+[2025-11-21 06:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:48:00
+[2025-11-21 06:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 08:54:00
+[2025-11-21 06:09:06] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 12:00:00
+[2025-11-21 06:09:06] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 12:06:00
+[2025-11-21 06:09:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 12:12:00
+[2025-11-21 06:09:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 12:18:00
+[2025-11-21 06:09:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 12:24:00
+[2025-11-21 06:09:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 12:30:00
+[2025-11-21 06:09:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-10-27 12:36:00
+[2025-11-21 06:09:07] [SUCCESS] BoS confirmed for XAUUSD at 2025-10-27 12:37:00: Risk=0.95%
+[2025-11-21 06:16:55] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:00:00
+[2025-11-21 06:16:55] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:06:00
+[2025-11-21 06:16:55] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 09:07:00: Risk=0.78%
+[2025-11-21 06:16:55] [TRADE] XAUUSD | Bearish @ 4087.18000 | SL: 4092.18000 | TP: 4072.18000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 06:16:55] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:35:00
+[2025-11-21 06:16:55] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:41:00
+[2025-11-21 06:16:55] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:47:00
+[2025-11-21 06:16:56] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:53:00
+[2025-11-21 06:16:56] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:59:00
+[2025-11-21 06:16:56] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 10:00:00: Risk=1.11%
+[2025-11-21 06:16:56] [TRADE] XAUUSD | Bearish @ 4084.66000 | SL: 4089.66000 | TP: 4069.66000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 06:18:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:00:00
+[2025-11-21 06:18:17] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:04:00: Risk=0.58%
+[2025-11-21 06:18:17] [TRADE] XAUUSD | Bullish @ 4082.36000 | SL: 4077.36000 | TP: 4097.36000 | Lot: 0.19 | RR: 2.999999999999909 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 06:18:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:33:00
+[2025-11-21 06:18:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:39:00
+[2025-11-21 06:18:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:45:00
+[2025-11-21 06:18:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:51:00
+[2025-11-21 06:18:17] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:51:00: Risk=0.95%
+[2025-11-21 06:18:17] [TRADE] XAUUSD | Bullish @ 4087.27000 | SL: 4082.27000 | TP: 4102.27000 | Lot: 0.19 | RR: 3.000000000000091 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 17:44:06] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:00:00
+[2025-11-21 17:44:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:06:00
+[2025-11-21 17:44:07] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 09:07:00: Risk=0.78%
+[2025-11-21 17:44:07] [TRADE] XAUUSD | Bearish @ 4087.18000 | SL: 4092.18000 | TP: 4072.18000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 17:44:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:35:00
+[2025-11-21 17:44:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:41:00
+[2025-11-21 17:44:07] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:47:00
+[2025-11-21 17:44:08] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:53:00
+[2025-11-21 17:44:08] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:59:00
+[2025-11-21 17:44:08] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 10:00:00: Risk=1.11%
+[2025-11-21 17:44:08] [TRADE] XAUUSD | Bearish @ 4084.66000 | SL: 4089.66000 | TP: 4069.66000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 17:45:27] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:00:00
+[2025-11-21 17:45:27] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:04:00: Risk=0.58%
+[2025-11-21 17:45:27] [TRADE] XAUUSD | Bullish @ 4082.36000 | SL: 4077.36000 | TP: 4097.36000 | Lot: 0.19 | RR: 2.999999999999909 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 17:45:27] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:33:00
+[2025-11-21 17:45:27] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:39:00
+[2025-11-21 17:45:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:45:00
+[2025-11-21 17:45:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:51:00
+[2025-11-21 17:45:28] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:51:00: Risk=0.95%
+[2025-11-21 17:45:28] [TRADE] XAUUSD | Bullish @ 4087.27000 | SL: 4082.27000 | TP: 4102.27000 | Lot: 0.19 | RR: 3.000000000000091 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 17:51:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:00:00
+[2025-11-21 17:51:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:06:00
+[2025-11-21 17:51:09] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 09:07:00: Risk=0.78%
+[2025-11-21 17:51:09] [TRADE] XAUUSD | Bearish @ 4087.18000 | SL: 4092.18000 | TP: 4072.18000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 17:51:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:35:00
+[2025-11-21 17:51:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:41:00
+[2025-11-21 17:51:10] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:47:00
+[2025-11-21 17:51:10] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:53:00
+[2025-11-21 17:51:10] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:59:00
+[2025-11-21 17:51:10] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 10:00:00: Risk=1.11%
+[2025-11-21 17:51:10] [TRADE] XAUUSD | Bearish @ 4084.66000 | SL: 4089.66000 | TP: 4069.66000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 17:52:31] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:00:00
+[2025-11-21 17:52:31] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:04:00: Risk=0.58%
+[2025-11-21 17:52:31] [TRADE] XAUUSD | Bullish @ 4082.36000 | SL: 4077.36000 | TP: 4097.36000 | Lot: 0.19 | RR: 2.999999999999909 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 17:52:31] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:33:00
+[2025-11-21 17:52:31] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:39:00
+[2025-11-21 17:52:31] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:45:00
+[2025-11-21 17:52:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:51:00
+[2025-11-21 17:52:32] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:51:00: Risk=0.95%
+[2025-11-21 17:52:32] [TRADE] XAUUSD | Bullish @ 4087.27000 | SL: 4082.27000 | TP: 4102.27000 | Lot: 0.19 | RR: 3.000000000000091 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 17:55:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:00:00
+[2025-11-21 17:55:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:06:00
+[2025-11-21 17:55:39] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 09:07:00: Risk=0.78%
+[2025-11-21 17:55:39] [TRADE] XAUUSD | Bearish @ 4087.18000 | SL: 4092.18000 | TP: 4072.18000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 17:55:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:35:00
+[2025-11-21 17:55:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:41:00
+[2025-11-21 17:55:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:47:00
+[2025-11-21 17:55:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:53:00
+[2025-11-21 17:55:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:59:00
+[2025-11-21 17:55:40] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 10:00:00: Risk=1.11%
+[2025-11-21 17:55:40] [TRADE] XAUUSD | Bearish @ 4084.66000 | SL: 4089.66000 | TP: 4069.66000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 17:56:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:00:00
+[2025-11-21 17:56:59] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:04:00: Risk=0.58%
+[2025-11-21 17:56:59] [TRADE] XAUUSD | Bullish @ 4082.36000 | SL: 4077.36000 | TP: 4097.36000 | Lot: 0.19 | RR: 2.999999999999909 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 17:56:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:33:00
+[2025-11-21 17:56:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:39:00
+[2025-11-21 17:56:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:45:00
+[2025-11-21 17:57:00] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:51:00
+[2025-11-21 17:57:00] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:51:00: Risk=0.95%
+[2025-11-21 17:57:00] [TRADE] XAUUSD | Bullish @ 4087.27000 | SL: 4082.27000 | TP: 4102.27000 | Lot: 0.19 | RR: 3.000000000000091 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 17:58:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:00:00
+[2025-11-21 17:58:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:06:00
+[2025-11-21 17:58:17] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 09:07:00: Risk=0.78%
+[2025-11-21 17:58:17] [TRADE] XAUUSD | Bearish @ 4087.18000 | SL: 4092.18000 | TP: 4072.18000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 17:58:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:35:00
+[2025-11-21 17:58:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:41:00
+[2025-11-21 17:58:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:47:00
+[2025-11-21 17:58:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:53:00
+[2025-11-21 17:58:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:59:00
+[2025-11-21 17:58:18] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 10:00:00: Risk=1.11%
+[2025-11-21 17:58:18] [TRADE] XAUUSD | Bearish @ 4084.66000 | SL: 4089.66000 | TP: 4069.66000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
+[2025-11-21 17:59:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:00:00
+[2025-11-21 17:59:38] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:04:00: Risk=0.58%
+[2025-11-21 17:59:38] [TRADE] XAUUSD | Bullish @ 4082.36000 | SL: 4077.36000 | TP: 4097.36000 | Lot: 0.19 | RR: 2.999999999999909 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-21 17:59:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:33:00
+[2025-11-21 17:59:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:39:00
+[2025-11-21 17:59:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:45:00
+[2025-11-21 17:59:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:51:00
+[2025-11-21 17:59:39] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:51:00: Risk=0.95%
+[2025-11-21 17:59:39] [TRADE] XAUUSD | Bullish @ 4087.27000 | SL: 4082.27000 | TP: 4102.27000 | Lot: 0.19 | RR: 3.000000000000091 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00

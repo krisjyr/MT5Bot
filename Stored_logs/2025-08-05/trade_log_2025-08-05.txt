@@ -1,0 +1,75 @@
+[2025-08-05 00:00:13] [INFO] Daily bias for EURUSD: Neutral
+[2025-08-05 00:00:13] [INFO] Daily bias for GBPUSD: Neutral
+[2025-08-05 00:00:13] [INFO] Daily bias for XAUUSD: Neutral
+[2025-08-05 00:00:13] [INFO] Daily bias for EURGBP: Neutral
+[2025-08-05 00:00:13] [INFO] Daily bias for EURNZD: Neutral
+[2025-08-05 00:05:26] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:15:43] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:20:21] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:20:21] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:20:52] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:20:52] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:21:23] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:21:23] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:21:54] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:21:54] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:22:25] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:22:25] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:22:56] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:22:56] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:23:26] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:23:26] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:23:57] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:23:57] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:24:28] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:24:28] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:24:59] [SUCCESS] FVG found for EURNZD: 1.95633 - 1.95835 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:24:59] [SUCCESS] FVG SL set for EURNZD: SL=1.95593
+[2025-08-05 00:25:30] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:25:30] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:25:30] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:35:49] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:35:49] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:36:19] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:36:19] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:36:19] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:46:38] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:46:38] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:47:08] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:47:39] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:47:39] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:47:39] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:55:24] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:55:24] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:55:24] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:55:24] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:55:55] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:55:55] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:56:25] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:56:56] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:56:56] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:56:56] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:57:27] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:57:27] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:57:27] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:57:27] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:57:58] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:57:58] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:57:58] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:57:58] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:58:30] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:58:30] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:58:30] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:58:30] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:59:00] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:59:01] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:59:01] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:59:01] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:59:32] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-05 00:59:32] [SUCCESS] FVG found for EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 00:59:32] [SUCCESS] FVG SL set for EURNZD: SL=1.95723
+[2025-08-05 00:59:32] [SUCCESS] FVG tapped on EURNZD: 1.95763 - 1.95858 | Type: Bullish | Timeframe: M5
+[2025-08-05 01:19:45] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-05 01:30:03] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-05 01:40:21] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-05 01:50:40] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0

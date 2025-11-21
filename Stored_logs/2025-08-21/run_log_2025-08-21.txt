@@ -1,0 +1,3236 @@
+[2025-08-20 01:32:15] [INFO] Fetching data for GBPUSD from 2025-08-08 00:00:00 to 2025-08-18 00:00:00
+[2025-08-20 01:32:15] [INFO] Data fetch for GBPUSD took 0.00 seconds
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD with 1764 candles
+[2025-08-20 01:32:15] [INFO] [DEBUG] Processing GBPUSD at 2025-08-08 13:40:00: htf_candles=17, ltf_candles=101
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:32:15] [SKIP] BoS failed for GBPUSD: Close 1.34244 not above last high 1.34523
+[2025-08-20 01:32:15] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] BoS failed for GBPUSD: Close 1.34233 not above last high 1.34523
+[2025-08-20 01:32:15] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] BoS failed for GBPUSD: Close 1.34288 not above last high 1.34523
+[2025-08-20 01:32:15] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] BoS failed for GBPUSD: Close 1.34302 not above last high 1.34523
+[2025-08-20 01:32:15] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:32:15] [SKIP] BoS failed for GBPUSD: Close 1.34309 not above last high 1.34523
+[2025-08-20 01:32:15] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] BoS failed for GBPUSD: Close 1.34326 not above last high 1.34523
+[2025-08-20 01:32:15] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] BoS failed for GBPUSD: Close 1.34242 not above last high 1.34523
+[2025-08-20 01:32:15] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] BoS failed for GBPUSD: Close 1.34220 not above last high 1.34523
+[2025-08-20 01:32:15] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:15] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:16] [SKIP] BoS failed for GBPUSD: Close 1.34496 not below last low 1.34247
+[2025-08-20 01:32:16] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] BoS failed for GBPUSD: Close 1.34516 not below last low 1.34247
+[2025-08-20 01:32:16] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] BoS failed for GBPUSD: Close 1.34503 not below last low 1.34247
+[2025-08-20 01:32:16] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] BoS failed for GBPUSD: Close 1.34484 not below last low 1.34247
+[2025-08-20 01:32:16] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:16] [SKIP] BoS failed for GBPUSD: Close 1.34442 not below last low 1.34247
+[2025-08-20 01:32:16] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] BoS failed for GBPUSD: Close 1.34442 not below last low 1.34247
+[2025-08-20 01:32:16] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] BoS failed for GBPUSD: Close 1.34414 not below last low 1.34247
+[2025-08-20 01:32:16] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] BoS failed for GBPUSD: Close 1.34441 not below last low 1.34247
+[2025-08-20 01:32:16] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:16] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:17] [SKIP] BoS failed for GBPUSD: Close 1.34553 not below last low 1.34381
+[2025-08-20 01:32:17] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] BoS failed for GBPUSD: Close 1.34561 not below last low 1.34381
+[2025-08-20 01:32:17] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] BoS failed for GBPUSD: Close 1.34553 not below last low 1.34381
+[2025-08-20 01:32:17] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] BoS failed for GBPUSD: Close 1.34527 not below last low 1.34381
+[2025-08-20 01:32:17] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] [DEBUG] Processing GBPUSD at 2025-08-08 22:00:00: htf_candles=26, ltf_candles=101
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:17] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:18] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:19] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:20] [SKIP] BoS failed for GBPUSD: Close 1.34605 not below last low 1.34357
+[2025-08-20 01:32:20] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:20] [INFO] [DEBUG] Processing GBPUSD at 2025-08-11 06:20:00: htf_candles=34, ltf_candles=101
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] BoS failed for GBPUSD: Close 1.34623 not below last low 1.34357
+[2025-08-20 01:32:20] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] BoS failed for GBPUSD: Close 1.34605 not below last low 1.34357
+[2025-08-20 01:32:20] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] BoS failed for GBPUSD: Close 1.34602 not below last low 1.34357
+[2025-08-20 01:32:20] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:20] [SKIP] BoS failed for GBPUSD: Close 1.34618 not below last low 1.34357
+[2025-08-20 01:32:20] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] BoS failed for GBPUSD: Close 1.34633 not below last low 1.34357
+[2025-08-20 01:32:20] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] BoS failed for GBPUSD: Close 1.34636 not below last low 1.34535
+[2025-08-20 01:32:20] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] BoS failed for GBPUSD: Close 1.34644 not below last low 1.34535
+[2025-08-20 01:32:20] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:20] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:21] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:22] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:32:23] [SKIP] BoS failed for GBPUSD: Close 1.34349 not above last high 1.34578
+[2025-08-20 01:32:23] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] BoS failed for GBPUSD: Close 1.34327 not above last high 1.34578
+[2025-08-20 01:32:23] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] BoS failed for GBPUSD: Close 1.34297 not above last high 1.34578
+[2025-08-20 01:32:23] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:23] [INFO] [DEBUG] Processing GBPUSD at 2025-08-11 14:40:00: htf_candles=42, ltf_candles=101
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] BoS failed for GBPUSD: Close 1.34275 not above last high 1.34578
+[2025-08-20 01:32:23] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:32:23] [SKIP] BoS failed for GBPUSD: Close 1.34276 not above last high 1.34578
+[2025-08-20 01:32:23] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] BoS failed for GBPUSD: Close 1.34292 not above last high 1.34578
+[2025-08-20 01:32:23] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] BoS failed for GBPUSD: Close 1.34276 not above last high 1.34578
+[2025-08-20 01:32:23] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] BoS failed for GBPUSD: Close 1.34265 not above last high 1.34578
+[2025-08-20 01:32:23] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:23] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:24] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:25] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:26] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] [DEBUG] Processing GBPUSD at 2025-08-11 23:00:00: htf_candles=51, ltf_candles=101
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:27] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:28] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34335 not below last low 1.34216
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34315 not below last low 1.34216
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34307 not below last low 1.34216
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34280 not below last low 1.34216
+[2025-08-20 01:32:29] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34304 not below last low 1.34216
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34331 not below last low 1.34216
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34328 not below last low 1.34216
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34317 not below last low 1.34216
+[2025-08-20 01:32:29] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34306 not below last low 1.34216
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34293 not below last low 1.34216
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34305 not below last low 1.34275
+[2025-08-20 01:32:29] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] BoS failed for GBPUSD: Close 1.34325 not below last low 1.34275
+[2025-08-20 01:32:29] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:29] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:30] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] [DEBUG] Processing GBPUSD at 2025-08-12 07:20:00: htf_candles=59, ltf_candles=101
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:31] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:32:32] [SKIP] BoS failed for GBPUSD: Close 1.34224 not above last high 1.34395
+[2025-08-20 01:32:32] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] BoS failed for GBPUSD: Close 1.34232 not above last high 1.34395
+[2025-08-20 01:32:32] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] BoS failed for GBPUSD: Close 1.34390 not above last high 1.34395
+[2025-08-20 01:32:32] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] BoS failed for GBPUSD: Close 1.34381 not above last high 1.34395
+[2025-08-20 01:32:32] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:32] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:33] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:34] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:35] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:36] [INFO] Processing GBPUSD
+[2025-08-20 01:32:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:37] [SKIP] BoS failed for GBPUSD: Close 1.34878 not below last low 1.34456
+[2025-08-20 01:32:37] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] BoS failed for GBPUSD: Close 1.34963 not below last low 1.34456
+[2025-08-20 01:32:37] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:37] [INFO] [DEBUG] Processing GBPUSD at 2025-08-12 15:40:00: htf_candles=67, ltf_candles=101
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] BoS failed for GBPUSD: Close 1.34989 not below last low 1.34456
+[2025-08-20 01:32:37] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] BoS failed for GBPUSD: Close 1.34957 not below last low 1.34456
+[2025-08-20 01:32:37] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:37] [SKIP] BoS failed for GBPUSD: Close 1.34846 not below last low 1.34456
+[2025-08-20 01:32:37] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] BoS failed for GBPUSD: Close 1.34791 not below last low 1.34456
+[2025-08-20 01:32:37] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] BoS failed for GBPUSD: Close 1.34775 not below last low 1.34456
+[2025-08-20 01:32:37] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] BoS failed for GBPUSD: Close 1.34799 not below last low 1.34456
+[2025-08-20 01:32:37] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:37] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:38] [SKIP] BoS failed for GBPUSD: Close 1.35139 not below last low 1.34622
+[2025-08-20 01:32:38] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] BoS failed for GBPUSD: Close 1.35070 not below last low 1.34622
+[2025-08-20 01:32:38] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:38] [SKIP] BoS failed for GBPUSD: Close 1.35154 not below last low 1.34622
+[2025-08-20 01:32:38] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:38] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] BoS failed for GBPUSD: Close 1.35205 not below last low 1.34622
+[2025-08-20 01:32:39] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:39] [SKIP] BoS failed for GBPUSD: Close 1.35111 not below last low 1.34622
+[2025-08-20 01:32:39] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] BoS failed for GBPUSD: Close 1.35058 not below last low 1.34622
+[2025-08-20 01:32:39] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] BoS failed for GBPUSD: Close 1.35024 not below last low 1.34622
+[2025-08-20 01:32:39] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] BoS failed for GBPUSD: Close 1.35014 not below last low 1.34622
+[2025-08-20 01:32:39] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:39] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:40] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:41] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] [DEBUG] Processing GBPUSD at 2025-08-13 00:00:00: htf_candles=76, ltf_candles=101
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:42] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:43] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:44] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:45] [INFO] Processing GBPUSD
+[2025-08-20 01:32:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:46] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:47] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:48] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] [DEBUG] Processing GBPUSD at 2025-08-13 08:20:00: htf_candles=84, ltf_candles=101
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:49] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35079 not below last low 1.34920
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35077 not below last low 1.34920
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35096 not below last low 1.34920
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35066 not below last low 1.34988
+[2025-08-20 01:32:50] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35079 not below last low 1.34988
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35101 not below last low 1.34988
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35136 not below last low 1.34988
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35117 not below last low 1.34988
+[2025-08-20 01:32:50] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35143 not below last low 1.34988
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35150 not below last low 1.34988
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35186 not below last low 1.34988
+[2025-08-20 01:32:50] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] BoS failed for GBPUSD: Close 1.35272 not below last low 1.34988
+[2025-08-20 01:32:50] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:50] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:51] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:52] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:53] [INFO] Processing GBPUSD
+[2025-08-20 01:32:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:54] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:55] [INFO] Processing GBPUSD
+[2025-08-20 01:32:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] [DEBUG] Processing GBPUSD at 2025-08-13 16:40:00: htf_candles=92, ltf_candles=101
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:56] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:57] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:58] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:32:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:32:59] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:00] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:01] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:02] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:02] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:33:03] [SKIP] BoS failed for GBPUSD: Close 1.35653 not above last high 1.35781
+[2025-08-20 01:33:03] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] BoS failed for GBPUSD: Close 1.35658 not above last high 1.35781
+[2025-08-20 01:33:03] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] BoS failed for GBPUSD: Close 1.35659 not above last high 1.35781
+[2025-08-20 01:33:03] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:03] [SKIP] BoS failed for GBPUSD: Close 1.35673 not above last high 1.35781
+[2025-08-20 01:33:03] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:03] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:33:04] [SKIP] BoS failed for GBPUSD: Close 1.35680 not above last high 1.35799
+[2025-08-20 01:33:04] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] BoS failed for GBPUSD: Close 1.35660 not above last high 1.35799
+[2025-08-20 01:33:04] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] BoS failed for GBPUSD: Close 1.35682 not above last high 1.35799
+[2025-08-20 01:33:04] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] BoS failed for GBPUSD: Close 1.35707 not above last high 1.35799
+[2025-08-20 01:33:04] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:33:04] [SKIP] BoS failed for GBPUSD: Close 1.35682 not above last high 1.35799
+[2025-08-20 01:33:04] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] BoS failed for GBPUSD: Close 1.35684 not above last high 1.35799
+[2025-08-20 01:33:04] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:04] [INFO] [DEBUG] Processing GBPUSD at 2025-08-14 01:00:00: htf_candles=101, ltf_candles=101
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] BoS failed for GBPUSD: Close 1.35750 not above last high 1.35799
+[2025-08-20 01:33:04] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] BoS failed for GBPUSD: Close 1.35747 not above last high 1.35799
+[2025-08-20 01:33:04] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:04] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:04] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:33:05] [SKIP] BoS failed for GBPUSD: Close 1.35839 not below last low 1.35572
+[2025-08-20 01:33:05] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] BoS failed for GBPUSD: Close 1.35822 not below last low 1.35572
+[2025-08-20 01:33:05] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] BoS failed for GBPUSD: Close 1.35832 not below last low 1.35572
+[2025-08-20 01:33:05] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] BoS failed for GBPUSD: Close 1.35832 not below last low 1.35572
+[2025-08-20 01:33:05] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:05] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:05] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:06] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:06] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:07] [INFO] Processing GBPUSD
+[2025-08-20 01:33:07] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:08] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:08] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:09] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:09] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:10] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:10] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:11] [INFO] Processing GBPUSD
+[2025-08-20 01:33:11] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] [DEBUG] Processing GBPUSD at 2025-08-14 09:20:00: htf_candles=109, ltf_candles=101
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:12] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:12] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:13] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:13] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:14] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:14] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:15] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:15] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:33:16] [SKIP] BoS failed for GBPUSD: Close 1.35862 not below last low 1.35623
+[2025-08-20 01:33:16] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] BoS failed for GBPUSD: Close 1.35865 not below last low 1.35623
+[2025-08-20 01:33:16] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] BoS failed for GBPUSD: Close 1.35836 not below last low 1.35623
+[2025-08-20 01:33:16] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] BoS failed for GBPUSD: Close 1.35833 not below last low 1.35623
+[2025-08-20 01:33:16] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:33:16] [SKIP] BoS failed for GBPUSD: Close 1.35773 not below last low 1.35623
+[2025-08-20 01:33:16] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] BoS failed for GBPUSD: Close 1.35758 not below last low 1.35623
+[2025-08-20 01:33:16] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] BoS failed for GBPUSD: Close 1.35802 not below last low 1.35623
+[2025-08-20 01:33:16] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] BoS failed for GBPUSD: Close 1.35820 not below last low 1.35623
+[2025-08-20 01:33:16] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:16] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:16] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:17] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:17] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:18] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:18] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:33:19] [SKIP] BoS failed for GBPUSD: Close 1.35608 not above last high 1.35940
+[2025-08-20 01:33:19] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] BoS failed for GBPUSD: Close 1.35666 not above last high 1.35940
+[2025-08-20 01:33:19] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] BoS failed for GBPUSD: Close 1.35675 not above last high 1.35940
+[2025-08-20 01:33:19] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] BoS failed for GBPUSD: Close 1.35595 not above last high 1.35940
+[2025-08-20 01:33:19] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.0
+[2025-08-20 01:33:19] [SKIP] BoS failed for GBPUSD: Close 1.35520 not above last high 1.35940
+[2025-08-20 01:33:19] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] BoS failed for GBPUSD: Close 1.35536 not above last high 1.35940
+[2025-08-20 01:33:19] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] BoS failed for GBPUSD: Close 1.35520 not above last high 1.35815
+[2025-08-20 01:33:19] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] BoS failed for GBPUSD: Close 1.35504 not above last high 1.35815
+[2025-08-20 01:33:19] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:19] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:19] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:20] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:20] [INFO] [DEBUG] Processing GBPUSD at 2025-08-14 17:40:00: htf_candles=117, ltf_candles=101
+[2025-08-20 01:33:20] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:21] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:21] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:22] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:22] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:23] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:23] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:24] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:24] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:25] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:25] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:26] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:26] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:27] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:27] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:28] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:28] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:29] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:29] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:30] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:30] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] [DEBUG] Processing GBPUSD at 2025-08-15 02:00:00: htf_candles=126, ltf_candles=101
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:31] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:31] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:32] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:32] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:33] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:33] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:34] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:34] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-20 01:33:35] [SKIP] BoS failed for GBPUSD: Close 1.35380 not below last low 1.35252
+[2025-08-20 01:33:35] [INFO] HTF active for GBPUSD - Attempt 1/4, Time: 5.0min
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] BoS failed for GBPUSD: Close 1.35372 not below last low 1.35252
+[2025-08-20 01:33:35] [INFO] HTF active for GBPUSD - Attempt 2/4, Time: 10.0min
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] BoS failed for GBPUSD: Close 1.35364 not below last low 1.35252
+[2025-08-20 01:33:35] [INFO] HTF active for GBPUSD - Attempt 3/4, Time: 15.0min
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] BoS failed for GBPUSD: Close 1.35381 not below last low 1.35252
+[2025-08-20 01:33:35] [WARN] HTF timeout for GBPUSD - Resetting after 20.0min, 4 attempts
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:35] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:35] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:36] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:36] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:37] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:37] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:38] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:38] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:39] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:39] [INFO] Processing GBPUSD
+[2025-08-20 01:33:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:40] [INFO] Processing GBPUSD
+[2025-08-20 01:33:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:40] [INFO] Processing GBPUSD
+[2025-08-20 01:33:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:40] [INFO] Processing GBPUSD
+[2025-08-20 01:33:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:40] [INFO] Processing GBPUSD
+[2025-08-20 01:33:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:40] [INFO] Processing GBPUSD
+[2025-08-20 01:33:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:40] [INFO] Processing GBPUSD
+[2025-08-20 01:33:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:40] [INFO] Processing GBPUSD
+[2025-08-20 01:33:40] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:40] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:41] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:41] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] [DEBUG] Processing GBPUSD at 2025-08-15 10:20:00: htf_candles=134, ltf_candles=101
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:42] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:42] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:43] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:43] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:43] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:43] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:43] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:43] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:43] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:43] [INFO] Processing GBPUSD
+[2025-08-20 01:33:43] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:44] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:44] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:45] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:45] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:46] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:46] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:46] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:46] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:46] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:46] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:46] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:46] [INFO] Processing GBPUSD
+[2025-08-20 01:33:46] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:47] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:47] [INFO] Processing GBPUSD
+[2025-08-20 01:33:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:48] [INFO] Processing GBPUSD
+[2025-08-20 01:33:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:48] [INFO] Processing GBPUSD
+[2025-08-20 01:33:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:48] [INFO] Processing GBPUSD
+[2025-08-20 01:33:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:48] [INFO] Processing GBPUSD
+[2025-08-20 01:33:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:48] [INFO] Processing GBPUSD
+[2025-08-20 01:33:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:48] [INFO] Processing GBPUSD
+[2025-08-20 01:33:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:48] [INFO] Processing GBPUSD
+[2025-08-20 01:33:48] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:48] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:49] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:49] [INFO] Processing GBPUSD
+[2025-08-20 01:33:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:50] [INFO] Processing GBPUSD
+[2025-08-20 01:33:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:50] [INFO] Processing GBPUSD
+[2025-08-20 01:33:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:50] [INFO] Processing GBPUSD
+[2025-08-20 01:33:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:50] [INFO] Processing GBPUSD
+[2025-08-20 01:33:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:50] [INFO] Processing GBPUSD
+[2025-08-20 01:33:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:50] [INFO] Processing GBPUSD
+[2025-08-20 01:33:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:50] [INFO] Processing GBPUSD
+[2025-08-20 01:33:50] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:50] [INFO] Processing GBPUSD
+[2025-08-20 01:33:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:51] [INFO] Processing GBPUSD
+[2025-08-20 01:33:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:51] [INFO] Processing GBPUSD
+[2025-08-20 01:33:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:51] [INFO] Processing GBPUSD
+[2025-08-20 01:33:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:51] [INFO] Processing GBPUSD
+[2025-08-20 01:33:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:51] [INFO] Processing GBPUSD
+[2025-08-20 01:33:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:51] [INFO] Processing GBPUSD
+[2025-08-20 01:33:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:51] [INFO] Processing GBPUSD
+[2025-08-20 01:33:51] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:51] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:52] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:52] [INFO] Processing GBPUSD
+[2025-08-20 01:33:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:53] [INFO] Processing GBPUSD
+[2025-08-20 01:33:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:53] [INFO] Processing GBPUSD
+[2025-08-20 01:33:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:53] [INFO] Processing GBPUSD
+[2025-08-20 01:33:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:53] [INFO] Processing GBPUSD
+[2025-08-20 01:33:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:53] [INFO] Processing GBPUSD
+[2025-08-20 01:33:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:53] [INFO] Processing GBPUSD
+[2025-08-20 01:33:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:53] [INFO] [DEBUG] Processing GBPUSD at 2025-08-15 18:40:00: htf_candles=142, ltf_candles=101
+[2025-08-20 01:33:53] [INFO] Processing GBPUSD
+[2025-08-20 01:33:53] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:53] [INFO] Processing GBPUSD
+[2025-08-20 01:33:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:54] [INFO] Processing GBPUSD
+[2025-08-20 01:33:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:54] [INFO] Processing GBPUSD
+[2025-08-20 01:33:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:54] [INFO] Processing GBPUSD
+[2025-08-20 01:33:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:54] [INFO] Processing GBPUSD
+[2025-08-20 01:33:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:54] [INFO] Processing GBPUSD
+[2025-08-20 01:33:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:54] [INFO] Processing GBPUSD
+[2025-08-20 01:33:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:54] [INFO] Processing GBPUSD
+[2025-08-20 01:33:54] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:54] [INFO] Processing GBPUSD
+[2025-08-20 01:33:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:55] [INFO] Processing GBPUSD
+[2025-08-20 01:33:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:55] [INFO] Processing GBPUSD
+[2025-08-20 01:33:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:55] [INFO] Processing GBPUSD
+[2025-08-20 01:33:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:55] [INFO] Processing GBPUSD
+[2025-08-20 01:33:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:55] [INFO] Processing GBPUSD
+[2025-08-20 01:33:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:55] [INFO] Processing GBPUSD
+[2025-08-20 01:33:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:55] [INFO] Processing GBPUSD
+[2025-08-20 01:33:55] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:55] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:56] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:56] [INFO] Processing GBPUSD
+[2025-08-20 01:33:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:57] [INFO] Processing GBPUSD
+[2025-08-20 01:33:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:57] [INFO] Processing GBPUSD
+[2025-08-20 01:33:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:57] [INFO] Processing GBPUSD
+[2025-08-20 01:33:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:57] [INFO] Processing GBPUSD
+[2025-08-20 01:33:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:57] [INFO] Processing GBPUSD
+[2025-08-20 01:33:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:57] [INFO] Processing GBPUSD
+[2025-08-20 01:33:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:57] [INFO] Processing GBPUSD
+[2025-08-20 01:33:57] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:57] [INFO] Processing GBPUSD
+[2025-08-20 01:33:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:58] [INFO] Processing GBPUSD
+[2025-08-20 01:33:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:58] [INFO] Processing GBPUSD
+[2025-08-20 01:33:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:58] [INFO] Processing GBPUSD
+[2025-08-20 01:33:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:58] [INFO] Processing GBPUSD
+[2025-08-20 01:33:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:58] [INFO] Processing GBPUSD
+[2025-08-20 01:33:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:58] [INFO] Processing GBPUSD
+[2025-08-20 01:33:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:58] [INFO] Processing GBPUSD
+[2025-08-20 01:33:58] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:58] [INFO] Processing GBPUSD
+[2025-08-20 01:33:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:59] [INFO] Processing GBPUSD
+[2025-08-20 01:33:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:59] [INFO] Processing GBPUSD
+[2025-08-20 01:33:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:59] [INFO] Processing GBPUSD
+[2025-08-20 01:33:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:59] [INFO] Processing GBPUSD
+[2025-08-20 01:33:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:59] [INFO] Processing GBPUSD
+[2025-08-20 01:33:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:59] [INFO] Processing GBPUSD
+[2025-08-20 01:33:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:59] [INFO] Processing GBPUSD
+[2025-08-20 01:33:59] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:33:59] [INFO] Processing GBPUSD
+[2025-08-20 01:34:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:00] [INFO] Processing GBPUSD
+[2025-08-20 01:34:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:00] [INFO] Processing GBPUSD
+[2025-08-20 01:34:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:00] [INFO] Processing GBPUSD
+[2025-08-20 01:34:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:00] [INFO] Processing GBPUSD
+[2025-08-20 01:34:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:00] [INFO] Processing GBPUSD
+[2025-08-20 01:34:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:00] [INFO] Processing GBPUSD
+[2025-08-20 01:34:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:00] [INFO] Processing GBPUSD
+[2025-08-20 01:34:00] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:00] [INFO] Processing GBPUSD
+[2025-08-20 01:34:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:01] [INFO] Processing GBPUSD
+[2025-08-20 01:34:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:01] [INFO] Processing GBPUSD
+[2025-08-20 01:34:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:01] [INFO] Processing GBPUSD
+[2025-08-20 01:34:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:01] [INFO] Processing GBPUSD
+[2025-08-20 01:34:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:01] [INFO] Processing GBPUSD
+[2025-08-20 01:34:01] [SKIP] No sweep detected on HTF for GBPUSD
+[2025-08-20 01:34:01] [INFO] Processing GBPUSD took 106.30 seconds (16.59 candles/s)
+[2025-08-20 01:34:01] [INFO] Trade signals found for GBPUSD: 0

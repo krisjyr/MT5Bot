@@ -208,11 +208,10 @@ def is_fvg_valid_for_live_trading(fvg: Dict, current_time: float = None) -> bool
     return True
 
 def is_better_fvg(new: Dict, current: Dict) -> bool:
-    """
-    Compare two FVGs to determine which is better for trading.
-    """
+    # Compare two FVGs to determine which is better for trading.
+    
     tf_weight = {
-        'M3': 1, 'M5': 2, 'M15': 3, 'M30': 4, 'H1': 5, 'H4': 6
+        'M1': 1, 'M3': 2, 'M5': 3, 'M15': 4, 'M30': 5, 'H1': 6, 'H4': 7
     }
 
     # Both must be formation complete
@@ -239,9 +238,9 @@ def find_fvg_multi_tf_safe(symbol: str, min_size: float, timeframes: List[str],
                           candles_to_fetch: int, timeframe_map: Dict,
                           mt5_module, min_gap_percentage: float = 0.01, 
                           direction: str = 'both', debug: bool = False) -> Optional[Dict]:
-    """
-    Multi-timeframe FVG detection with proper closed candle validation.
-    """
+    
+    # Multi-timeframe FVG detection with proper closed candle validation.
+    
     if not timeframe_map:
         raise ValueError("Missing timeframe_map")
     if not mt5_module:
@@ -304,9 +303,8 @@ def find_fvg_multi_tf_safe(symbol: str, min_size: float, timeframes: List[str],
 # FVG tapped detection
 
 def detect_fvg_across_timeframes(symbol, timeframes, fvg, mt5_module, timeframe_map):
-    """
-    Enhanced FVG detection using multiple timeframes for better confirmation
-    """
+
+    # Enhanced FVG detection using multiple timeframes for better confirmation
     
     # Get available timeframes between LTF and HTF
     timeframes = get_timeframes_range(timeframes["ltf"], timeframes["htf"])
@@ -348,7 +346,7 @@ def get_timeframes_range(ltf, htf):
     """
     Get all timeframes between LTF and HTF in ascending order
     """
-    tf_hierarchy = ['M3', 'M5', 'M15', 'M30', 'H1', 'H4']
+    tf_hierarchy = ['M1', 'M3', 'M5', 'M15', 'M30', 'H1', 'H4']
     
     ltf_idx = tf_hierarchy.index(ltf)
     htf_idx = tf_hierarchy.index(htf)
@@ -357,9 +355,9 @@ def get_timeframes_range(ltf, htf):
 
 
 def analyze_price_context(data, timeframe):
-    """
-    Analyze price action context for better decision making
-    """
+    
+    # Analyze price action context for better decision making
+    
     if len(data) < 5:
         return {"trend": "unknown", "volatility": "unknown", "momentum": "unknown"}
     
@@ -389,9 +387,9 @@ def analyze_price_context(data, timeframe):
 
 
 def check_fvg_tap_enhanced(data, fvg, timeframe):
-    """
-    Enhanced FVG tap detection with threshold breach handling
-    """
+
+    # Enhanced FVG tap detection with threshold breach handling
+
     if len(data) < 3:
         return {"tapped": False, "quality": 0, "details": "Insufficient data"}
 
@@ -477,12 +475,11 @@ def check_fvg_tap_enhanced(data, fvg, timeframe):
 
 
 def evaluate_mtf_confirmation(timeframe_taps, price_contexts, fvg):
-    """
-    Evaluate multi-timeframe confirmation with weighted scoring
-    """
+
+    # Evaluate multi-timeframe confirmation with weighted scoring
+
     tf_weights = {
-        'M3': 1, 'M5': 2, 'M15': 3, 'M30': 4, 
-        'H1': 5, 'H4': 6,
+        'M1': 1, 'M3': 2, 'M5': 3, 'M15': 4, 'M30': 5, 'H1': 6, 'H4': 7
     }
     
     total_score = 0
@@ -541,7 +538,7 @@ def evaluate_mtf_confirmation(timeframe_taps, price_contexts, fvg):
 
 
 def calculate_ema(prices, period):
-    """Simple EMA calculation"""
+    # Simple EMA calculation
     if len(prices) < period:
         return sum(prices) / len(prices)
     
@@ -555,7 +552,7 @@ def calculate_ema(prices, period):
 
 
 def calculate_average_range(candles):
-    """Calculate average true range for volatility analysis"""
+    # Calculate average true range for volatility analysis
     if len(candles) < 2:
         return 0
         

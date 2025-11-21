@@ -1,0 +1,701 @@
+[2025-08-07 00:00:09] [INFO] Daily bias for EURUSD: Neutral
+[2025-08-07 00:00:09] [INFO] Daily bias for GBPUSD: Neutral
+[2025-08-07 00:00:09] [INFO] Daily bias for XAUUSD: Neutral
+[2025-08-07 00:00:09] [INFO] Daily bias for EURGBP: Bullish
+[2025-08-07 00:00:09] [INFO] Daily bias for EURNZD: Bullish
+[2025-08-07 04:18:21] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-07 04:28:39] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-07 04:32:47] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 04:38:55] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-07 04:43:00] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 04:49:09] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-07 04:53:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 04:59:23] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.0
+[2025-08-07 07:03:44] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-07 07:14:02] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-07 07:24:20] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-07 07:34:38] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 07:34:38] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-07 07:44:52] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 07:44:52] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-07 07:55:06] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 07:55:06] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 1.0
+[2025-08-07 09:42:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 09:53:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 13:04:56] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:04:56] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:04:56] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:04:56] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:05:27] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:05:27] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:05:28] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:05:28] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:05:59] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:05:59] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:06:29] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:07:00] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:07:00] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:07:00] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:07:31] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:07:31] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:07:31] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:07:31] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:08:02] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:08:02] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:08:02] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:08:02] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:08:34] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:08:34] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:08:34] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:08:34] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:09:05] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:09:05] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:09:05] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:09:05] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:09:36] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:09:36] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:09:36] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:09:36] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:10:07] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:10:07] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:10:37] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:11:08] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:11:39] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:12:10] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:12:10] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:12:10] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:12:42] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:12:42] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:12:42] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:12:42] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:13:13] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:13:13] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:13:13] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:13:13] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:13:44] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:13:44] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:13:44] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:13:44] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:14:15] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:14:15] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:14:15] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:14:15] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:14:46] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:14:46] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:14:46] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:14:46] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:15:17] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:15:17] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:15:48] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:16:19] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:16:50] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:17:21] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:17:51] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:18:22] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:18:22] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:18:22] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:18:54] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:18:54] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:18:54] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:18:54] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:19:25] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:19:25] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:19:25] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:19:25] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:19:56] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:19:56] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:19:56] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:19:56] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:20:27] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:20:27] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:20:58] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:21:29] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:22:00] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:22:31] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:23:02] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:23:33] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:23:33] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:23:33] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:24:04] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:24:04] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:24:04] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:24:04] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:24:35] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:24:35] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:24:35] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:24:35] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:25:06] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:25:06] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:25:06] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:25:06] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:25:38] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:25:38] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:26:08] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:26:39] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:27:10] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:27:41] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:28:12] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:28:42] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:28:42] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:28:43] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:29:14] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:29:14] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:29:14] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:29:14] [SUCCESS] FVG tapped on EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:29:45] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:29:45] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:29:45] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:30:16] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:30:16] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:30:47] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:31:18] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:31:48] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:31:48] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:32:19] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:32:19] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:32:50] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:32:50] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:33:21] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:33:21] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:33:52] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:33:52] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:34:23] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:34:23] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:34:54] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:34:54] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:35:25] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:35:25] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:35:56] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:36:27] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:36:58] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:37:28] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:37:59] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:37:59] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:38:30] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:38:30] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:39:01] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:39:01] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:39:32] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:39:32] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:40:04] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:40:04] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:40:34] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:41:05] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:41:36] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:42:07] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:42:38] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:43:09] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:43:09] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:43:40] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:43:40] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:44:11] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:44:11] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:44:42] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:44:42] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:45:12] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:45:43] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:46:14] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:46:45] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:47:16] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:47:16] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:47:47] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:47:47] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:48:18] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:48:18] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:48:49] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:48:49] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:49:20] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:49:20] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:49:51] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:49:51] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:50:22] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 1.0
+[2025-08-07 13:50:22] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:50:53] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:51:24] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:51:55] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:52:25] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:52:56] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:53:27] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:53:27] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:53:58] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:53:58] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:54:29] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:54:29] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:55:00] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:55:00] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:55:31] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:56:02] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:56:33] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:57:04] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:57:35] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:57:35] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:58:06] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:58:06] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:58:37] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:58:37] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:59:07] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:59:07] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 13:59:38] [SUCCESS] FVG found for EURGBP: 0.87312 - 0.87335 | Type: Bullish | Timeframe: H1
+[2025-08-07 13:59:38] [SUCCESS] FVG SL set for EURGBP: SL=0.87272
+[2025-08-07 14:00:41] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-07 14:00:41] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 14:10:54] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 14:10:55] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-07 14:21:09] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-07 14:21:09] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 14:30:21] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:30:52] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:31:23] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-07 14:31:23] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 14:31:23] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:31:53] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:32:24] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:32:24] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:32:55] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:32:55] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:33:26] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:33:26] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:33:56] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:33:56] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:34:27] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:34:27] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:34:58] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:34:58] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:35:28] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:35:29] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 14:35:59] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:36:30] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:37:00] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:37:31] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:37:31] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:38:01] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:38:01] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:38:32] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:38:32] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:39:02] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:39:02] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:39:32] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:39:32] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:40:03] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:40:03] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:40:33] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:41:04] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:41:35] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-07 14:41:35] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 14:41:35] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:42:05] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:42:36] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:42:36] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:43:06] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:43:06] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:43:37] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:43:37] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:44:07] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:44:07] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:44:38] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:44:38] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:45:08] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:45:08] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:45:39] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:45:39] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 14:46:09] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:46:40] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:47:10] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:47:41] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:47:41] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:48:11] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:48:11] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:48:42] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:48:42] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:49:12] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:49:12] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:49:43] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:49:43] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:50:13] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:50:13] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:50:44] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:51:14] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:51:45] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 14:51:45] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:51:46] [SUCCESS] Sweep confirmed on HTF for EURNZD | Type: Bullish | Score: 1.0
+[2025-08-07 14:52:16] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:52:46] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:53:17] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:53:47] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:53:47] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:54:18] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:54:18] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:54:48] [SUCCESS] FVG found for GBPUSD: 1.34123 - 1.34191 | Type: Bearish | Timeframe: M5
+[2025-08-07 14:54:48] [SUCCESS] FVG SL set for GBPUSD: SL=1.34231
+[2025-08-07 14:55:49] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:11:32] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:11:32] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:11:32] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:11:32] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:12:03] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:12:03] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:12:03] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:12:03] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:12:35] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:12:35] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:12:35] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:12:35] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:13:05] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:13:06] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:13:06] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:13:06] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:13:37] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:13:37] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:13:37] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:13:37] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:14:08] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:14:08] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:14:08] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:14:08] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:14:39] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:14:39] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:14:39] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:14:39] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:15:10] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:15:10] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:15:10] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:15:10] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:15:42] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:15:42] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:16:12] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:16:43] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:17:13] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:17:44] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:17:44] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:17:44] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:18:16] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:18:16] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:18:16] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:18:16] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:18:47] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:18:47] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:18:47] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:18:47] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:19:19] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:19:19] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:19:19] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:19:19] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:19:50] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:19:50] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:19:50] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:19:50] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:20:21] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:20:21] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:20:21] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:20:21] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:20:52] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:20:52] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:21:22] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:21:53] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:22:24] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:22:55] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:22:55] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:22:55] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:23:27] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:23:27] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:23:27] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:23:27] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:23:58] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:23:58] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:23:58] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:23:58] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:24:29] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:24:29] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:24:29] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:24:29] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:25:00] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:25:00] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:25:30] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:26:01] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:26:32] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:27:03] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:27:34] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:28:05] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:28:05] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:28:05] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:28:37] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:28:37] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:28:37] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:28:37] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:29:08] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:29:08] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:29:08] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:29:08] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:29:39] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:29:39] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:29:39] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:29:39] [SUCCESS] FVG tapped on EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:30:10] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:30:10] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:30:40] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:31:11] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:31:42] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:32:13] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:32:44] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:33:15] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:33:15] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:33:46] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:33:46] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:34:17] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:34:17] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:34:48] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:34:48] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:35:19] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:35:50] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:36:21] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:36:51] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:37:22] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:37:53] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:38:24] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:38:24] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:38:55] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:38:55] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:39:26] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:39:26] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:39:57] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:39:57] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:40:29] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 17:40:29] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:40:59] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:41:30] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:42:01] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:42:32] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:42:32] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:43:03] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:43:03] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:43:34] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:43:34] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:44:04] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:44:05] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:44:35] [SUCCESS] FVG found for EURUSD: 1.16423 - 1.16490 | Type: Bullish | Timeframe: M5
+[2025-08-07 17:44:35] [SUCCESS] FVG SL set for EURUSD: SL=1.16383
+[2025-08-07 17:50:47] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.0
+[2025-08-07 21:07:48] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:07:48] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:07:48] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:07:48] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:08:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:08:18] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:08:18] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:08:18] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:08:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:08:50] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:08:50] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:08:50] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:09:21] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:09:21] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:09:21] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:09:21] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:09:52] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:09:52] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:09:52] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:09:53] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:10:24] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:10:24] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:10:24] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:10:24] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:10:55] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:10:55] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:11:25] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:11:56] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:12:27] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:12:58] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:12:58] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:12:58] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:13:30] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:13:30] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:13:30] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:13:30] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:14:01] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:14:01] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:14:01] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:14:01] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:14:32] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:14:32] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:14:32] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:14:32] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:15:03] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:15:03] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:15:33] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:16:04] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:16:35] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:17:06] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:17:06] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:17:06] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:17:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:17:38] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:17:38] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:17:38] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:18:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:18:09] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:18:09] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:18:09] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:18:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:18:40] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:18:40] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:18:40] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:19:11] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:19:11] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:19:11] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:19:11] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:19:42] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:19:43] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:19:43] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:19:43] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:20:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:20:14] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:20:44] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:21:15] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:21:46] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:22:17] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:22:17] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:22:17] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:22:49] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:22:49] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:22:49] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:22:49] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:23:20] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:23:20] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:23:20] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:23:20] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:23:51] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:23:51] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:23:51] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:23:51] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:24:22] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:24:22] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:24:22] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:24:22] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:24:53] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:24:53] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:24:53] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:24:53] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:25:24] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:25:24] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:25:55] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:26:26] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:26:56] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:27:27] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:27:27] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:27:27] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:27:59] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:27:59] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:27:59] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:27:59] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:28:30] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:28:30] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:28:30] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:28:30] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:29:01] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:29:02] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:29:02] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:29:02] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:29:33] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:29:33] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:29:33] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:29:33] [SUCCESS] FVG tapped on XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:30:04] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:30:04] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:30:04] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:30:34] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:31:05] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:31:36] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:32:07] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:32:38] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:32:38] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:33:09] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:33:09] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:33:40] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:33:40] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:34:11] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:34:11] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:34:42] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:34:42] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:35:13] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:35:13] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:35:44] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:36:14] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:36:45] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:37:16] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:37:47] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:37:47] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:38:18] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:38:18] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:38:49] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:38:49] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:39:20] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:39:20] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:39:51] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:39:51] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:40:22] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:40:22] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:40:22] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:40:53] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:41:24] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:41:55] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:41:55] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:42:26] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:42:26] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:42:57] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:42:57] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:43:28] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:43:28] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:43:59] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:43:59] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:44:30] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:44:30] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:45:00] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:45:31] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:46:02] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:46:33] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:47:04] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:47:04] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:47:35] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:47:35] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:48:06] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:48:06] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:48:37] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:48:37] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:49:08] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:49:08] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:49:39] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:49:39] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:50:10] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:50:41] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0
+[2025-08-07 21:50:41] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:51:12] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:51:43] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:52:14] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:52:45] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:53:16] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:53:16] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:53:46] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:53:46] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:54:17] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:54:17] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:54:48] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:54:48] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:55:19] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:55:50] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:56:21] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:56:52] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:57:23] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:57:23] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:57:54] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:57:54] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:58:25] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:58:25] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:58:56] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:58:56] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:59:27] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:59:27] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 21:59:58] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 21:59:58] [SUCCESS] FVG SL set for XAUUSD: SL=3386.71000
+[2025-08-07 22:00:28] [SUCCESS] FVG found for XAUUSD: 3381.23000 - 3386.31000 | Type: Bearish | Timeframe: H1
+[2025-08-07 22:45:08] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0
+[2025-08-07 22:55:26] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 1.0

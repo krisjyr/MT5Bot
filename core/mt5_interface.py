@@ -13,3 +13,5 @@ def start_mt5(username: int, password: str, server: str, path: str) -> None:
         raise PermissionError("Failed to login to MT5.\n")
 
     log_success("MT5 initialized and logged in.\n")
+    
+    return True

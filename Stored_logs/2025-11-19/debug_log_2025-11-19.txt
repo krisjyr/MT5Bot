@@ -1,0 +1,70 @@
+[2025-11-19 18:53:28] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+ Chosen FVG       type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+------------------------------------------------------
+
+[2025-11-19 18:53:59] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+ Chosen FVG       type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+------------------------------------------------------
+
+[2025-11-19 18:54:30] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+ Chosen FVG       type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+------------------------------------------------------
+
+[2025-11-19 18:55:01] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+ Chosen FVG       type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+------------------------------------------------------
+
+[2025-11-19 18:55:32] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+ Chosen FVG       type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+------------------------------------------------------
+
+[2025-11-19 18:56:03] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+ Chosen FVG       type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+------------------------------------------------------
+
+[2025-11-19 18:56:34] Detected FVG for XAUUSD
+
+      type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+ Chosen FVG       type      low     high   size  candle1_idx  candle2_idx  candle3_idx  bars_ago  gap_percentage     timestamp  formation_complete  candle1_high  candle2_high  candle2_low  candle3_low  symbol timeframe  detection_time  total_valid_fvgs
+0  Bullish  4088.77  4107.18  18.41           92           93           94         6        0.450258  1.763550e+09                True       4088.77        4116.4      4081.32      4107.18  XAUUSD        H1    1.763571e+09                 1
+
+------------------------------------------------------
+

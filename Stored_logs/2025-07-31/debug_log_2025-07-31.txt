@@ -1,0 +1,440 @@
+[2025-07-31 10:00:14] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:00:44] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:01:15] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:01:47] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:02:18] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:02:49] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:03:20] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:03:51] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:04:23] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:04:54] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           97  ...       3299.28  XAUUSD         M5    1.753945e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:05:25] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           96  ...       3299.28  XAUUSD         M5    1.753946e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           96  ...       3299.28  XAUUSD         M5    1.753946e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 10:05:56] Detected FVG for XAUUSD
+
+      type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           96  ...       3299.28  XAUUSD         M5    1.753946e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low    high  size  candle1_idx  ...  candle3_high  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bearish  3299.28  3300.2  0.92           96  ...       3299.28  XAUUSD         M5    1.753946e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 12:00:19] Detected FVG for GBPUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.32447  1.32475  0.00028           97  ...      1.32475  GBPUSD         M5    1.753952e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.32447  1.32475  0.00028           97  ...      1.32475  GBPUSD         M5    1.753952e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 12:00:49] Detected FVG for GBPUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.32447  1.32475  0.00028           97  ...      1.32475  GBPUSD         M5    1.753952e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.32447  1.32475  0.00028           97  ...      1.32475  GBPUSD         M5    1.753952e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 12:01:20] Detected FVG for GBPUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.32447  1.32475  0.00028           97  ...      1.32475  GBPUSD         M5    1.753952e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.32447  1.32475  0.00028           97  ...      1.32475  GBPUSD         M5    1.753952e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 12:01:52] Detected FVG for GBPUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.32447  1.32475  0.00028           97  ...      1.32475  GBPUSD         M5    1.753953e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.32447  1.32475  0.00028           97  ...      1.32475  GBPUSD         M5    1.753953e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:25:28] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14297  1.14356  0.00059           89  ...      1.14356  EURUSD        M15    1.753968e+09               3.0
+1  Bullish  1.14391  1.14446  0.00055           85  ...      1.14446  EURUSD        M30    1.753968e+09               NaN
+2  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753968e+09               NaN
+
+[3 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14297  1.14356  0.00059           89  ...      1.14356  EURUSD        M15    1.753968e+09                 3
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:26:01] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14297  1.14356  0.00059           89  ...      1.14356  EURUSD        M15    1.753968e+09               3.0
+1  Bullish  1.14391  1.14446  0.00055           85  ...      1.14446  EURUSD        M30    1.753968e+09               NaN
+2  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753968e+09               NaN
+
+[3 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14297  1.14356  0.00059           89  ...      1.14356  EURUSD        M15    1.753968e+09                 3
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:26:32] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14297  1.14356  0.00059           89  ...      1.14356  EURUSD        M15    1.753968e+09               3.0
+1  Bullish  1.14391  1.14446  0.00055           85  ...      1.14446  EURUSD        M30    1.753968e+09               NaN
+2  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753968e+09               NaN
+
+[3 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14297  1.14356  0.00059           89  ...      1.14356  EURUSD        M15    1.753968e+09                 3
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:40:02] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:40:33] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:41:04] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:41:36] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:42:08] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:42:39] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:43:10] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:43:41] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:44:12] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:44:43] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753969e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:56:41] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753970e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753970e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
+[2025-07-31 16:57:13] Detected FVG for EURUSD
+
+      type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753970e+09                 1
+
+[1 rows x 19 columns]
+
+ Chosen FVG       type      low     high     size  candle1_idx  ...  candle3_low  symbol  timeframe  detection_time  total_valid_fvgs
+0  Bullish  1.14236  1.14274  0.00038           85  ...      1.14274  EURUSD         H1    1.753970e+09                 1
+
+[1 rows x 19 columns]
+
+------------------------------------------------------
+
