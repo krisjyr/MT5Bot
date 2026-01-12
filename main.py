@@ -16,22 +16,13 @@ def is_within_session(now, start_str, end_str, symbols, news_buffer_minutes=30):
     session_end = now.replace(hour=end_h, minute=end_m, second=0, microsecond=0)
     
     config = load_settings("settings.json")
-    api_key = config.get("strategy", {}).get("fxstreet_api_key", "")
-    
-    if api_key and config.get("strategy", {}).get("fxstreet_enabled", False):
-        for symbol in symbols:
-            if check_news_events(symbol, api_key, now, news_buffer_minutes):
-                log_warning(f"High-impact news detected for {symbol}, pausing for {news_buffer_minutes} minutes")
-                return False
     
     return session_start <= now <= session_end
 
 def clear_caches():
     """Clear data and news caches daily."""
-    from strategy import data_cache, news_cache, swing_cache
+    from strategy import data_cache
     data_cache.clear()
-    news_cache.clear()
-    swing_cache.clear()
     log_info("Cleared data, news, and swing caches for new trading day")
 
 def main():

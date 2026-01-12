@@ -29,8 +29,8 @@ def calculate_swing_points(data, window=20, strength=2):
     swing_cache[cache_key] = swings
     return swings
 
-def confirm_break_of_structure(data, direction, symbol, swing_strength=2):
-    """Confirm BoS with vectorized operations."""
+def confirm_break_of_structure(data, direction, symbol, swing_strength=1):
+    #Confirm BoS with vectorized operations.
     try:
         df = pd.DataFrame(data)
         swings = calculate_swing_points(data, window=20, strength=swing_strength)
@@ -67,6 +67,7 @@ def confirm_break_of_structure(data, direction, symbol, swing_strength=2):
     except Exception as e:
         log_skip(f"BoS confirmation failed for {symbol}: {str(e)}")
         return {'confirmed': False, 'reason': str(e)}
+
 
 def adaptive_risk_bos(data, direction, symbol, base_risk, min_risk, max_risk, swing_strength=2):
     """Adaptive BoS with dynamic risk based on market structure."""

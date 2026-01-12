@@ -108,11 +108,10 @@ def log_trade(msg, tradelog=False, quiet=False):
     if tradelog:
         trade_log(f"[TRADE] {msg}", quiet=quiet)
 
-def log_debug(msg, symbol=None, debug_type=None):
+def log_debug(msg):
     rotate_logs()  # Check for day change before logging
     with open("logs/debug_log.txt", 'a') as f:
-        f.write(f"{_timestamp()} Detected {debug_type} for {symbol}\n")
-        f.write("\n")
+        f.write(f"{_timestamp()}\n")
         f.write(f"{msg}\n")
         f.write("\n")
         f.write("------------------------------------------------------\n")

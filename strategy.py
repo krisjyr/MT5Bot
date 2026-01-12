@@ -7,10 +7,11 @@ from utils.logger import log_info, log_success, log_warning, log_error, log_skip
 from core.risk_manager import calculate_position_size
 from utils.timeframes import timeframe_map
 from core.order_manager import send_order
-from core.htf_detect import HTFSweepDetector
+from core.htf_detect import EnhancedHTFSweepDetector
 from core.fvg_detect import find_fvg_multi_tf_safe, detect_fvg_across_timeframes, calculate_average_range
 from core.bos_detect import adaptive_risk_bos, confirm_break_of_structure
 from core.rr_processing import process_trade_data
+from core.breakeven_manager import check_and_set_breakeven, cleanup_closed_positions
 
 symbol_states = {}
 data_cache = {}
@@ -33,12 +34,21 @@ class SymbolState:
         self.adjusted_risk = None
         self.rr = None
         self.last_updated = datetime.now()
+        self.processed_sweep_times = set()  # Store timestamps of processed sweeps
 
     def is_stale(self, timeout=10):
         return datetime.now() - self.last_updated > timedelta(minutes=timeout)
 
     def update(self):
         self.last_updated = datetime.now()
+        
+    def has_processed_sweep(self, sweep_time):
+        """Check if we've already processed a sweep at this time."""
+        return sweep_time in self.processed_sweep_times
+    
+    def mark_sweep_processed(self, sweep_time):
+        """Mark a sweep as processed."""
+        self.processed_sweep_times.add(sweep_time)
 
 def fetch_data(symbol, timeframe, candles):
     """Fetch and cache data for a symbol and timeframe."""
@@ -85,10 +95,11 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
     
     if backtest and backtest_data:
         current_time = backtest_data['current_time']
+        log_info(f"Processing {symbol} at {current_time}", quiet=quiet)
     else:
         current_time = settings.get("current_time", datetime.now())
-
-    log_info(f"Processing {symbol}", quiet=quiet)
+        log_info(f"Processing {symbol}", quiet=quiet)
+    
     if symbol not in symbol_states:
         symbol_states[symbol] = SymbolState()
     state = symbol_states[symbol]
@@ -133,27 +144,102 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         avg_range = calculate_average_range(htf_data)
 
     # Dynamic swing strength
-    swing_strength = 2 if atr > avg_range else 3
+    swing_strength = 1 if atr > avg_range else 2
 
-    # HTF sweep confirmation with weighting
+    # HTF sweep confirmation with enhanced detection
     if use_sweep and not state.sweep_confirmed:
-        htf_sweeper = HTFSweepDetector(window=100, strength=swing_strength)
-        df_htf = htf_sweeper.run(df_htf, debug=False)
+        # Dynamic swing strength based on volatility
+        swing_strength = 1 if atr > avg_range else 2
+        
+        # Initialize enhanced detector
+        htf_sweeper = EnhancedHTFSweepDetector(
+            swing_lookback=150,
+            swing_strength=swing_strength,
+            liquidity_zone_pct=0.001 if atr <= avg_range else 0.0015,
+            min_sweep_wicksize_pct=0.002,
+            require_close_inside=True,
+            min_touches_for_liquidity=2 if atr <= avg_range else 1
+        )
+        
+        try:
+            df_htf = htf_sweeper.run(df_htf, add_metrics=True, debug=True)
+        except Exception as e:
+            log_error(f"Sweep detection failed for {symbol}: {str(e)}", quiet=quiet)
+            return False, 0.0
         
         # Check if sweep columns exist
-        if 'htf_high_sweep' not in df_htf.columns or 'htf_low_sweep' not in df_htf.columns:
+        if 'high_sweep' not in df_htf.columns or 'low_sweep' not in df_htf.columns:
             log_error(f"Sweep detection failed for {symbol}", quiet=quiet)
             return False, 0.0
         
-        htf_score = 1.0 if (df_htf.iloc[-1]['htf_high_sweep'] or df_htf.iloc[-1]['htf_low_sweep']) else 0.0
-        if htf_score > 0.5:
+        # Get sweep results
+        
+        if len(df_htf) < 3:
+            return False, 0.0  # Insufficient data
+        
+        # NEW LOGIC: Look for unprocessed sweeps in recent candles (last 5)
+        sweep_found = False
+        sweep_data = None
+        
+        for idx in range(len(df_htf) - 5, len(df_htf)):  # Check last 5 HTF candles
+            if idx < 0:
+                continue
+                
+            candle = df_htf.iloc[idx]
+            candle_time = candle['time']
+            
+            # Skip if already processed
+            if state.has_processed_sweep(candle_time):
+                continue
+            
+            # Check for new sweep on this candle
+            has_low_sweep = candle.get('low_sweep', False)
+            has_high_sweep = candle.get('high_sweep', False)
+            
+            if has_low_sweep or has_high_sweep:
+                # Determine direction and score
+                if has_high_sweep:
+                    strength = int(candle['high_sweep_strength'])
+                    swept_level = candle['swept_high_level']
+                    sweep_type = "Bearish"
+                else:
+                    strength = int(candle['low_sweep_strength'])
+                    swept_level = candle['swept_low_level']
+                    sweep_type = "Bullish"
+                    
+                htf_score = min(0.4 + strength * 0.12, 1.0)
+                
+                if htf_score > 0.6:
+                    sweep_found = True
+                    sweep_data = {
+                        'type': sweep_type,
+                        'score': htf_score,
+                        'strength': strength,
+                        'level': swept_level,
+                        'time': candle_time
+                    }
+                    break  # Use the first unprocessed sweep found
+        
+        if sweep_found and sweep_data:
             state.sweep_confirmed = True
+            state.direction = sweep_data['type']
+            state.mark_sweep_processed(sweep_data['time'])
             state.update()
-            sweep_type = "Bearish" if df_htf.iloc[-1]['htf_high_sweep'] else "Bullish"
-            state.direction = sweep_type
-            log_success(f"Sweep confirmed on HTF for {symbol} | Type: {sweep_type} | Score: {htf_score} | Time: {current_time}", tradelog=True, quiet=quiet)
+            
+            log_success(
+                f"Sweep confirmed on HTF for {symbol} | "
+                f"Type: {sweep_data['type']} | "
+                f"Score: {sweep_data['score']:.2f} | "
+                f"Strength: {sweep_data['strength']} touches | "
+                f"Level: {sweep_data['level']:.2f} | "
+                f"Sweep Time: {sweep_data['time']} | "
+                f"Current Time: {current_time}",
+                tradelog=True,
+                quiet=quiet
+            )
         else:
-            log_skip(f"No sweep detected on HTF for {symbol}", quiet=quiet)
+            if not sweep_found:
+                log_skip(f"No new unprocessed sweeps for {symbol}", quiet=quiet)
             return False, 0.0
 
     # Fetch LTF data
@@ -307,9 +393,6 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         log_error(f"Invalid trade parameters for {symbol}: entry={state.entry_price}, sl={state.stop_loss}, tp={state.take_profit}", quiet=quiet)
         return False, 0.0
     
-    # Calculate position size
-    atr_factor = atr / calculate_average_range(ltf_data)
-    adjusted_risk = max(min_risk_percent, min(risk * atr_factor, max_risk_percent))
     lot_size = calculate_position_size(symbol, state.entry_price, state.stop_loss, adjusted_risk)
 
     if lot_size <= 0:
@@ -351,6 +434,23 @@ def strategy_run(settings):
     symbols = settings["symbols"]
     max_trade_count = settings.get("max_trades_per_day", 5)
     max_risk_per_day = settings.get("max_risk_per_day_percent", 5.0)
+    
+     # Check and manage breakeven for open positions
+    if settings.get("use_breakeven", False):
+        try:
+            modified = check_and_set_breakeven(
+                use_breakeven=True,
+                breakeven_rr=settings.get("breakeven_rr", 1.5),
+                breakeven_offset_rr=settings.get("breakeven_offset_rr", 0.1),
+                quiet=False
+            )
+            if modified > 0:
+                log_info(f"Breakeven set for {modified} position(s)")
+            
+            # Cleanup closed positions from tracker
+            cleanup_closed_positions()
+        except Exception as e:
+            log_error(f"Error in breakeven management: {str(e)}")
 
     trade_count = sum(1 for state in symbol_states.values() if state.order_sent and not state.is_stale())
     total_risk = sum(state.adjusted_risk for state in symbol_states.values() if state.order_sent and not state.is_stale() and state.adjusted_risk is not None)

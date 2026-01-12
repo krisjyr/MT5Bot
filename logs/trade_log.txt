@@ -1,20 +1,50 @@
-[2025-11-21 18:08:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:00:00
-[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:06:00
-[2025-11-21 18:08:39] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 09:07:00: Risk=0.78%
-[2025-11-21 18:08:39] [TRADE] XAUUSD | Bearish @ 4087.18000 | SL: 4092.18000 | TP: 4072.18000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
-[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:35:00
-[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:41:00
-[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:47:00
-[2025-11-21 18:08:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:53:00
-[2025-11-21 18:08:40] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.0 | Time: 2025-11-19 09:59:00
-[2025-11-21 18:08:40] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 10:00:00: Risk=1.11%
-[2025-11-21 18:08:40] [TRADE] XAUUSD | Bearish @ 4084.66000 | SL: 4089.66000 | TP: 4069.66000 | Lot: 0.20 | RR: 3.0 | Outcome: Loss | Pips: -50.00 | Profit: $-100.00
-[2025-11-21 18:09:57] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:00:00
-[2025-11-21 18:09:57] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:04:00: Risk=0.58%
-[2025-11-21 18:09:57] [TRADE] XAUUSD | Bullish @ 4082.36000 | SL: 4077.36000 | TP: 4097.36000 | Lot: 0.19 | RR: 2.999999999999909 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
-[2025-11-21 18:09:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:33:00
-[2025-11-21 18:09:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:39:00
-[2025-11-21 18:09:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:45:00
-[2025-11-21 18:09:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 1.0 | Time: 2025-11-19 20:51:00
-[2025-11-21 18:09:58] [SUCCESS] BoS confirmed for XAUUSD at 2025-11-19 20:51:00: Risk=0.95%
-[2025-11-21 18:09:58] [TRADE] XAUUSD | Bullish @ 4087.27000 | SL: 4082.27000 | TP: 4102.27000 | Lot: 0.19 | RR: 3.000000000000091 | Outcome: Loss | Pips: -50.00 | Profit: $-95.00
+[2025-11-23 03:49:13] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:00:00
+[2025-11-23 03:49:13] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:06:00
+[2025-11-23 03:49:13] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:12:00
+[2025-11-23 03:49:13] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:18:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:24:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:30:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:36:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:42:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:48:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 17:54:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:00:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:06:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:12:00
+[2025-11-23 03:49:14] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:18:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:24:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:30:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:36:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:42:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:48:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 18:54:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:00:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:06:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:12:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:18:00
+[2025-11-23 03:49:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:24:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:30:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:36:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:42:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:48:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 19:54:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:00:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:06:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:12:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:18:00
+[2025-11-23 03:49:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:24:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:30:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:36:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:42:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:48:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 20:54:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:00:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:06:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:12:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:18:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:24:00
+[2025-11-23 03:49:17] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:30:00
+[2025-11-23 03:49:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:36:00
+[2025-11-23 03:49:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:42:00
+[2025-11-23 03:49:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:48:00
+[2025-11-23 03:49:18] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.64 | Strength: 2 touches | Level: 4089.45 | Sweep Time: 2025-11-17 15:00:00 | Current Time: 2025-11-17 21:54:00

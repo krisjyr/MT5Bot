@@ -55,9 +55,18 @@ class BacktestSymbolState:
         self._previous_sweep_state = False
         self._previous_fvg_state = False
         self._previous_bos_state = False
+        self.processed_sweep_times = set()  # Store timestamps of processed sweeps
     
     def is_stale(self, timeout=10):
         return datetime.now() - self.last_updated > timedelta(minutes=timeout)
+    
+    def has_processed_sweep(self, sweep_time):
+        """Check if we've already processed a sweep at this time."""
+        return sweep_time in self.processed_sweep_times
+    
+    def mark_sweep_processed(self, sweep_time):
+        """Mark a sweep as processed."""
+        self.processed_sweep_times.add(sweep_time)
     
     def update(self):
         """Override update to handle HTF timeout logic."""
@@ -247,13 +256,13 @@ def aggregate_candles_to_timeframe(candles, target_timeframe_minutes, current_ti
     return aggregated
 
 
-def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_timeframe, use_direct_htf=False):
+def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_timeframe):
     """Prepare historical HTF and LTF data for backtest at specific timestamp."""
     try:
         current_time = pd.Timestamp(rates[current_index]["time"], unit="s")
         
         # Prepare LTF data (last 100 candles)
-        ltf_start = max(0, current_index - 100)
+        ltf_start = max(0, current_index)
         ltf_data = rates[ltf_start:current_index + 1]
         
         # Get timeframe intervals in minutes
@@ -271,14 +280,14 @@ def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_tim
         
         # Calculate minimum LTF candles needed for HTF aggregation
         candles_per_htf = htf_minutes // ltf_minutes if ltf_minutes > 0 else 1
-        min_ltf_candles_needed = candles_per_htf * 100
+        min_ltf_candles_needed = candles_per_htf * 24
         
         # Calculate how many historical candles we can safely use
-        # Need to leave enough room for lookback in aggregation
-        safe_start = max(0, current_index - (min_ltf_candles_needed + 200))
-        all_rates = rates[safe_start:current_index + 1]
+        total_ltf_candles = len(rates)
         
-        if len(all_rates) < min_ltf_candles_needed:
+        #print(f"LTF: {ltf_minutes}m, HTF: {htf_minutes}m candles_per_htf: {candles_per_htf}, min_ltf_needed: {min_ltf_candles_needed}, total_available: {total_ltf_candles} current_index: {current_index}")
+        
+        if total_ltf_candles < min_ltf_candles_needed:
             # Not enough data yet - return empty HTF data
             return {
                 'htf_data': [],  # Return empty list instead of None
@@ -287,16 +296,11 @@ def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_tim
             }
         
         # Prepare HTF data
-        if use_direct_htf:
-            # Fetch HTF data directly from MT5
-            htf_data = fetch_htf_data_direct(symbol, htf_timeframe, current_time, num_candles=200)
-            if htf_data is None:
-                htf_data = []  # Ensure we return a list
-        else:
-            # Aggregate LTF candles to HTF
-            htf_data = aggregate_candles_to_timeframe(all_rates, htf_minutes, current_time)
-            if htf_data is None:
-                htf_data = []  # Ensure we return a list
+        # Fetch HTF data directly from MT5
+        htf_data = fetch_htf_data_direct(symbol, htf_timeframe, current_time, num_candles=(total_ltf_candles // candles_per_htf)+50)
+        if htf_data is None:
+            htf_data = []  # Ensure we return a list
+            log_error(f"HTF data fetch returned None for {symbol}")
         
         # Additional validation
         if not isinstance(htf_data, list):
@@ -304,9 +308,10 @@ def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_tim
             htf_data = list(htf_data) if htf_data else []
         
         # Only return HTF data if we have sufficient candles
-        if len(htf_data) < 100:
-            log_warning(f"Insufficient HTF candles for {symbol}: {len(htf_data)}/100", quiet=True)
+        if len(htf_data) < 24:
+            log_warning(f"Insufficient HTF candles for {symbol}: {len(htf_data)}/24", quiet=True)
             htf_data = []
+            
         
         return {
             'htf_data': htf_data,
@@ -358,6 +363,50 @@ def pips_to_price(symbol: str, pips: float) -> float:
         return pips * 0.001
     return pips * 0.00001
 
+def simulate_breakeven_in_backtest(trade, current_price, breakeven_rr=0.9, breakeven_offset_rr=0.1, symbol=None):
+    """
+    Simulate breakeven behavior during backtest.
+    Returns updated stop loss if breakeven should trigger.
+    
+    Args:
+        trade: Active trade dictionary with entry_price, sl_price, direction, etc.
+        current_price: Current market price
+        breakeven_rr: RR threshold to trigger breakeven
+        breakeven_offset_rr: RR offset for new SL
+    
+    Returns:
+        Updated stop loss price or None if no change
+    """
+    if trade.get("breakeven_set", False):
+        return None  # Already moved to breakeven
+    
+    entry_price = trade["entry_price"]
+    original_sl = trade["sl_price"]
+    direction = trade["direction"]
+    
+    # Calculate risk distance
+    risk_distance = abs(entry_price - original_sl)*100
+    profit_distance = abs(current_price - entry_price)*100
+    
+    
+    current_rr = profit_distance / risk_distance if risk_distance > 0 else 0
+    
+    # Check if breakeven threshold reached
+    if current_rr >= breakeven_rr:
+        # Calculate new breakeven stop loss
+        offset = pips_to_price(symbol, risk_distance * breakeven_offset_rr)
+        
+        if direction == "Bullish":
+            new_sl = entry_price + offset
+        else:
+            new_sl = entry_price - offset
+        
+        # Only move SL if it's more favorable than current
+        if direction == "Bullish" and new_sl > original_sl or direction == "Bearish" and new_sl < original_sl:
+            return new_sl
+    
+    return None
+
 def run_backtest(settings):
     """Run backtest for given date range and settings."""
     global symbol_states
@@ -393,9 +442,9 @@ def run_backtest(settings):
     htf_string = backtest_settings["timeframes"]["htf"]
     ltf_timeframe = TIMEFRAME_MAP.get(ltf_string, mt5.TIMEFRAME_M1)
     htf_timeframe = TIMEFRAME_MAP.get(htf_string, mt5.TIMEFRAME_H1)
-    end_date = datetime.strptime(backtest_settings["end_date"], "%Y-%m-%d")
+    end_date = datetime.strptime(backtest_settings["end_date"], "%Y-%m-%d") + timedelta(hours=23, minutes=59)
     length_days = int(backtest_settings["length_days"])
-    start_date = end_date - timedelta(days=length_days)
+    start_date = end_date - timedelta(days=length_days, hours=23, minutes=59)
     initial_balance = backtest_settings["initial_balance"]
     leverage = backtest_settings["leverage"]
     spread = backtest_settings["spread"]
@@ -405,6 +454,7 @@ def run_backtest(settings):
 
     total_trades = 0
     wins = 0
+    breakevens = 0
     losses = 0
     total_pips = 0.0
     balance = initial_balance
@@ -440,7 +490,7 @@ def run_backtest(settings):
         ltf_minutes = get_timeframe_minutes(ltf_timeframe)
         htf_minutes = get_timeframe_minutes(htf_timeframe)
         candles_per_htf = htf_minutes // ltf_minutes if ltf_minutes > 0 else 1
-        min_start_index = max(200, candles_per_htf * 100)  # 100 HTF candles minimum
+        min_start_index = max(200, candles_per_htf * 24)  # 24 HTF candles minimum
         
         log_info(f"Starting backtest at index {min_start_index} with length of {len(rates)} (need {candles_per_htf} LTF candles per HTF candle)", quiet=quiet_logging)
         
@@ -449,11 +499,13 @@ def run_backtest(settings):
             continue
 
         log_info(f"Processing {symbol} with {len(rates)} candles", quiet=quiet_logging)
-        progress_bar = tqdm(total=len(rates) - min_start_index, desc=f"Backtesting {symbol}", unit="candle", position=0)
+        #progress_bar = tqdm(total=len(rates) - min_start_index, desc=f"Backtesting {symbol}", unit="candle", position=0)
+        progress_bar = tqdm(total=len(rates), desc=f"Backtesting {symbol}", unit="candle", position=0)
         symbol_start_time = time.time()
         trade_signals_found = 0
 
-        for i in range(min_start_index, len(rates)):
+        #for i in range(min_start_index, len(rates)):
+        for i in range(0, len(rates)):
             strategy_settings["current_time"] = pd.Timestamp(rates[i]["time"], unit="s")
             current_date = strategy_settings["current_time"].date()
             if current_date not in daily_trade_counts[symbol]:
@@ -466,17 +518,39 @@ def run_backtest(settings):
                 trade = active_trades[symbol]
                 high = rates[i]["high"]
                 low = rates[i]["low"]
+                current_price = rates[i]["close"]
+                
+                # === BREAKEVEN SIMULATION (NEW) ===
+                if backtest_settings.get("use_breakeven", False) and not trade.get("breakeven_set", False):
+                    new_sl = simulate_breakeven_in_backtest(
+                        trade,
+                        current_price,
+                        breakeven_rr=backtest_settings.get("breakeven_rr", 1.5),
+                        breakeven_offset_rr=backtest_settings.get("breakeven_offset_rr", 0.1),
+                        symbol=symbol
+                    )
+                    
+                    if new_sl is not None:
+                        log_info(f"Backtest: Breakeven triggered for {symbol} at {current_price:.5f}, "
+                                f"SL moved from {trade['sl_price']:.5f} to {new_sl:.5f}", 
+                                quiet=quiet_logging)
+                        trade["sl_price"] = new_sl
+                        trade["breakeven_set"] = True
+                        # Recalculate SL distance for proper pip accounting
+                        entry_price = trade["entry_price"]
+                        trade["sl_distance"] = abs(entry_price - new_sl) / trade["pip_value"]
+                # === END BREAKEVEN SIMULATION ===
+                
+                spread_offset = pips_to_price(symbol, spread)
+                
                 outcome = None
-                if trade["direction"] == "Bullish" and high >= trade["tp_price"]:
+                if trade["breakeven_set"] == True and (trade["direction"] == "Bullish" and low <= trade["sl_price"] - spread_offset) or (trade["direction"] == "Bearish" and high >= trade["sl_price"] + spread_offset):
+                    outcome = "Breakeven"
+                    pips = trade["sl_distance"]
+                elif (trade["direction"] == "Bullish" and high >= trade["tp_price"] - spread_offset) or (trade["direction"] == "Bearish" and low <= trade["tp_price"] + spread_offset):
                     outcome = "Win"
                     pips = trade["tp_distance"]
-                elif trade["direction"] == "Bearish" and low <= trade["tp_price"]:
-                    outcome = "Win"
-                    pips = trade["tp_distance"]
-                elif trade["direction"] == "Bullish" and low <= trade["sl_price"]:
-                    outcome = "Loss"
-                    pips = -trade["sl_distance"]
-                elif trade["direction"] == "Bearish" and high >= trade["sl_price"]:
+                elif (trade["direction"] == "Bullish" and low <= trade["sl_price"] - spread_offset) or (trade["direction"] == "Bearish" and high >= trade["sl_price"] + spread_offset):
                     outcome = "Loss"
                     pips = -trade["sl_distance"]
                 if outcome:
@@ -487,6 +561,8 @@ def run_backtest(settings):
                     daily_trade_counts[symbol][current_date] += 1
                     if outcome == "Win":
                         wins += 1
+                    elif outcome == "Breakeven":
+                        breakevens += 1
                     else:
                         losses += 1
                     trade["outcome"] = outcome
@@ -532,7 +608,7 @@ def run_backtest(settings):
                         
                         continue
                     
-                    backtest_data = prepare_historical_data(symbol, rates, i, ltf_timeframe, htf_timeframe, use_direct_htf=True)
+                    backtest_data = prepare_historical_data(symbol, rates, i, ltf_timeframe, htf_timeframe)
                     
                     # Validate backtest data
                     if not backtest_data:
@@ -550,19 +626,14 @@ def run_backtest(settings):
                         continue
                 
                     # Validate HTF data - Skip if not enough HTF candles yet
-                    if htf_data is None or len(htf_data) < 100:
+                    if htf_data is None or len(htf_data) < 24:
                         # Don't log every time - this is expected at the start
-                        if i == min_start_index:
-                            log_info(f"Waiting for sufficient HTF data for {symbol} (have {len(htf_data) if htf_data else 0}/100 candles)", 
+                        #if i == min_start_index:
+                        if i == 0:
+                            log_info(f"Waiting for sufficient HTF data for {symbol} (have {len(htf_data) if htf_data else 0}/24 candles)", 
                                     quiet=quiet_logging)
                         progress_bar.update(1)
                         continue
-
-                    # Debug logging (less verbose)
-                    if i % 500 == 0:  # Log every 500 candles instead of 100
-                        log_info(f"[DEBUG] {symbol} @ {current_time}: "
-                                f"HTF={len(htf_data)}, LTF={len(ltf_data)}", 
-                                quiet=quiet_logging)
                     
                     # Sync state
                     if strategy and symbol in symbol_states:
@@ -600,10 +671,6 @@ def run_backtest(settings):
                             direction = "Bullish" if rates[i]["close"] > rates[i]["open"] else "Bearish"
                         
                         stop_loss = getattr(state, 'stop_loss', None)
-                        if not stop_loss:
-                            spread_offset = pips_to_price(symbol, spread)
-                            stop_loss = (entry_price - spread_offset if direction == "Bullish" 
-                                       else entry_price + spread_offset)
                         
                         take_profit = getattr(state, 'take_profit', None)
                         if not take_profit:
@@ -643,7 +710,8 @@ def run_backtest(settings):
                                 "entry_time": strategy_settings["current_time"],
                                 "pip_value": pip_value,
                                 "sl_distance": sl_distance,
-                                "tp_distance": tp_distance
+                                "tp_distance": tp_distance,
+                                "breakeven_set": False
                             }
                             state.reset()
                         else:
@@ -677,6 +745,7 @@ def run_backtest(settings):
     final_balance = balance
     percentage_increase = ((final_balance - initial_balance) / initial_balance) * 100
     win_rate = (wins / total_trades * 100) if total_trades > 0 else 0
+    win_rate_with_breakeven = ((wins + breakevens) / total_trades * 100) if total_trades > 0 else 0
     avg_rr = sum(t["rr"] for t in trade_log) / total_trades if total_trades > 0 else 0
 
     print("\n" + "="*50)
@@ -691,11 +760,13 @@ def run_backtest(settings):
     print(f"Percentage Return: {percentage_increase:.2f}%")
     print(f"Total Trades: {total_trades}")
     print(f"Wins: {wins}")
+    print(f"Breakevens: {breakevens}")
     print(f"Losses: {losses}")
-    print(f"Win Rate: {win_rate:.2f}%")
+    print(f"Performance Win Rate: {win_rate:.2f}%")
+    print(f"Absolute Win Rate: {win_rate_with_breakeven:.2f}%")
     print(f"Average RR: {avg_rr:.2f}")
     print(f"Total Pips: {total_pips:.2f}")
-    print(f"Backtest Duration: {duration:.2f} seconds")
+    print(f"Backtest Duration: {duration:.2f} seconds ({duration/60:.2f} minutes)")
     print("="*50)
 
     if trade_log:
@@ -710,7 +781,7 @@ def run_backtest(settings):
                   f"{trade['sl_price']:<10.5f} {trade['tp_price']:<10.5f} {trade['rr']:<6.2f} "
                   f"{trade['lot_size']:<6.2f} {str(trade['entry_time']):<19} "
                   f"{trade['outcome']:<7} {trade['pips']:<8.2f} ${trade['profit']:<10.2f}")
-            copyable = f"&emsp;array.push(trade_data, \"{str(trade['entry_time'])}|{trade['entry_price']}|{trade['sl_price']}|{trade['tp_price']}|{trade['direction']}\")\n"
+            copyable = f"    array.push(trade_data, \"{str(trade['entry_time'])}|{trade['entry_price']}|{trade['sl_price']}|{trade['tp_price']}|{trade['direction']}\")\n"
             text_to_copy += copyable
 
 
@@ -773,7 +844,7 @@ def validate_backtest_settings(settings):
     ltf_minutes = get_timeframe_minutes(TIMEFRAME_MAP[ltf])
     htf_minutes = get_timeframe_minutes(TIMEFRAME_MAP[htf])
     candles_per_htf = htf_minutes // ltf_minutes
-    min_candles_needed = candles_per_htf * 100
+    min_candles_needed = candles_per_htf * 24
     
     if expected_ltf_candles < min_candles_needed:
         recommended_days = (min_candles_needed / candles_per_day.get(ltf, 1440)) + 1
