@@ -179,7 +179,7 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         
         SWEEP_LOOKBACK = 10   # Last N candles to check for new sweeps
         
-        for idx in range(max(0, len(df_htf) - SWEEP_LOOKBACK), len(df_htf)):
+        for idx in range(len(df_htf) - 1, max(0, len(df_htf) - SWEEP_LOOKBACK) - 1, -1):
             candle = df_htf.iloc[idx]
             candle_time = candle.get('time') or df_htf.index[idx]
             
@@ -235,8 +235,6 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
                 tradelog=True,
                 quiet=quiet
             )
-            
-            return True, sweep_data['score']   # Return success + score if your strategy uses it
         
         else:
             if not sweep_found:
@@ -360,24 +358,15 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         log_error(f"No LTF data available to set entry for {symbol}", quiet=quiet)
         return False, 0.0
         
-   # Calculate stop loss
+    # Calculate stop loss
     if state.stop_loss is None:
+        sl_distance = pips_to_price(symbol, default_sl_pips)
         if not fixed_sl:
-            # Dynamic SL should be calculated elsewhere before this point
-            # For now, use a fallback if not set
-                log_warning(f"Dynamic SL not set for {symbol}, using default", quiet=quiet)
-                sl_distance = pips_to_price(symbol, default_sl_pips)
-                if state.direction == "Bullish":
-                    state.stop_loss = state.entry_price - sl_distance
-                else:
-                    state.stop_loss = state.entry_price + sl_distance
+            log_warning(f"Dynamic SL not set for {symbol}, using default", quiet=quiet)
+        if state.direction == "Bullish":
+            state.stop_loss = state.entry_price - sl_distance
         else:
-            # Fixed SL: calculate from entry price
-            sl_distance = pips_to_price(symbol, default_sl_pips)
-            if state.direction == "Bullish":
-                state.stop_loss = state.entry_price - sl_distance
-            else:
-                state.stop_loss = state.entry_price + sl_distance
+            state.stop_loss = state.entry_price + sl_distance
                 
   # Process trade data to set TP
     success = process_trade_data(
@@ -505,7 +494,9 @@ def detect_ltf_reversal(data, direction, fvg_sl):
 def pips_to_price(symbol: str, pips: float) -> float:
     symbol = symbol.upper()
     if symbol.startswith("XAU"):
-        return pips * 0.01
+        return pips * 1   # Gold: 1 pip = $1 due to fxcm. Other brokers may use 0.1, adjust as needed.
+    elif symbol.startswith("XAG"):
+        return pips * 0.01        # Silver
     elif "JPY" in symbol:
-        return pips * 0.001
-    return pips * 0.00001
+        return pips * 0.01        # JPY pairs
+    return pips * 0.0001          # Standard forex

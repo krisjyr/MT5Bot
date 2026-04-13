@@ -18,9 +18,11 @@ def calculate_stop_loss(symbol, entry_price, direction, fixed_sl_enabled, defaul
         point = symbol_info.point
         print(f"POINT: {point}")
         digits = symbol_info.digits
+        print(f"DIGITS: {digits}")
         
         # Convert pips to price distance (handle 3/5 digit vs 2/4 digit quotes)
-        pip_multiplier = 10 if digits in [3, 5] else 1
+        pip_multiplier = 100 if symbol.startswith("XAU") else 10
+
         sl_distance = default_sl_pips * pip_multiplier * point
         
         if direction == "Bullish":
@@ -115,7 +117,7 @@ def process_trade_data(symbol, state, settings, tf_data=None, quiet=False):
         fixed_sl = settings.get("fixed_stop_loss", False)
         min_rr = settings.get("minimum_rr", 3.0)
         max_rr = settings.get("maximum_rr", 4.0)
-        default_sl_pips = settings.get("default_stop_loss_pips", 500)
+        default_sl_pips = settings.get("default_stop_loss_pips", 5)
         
         # Validate entry price
         if state.entry_price is None:

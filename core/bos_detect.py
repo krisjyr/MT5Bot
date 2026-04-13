@@ -7,7 +7,7 @@ swing_cache = {}
 
 def calculate_swing_points(data, window=5, strength=2):
     """Detect swing highs/lows by checking n bars on each side."""
-    cache_key = f"{window}_{strength}_{id(data)}_{len(data)}"
+    cache_key = f"{window}_{strength}_{data[0]['time']}_{data[-1]['time']}_{len(data)}"
     if cache_key in swing_cache:
         return swing_cache[cache_key]
 
@@ -57,7 +57,7 @@ def confirm_break_of_structure(data, direction, symbol, swing_strength=1):
         
         if direction == "Bullish":
             if not recent_highs.empty:
-                last_high = recent_highs['high'].iloc[-1]
+                last_high = recent_highs['high'].max()
                 if last_candle['close'] > last_high and last_candle['close'] > last_candle['open']:
                     result['confirmed'] = True
                     log_info(f"BoS confirmed for {symbol}: Bullish break above {last_high:.5f}")
@@ -67,7 +67,7 @@ def confirm_break_of_structure(data, direction, symbol, swing_strength=1):
                 result['reason'] = "No recent swing highs"
         elif direction == "Bearish":
             if not recent_lows.empty:
-                last_low = recent_lows['low'].iloc[-1]
+                last_low = recent_lows['low'].min()
                 if last_candle['close'] < last_low and last_candle['close'] < last_candle['open']:
                     result['confirmed'] = True
                     log_info(f"BoS confirmed for {symbol}: Bearish break below {last_low:.5f}")

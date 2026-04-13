@@ -151,12 +151,12 @@ class EnhancedHTFSweepDetector:
                 latest_idx, level = max(active_highs, key=lambda x: x[0])
                 level_price = level.price
 
-                # Structure Break
+                # Structure Break High
                 if not level.broken and curr_close > level_price:
                     if not self.only_wicks:
                         level.broken = True
 
-                # Wick Sweep
+                # Wick Sweep High
                 if (self.only_wicks or self.both_modes) and not level.wick_swept:
                     if curr_high > level_price and curr_close <= level_price:
                         wick_size = curr_high - max(curr_open, curr_close)
@@ -178,10 +178,13 @@ class EnhancedHTFSweepDetector:
                                 level.swept = True
                                 level.sweep_index = i
 
-                # Break + Retest
+                # Break + Retest High
                 if level.broken and not level.swept and not self.only_wicks:
                     if curr_low < level_price and curr_close > level_price:
+                        touches = self._count_touches(highs, lows, level_price, latest_idx, i, False)
+                        level.touches = max(level.touches, touches)
                         df.at[i, 'high_sweep'] = True
+                        df.at[i, 'high_sweep_strength'] = touches
                         df.at[i, 'swept_high_level'] = level_price
                         df.at[i, 'sweep_type'] = 'break_retest'
                         df.at[i, 'sweep_time'] = df.index[i]
@@ -198,10 +201,12 @@ class EnhancedHTFSweepDetector:
                 latest_idx, level = max(active_lows, key=lambda x: x[0])
                 level_price = level.price
 
+                # Structure Break Low
                 if not level.broken and curr_close < level_price:
                     if not self.only_wicks:
                         level.broken = True
 
+                # Wick Sweep Low
                 if (self.only_wicks or self.both_modes) and not level.wick_swept:
                     if curr_low < level_price and curr_close >= level_price:
                         wick_size = min(curr_open, curr_close) - curr_low
@@ -223,9 +228,14 @@ class EnhancedHTFSweepDetector:
                                 level.swept = True
                                 level.sweep_index = i
 
+
+                # Break + Retest Low
                 if level.broken and not level.swept and not self.only_wicks:
                     if curr_high > level_price and curr_close < level_price:
+                        touches = self._count_touches(highs, lows, level_price, latest_idx, i, False)
+                        level.touches = max(level.touches, touches)
                         df.at[i, 'low_sweep'] = True
+                        df.at[i, 'low_sweep_strength'] = touches          # ← ADD THIS
                         df.at[i, 'swept_low_level'] = level_price
                         df.at[i, 'sweep_type'] = 'break_retest'
                         df.at[i, 'sweep_time'] = df.index[i]

@@ -51,6 +51,7 @@ def main():
         news_buffer_minutes = strat.get("news_buffer_minutes", 30)
         current_date = datetime.now().date()
         
+        session_start_balance = mt5.account_info().balance if mt5.account_info() else None
         max_trades_done = False
         max_risk_exceeded = False
         outside_session = False
@@ -82,13 +83,16 @@ def main():
                     continue
 
                 # Check daily loss limit
-                if daily_loss >= strat.get("max_loss_per_day_percent", 3.0):
-                    if not max_risk_exceeded:
-                        log_warning("Daily loss limit exceeded. Waiting for next session...")
-                        max_risk_exceeded = True
-                        outside_session = True
-                    time.sleep(60)
-                    continue
+                if session_start_balance:
+                    current_balance = mt5.account_info().balance
+                    daily_loss_pct = ((session_start_balance - current_balance) / session_start_balance) * 100
+                    if daily_loss_pct >= strat.get("max_loss_per_day_percent", 3.0):
+                        if not max_risk_exceeded:
+                            log_warning("Daily loss limit exceeded. Waiting for next session...")
+                            max_risk_exceeded = True
+                            outside_session = True
+                        time.sleep(60)
+                        continue
 
                 # Run strategy
                 if not max_trades_done and not max_risk_exceeded:

@@ -35,16 +35,8 @@ def is_filling_type_allowed(symbol, fill_type):
 def get_valid_fill_type(symbol, preferred_fill_type):
     
     # Dynamically resolve fill mode constants with fallbacks
-    FILLING_FOK = (
-        getattr(mt5, "SYMBOL_FILLING_FOK", None)
-        or getattr(mt5, "ORDER_FILLING_FOK", None)
-        or 1  # numeric fallback
-    )
-    FILLING_IOC = (
-        getattr(mt5, "SYMBOL_FILLING_IOC", None)
-        or getattr(mt5, "ORDER_FILLING_IOC", None)
-        or 2  # numeric fallback
-    )
+    FILLING_FOK = mt5.ORDER_FILLING_FOK
+    FILLING_IOC = mt5.ORDER_FILLING_IOC
     
     """Get a valid fill type supported by the broker for the symbol."""
     symbol_info = symbol_info_cache.get(symbol)
@@ -113,7 +105,7 @@ def send_order(symbol, lot, direction, sl, tp, magic, max_retries=3):
     try:
         # Load settings for preferred fill type
         config = load_settings("settings.json")
-        preferred_fill_type = config.get("strategy", {}).get("order_filling_type", "IOC")
+        preferred_fill_type = config.get("strategy", {}).get("order_filling_type", "FOK")
         
         # Get valid fill type
         filling_type, filling_type_str = get_valid_fill_type(symbol, preferred_fill_type)
@@ -150,6 +142,8 @@ def send_order(symbol, lot, direction, sl, tp, magic, max_retries=3):
         }
         if filling_type is not None:
             request["type_filling"] = filling_type
+            
+        print(f"[debug fill type] Filling type: {filling_type_str} ({filling_type}), Request: {request}")
         
         # Retry logic for transient failures
         for attempt in range(max_retries):
@@ -160,7 +154,7 @@ def send_order(symbol, lot, direction, sl, tp, magic, max_retries=3):
             
             if result.retcode == mt5.TRADE_RETCODE_INVALID_FILL:
                 log_warning(f"Invalid fill type {filling_type_str} for {symbol}. Attempting fallback...")
-                new_filling_type, new_filling_type_str, _ = get_valid_fill_type(symbol, "IOC" if filling_type_str == "FOK" else "FOK")
+                new_filling_type, new_filling_type_str = get_valid_fill_type(symbol, "IOC" if filling_type_str == "FOK" else "FOK")
                 if new_filling_type is not None or new_filling_type_str == "None (Return)":
                     request["type_filling"] = new_filling_type if new_filling_type else None
                     filling_type_str = new_filling_type_str

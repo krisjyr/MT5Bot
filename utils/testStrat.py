@@ -110,6 +110,7 @@ class BacktestSymbolState:
 # Mapping of MT5 timeframes to minutes
 TIMEFRAME_TO_MINUTES = {
     mt5.TIMEFRAME_M1: 1,
+    mt5.TIMEFRAME_M3: 3,
     mt5.TIMEFRAME_M5: 5,
     mt5.TIMEFRAME_M15: 15,
     mt5.TIMEFRAME_M30: 30,
@@ -251,7 +252,7 @@ def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_tim
         current_time = pd.Timestamp(rates[current_index]["time"], unit="s")
         
         # Prepare LTF data (last 100 candles)
-        ltf_start = max(0, current_index)
+        ltf_start = max(0, current_index - 99)
         ltf_data = rates[ltf_start:current_index + 1]
         
         # Get timeframe intervals in minutes
@@ -347,10 +348,12 @@ def create_simplified_strategy_settings(original_settings):
 def pips_to_price(symbol: str, pips: float) -> float:
     symbol = symbol.upper()
     if symbol.startswith("XAU"):
+        return pips * 1 # Gold: 1 pip = $1 due to fxcm. Other brokers may use 0.1, adjust as needed.
+    elif symbol.startswith("XAG"):
         return pips * 0.01
     elif "JPY" in symbol:
-        return pips * 0.001
-    return pips * 0.00001
+        return pips * 0.01
+    return pips * 0.0001
 
 def simulate_breakeven_in_backtest(trade, current_price, breakeven_rr=0.9, breakeven_offset_rr=0.1, symbol=None):
     """
@@ -374,8 +377,12 @@ def simulate_breakeven_in_backtest(trade, current_price, breakeven_rr=0.9, break
     direction = trade["direction"]
     
     # Calculate risk distance
-    risk_distance = abs(entry_price - original_sl)*100
-    profit_distance = abs(current_price - entry_price)*100
+    risk_distance = abs(entry_price - original_sl)
+    profit_distance = 0.0001  # Default small value to prevent division by zero
+    if current_price < entry_price and direction == "Bearish":
+        profit_distance = entry_price - current_price
+    elif current_price > entry_price and direction == "Bullish":
+        profit_distance = current_price - entry_price
     
     
     current_rr = profit_distance / risk_distance if risk_distance > 0 else 0
@@ -514,7 +521,7 @@ def run_backtest(settings):
                     new_sl = simulate_breakeven_in_backtest(
                         trade,
                         current_price,
-                        breakeven_rr=backtest_settings.get("breakeven_rr", 1.5),
+                        breakeven_rr=backtest_settings.get("breakeven_rr", 0.9),
                         breakeven_offset_rr=backtest_settings.get("breakeven_offset_rr", 0.1),
                         symbol=symbol
                     )
@@ -527,7 +534,7 @@ def run_backtest(settings):
                         trade["breakeven_set"] = True
                         # Recalculate SL distance for proper pip accounting
                         entry_price = trade["entry_price"]
-                        trade["sl_distance"] = abs(entry_price - new_sl) / trade["pip_value"]
+                        trade["sl_distance"] = abs(entry_price - new_sl) / trade["pip_size"]
                 # === END BREAKEVEN SIMULATION ===
                 
                 spread_offset = pips_to_price(symbol, spread)
@@ -543,7 +550,7 @@ def run_backtest(settings):
                     outcome = "Loss"
                     pips = -trade["sl_distance"]
                 if outcome:
-                    profit = pips * trade["pip_value"] * trade["lot_size"] * leverage
+                    profit = pips * trade["pip_value"] * trade["lot_size"]
                     balance += profit
                     total_pips += pips
                     total_trades += 1
@@ -624,22 +631,9 @@ def run_backtest(settings):
                         progress_bar.update(1)
                         continue
                     
-                    # Sync state
-                    if strategy and hasattr(strategy, 'symbol_states'):
-                        if symbol not in strategy.symbol_states:
-                            strategy.symbol_states[symbol] = symbol_states[symbol]
-                        else:
-                            # Make both variables point to the SAME object
-                            symbol_states[symbol] = strategy.symbol_states[symbol]
-
-                    # Set backtest time on the shared state
-                    state = symbol_states[symbol]
-                    state.set_backtest_time(current_time)
-                    state.update()
-                    
-                    print(f"{state.__dict__}")
-                    
                     # Process the symbol
+                    strategy.symbol_states[symbol] = symbol_states[symbol]
+                    
                     try:
                         success, adjusted_risk = process_symbol(symbol, strategy_settings, 
                                                               quiet=quiet_logging, backtest=True,
@@ -660,19 +654,11 @@ def run_backtest(settings):
                     if success:
                         trade_signals_found += 1
                         
-                        if strategy and hasattr(strategy, 'symbol_states'):
-                            if symbol not in strategy.symbol_states:
-                                strategy.symbol_states[symbol] = symbol_states[symbol]
-                            else:
-                                # Make both variables point to the SAME object
-                                symbol_states[symbol] = strategy.symbol_states[symbol]
-
                         # Set backtest time on the shared state
+                        symbol_states[symbol] = strategy.symbol_states[symbol]
                         state = symbol_states[symbol]
                         state.set_backtest_time(current_time)
                         state.update()
-                        
-                        state = symbol_states[symbol]
                         
                         print(f"state after process_symbol: sweep={state.sweep_confirmed}, bos={state.bos_confirmed}, fvg={state.fvg_tapped}, entry_price={state.entry_price}, stop_loss={state.stop_loss}, take_profit={state.take_profit}, direction={state.direction}")
                         
@@ -696,9 +682,12 @@ def run_backtest(settings):
                                          else entry_price - (sl_distance * minimum_rr))
                         
                         # Validate trade parameters
-                        pip_value = 0.10 if symbol.startswith("XAU") else 0.01 if "JPY" in symbol else 0.0001
-                        sl_distance = abs(entry_price - stop_loss) / pip_value
-                        tp_distance = abs(take_profit - entry_price) / pip_value
+                        symbol_info = mt5.symbol_info(symbol)
+                        contract_size = symbol_info.trade_contract_size
+                        pip_size = symbol_info.point * 10
+                        pip_value = pip_size * contract_size
+                        sl_distance = abs(entry_price - stop_loss) / pip_size
+                        tp_distance = abs(take_profit - entry_price) / pip_size
                         
                         if sl_distance <= 0 or tp_distance <= 0:
                             log_warning(f"Invalid distances for {symbol}: SL={sl_distance:.2f}, TP={tp_distance:.2f}", 
@@ -726,9 +715,11 @@ def run_backtest(settings):
                                 "lot_size": lot_size,
                                 "entry_time": strategy_settings["current_time"],
                                 "pip_value": pip_value,
+                                "pip_size": pip_size,
                                 "sl_distance": sl_distance,
                                 "tp_distance": tp_distance,
-                                "breakeven_set": False
+                                "breakeven_set": False,
+                                "sl_before_be": stop_loss
                             }
                             state.reset()
                         else:
@@ -761,7 +752,7 @@ def run_backtest(settings):
     duration = (end_time - start_time).total_seconds()
     final_balance = balance
     percentage_increase = ((final_balance - initial_balance) / initial_balance) * 100
-    win_rate = (wins / total_trades * 100) if total_trades > 0 else 0
+    win_rate = (wins / (wins + losses) * 100) if total_trades > 0 else 0
     win_rate_with_breakeven = ((wins + breakevens) / total_trades * 100) if total_trades > 0 else 0
     avg_rr = sum(t["rr"] for t in trade_log) / total_trades if total_trades > 0 else 0
 
@@ -789,16 +780,16 @@ def run_backtest(settings):
     if trade_log:
         print("\nTRADE DETAILS:")
         print("-" * 120)
-        print(f"{'Symbol':<8} {'Direction':<8} {'Entry':<10} {'SL':<10} {'TP':<10} {'RR':<6} "
+        print(f"{'Symbol':<8} {'Direction':<8} {'Entry':<10} {'SL':<10} {'TP':<10} {'BE':<10}  {'RR':<6} "
               f"{'Lot':<6} {'Entry Time':<19} {'Outcome':<7} {'Pips':<8} {'Profit':<10}")
         print("-" * 120)
         text_to_copy = ""
         for trade in trade_log:
             print(f"{trade['symbol']:<8} {trade['direction']:<8} {trade['entry_price']:<10.5f} "
-                  f"{trade['sl_price']:<10.5f} {trade['tp_price']:<10.5f} {trade['rr']:<6.2f} "
+                  f"{trade['sl_before_be']:<10.5f} {trade['tp_price']:<10.5f} {trade['sl_price']:<10.5f} {trade['rr']:<6.2f} "
                   f"{trade['lot_size']:<6.2f} {str(trade['entry_time']):<19} "
                   f"{trade['outcome']:<7} {trade['pips']:<8.2f} ${trade['profit']:<10.2f}")
-            copyable = f"    array.push(trade_data, \"{str(trade['entry_time'])}|{trade['entry_price']}|{trade['sl_price']}|{trade['tp_price']}|{trade['direction']}\")\n"
+            copyable = f"    array.push(trade_data, \"{str(trade['entry_time'])}|{trade['entry_price']}|{trade['sl_price']}|{trade['tp_price']}|{trade['direction']}|{trade['breakeven_set']}|{trade['sl_before_be']}\")\n"
             text_to_copy += copyable
 
 
@@ -841,6 +832,7 @@ def validate_backtest_settings(settings):
     # Calculate expected candles
     candles_per_day = {
         "M1": 1440,
+        "M3": 480,
         "M5": 288,
         "M15": 96,
         "M30": 48,
@@ -852,7 +844,7 @@ def validate_backtest_settings(settings):
     expected_ltf_candles = candles_per_day.get(ltf, 1440) * length_days
     
     TIMEFRAME_MAP = {
-        'M1': mt5.TIMEFRAME_M1, 'M5': mt5.TIMEFRAME_M5,
+        'M1': mt5.TIMEFRAME_M1, 'M3': mt5.TIMEFRAME_M3, 'M5': mt5.TIMEFRAME_M5,
         'M15': mt5.TIMEFRAME_M15, 'M30': mt5.TIMEFRAME_M30,
         'H1': mt5.TIMEFRAME_H1, 'H4': mt5.TIMEFRAME_H4,
         'D1': mt5.TIMEFRAME_D1
