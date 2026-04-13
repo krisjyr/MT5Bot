@@ -1,0 +1,235 @@
+[2026-04-06 08:33:59] [INFO] Fetching data for XAUUSD from 2026-03-22 00:00:00 to 2026-03-30 23:59:00
+[2026-04-06 08:33:59] [INFO] Data fetch for XAUUSD took 0.03 seconds
+[2026-04-06 08:33:59] [INFO] Starting backtest at index 1440 with length of 8100 (need 60 LTF candles per HTF candle)
+[2026-04-06 08:33:59] [INFO] Processing XAUUSD with 8100 candles
+[2026-04-06 08:33:59] [INFO] Processing XAUUSD at 2026-03-23 00:00:00
+[2026-04-06 08:33:59] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:33:59] [INFO] Processing XAUUSD at 2026-03-23 00:01:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:02:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:03:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:04:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:05:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:06:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:07:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:08:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:09:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:10:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:11:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:12:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:13:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:14:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:15:00
+[2026-04-06 08:34:00] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:00] [INFO] Processing XAUUSD at 2026-03-23 00:16:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:17:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:18:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:19:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:20:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:21:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:22:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:23:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:24:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:25:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:26:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:27:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:28:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:29:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:30:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:31:00
+[2026-04-06 08:34:01] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:01] [INFO] Processing XAUUSD at 2026-03-23 00:32:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:33:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:34:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:35:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:36:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:37:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:38:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:39:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:40:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:41:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:42:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:43:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:44:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:45:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:46:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:47:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:48:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:02] [INFO] Processing XAUUSD at 2026-03-23 00:49:00
+[2026-04-06 08:34:02] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:50:00
+[2026-04-06 08:34:03] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:51:00
+[2026-04-06 08:34:03] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:52:00
+[2026-04-06 08:34:03] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:53:00
+[2026-04-06 08:34:03] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:54:00
+[2026-04-06 08:34:03] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:55:00
+[2026-04-06 08:34:03] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:56:00
+[2026-04-06 08:34:03] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:57:00
+[2026-04-06 08:34:03] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD at 2026-03-23 00:58:00
+[2026-04-06 08:34:03] [INFO] Backtest interrupted by user
+[2026-04-06 08:34:03] [INFO] Processing XAUUSD took 3.63 seconds (2228.50 candles/s)
+[2026-04-06 08:34:03] [INFO] Trade signals found for XAUUSD: 0
+[2026-04-09 19:31:15] [INFO] Initializing MT5...
+[2026-04-09 19:32:24] [SUCCESS] MT5 initialized and logged in.
+
+[2026-04-09 19:32:24] [INFO] Processing EURUSD
+[2026-04-09 19:32:25] [INFO] Processing GBPUSD
+[2026-04-09 19:32:25] [INFO] Processing XAUUSD
+[2026-04-09 19:32:25] [INFO] Processing EURGBP
+[2026-04-09 19:32:25] [INFO] Processing EURNZD
+[2026-04-09 19:32:26] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:32:26] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:32:26] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:32:26] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:32:26] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-09 19:32:26] [INFO] 30 seconds until next strategy run...
+
+[2026-04-09 19:32:56] [INFO] Processing EURUSD
+[2026-04-09 19:32:56] [INFO] Processing GBPUSD
+[2026-04-09 19:32:56] [INFO] Processing XAUUSD
+[2026-04-09 19:32:56] [INFO] Processing EURGBP
+[2026-04-09 19:32:56] [INFO] Processing EURNZD
+[2026-04-09 19:32:57] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:32:57] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:32:57] [SKIP] No new unprocessed HTF sweeps found for XAUUSD
+[2026-04-09 19:32:57] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:32:57] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:32:57] [INFO] 30 seconds until next strategy run...
+
+[2026-04-09 19:33:27] [INFO] Processing EURUSD
+[2026-04-09 19:33:27] [INFO] Processing GBPUSD
+[2026-04-09 19:33:27] [INFO] Processing XAUUSD
+[2026-04-09 19:33:27] [INFO] Processing EURNZD
+[2026-04-09 19:33:27] [INFO] Processing EURGBP
+[2026-04-09 19:33:28] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:33:28] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:33:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.00 | Strength: 5 touches | Level: 4732.9300 | Sweep Type: wick | Time: 2026-04-09 11:00:00
+[2026-04-09 19:33:28] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:33:28] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:33:28] [INFO] 30 seconds until next strategy run...
+
+[2026-04-09 19:33:58] [INFO] Processing EURUSD
+[2026-04-09 19:33:58] [INFO] Processing GBPUSD
+[2026-04-09 19:33:58] [INFO] Processing XAUUSD
+[2026-04-09 19:33:58] [INFO] Processing EURGBP
+[2026-04-09 19:33:58] [INFO] Processing EURNZD
+[2026-04-09 19:33:59] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:33:59] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:33:59] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:33:59] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:33:59] [SKIP] BoS failed for XAUUSD at 2026-04-09 19:33:58.247919: Close 4794.41000 not below last low 4790.80000
+[2026-04-09 19:33:59] [INFO] 30 seconds until next strategy run...
+
+[2026-04-09 19:34:29] [INFO] Processing EURUSD
+[2026-04-09 19:34:29] [INFO] Processing XAUUSD
+[2026-04-09 19:34:29] [INFO] Processing GBPUSD
+[2026-04-09 19:34:29] [INFO] Processing EURGBP
+[2026-04-09 19:34:29] [INFO] Processing EURNZD
+[2026-04-09 19:34:29] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:34:29] [SKIP] BoS failed for XAUUSD at 2026-04-09 19:34:29.267832: Close 4794.41000 not below last low 4790.80000
+[2026-04-09 19:34:29] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:34:30] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:34:30] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:34:30] [INFO] 30 seconds until next strategy run...
+
+[2026-04-09 19:35:00] [INFO] Processing EURUSD
+[2026-04-09 19:35:00] [INFO] Processing GBPUSD
+[2026-04-09 19:35:00] [INFO] Processing XAUUSD
+[2026-04-09 19:35:00] [INFO] Processing EURGBP
+[2026-04-09 19:35:00] [INFO] Processing EURNZD
+[2026-04-09 19:35:01] [SKIP] BoS failed for XAUUSD at 2026-04-09 19:35:00.086554: Close 4793.24000 not below last low 4790.80000
+[2026-04-09 19:35:01] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:35:01] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:35:01] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:35:01] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:35:01] [INFO] 30 seconds until next strategy run...
+
+[2026-04-09 19:35:31] [INFO] Processing EURUSD
+[2026-04-09 19:35:31] [INFO] Processing GBPUSD
+[2026-04-09 19:35:31] [INFO] Processing XAUUSD
+[2026-04-09 19:35:31] [INFO] Processing EURGBP
+[2026-04-09 19:35:31] [INFO] Processing EURNZD
+[2026-04-09 19:35:31] [SKIP] BoS failed for XAUUSD at 2026-04-09 19:35:31.340734: Close 4793.24000 not below last low 4790.80000
+[2026-04-09 19:35:32] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:35:32] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:35:32] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:35:32] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:35:32] [INFO] 30 seconds until next strategy run...
+
+[2026-04-09 19:36:02] [INFO] Processing EURUSD
+[2026-04-09 19:36:02] [INFO] Processing GBPUSD
+[2026-04-09 19:36:02] [INFO] Processing XAUUSD
+[2026-04-09 19:36:02] [INFO] Processing EURGBP
+[2026-04-09 19:36:02] [INFO] Processing EURNZD
+[2026-04-09 19:36:03] [SKIP] BoS failed for XAUUSD at 2026-04-09 19:36:02.520469: Close 4793.04000 not below last low 4790.80000
+[2026-04-09 19:36:03] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:36:03] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:36:03] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:36:03] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:36:03] [INFO] 30 seconds until next strategy run...
+
+[2026-04-09 19:36:33] [INFO] Processing EURUSD
+[2026-04-09 19:36:33] [INFO] Processing GBPUSD
+[2026-04-09 19:36:33] [INFO] Processing XAUUSD
+[2026-04-09 19:36:33] [INFO] Processing EURGBP
+[2026-04-09 19:36:33] [INFO] Processing EURNZD
+[2026-04-09 19:36:34] [SKIP] BoS failed for XAUUSD at 2026-04-09 19:36:33.769997: Close 4793.04000 not below last low 4790.80000
+[2026-04-09 19:36:34] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-09 19:36:34] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-09 19:36:34] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-09 19:36:34] [SKIP] No new unprocessed HTF sweeps found for EURNZD
+[2026-04-09 19:36:34] [INFO] 30 seconds until next strategy run...
+

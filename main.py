@@ -43,7 +43,7 @@ def main():
             except Exception as e:
                 log_error(f"MT5 connection attempt {attempt + 1} failed: {e}")
                 if attempt == max_mt5_retries - 1:
-                    raise ValueError("Failed to connect to MT5 {max_mt5_retries} maximum retries")
+                    raise ValueError("Failed to connect to MT5 with maximum amount of retries")
                 time.sleep(5)
 
         session_start = strat["session_times"]["start"]

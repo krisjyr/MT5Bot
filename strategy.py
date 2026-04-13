@@ -146,83 +146,81 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
     # Dynamic swing strength
     swing_strength = 1 if atr > avg_range else 2
 
-    # HTF sweep confirmation with enhanced detection
     if use_sweep and not state.sweep_confirmed:
         # Dynamic swing strength based on volatility
-        swing_strength = 1 if atr > avg_range else 2
+        swing_strength = 4 if atr > avg_range else 5
         
-        # Initialize enhanced detector
+        # Initialize enhanced detector (LuxAlgo-style logic)
         htf_sweeper = EnhancedHTFSweepDetector(
-            swing_lookback=150,
             swing_strength=swing_strength,
-            liquidity_zone_pct=0.001 if atr <= avg_range else 0.0015,
-            min_sweep_wicksize_pct=0.002,
+            sweep_mode='Wicks + Outbreaks & Retest',   # or 'Only Wicks' / 'Only Outbreaks & Retest'
+            swing_lookback=1500,
+            liquidity_zone_pct=0.003 if atr <= avg_range else 0.0035,
+            min_sweep_wicksize_pct=0.001,
             require_close_inside=True,
-            min_touches_for_liquidity=2 if atr <= avg_range else 1
         )
         
         try:
-            df_htf = htf_sweeper.run(df_htf, add_metrics=True, debug=True)
+            df_htf = htf_sweeper.run(df_htf, add_metrics=True, debug=True)  # Set debug=True only when needed
         except Exception as e:
             log_error(f"Sweep detection failed for {symbol}: {str(e)}", quiet=quiet)
             return False, 0.0
         
-        # Check if sweep columns exist
+        # Safety check
         if 'high_sweep' not in df_htf.columns or 'low_sweep' not in df_htf.columns:
-            log_error(f"Sweep detection failed for {symbol}", quiet=quiet)
+            log_error(f"Sweep detection failed - missing columns for {symbol}", quiet=quiet)
             return False, 0.0
         
-        # Get sweep results
-        
         if len(df_htf) < 3:
-            return False, 0.0  # Insufficient data
+            return False, 0.0
         
-        # NEW LOGIC: Look for unprocessed sweeps in recent candles (last 5)
         sweep_found = False
         sweep_data = None
         
-        for idx in range(len(df_htf) - 5, len(df_htf)):  # Check last 5 HTF candles
-            if idx < 0:
-                continue
-                
+        SWEEP_LOOKBACK = 10   # Last N candles to check for new sweeps
+        
+        for idx in range(max(0, len(df_htf) - SWEEP_LOOKBACK), len(df_htf)):
             candle = df_htf.iloc[idx]
-            candle_time = candle['time']
+            candle_time = candle.get('time') or df_htf.index[idx]
             
-            # Skip if already processed
             if state.has_processed_sweep(candle_time):
                 continue
             
-            # Check for new sweep on this candle
-            has_low_sweep = candle.get('low_sweep', False)
-            has_high_sweep = candle.get('high_sweep', False)
+            has_high_sweep = bool(candle.get('high_sweep', False))
+            has_low_sweep  = bool(candle.get('low_sweep', False))
             
-            if has_low_sweep or has_high_sweep:
-                # Determine direction and score
+            
+            if has_high_sweep or has_low_sweep:
                 if has_high_sweep:
-                    strength = int(candle['high_sweep_strength'])
-                    swept_level = candle['swept_high_level']
+                    strength = int(candle.get('high_sweep_strength', 0))
+                    swept_level = float(candle.get('swept_high_level', np.nan))
                     sweep_type = "Bearish"
+                    sweep_dir = "high"
                 else:
-                    strength = int(candle['low_sweep_strength'])
-                    swept_level = candle['swept_low_level']
+                    strength = int(candle.get('low_sweep_strength', 0))
+                    swept_level = float(candle.get('swept_low_level', np.nan))
                     sweep_type = "Bullish"
-                    
-                htf_score = min(0.4 + strength * 0.12, 1.0)
+                    sweep_dir = "low"
                 
-                if htf_score > 0.6:
+                # Score calculation (improved: strength 1 now gives meaningful score)
+                htf_score = min(0.45 + strength * 0.15, 1.0)
+                
+                if htf_score > 0.45:        # Slightly raised to avoid very weak signals
                     sweep_found = True
                     sweep_data = {
                         'type': sweep_type,
                         'score': htf_score,
                         'strength': strength,
                         'level': swept_level,
-                        'time': candle_time
+                        'time': candle_time,
+                        'sweep_dir': sweep_dir,
+                        'sweep_type': candle.get('sweep_type')  # 'wick' or 'break_retest'
                     }
-                    break  # Use the first unprocessed sweep found
+                    break  # Take the most recent sweep
         
         if sweep_found and sweep_data:
             state.sweep_confirmed = True
-            state.direction = sweep_data['type']
+            state.direction = sweep_data['type']          # "Bullish" or "Bearish"
             state.mark_sweep_processed(sweep_data['time'])
             state.update()
             
@@ -231,15 +229,18 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
                 f"Type: {sweep_data['type']} | "
                 f"Score: {sweep_data['score']:.2f} | "
                 f"Strength: {sweep_data['strength']} touches | "
-                f"Level: {sweep_data['level']:.2f} | "
-                f"Sweep Time: {sweep_data['time']} | "
-                f"Current Time: {current_time}",
+                f"Level: {sweep_data['level']:.4f} | "
+                f"Sweep Type: {sweep_data.get('sweep_type', 'unknown')} | "
+                f"Time: {sweep_data['time']}",
                 tradelog=True,
                 quiet=quiet
             )
+            
+            return True, sweep_data['score']   # Return success + score if your strategy uses it
+        
         else:
             if not sweep_found:
-                log_skip(f"No new unprocessed sweeps for {symbol}", quiet=quiet)
+                log_skip(f"No new unprocessed HTF sweeps found for {symbol}", quiet=quiet)
             return False, 0.0
 
     # Fetch LTF data
@@ -355,26 +356,29 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         state.entry_price = min(current_candle['high'], current_candle['close']) if state.direction == "Bullish" else max(current_candle['low'], current_candle['close'])
         state.update()
         log_info(f"Entry price set for {symbol}: {state.entry_price:.5f}", quiet=quiet)
+    else:
+        log_error(f"No LTF data available to set entry for {symbol}", quiet=quiet)
+        return False, 0.0
         
    # Calculate stop loss
-    if not fixed_sl:
-        # Dynamic SL should be calculated elsewhere before this point
-        # For now, use a fallback if not set
-        if state.stop_loss is None:
-            log_warning(f"Dynamic SL not set for {symbol}, using default", quiet=quiet)
+    if state.stop_loss is None:
+        if not fixed_sl:
+            # Dynamic SL should be calculated elsewhere before this point
+            # For now, use a fallback if not set
+                log_warning(f"Dynamic SL not set for {symbol}, using default", quiet=quiet)
+                sl_distance = pips_to_price(symbol, default_sl_pips)
+                if state.direction == "Bullish":
+                    state.stop_loss = state.entry_price - sl_distance
+                else:
+                    state.stop_loss = state.entry_price + sl_distance
+        else:
+            # Fixed SL: calculate from entry price
             sl_distance = pips_to_price(symbol, default_sl_pips)
             if state.direction == "Bullish":
                 state.stop_loss = state.entry_price - sl_distance
             else:
                 state.stop_loss = state.entry_price + sl_distance
-    else:
-        # Fixed SL: calculate from entry price
-        sl_distance = pips_to_price(symbol, default_sl_pips)
-        if state.direction == "Bullish":
-            state.stop_loss = state.entry_price - sl_distance
-        else:
-            state.stop_loss = state.entry_price + sl_distance
-
+                
   # Process trade data to set TP
     success = process_trade_data(
         symbol=symbol,

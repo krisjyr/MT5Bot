@@ -1,0 +1,1 @@
+[2026-04-09 19:33:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.00 | Strength: 5 touches | Level: 4732.9300 | Sweep Type: wick | Time: 2026-04-09 11:00:00

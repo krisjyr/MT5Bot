@@ -5,27 +5,37 @@ from utils.logger import log_info, log_skip
 # Cache for swing points
 swing_cache = {}
 
-def calculate_swing_points(data, window=20, strength=2):
-    """Calculate swing highs and lows efficiently with caching."""
-    cache_key = f"{window}_{strength}_{hash(tuple(data['close']))}"
+def calculate_swing_points(data, window=5, strength=2):
+    """Detect swing highs/lows by checking n bars on each side."""
+    cache_key = f"{window}_{strength}_{id(data)}_{len(data)}"
     if cache_key in swing_cache:
         return swing_cache[cache_key]
-    
+
     df = pd.DataFrame(data)
-    df['swing_high'] = df['high'].rolling(window=window, center=True).max()
-    df['swing_low'] = df['low'].rolling(window=window, center=True).min()
-    
-    df['is_swing_high'] = (df['high'] == df['swing_high']) & (df['high'].shift(1) < df['high']) & (df['high'].shift(-1) < df['high'])
-    df['is_swing_low'] = (df['low'] == df['swing_low']) & (df['low'].shift(1) > df['low']) & (df['low'].shift(-1) > df['low'])
-    
-    # Filter significant swings based on strength
-    df['is_swing_high'] = df['is_swing_high'] & (df['high'] > df['high'].shift(strength))
-    df['is_swing_low'] = df['is_swing_low'] & (df['low'] < df['low'].shift(strength))
-    
+
+    swing_highs = []
+    swing_lows = []
+
+    for i in range(strength, len(df) - strength):
+        center_high = df['high'].iloc[i]
+        center_low  = df['low'].iloc[i]
+
+        left_highs  = df['high'].iloc[i - strength:i]
+        right_highs = df['high'].iloc[i + 1:i + strength + 1]
+        left_lows   = df['low'].iloc[i - strength:i]
+        right_lows  = df['low'].iloc[i + 1:i + strength + 1]
+
+        if (center_high > left_highs).all() and (center_high > right_highs).all():
+            swing_highs.append({'time': df['time'].iloc[i], 'high': center_high})
+
+        if (center_low < left_lows).all() and (center_low < right_lows).all():
+            swing_lows.append({'time': df['time'].iloc[i], 'low': center_low})
+
     swings = {
-        'highs': df[df['is_swing_high']][['time', 'high']],
-        'lows': df[df['is_swing_low']][['time', 'low']]
+        'highs': pd.DataFrame(swing_highs) if swing_highs else pd.DataFrame(columns=['time', 'high']),
+        'lows':  pd.DataFrame(swing_lows)  if swing_lows  else pd.DataFrame(columns=['time', 'low'])
     }
+
     swing_cache[cache_key] = swings
     return swings
 
@@ -35,9 +45,13 @@ def confirm_break_of_structure(data, direction, symbol, swing_strength=1):
         df = pd.DataFrame(data)
         swings = calculate_swing_points(data, window=20, strength=swing_strength)
         
+        print(f"[DEBUG BoS] LTF candles: {len(data)}, swing highs: {len(swings['highs'])}, swing lows: {len(swings['lows'])}")
+        if not swings['highs'].empty:
+            print(f"[DEBUG BoS] Last swing high: {swings['highs'].tail(3).to_string()}")
+        
         last_candle = df.iloc[-1]
-        recent_highs = swings['highs'].tail(3)
-        recent_lows = swings['lows'].tail(3)
+        recent_highs = swings['highs'].tail(10)
+        recent_lows = swings['lows'].tail(10)
         
         result = {'confirmed': False, 'reason': 'No break detected'}
         

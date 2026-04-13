@@ -49,9 +49,9 @@ class BacktestSymbolState:
         self.rr = None
         self.last_updated = datetime.now()
         self.htf_signal_time = None
-        self.htf_attempts = 0
-        self.max_attempts = 4
-        self.timeout_minutes = 15
+        self.htf_attempts = 0 # delete if not needed
+        self.max_attempts = 4 # delete if not needed
+        self.timeout_minutes = 20
         self._previous_sweep_state = False
         self._previous_fvg_state = False
         self._previous_bos_state = False
@@ -81,9 +81,9 @@ class BacktestSymbolState:
                 self.htf_attempts = 0
                 #print(f"[BACKTEST] HTF sweep timer started - 15min timeout window")
         
-        if self.bos_confirmed and not self._previous_bos_state:
-            if self.htf_signal_time:
-                time_elapsed = (current_time - self.htf_signal_time).total_seconds() / 60
+       # if self.bos_confirmed and not self._previous_bos_state:
+            #if self.htf_signal_time:
+               # time_elapsed = (current_time - self.htf_signal_time).total_seconds() / 60
                 #print(f"[BACKTEST] BoS confirmed - Timer: {time_elapsed:.1f}min, Attempt: {self.htf_attempts}")
         
         #if hasattr(self, '_debug_updates'):
@@ -93,15 +93,13 @@ class BacktestSymbolState:
         self._previous_fvg_state = self.fvg_tapped
         self._previous_bos_state = self.bos_confirmed
     
+    # In check_htf_timeout, remove the attempt count limit entirely
     def check_htf_timeout(self, current_time):
-        """Check if HTF signal has timed out and should be reset."""
         if not self.sweep_confirmed or not self.htf_signal_time:
             return False
-        
         time_elapsed = (current_time - self.htf_signal_time).total_seconds() / 60
-        self.htf_attempts += 1
-        
-        if time_elapsed > self.timeout_minutes or self.htf_attempts > self.max_attempts:
+        # Only timeout based on time, not attempt count
+        if time_elapsed > self.timeout_minutes:
             return True
         return False
     
@@ -128,36 +126,28 @@ def get_timeframe_minutes(timeframe):
 
 
 def fetch_htf_data_direct(symbol, htf_timeframe, end_time, num_candles=200):
-    """
-    Fetch HTF data directly from MT5 instead of aggregating.
-    
-    Args:
-        symbol: Trading symbol
-        htf_timeframe: MT5 timeframe constant for HTF
-        end_time: End timestamp (pd.Timestamp)
-        num_candles: Number of HTF candles to fetch
-    
-    Returns:
-        List of HTF candle dictionaries
-    """
     try:
         if not mt5.initialize():
             log_error("MT5 initialization failed for HTF data fetch", quiet=True)
             return None
-        
-        # Fetch HTF candles
-        rates = mt5.copy_rates_from(
-            symbol,
-            htf_timeframe,
-            end_time.to_pydatetime(),
-            num_candles
-        )
-        
+
+        # Convert end_time to a naive UTC datetime — MT5 expects UTC
+        if isinstance(end_time, pd.Timestamp):
+            if end_time.tzinfo is not None:
+                dt = end_time.tz_convert('UTC').tz_localize(None).to_pydatetime()
+            else:
+                dt = end_time.to_pydatetime()  # assume already UTC
+        else:
+            dt = end_time
+
+        rates = mt5.copy_rates_from(symbol, htf_timeframe, dt, num_candles)
+
+        # Log the actual MT5 error so you can see what's wrong
         if rates is None or len(rates) == 0:
-            log_error(f"Failed to fetch HTF data for {symbol}", quiet=True)
+            error = mt5.last_error()
+            log_error(f"Failed to fetch HTF data for {symbol}: MT5 error {error}", quiet=True)
             return None
-        
-        # Convert to list of dictionaries
+
         htf_data = []
         for rate in rates:
             htf_data.append({
@@ -168,13 +158,12 @@ def fetch_htf_data_direct(symbol, htf_timeframe, end_time, num_candles=200):
                 'close': float(rate['close']),
                 'tick_volume': int(rate['tick_volume'])
             })
-        
+
         return htf_data
-    
+
     except Exception as e:
         log_error(f"Error fetching HTF data for {symbol}: {str(e)}", quiet=True)
         return None
-
 
 def aggregate_candles_to_timeframe(candles, target_timeframe_minutes, current_time):
     """
@@ -591,14 +580,14 @@ def run_backtest(settings):
                     if state.sweep_confirmed and state.htf_signal_time:
                         if state.check_htf_timeout(current_time):
                             time_elapsed = (current_time - state.htf_signal_time).total_seconds() / 60
-                            log_warning(f"HTF timeout for {symbol} - Resetting after {time_elapsed:.1f}min, {state.htf_attempts} attempts", quiet=quiet_logging)
+                            log_warning(f"HTF timeout for {symbol} - Resetting after {time_elapsed:.1f}min", quiet=quiet_logging)
                             state.reset()
                             progress_bar.update(1)
                             
                             continue
                         else:
                             time_elapsed = (current_time - state.htf_signal_time).total_seconds() / 60
-                            log_info(f"HTF active for {symbol} - Attempt {state.htf_attempts}/{state.max_attempts}, Time: {time_elapsed:.1f}min", quiet=quiet_logging)
+                            log_info(f"HTF active for {symbol} - Time: {time_elapsed:.1f}min", quiet=quiet_logging)
                     
                     
                     # Check processing time before expensive operations
@@ -636,10 +625,19 @@ def run_backtest(settings):
                         continue
                     
                     # Sync state
-                    if strategy and symbol in symbol_states:
-                        strategy.symbol_states[symbol] = symbol_states[symbol]
-                        symbol_states[symbol].set_backtest_time(current_time)
-                        symbol_states[symbol].update()
+                    if strategy and hasattr(strategy, 'symbol_states'):
+                        if symbol not in strategy.symbol_states:
+                            strategy.symbol_states[symbol] = symbol_states[symbol]
+                        else:
+                            # Make both variables point to the SAME object
+                            symbol_states[symbol] = strategy.symbol_states[symbol]
+
+                    # Set backtest time on the shared state
+                    state = symbol_states[symbol]
+                    state.set_backtest_time(current_time)
+                    state.update()
+                    
+                    print(f"{state.__dict__}")
                     
                     # Process the symbol
                     try:
@@ -661,10 +659,27 @@ def run_backtest(settings):
                     
                     if success:
                         trade_signals_found += 1
-                        state = symbol_states.get(symbol, BacktestSymbolState())
+                        
+                        if strategy and hasattr(strategy, 'symbol_states'):
+                            if symbol not in strategy.symbol_states:
+                                strategy.symbol_states[symbol] = symbol_states[symbol]
+                            else:
+                                # Make both variables point to the SAME object
+                                symbol_states[symbol] = strategy.symbol_states[symbol]
+
+                        # Set backtest time on the shared state
+                        state = symbol_states[symbol]
+                        state.set_backtest_time(current_time)
+                        state.update()
+                        
+                        state = symbol_states[symbol]
+                        
+                        print(f"state after process_symbol: sweep={state.sweep_confirmed}, bos={state.bos_confirmed}, fvg={state.fvg_tapped}, entry_price={state.entry_price}, stop_loss={state.stop_loss}, take_profit={state.take_profit}, direction={state.direction}")
+                        
+                        
                         
                         # Validate state data before creating trade
-                        entry_price = getattr(state, 'entry_price', None) or rates[i]["close"]
+                        entry_price = getattr(state, 'entry_price', None)
                         direction = getattr(state, 'direction', None)
                         
                         if not direction:
@@ -673,6 +688,8 @@ def run_backtest(settings):
                         stop_loss = getattr(state, 'stop_loss', None)
                         
                         take_profit = getattr(state, 'take_profit', None)
+                        
+                        print(f"Debug: entry_price={entry_price}, direction={direction}, stop_loss={stop_loss}, take_profit={take_profit}, adjusted_risk={adjusted_risk}")
                         if not take_profit:
                             sl_distance = abs(entry_price - stop_loss)
                             take_profit = (entry_price + (sl_distance * minimum_rr) if direction == "Bullish"

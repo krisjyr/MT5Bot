@@ -1,7 +1,7 @@
 {
   "credentials": {
-    "username": 5042726861,
-    "password": "@zK7LeNl",
+    "username": 5048689789,
+    "password": "6mBfKc-w",
     "server": "MetaQuotes-Demo",
     "mt5path": "C:/Program Files/MetaTrader 5/terminal64.exe"
   },
@@ -37,8 +37,8 @@
     "order_filling_type": "IOC"
   },
   "backtest": {
-    "length_days": "5",
-    "end_date": "2025-11-20",
+    "length_days": "8",
+    "end_date": "2026-03-30",
     "initial_balance": 5000.0,
     "leverage": 100,
     "spread": 40,
