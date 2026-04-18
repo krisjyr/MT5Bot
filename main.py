@@ -64,6 +64,7 @@ def main():
 
             # Reset states at new trading day
             if today != current_date:
+                session_start_balance = mt5.account_info().balance if mt5.account_info() else None
                 max_trades_done = False
                 max_risk_exceeded = False
                 daily_loss = 0.0

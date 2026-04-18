@@ -1,6 +1,7 @@
 import MetaTrader5 as mt5
 import pandas as pd
 import numpy as np
+from typing import Dict
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor
 from utils.logger import log_info, log_success, log_warning, log_error, log_skip, log_trade
@@ -15,6 +16,7 @@ from core.breakeven_manager import check_and_set_breakeven, cleanup_closed_posit
 
 symbol_states = {}
 data_cache = {}
+symbol_last_trade_time: Dict[str, datetime] = {}
 
 class SymbolState:
     def __init__(self):
@@ -103,6 +105,26 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
     if symbol not in symbol_states:
         symbol_states[symbol] = SymbolState()
     state = symbol_states[symbol]
+    
+    # Max concurrent open trades per symbol
+    max_trades_per_symbol = settings.get("max_trades_per_symbol", 1)
+    active_for_symbol = sum(
+        1 for s, st in symbol_states.items()
+        if s == symbol and st.order_sent
+    )
+    if active_for_symbol >= max_trades_per_symbol:
+        log_skip(f"Max active trades reached for {symbol} ({active_for_symbol}/{max_trades_per_symbol})", quiet=quiet)
+        return False, 0.0
+
+    # Cooldown between trades for this symbol
+    cooldown_minutes = settings.get("time_between_symbol_trades_minutes", 60)
+    last_trade_time = symbol_last_trade_time.get(symbol)
+    if last_trade_time is not None:
+        now = current_time if backtest else datetime.now()
+        elapsed = (now - last_trade_time).total_seconds() / 60
+        if elapsed < cooldown_minutes:
+            log_skip(f"Cooldown active for {symbol}: {cooldown_minutes - elapsed:.1f}min remaining", quiet=quiet)
+            return False, 0.0
 
     if state.is_stale():
         log_warning(f"Resetting state for {symbol} due to staleness", quiet=quiet)
@@ -398,6 +420,7 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
     if backtest:
         if not state.order_sent:
             state.order_sent = True
+            symbol_last_trade_time[symbol] = current_time
             log_trade(f"{symbol} | {state.direction} @ {state.entry_price:.5f} | SL: {state.stop_loss:.5f} | TP: {state.take_profit:.5f} | Lot: {lot_size:.2f}", quiet=quiet)
             log_success(f"Trade simulated for {symbol} in backtest", quiet=quiet)
             return True, adjusted_risk
@@ -410,6 +433,7 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         success, comment = send_order(symbol, lot_size, state.direction, state.stop_loss, state.take_profit, magic=10032024)
         if success:
             state.order_sent = True
+            symbol_last_trade_time[symbol] = datetime.now()
             log_success(f"Trade executed on {symbol}", tradelog=True, quiet=quiet)
             return True, adjusted_risk
         else:
@@ -433,7 +457,7 @@ def strategy_run(settings):
         try:
             modified = check_and_set_breakeven(
                 use_breakeven=True,
-                breakeven_rr=settings.get("breakeven_rr", 1.5),
+                breakeven_rr=settings.get("breakeven_rr", 0.9),
                 breakeven_offset_rr=settings.get("breakeven_offset_rr", 0.1),
                 quiet=False
             )
@@ -448,9 +472,10 @@ def strategy_run(settings):
     trade_count = sum(1 for state in symbol_states.values() if state.order_sent and not state.is_stale())
     total_risk = sum(state.adjusted_risk for state in symbol_states.values() if state.order_sent and not state.is_stale() and state.adjusted_risk is not None)
 
-    if trade_count >= max_trade_count or total_risk >= max_risk_per_day:
-        log_warning(f"Max trades ({trade_count}/{max_trade_count}) or risk ({total_risk:.2f}/{max_risk_per_day}) reached")
-        return True, True
+    if max_trade_count >= 0 and max_risk_per_day > 0:
+        if trade_count >= max_trade_count or total_risk >= max_risk_per_day:
+            log_warning(f"Max trades ({trade_count}/{max_trade_count}) or risk ({total_risk:.2f}/{max_risk_per_day}) reached")
+            return True, True
 
     with ThreadPoolExecutor() as executor:
         results = executor.map(lambda s: process_symbol(s, settings), symbols)

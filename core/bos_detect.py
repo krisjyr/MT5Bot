@@ -45,10 +45,6 @@ def confirm_break_of_structure(data, direction, symbol, swing_strength=1):
         df = pd.DataFrame(data)
         swings = calculate_swing_points(data, window=20, strength=swing_strength)
         
-        print(f"[DEBUG BoS] LTF candles: {len(data)}, swing highs: {len(swings['highs'])}, swing lows: {len(swings['lows'])}")
-        if not swings['highs'].empty:
-            print(f"[DEBUG BoS] Last swing high: {swings['highs'].tail(3).to_string()}")
-        
         last_candle = df.iloc[-1]
         recent_highs = swings['highs'].tail(10)
         recent_lows = swings['lows'].tail(10)

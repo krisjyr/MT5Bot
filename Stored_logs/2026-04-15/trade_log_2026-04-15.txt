@@ -1,0 +1,239 @@
+[2026-04-15 00:13:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.75 | Strength: 2 touches | Level: 4777.1800 | Sweep Type: break_retest | Time: 2026-04-14 09:00:00
+[2026-04-15 00:13:39] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 0.60 | Strength: 1 touches | Level: 1.1770 | Sweep Type: break_retest | Time: 2026-04-14 09:00:00
+[2026-04-15 00:13:39] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 0.60 | Strength: 1 touches | Level: 1.3539 | Sweep Type: break_retest | Time: 2026-04-14 12:00:00
+[2026-04-15 00:13:39] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 0.8701 | Sweep Type: break_retest | Time: 2026-04-14 13:00:00
+[2026-04-15 00:13:39] [SUCCESS] BoS confirmed for GBPUSD at 2026-04-15 00:13:38.820806: Risk=1.00%
+[2026-04-15 00:13:39] [TRADE] GBPUSD | Bearish @ 1.35715 | SL: 1.35775 | TP: 1.35535 | Lot: 0.87
+[2026-04-15 08:03:28] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 0.60 | Strength: 1 touches | Level: 1.3539 | Sweep Type: break_retest | Time: 2026-04-14 12:00:00
+[2026-04-15 08:03:28] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 0.60 | Strength: 1 touches | Level: 1.1770 | Sweep Type: break_retest | Time: 2026-04-14 09:00:00
+[2026-04-15 08:03:28] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 0.8701 | Sweep Type: break_retest | Time: 2026-04-14 13:00:00
+[2026-04-15 08:03:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.75 | Strength: 2 touches | Level: 4777.1800 | Sweep Type: break_retest | Time: 2026-04-14 09:00:00
+[2026-04-15 08:03:28] [SUCCESS] BoS confirmed for GBPUSD at 2026-04-15 08:03:28.395659: Risk=1.00%
+[2026-04-15 08:03:28] [TRADE] GBPUSD | Bearish @ 1.35715 | SL: 1.35775 | TP: 1.35535 | Lot: 0.87
+[2026-04-15 08:39:45] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 08:39:45] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 0.75 | Strength: 2 touches | Level: 4850.6400 | Sweep Type: wick | Time: 2026-04-15 04:00:00
+[2026-04-15 08:45:52] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 08:45:51.566317: Risk=0.99%
+[2026-04-15 08:45:52] [TRADE] XAUUSD | Bearish @ 4814.38000 | SL: 4820.38000 | TP: 4796.38000 | Lot: 0.09
+[2026-04-15 08:45:52] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 08:49:56] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 09:29:56] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 09:29:57] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 09:33:01] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 09:33:01.217805: Risk=0.88%
+[2026-04-15 09:33:01] [TRADE] XAUUSD | Bullish @ 4813.97000 | SL: 4807.97000 | TP: 4831.97000 | Lot: 0.08
+[2026-04-15 09:33:01] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 09:40:04] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 09:43:05] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 09:43:35] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 09:43:35.347374: Risk=0.88%
+[2026-04-15 09:43:35] [TRADE] XAUUSD | Bullish @ 4814.03000 | SL: 4808.03000 | TP: 4832.03000 | Lot: 0.08
+[2026-04-15 09:43:35] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 09:48:34] [SUCCESS] Breakeven set for XAUUSD (ticket 56244373048): Entry=4814.15000, New SL=4814.77000 (0.1R offset), Current RR=1.02
+[2026-04-15 09:50:30] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 09:54:01] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 09:57:03] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 09:57:03.463864: Risk=1.01%
+[2026-04-15 09:57:03] [TRADE] XAUUSD | Bullish @ 4813.98000 | SL: 4807.98000 | TP: 4831.98000 | Lot: 0.09
+[2026-04-15 09:57:03] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 10:00:36] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 10:07:10] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 10:08:11] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 10:08:11.260917: Risk=1.13%
+[2026-04-15 10:08:11] [TRADE] XAUUSD | Bullish @ 4809.94000 | SL: 4803.94000 | TP: 4827.94000 | Lot: 0.10
+[2026-04-15 10:08:11] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 10:10:43] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 10:14:14] [SUCCESS] Breakeven set for XAUUSD (ticket 56244874901): Entry=4810.09000, New SL=4810.70000 (0.1R offset), Current RR=0.95
+[2026-04-15 10:18:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 10:19:17] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 10:19:17.217371: Risk=1.24%
+[2026-04-15 10:19:17] [TRADE] XAUUSD | Bullish @ 4811.72000 | SL: 4805.72000 | TP: 4829.72000 | Lot: 0.11
+[2026-04-15 10:19:17] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 10:20:48] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 10:29:22] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 10:29:52] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 10:29:52.621760: Risk=1.32%
+[2026-04-15 10:29:52] [TRADE] XAUUSD | Bullish @ 4811.35000 | SL: 4805.35000 | TP: 4829.35000 | Lot: 0.11
+[2026-04-15 10:29:52] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 10:30:53] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 10:39:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 10:40:28] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 10:40:28.068871: Risk=1.42%
+[2026-04-15 10:40:28] [TRADE] XAUUSD | Bullish @ 4813.80000 | SL: 4807.80000 | TP: 4831.80000 | Lot: 0.12
+[2026-04-15 10:40:28] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 10:40:58] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 10:50:33] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 10:51:04] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 10:51:03.579647: Risk=1.27%
+[2026-04-15 10:51:04] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 10:51:04] [TRADE] XAUUSD | Bullish @ 4808.93000 | SL: 4802.93000 | TP: 4826.93000 | Lot: 0.11
+[2026-04-15 10:51:04] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 11:01:15] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 11:01:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 11:11:24] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 11:11:25] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 11:14:57] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 11:14:56.848613: Risk=0.95%
+[2026-04-15 11:14:57] [TRADE] XAUUSD | Bullish @ 4811.60000 | SL: 4805.60000 | TP: 4829.60000 | Lot: 0.08
+[2026-04-15 11:14:57] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 11:21:30] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 11:25:01] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 11:25:31] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 11:25:31.718900: Risk=0.97%
+[2026-04-15 11:25:31] [TRADE] XAUUSD | Bullish @ 4811.86000 | SL: 4805.86000 | TP: 4829.86000 | Lot: 0.08
+[2026-04-15 11:25:31] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 11:31:34] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 11:35:35] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 11:37:06] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 11:37:06.356894: Risk=1.11%
+[2026-04-15 11:37:06] [TRADE] XAUUSD | Bullish @ 4810.58000 | SL: 4804.58000 | TP: 4828.58000 | Lot: 0.09
+[2026-04-15 11:37:06] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 11:41:38] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 11:47:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 11:49:40] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 11:49:40.706298: Risk=1.04%
+[2026-04-15 11:49:40] [TRADE] XAUUSD | Bullish @ 4811.35000 | SL: 4805.35000 | TP: 4829.35000 | Lot: 0.08
+[2026-04-15 11:49:40] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 11:51:41] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 11:55:13] [SUCCESS] Breakeven set for XAUUSD (ticket 56245503643): Entry=4809.33000, New SL=4809.97000 (0.1R offset), Current RR=0.90
+[2026-04-15 11:57:44] [SUCCESS] Breakeven set for XAUUSD (ticket 56246170376): Entry=4810.75000, New SL=4811.37000 (0.1R offset), Current RR=1.07
+[2026-04-15 11:57:44] [SUCCESS] Breakeven set for XAUUSD (ticket 56246317798): Entry=4811.63000, New SL=4812.26000 (0.1R offset), Current RR=0.91
+[2026-04-15 11:59:45] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 12:01:46] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 12:09:49] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4816.9400 | Sweep Type: wick | Time: 2026-04-15 08:00:00
+[2026-04-15 12:10:19] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3555 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 12:11:49] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 12:15:20] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 12:15:20.759495: Risk=1.33%
+[2026-04-15 12:15:20] [TRADE] XAUUSD | Bullish @ 4806.14000 | SL: 4800.14000 | TP: 4824.14000 | Lot: 0.11
+[2026-04-15 12:15:21] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 12:21:52] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 12:25:24] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 13:27:05] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 13:27:05] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3555 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 13:27:05] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 13:27:36] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 13:27:36.008877: Risk=0.93%
+[2026-04-15 13:27:36] [TRADE] XAUUSD | Bullish @ 4792.68000 | SL: 4786.68000 | TP: 4810.68000 | Lot: 0.08
+[2026-04-15 13:27:36] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 13:37:08] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 13:37:39] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 13:39:09] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 13:39:09.375831: Risk=0.86%
+[2026-04-15 13:39:09] [TRADE] XAUUSD | Bullish @ 4795.53000 | SL: 4789.53000 | TP: 4813.53000 | Lot: 0.07
+[2026-04-15 13:39:09] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 13:43:10] [SUCCESS] Breakeven set for XAUUSD (ticket 56248102534): Entry=4792.92000, New SL=4793.54000 (0.1R offset), Current RR=1.14
+[2026-04-15 13:45:42] [SUCCESS] Breakeven set for XAUUSD (ticket 56248297722): Entry=4795.71000, New SL=4796.33000 (0.1R offset), Current RR=0.93
+[2026-04-15 13:47:12] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 13:49:13] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 13:57:16] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 13:59:16] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 14:04:18] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 14:04:18.487678: Risk=0.84%
+[2026-04-15 14:04:18] [TRADE] XAUUSD | Bullish @ 4798.43000 | SL: 4792.43000 | TP: 4816.43000 | Lot: 0.07
+[2026-04-15 14:04:18] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 14:07:19] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 14:14:22] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 14:15:22] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 14:15:22.606034: Risk=0.80%
+[2026-04-15 14:15:22] [TRADE] XAUUSD | Bullish @ 4803.18000 | SL: 4797.18000 | TP: 4821.18000 | Lot: 0.06
+[2026-04-15 14:15:22] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 14:17:23] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 14:19:24] [SUCCESS] Breakeven set for XAUUSD (ticket 56248735496): Entry=4798.52000, New SL=4799.13000 (0.1R offset), Current RR=0.97
+[2026-04-15 14:25:26] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 14:25:56] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 14:25:56.546670: Risk=0.81%
+[2026-04-15 14:25:56] [TRADE] XAUUSD | Bullish @ 4806.33000 | SL: 4800.33000 | TP: 4824.33000 | Lot: 0.07
+[2026-04-15 14:25:56] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 14:27:27] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 14:36:00] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 14:36:30] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 14:36:30.519487: Risk=0.74%
+[2026-04-15 14:36:30] [TRADE] XAUUSD | Bullish @ 4805.64000 | SL: 4799.64000 | TP: 4823.64000 | Lot: 0.06
+[2026-04-15 14:36:30] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 14:37:31] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 14:46:35] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 14:47:05] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 14:47:05.142074: Risk=0.76%
+[2026-04-15 14:47:05] [TRADE] XAUUSD | Bullish @ 4806.53000 | SL: 4800.53000 | TP: 4824.53000 | Lot: 0.06
+[2026-04-15 14:47:05] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 14:47:35] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 14:50:06] [SUCCESS] Breakeven set for XAUUSD (ticket 56248905977): Entry=4803.29000, New SL=4803.90000 (0.1R offset), Current RR=1.08
+[2026-04-15 14:50:06] [SUCCESS] Breakeven set for XAUUSD (ticket 56249421374): Entry=4805.44000, New SL=4805.93000 (0.1R offset), Current RR=0.90
+[2026-04-15 14:51:07] [SUCCESS] Breakeven set for XAUUSD (ticket 56249251274): Entry=4805.84000, New SL=4806.46000 (0.1R offset), Current RR=0.98
+[2026-04-15 14:54:38] [SUCCESS] Breakeven set for XAUUSD (ticket 56249075238): Entry=4806.89000, New SL=4807.55000 (0.1R offset), Current RR=1.02
+[2026-04-15 14:57:09] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 14:57:40] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.1787 | Sweep Type: break_retest | Time: 2026-04-15 05:00:00
+[2026-04-15 15:00:41] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 15:00:41.043822: Risk=0.77%
+[2026-04-15 15:00:41] [TRADE] XAUUSD | Bullish @ 4813.77000 | SL: 4807.77000 | TP: 4831.77000 | Lot: 0.06
+[2026-04-15 15:00:41] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 15:10:45] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 15:20:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 15:30:54] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 15:33:56] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 15:34:56] [SUCCESS] BoS confirmed for EURGBP at 2026-04-15 15:34:56.361173: Risk=0.69%
+[2026-04-15 15:34:56] [TRADE] EURGBP | Bearish @ 0.86948 | SL: 0.87008 | TP: 0.86768 | Lot: 0.57
+[2026-04-15 15:34:56] [SUCCESS] Trade executed on EURGBP
+[2026-04-15 15:40:58] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 15:47:01] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 15:51:02] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 15:51:32] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 15:51:32.786541: Risk=0.77%
+[2026-04-15 15:51:32] [TRADE] XAUUSD | Bullish @ 4810.62000 | SL: 4804.62000 | TP: 4828.62000 | Lot: 0.06
+[2026-04-15 15:51:33] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 15:57:05] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 16:01:37] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 16:05:08] [SUCCESS] BoS confirmed for EURGBP at 2026-04-15 16:05:08.359114: Risk=0.93%
+[2026-04-15 16:05:08] [TRADE] EURGBP | Bearish @ 0.86949 | SL: 0.87009 | TP: 0.86769 | Lot: 0.77
+[2026-04-15 16:05:08] [SUCCESS] Trade executed on EURGBP
+[2026-04-15 16:11:41] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 16:15:12] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 16:16:13] [SUCCESS] BoS confirmed for EURGBP at 2026-04-15 16:16:12.925766: Risk=1.01%
+[2026-04-15 16:16:13] [TRADE] EURGBP | Bearish @ 0.86933 | SL: 0.86993 | TP: 0.86753 | Lot: 0.83
+[2026-04-15 16:16:13] [SUCCESS] Trade executed on EURGBP
+[2026-04-15 16:21:15] [SUCCESS] Breakeven set for XAUUSD (ticket 56250627328): Entry=4810.70000, New SL=4811.31000 (0.1R offset), Current RR=1.31
+[2026-04-15 16:21:15] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 16:21:15.232704: Risk=0.91%
+[2026-04-15 16:21:15] [TRADE] XAUUSD | Bullish @ 4818.86000 | SL: 4812.86000 | TP: 4836.86000 | Lot: 0.08
+[2026-04-15 16:21:15] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 16:26:17] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 16:31:19] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 16:33:20] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 16:33:20.214839: Risk=1.02%
+[2026-04-15 16:33:20] [TRADE] XAUUSD | Bullish @ 4820.53000 | SL: 4814.53000 | TP: 4838.53000 | Lot: 0.09
+[2026-04-15 16:33:20] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 16:36:22] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 16:38:23] [SUCCESS] Breakeven set for XAUUSD (ticket 56251230335): Entry=4818.88000, New SL=4819.48000 (0.1R offset), Current RR=0.95
+[2026-04-15 16:43:27] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 16:45:57] [SUCCESS] BoS confirmed for EURGBP at 2026-04-15 16:45:57.854799: Risk=0.96%
+[2026-04-15 16:45:57] [TRADE] EURGBP | Bearish @ 0.86941 | SL: 0.87001 | TP: 0.86761 | Lot: 0.85
+[2026-04-15 16:45:58] [SUCCESS] Trade executed on EURGBP
+[2026-04-15 16:48:29] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 16:48:28.767124: Risk=1.08%
+[2026-04-15 16:48:29] [TRADE] XAUUSD | Bullish @ 4825.79000 | SL: 4819.79000 | TP: 4843.79000 | Lot: 0.10
+[2026-04-15 16:48:29] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 16:50:59] [SUCCESS] Breakeven set for XAUUSD (ticket 56251525524): Entry=4820.75000, New SL=4821.37000 (0.1R offset), Current RR=0.93
+[2026-04-15 18:53:56] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 19:27:27] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 19:27:58] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 19:33:26] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 19:33:25.573381: Risk=0.80%
+[2026-04-15 19:33:26] [TRADE] XAUUSD | Bullish @ 4808.47000 | SL: 4802.47000 | TP: 4826.47000 | Lot: 0.07
+[2026-04-15 19:33:26] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 19:38:02] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 19:43:38] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 19:48:13] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 19:48:44] [SUCCESS] BoS confirmed for EURGBP at 2026-04-15 19:48:44.201053: Risk=0.87%
+[2026-04-15 19:48:44] [TRADE] EURGBP | Bearish @ 0.86952 | SL: 0.87012 | TP: 0.86772 | Lot: 0.77
+[2026-04-15 19:53:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 19:58:49] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 19:59:19] [SUCCESS] BoS confirmed for EURGBP at 2026-04-15 19:59:19.300329: Risk=0.81%
+[2026-04-15 19:59:19] [TRADE] EURGBP | Bearish @ 0.86951 | SL: 0.87011 | TP: 0.86771 | Lot: 0.72
+[2026-04-15 20:04:15] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 20:04:15] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 20:04:15.338353: Risk=0.80%
+[2026-04-15 20:04:15] [TRADE] XAUUSD | Bullish @ 4804.25000 | SL: 4798.25000 | TP: 4822.25000 | Lot: 0.07
+[2026-04-15 20:09:23] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 20:14:28] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 20:16:00] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 20:16:00.602121: Risk=0.83%
+[2026-04-15 20:16:00] [TRADE] XAUUSD | Bullish @ 4801.40000 | SL: 4795.40000 | TP: 4819.40000 | Lot: 0.07
+[2026-04-15 20:16:01] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 20:19:35] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 20:26:13] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 21:16:11] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 21:16:11] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 21:16:12] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 21:16:09.451216: Risk=0.87%
+[2026-04-15 21:16:12] [TRADE] XAUUSD | Bullish @ 4797.90000 | SL: 4791.90000 | TP: 4815.90000 | Lot: 0.08
+[2026-04-15 21:16:12] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 21:32:27] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 21:32:27] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 21:34:00] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 21:34:00.263976: Risk=0.79%
+[2026-04-15 21:34:00] [TRADE] XAUUSD | Bullish @ 4796.70000 | SL: 4790.70000 | TP: 4814.70000 | Lot: 0.07
+[2026-04-15 21:34:00] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 21:46:45] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 21:46:45] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 21:46:46] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 21:46:42.618141: Risk=0.62%
+[2026-04-15 21:46:46] [TRADE] XAUUSD | Bullish @ 4797.82000 | SL: 4791.82000 | TP: 4815.82000 | Lot: 0.06
+[2026-04-15 21:46:46] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 21:56:53] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 21:56:54] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 4803.9800 | Sweep Type: break_retest | Time: 2026-04-15 12:00:00
+[2026-04-15 22:00:59] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-15 22:00:58.736319: Risk=0.65%
+[2026-04-15 22:00:59] [TRADE] XAUUSD | Bullish @ 4800.49000 | SL: 4794.49000 | TP: 4818.49000 | Lot: 0.06
+[2026-04-15 22:00:59] [SUCCESS] Trade executed on XAUUSD
+[2026-04-15 22:07:06] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 22:17:20] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 22:27:39] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00
+[2026-04-15 22:38:03] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8695 | Sweep Type: break_retest | Time: 2026-04-15 15:00:00

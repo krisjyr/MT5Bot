@@ -1,0 +1,3896 @@
+[2026-04-17 08:10:55]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 64 | Lows detected: 47
+High Sweeps: 32 | Low Sweeps: 21
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+205 2026-04-15 08:00:00       False       True          wick
+206 2026-04-15 09:00:00       False       True  break_retest
+207 2026-04-15 10:00:00       False       True  break_retest
+209 2026-04-15 12:00:00       False       True  break_retest
+222 2026-04-16 03:00:00        True      False  break_retest
+227 2026-04-16 08:00:00        True      False          wick
+232 2026-04-16 13:00:00       False       True          wick
+235 2026-04-16 16:00:00       False       True  break_retest
+245 2026-04-17 04:00:00       False       True          wick
+248 2026-04-17 07:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:10:55]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 55 | Lows detected: 56
+High Sweeps: 17 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+169 2026-04-13 12:00:00       False       True  break_retest
+189 2026-04-14 08:00:00       False       True  break_retest
+190 2026-04-14 09:00:00        True      False  break_retest
+194 2026-04-14 13:00:00       False       True  break_retest
+195 2026-04-14 14:00:00       False       True  break_retest
+196 2026-04-14 15:00:00       False       True  break_retest
+220 2026-04-15 15:00:00        True      False  break_retest
+228 2026-04-15 23:00:00        True      False  break_retest
+238 2026-04-16 09:00:00       False       True  break_retest
+246 2026-04-16 17:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:10:55]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 74 | Lows detected: 49
+High Sweeps: 32 | Low Sweeps: 15
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+192 2026-04-14 13:00:00        True      False  break_retest
+193 2026-04-14 14:00:00        True      False  break_retest
+194 2026-04-14 15:00:00        True      False  break_retest
+216 2026-04-15 13:00:00       False       True  break_retest
+227 2026-04-16 00:00:00       False       True  break_retest
+232 2026-04-16 05:00:00        True      False  break_retest
+237 2026-04-16 10:00:00       False       True  break_retest
+238 2026-04-16 11:00:00       False       True  break_retest
+239 2026-04-16 12:00:00       False       True  break_retest
+244 2026-04-16 17:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:11:26]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 70 | Lows detected: 37
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+178 2026-04-13 21:00:00        True      False  break_retest
+183 2026-04-14 02:00:00        True      False  break_retest
+190 2026-04-14 09:00:00        True      False  break_retest
+191 2026-04-14 10:00:00        True      False  break_retest
+195 2026-04-14 14:00:00        True      False  break_retest
+198 2026-04-14 17:00:00        True      False  break_retest
+210 2026-04-15 05:00:00       False       True  break_retest
+234 2026-04-16 05:00:00        True      False  break_retest
+239 2026-04-16 10:00:00       False       True  break_retest
+240 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:11:57]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:12:27]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:12:58]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:13:28]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:13:59]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:14:29]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:14:59]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:15:30]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:16:00]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:16:30]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:17:01]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:17:31]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:18:02]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:18:32]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:19:02]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:19:33]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:20:03]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:20:33]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:21:04]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:21:04]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 61 | Lows detected: 49
+High Sweeps: 19 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+178 2026-04-14 09:00:00        True      False  break_retest
+182 2026-04-14 13:00:00       False       True  break_retest
+183 2026-04-14 14:00:00       False       True  break_retest
+184 2026-04-14 15:00:00       False       True  break_retest
+208 2026-04-15 15:00:00        True      False  break_retest
+216 2026-04-15 23:00:00        True      False  break_retest
+226 2026-04-16 09:00:00       False       True  break_retest
+234 2026-04-16 17:00:00        True      False  break_retest
+244 2026-04-17 03:00:00        True      False  break_retest
+249 2026-04-17 08:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:21:35]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:22:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:22:35]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:23:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:23:36]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:24:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:24:37]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:25:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:25:38]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:26:08]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:26:38]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:27:09]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:27:39]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:28:09]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:28:40]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:29:10]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:29:40]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:30:11]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:30:41]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:31:12]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:31:12]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 61 | Lows detected: 49
+High Sweeps: 19 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+178 2026-04-14 09:00:00        True      False  break_retest
+182 2026-04-14 13:00:00       False       True  break_retest
+183 2026-04-14 14:00:00       False       True  break_retest
+184 2026-04-14 15:00:00       False       True  break_retest
+208 2026-04-15 15:00:00        True      False  break_retest
+216 2026-04-15 23:00:00        True      False  break_retest
+226 2026-04-16 09:00:00       False       True  break_retest
+234 2026-04-16 17:00:00        True      False  break_retest
+244 2026-04-17 03:00:00        True      False  break_retest
+249 2026-04-17 08:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:31:42]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:32:13]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:52:16]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:52:16]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 61 | Lows detected: 49
+High Sweeps: 19 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+178 2026-04-14 09:00:00        True      False  break_retest
+182 2026-04-14 13:00:00       False       True  break_retest
+183 2026-04-14 14:00:00       False       True  break_retest
+184 2026-04-14 15:00:00       False       True  break_retest
+208 2026-04-15 15:00:00        True      False  break_retest
+216 2026-04-15 23:00:00        True      False  break_retest
+226 2026-04-16 09:00:00       False       True  break_retest
+234 2026-04-16 17:00:00        True      False  break_retest
+244 2026-04-17 03:00:00        True      False  break_retest
+249 2026-04-17 08:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:52:46]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:53:16]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:53:47]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:54:17]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:54:47]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:55:18]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:55:48]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:56:18]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:56:48]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:57:19]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:57:49]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:58:20]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:58:50]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:59:20]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 08:59:51]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-13 21:00:00        True      False  break_retest
+171 2026-04-14 02:00:00        True      False  break_retest
+178 2026-04-14 09:00:00        True      False  break_retest
+179 2026-04-14 10:00:00        True      False  break_retest
+183 2026-04-14 14:00:00        True      False  break_retest
+186 2026-04-14 17:00:00        True      False  break_retest
+198 2026-04-15 05:00:00       False       True  break_retest
+222 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 10:00:00       False       True  break_retest
+228 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:00:21]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:00:51]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:01:22]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:01:52]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:02:22]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:02:22]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 61 | Lows detected: 49
+High Sweeps: 19 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 09:00:00        True      False  break_retest
+181 2026-04-14 13:00:00       False       True  break_retest
+182 2026-04-14 14:00:00       False       True  break_retest
+183 2026-04-14 15:00:00       False       True  break_retest
+207 2026-04-15 15:00:00        True      False  break_retest
+215 2026-04-15 23:00:00        True      False  break_retest
+225 2026-04-16 09:00:00       False       True  break_retest
+233 2026-04-16 17:00:00        True      False  break_retest
+243 2026-04-17 03:00:00        True      False  break_retest
+248 2026-04-17 08:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:02:53]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:03:23]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:03:53]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:04:24]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:04:54]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:05:24]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:05:54]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:06:25]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:06:55]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:07:25]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:07:56]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:08:26]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:08:56]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:09:26]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:09:57]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:10:27]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:10:57]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:10:57]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 64 | Lows detected: 47
+High Sweeps: 32 | Low Sweeps: 21
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+204 2026-04-15 08:00:00       False       True          wick
+205 2026-04-15 09:00:00       False       True  break_retest
+206 2026-04-15 10:00:00       False       True  break_retest
+208 2026-04-15 12:00:00       False       True  break_retest
+221 2026-04-16 03:00:00        True      False  break_retest
+226 2026-04-16 08:00:00        True      False          wick
+231 2026-04-16 13:00:00       False       True          wick
+234 2026-04-16 16:00:00       False       True  break_retest
+244 2026-04-17 04:00:00       False       True          wick
+247 2026-04-17 07:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:11:28]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:11:58]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:12:29]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:12:29]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+181 2026-04-14 13:00:00       False       True  break_retest
+182 2026-04-14 14:00:00       False       True  break_retest
+183 2026-04-14 15:00:00       False       True  break_retest
+207 2026-04-15 15:00:00        True      False  break_retest
+215 2026-04-15 23:00:00        True      False  break_retest
+225 2026-04-16 09:00:00       False       True  break_retest
+233 2026-04-16 17:00:00        True      False  break_retest
+243 2026-04-17 03:00:00        True      False  break_retest
+248 2026-04-17 08:00:00        True      False  break_retest
+249 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:12:59]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:12:59]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 65 | Lows detected: 45
+High Sweeps: 29 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+182 2026-04-14 14:00:00        True      False  break_retest
+183 2026-04-14 15:00:00        True      False  break_retest
+205 2026-04-15 13:00:00       False       True  break_retest
+216 2026-04-16 00:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+228 2026-04-16 12:00:00       False       True  break_retest
+233 2026-04-16 17:00:00       False       True  break_retest
+244 2026-04-17 04:00:00       False       True  break_retest
+249 2026-04-17 09:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:13:30]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:14:00]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:14:30]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:15:01]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:15:31]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:16:01]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:16:31]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:17:02]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:17:32]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:18:02]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:18:33]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:19:03]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:19:33]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:20:04]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:20:34]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:21:04]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:21:34]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:22:04]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:22:35]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:23:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:23:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 65 | Lows detected: 45
+High Sweeps: 29 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+182 2026-04-14 14:00:00        True      False  break_retest
+183 2026-04-14 15:00:00        True      False  break_retest
+205 2026-04-15 13:00:00       False       True  break_retest
+216 2026-04-16 00:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+228 2026-04-16 12:00:00       False       True  break_retest
+233 2026-04-16 17:00:00       False       True  break_retest
+244 2026-04-17 04:00:00       False       True  break_retest
+249 2026-04-17 09:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:23:35]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:24:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:24:35]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:25:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:25:36]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:26:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:26:36]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:27:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:27:36]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:28:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:28:37]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:29:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:29:37]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:30:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:30:37]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:31:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:31:38]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:32:08]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 09:32:38]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-13 21:00:00        True      False  break_retest
+170 2026-04-14 02:00:00        True      False  break_retest
+177 2026-04-14 09:00:00        True      False  break_retest
+178 2026-04-14 10:00:00        True      False  break_retest
+182 2026-04-14 14:00:00        True      False  break_retest
+185 2026-04-14 17:00:00        True      False  break_retest
+197 2026-04-15 05:00:00       False       True  break_retest
+221 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 10:00:00       False       True  break_retest
+227 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:35:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 36
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+164 2026-04-13 21:00:00        True      False  break_retest
+169 2026-04-14 02:00:00        True      False  break_retest
+176 2026-04-14 09:00:00        True      False  break_retest
+177 2026-04-14 10:00:00        True      False  break_retest
+181 2026-04-14 14:00:00        True      False  break_retest
+184 2026-04-14 17:00:00        True      False  break_retest
+196 2026-04-15 05:00:00       False       True  break_retest
+220 2026-04-16 05:00:00        True      False  break_retest
+225 2026-04-16 10:00:00       False       True  break_retest
+226 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:35:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 64 | Lows detected: 46
+High Sweeps: 32 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+203 2026-04-15 08:00:00       False       True          wick
+204 2026-04-15 09:00:00       False       True  break_retest
+205 2026-04-15 10:00:00       False       True  break_retest
+207 2026-04-15 12:00:00       False       True  break_retest
+220 2026-04-16 03:00:00        True      False  break_retest
+225 2026-04-16 08:00:00        True      False          wick
+230 2026-04-16 13:00:00       False       True          wick
+233 2026-04-16 16:00:00       False       True  break_retest
+243 2026-04-17 04:00:00       False       True          wick
+246 2026-04-17 07:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:35:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 65 | Lows detected: 45
+High Sweeps: 29 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+181 2026-04-14 14:00:00        True      False  break_retest
+182 2026-04-14 15:00:00        True      False  break_retest
+204 2026-04-15 13:00:00       False       True  break_retest
+215 2026-04-16 00:00:00       False       True  break_retest
+220 2026-04-16 05:00:00        True      False  break_retest
+226 2026-04-16 11:00:00       False       True  break_retest
+227 2026-04-16 12:00:00       False       True  break_retest
+232 2026-04-16 17:00:00       False       True  break_retest
+243 2026-04-17 04:00:00       False       True  break_retest
+248 2026-04-17 09:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:35:05]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:35:35]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 69 | Lows detected: 36
+High Sweeps: 29 | Low Sweeps: 13
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+164 2026-04-13 21:00:00        True      False  break_retest
+169 2026-04-14 02:00:00        True      False  break_retest
+176 2026-04-14 09:00:00        True      False  break_retest
+177 2026-04-14 10:00:00        True      False  break_retest
+181 2026-04-14 14:00:00        True      False  break_retest
+184 2026-04-14 17:00:00        True      False  break_retest
+196 2026-04-15 05:00:00       False       True  break_retest
+220 2026-04-16 05:00:00        True      False  break_retest
+225 2026-04-16 10:00:00       False       True  break_retest
+226 2026-04-16 11:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:35:35]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:36:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 71 | Lows detected: 35
+High Sweeps: 30 | Low Sweeps: 12
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+166 2026-04-14 02:00:00        True      False  break_retest
+173 2026-04-14 09:00:00        True      False  break_retest
+174 2026-04-14 10:00:00        True      False  break_retest
+178 2026-04-14 14:00:00        True      False  break_retest
+181 2026-04-14 17:00:00        True      False  break_retest
+193 2026-04-15 05:00:00       False       True  break_retest
+217 2026-04-16 05:00:00        True      False  break_retest
+222 2026-04-16 10:00:00       False       True  break_retest
+223 2026-04-16 11:00:00       False       True  break_retest
+247 2026-04-17 11:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:36:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:36:36]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:37:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:37:36]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:38:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:38:36]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:39:06]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:39:37]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:40:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:40:37]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:41:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:41:37]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:42:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:42:37]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:43:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:43:38]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:44:08]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:44:38]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:45:08]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 67 | Lows detected: 45
+High Sweeps: 29 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+178 2026-04-14 14:00:00        True      False  break_retest
+179 2026-04-14 15:00:00        True      False  break_retest
+201 2026-04-15 13:00:00       False       True  break_retest
+212 2026-04-16 00:00:00       False       True  break_retest
+217 2026-04-16 05:00:00        True      False  break_retest
+223 2026-04-16 11:00:00       False       True  break_retest
+224 2026-04-16 12:00:00       False       True  break_retest
+229 2026-04-16 17:00:00       False       True  break_retest
+240 2026-04-17 04:00:00       False       True  break_retest
+245 2026-04-17 09:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:45:08]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 47
+High Sweeps: 31 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+200 2026-04-15 08:00:00       False       True          wick
+201 2026-04-15 09:00:00       False       True  break_retest
+202 2026-04-15 10:00:00       False       True  break_retest
+204 2026-04-15 12:00:00       False       True  break_retest
+217 2026-04-16 03:00:00        True      False  break_retest
+222 2026-04-16 08:00:00        True      False          wick
+227 2026-04-16 13:00:00       False       True          wick
+230 2026-04-16 16:00:00       False       True  break_retest
+240 2026-04-17 04:00:00       False       True          wick
+243 2026-04-17 07:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:45:08]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:45:38]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:46:09]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:46:39]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:47:09]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:47:39]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:48:09]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:48:39]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:49:10]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:49:40]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:50:10]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:50:40]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 20 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 13:00:00       False       True  break_retest
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:51:10]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 49
+High Sweeps: 21 | Low Sweeps: 17
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+178 2026-04-14 14:00:00       False       True  break_retest
+179 2026-04-14 15:00:00       False       True  break_retest
+203 2026-04-15 15:00:00        True      False  break_retest
+211 2026-04-15 23:00:00        True      False  break_retest
+221 2026-04-16 09:00:00       False       True  break_retest
+229 2026-04-16 17:00:00        True      False  break_retest
+239 2026-04-17 03:00:00        True      False  break_retest
+244 2026-04-17 08:00:00        True      False  break_retest
+245 2026-04-17 09:00:00        True      False  break_retest
+249 2026-04-17 13:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 13:55:11]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 67 | Lows detected: 45
+High Sweeps: 29 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+178 2026-04-14 14:00:00        True      False  break_retest
+179 2026-04-14 15:00:00        True      False  break_retest
+201 2026-04-15 13:00:00       False       True  break_retest
+212 2026-04-16 00:00:00       False       True  break_retest
+217 2026-04-16 05:00:00        True      False  break_retest
+223 2026-04-16 11:00:00       False       True  break_retest
+224 2026-04-16 12:00:00       False       True  break_retest
+229 2026-04-16 17:00:00       False       True  break_retest
+240 2026-04-17 04:00:00       False       True  break_retest
+245 2026-04-17 09:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:01:12]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 48
+High Sweeps: 21 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 14:00:00       False       True  break_retest
+178 2026-04-14 15:00:00       False       True  break_retest
+202 2026-04-15 15:00:00        True      False  break_retest
+210 2026-04-15 23:00:00        True      False  break_retest
+220 2026-04-16 09:00:00       False       True  break_retest
+228 2026-04-16 17:00:00        True      False  break_retest
+238 2026-04-17 03:00:00        True      False  break_retest
+243 2026-04-17 08:00:00        True      False  break_retest
+244 2026-04-17 09:00:00        True      False  break_retest
+248 2026-04-17 13:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:11:13]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 48
+High Sweeps: 21 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 14:00:00       False       True  break_retest
+178 2026-04-14 15:00:00       False       True  break_retest
+202 2026-04-15 15:00:00        True      False  break_retest
+210 2026-04-15 23:00:00        True      False  break_retest
+220 2026-04-16 09:00:00       False       True  break_retest
+228 2026-04-16 17:00:00        True      False  break_retest
+238 2026-04-17 03:00:00        True      False  break_retest
+243 2026-04-17 08:00:00        True      False  break_retest
+244 2026-04-17 09:00:00        True      False  break_retest
+248 2026-04-17 13:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:21:14]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 48
+High Sweeps: 21 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 14:00:00       False       True  break_retest
+178 2026-04-14 15:00:00       False       True  break_retest
+202 2026-04-15 15:00:00        True      False  break_retest
+210 2026-04-15 23:00:00        True      False  break_retest
+220 2026-04-16 09:00:00       False       True  break_retest
+228 2026-04-16 17:00:00        True      False  break_retest
+238 2026-04-17 03:00:00        True      False  break_retest
+243 2026-04-17 08:00:00        True      False  break_retest
+244 2026-04-17 09:00:00        True      False  break_retest
+248 2026-04-17 13:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:31:15]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 48
+High Sweeps: 21 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 14:00:00       False       True  break_retest
+178 2026-04-14 15:00:00       False       True  break_retest
+202 2026-04-15 15:00:00        True      False  break_retest
+210 2026-04-15 23:00:00        True      False  break_retest
+220 2026-04-16 09:00:00       False       True  break_retest
+228 2026-04-16 17:00:00        True      False  break_retest
+238 2026-04-17 03:00:00        True      False  break_retest
+243 2026-04-17 08:00:00        True      False  break_retest
+244 2026-04-17 09:00:00        True      False  break_retest
+248 2026-04-17 13:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:36:45]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 70 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 12
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-14 02:00:00        True      False  break_retest
+172 2026-04-14 09:00:00        True      False  break_retest
+173 2026-04-14 10:00:00        True      False  break_retest
+177 2026-04-14 14:00:00        True      False  break_retest
+180 2026-04-14 17:00:00        True      False  break_retest
+192 2026-04-15 05:00:00       False       True  break_retest
+216 2026-04-16 05:00:00        True      False  break_retest
+221 2026-04-16 10:00:00       False       True  break_retest
+222 2026-04-16 11:00:00       False       True  break_retest
+246 2026-04-17 11:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:41:16]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 48
+High Sweeps: 21 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 14:00:00       False       True  break_retest
+178 2026-04-14 15:00:00       False       True  break_retest
+202 2026-04-15 15:00:00        True      False  break_retest
+210 2026-04-15 23:00:00        True      False  break_retest
+220 2026-04-16 09:00:00       False       True  break_retest
+228 2026-04-16 17:00:00        True      False  break_retest
+238 2026-04-17 03:00:00        True      False  break_retest
+243 2026-04-17 08:00:00        True      False  break_retest
+244 2026-04-17 09:00:00        True      False  break_retest
+248 2026-04-17 13:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:46:46]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 70 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 12
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-14 02:00:00        True      False  break_retest
+172 2026-04-14 09:00:00        True      False  break_retest
+173 2026-04-14 10:00:00        True      False  break_retest
+177 2026-04-14 14:00:00        True      False  break_retest
+180 2026-04-14 17:00:00        True      False  break_retest
+192 2026-04-15 05:00:00       False       True  break_retest
+216 2026-04-16 05:00:00        True      False  break_retest
+221 2026-04-16 10:00:00       False       True  break_retest
+222 2026-04-16 11:00:00       False       True  break_retest
+246 2026-04-17 11:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:48:47]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 47
+High Sweeps: 31 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+199 2026-04-15 08:00:00       False       True          wick
+200 2026-04-15 09:00:00       False       True  break_retest
+201 2026-04-15 10:00:00       False       True  break_retest
+203 2026-04-15 12:00:00       False       True  break_retest
+216 2026-04-16 03:00:00        True      False  break_retest
+221 2026-04-16 08:00:00        True      False          wick
+226 2026-04-16 13:00:00       False       True          wick
+229 2026-04-16 16:00:00       False       True  break_retest
+239 2026-04-17 04:00:00       False       True          wick
+242 2026-04-17 07:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:49:17]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 47
+High Sweeps: 31 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+199 2026-04-15 08:00:00       False       True          wick
+200 2026-04-15 09:00:00       False       True  break_retest
+201 2026-04-15 10:00:00       False       True  break_retest
+203 2026-04-15 12:00:00       False       True  break_retest
+216 2026-04-16 03:00:00        True      False  break_retest
+221 2026-04-16 08:00:00        True      False          wick
+226 2026-04-16 13:00:00       False       True          wick
+229 2026-04-16 16:00:00       False       True  break_retest
+239 2026-04-17 04:00:00       False       True          wick
+242 2026-04-17 07:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:49:47]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 47
+High Sweeps: 32 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+200 2026-04-15 09:00:00       False       True  break_retest
+201 2026-04-15 10:00:00       False       True  break_retest
+203 2026-04-15 12:00:00       False       True  break_retest
+216 2026-04-16 03:00:00        True      False  break_retest
+221 2026-04-16 08:00:00        True      False          wick
+226 2026-04-16 13:00:00       False       True          wick
+229 2026-04-16 16:00:00       False       True  break_retest
+239 2026-04-17 04:00:00       False       True          wick
+242 2026-04-17 07:00:00        True      False  break_retest
+249 2026-04-17 14:00:00        True      False          wick
+
+------------------------------------------------------
+
+[2026-04-17 14:51:17]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 48
+High Sweeps: 21 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 14:00:00       False       True  break_retest
+178 2026-04-14 15:00:00       False       True  break_retest
+202 2026-04-15 15:00:00        True      False  break_retest
+210 2026-04-15 23:00:00        True      False  break_retest
+220 2026-04-16 09:00:00       False       True  break_retest
+228 2026-04-16 17:00:00        True      False  break_retest
+238 2026-04-17 03:00:00        True      False  break_retest
+243 2026-04-17 08:00:00        True      False  break_retest
+244 2026-04-17 09:00:00        True      False  break_retest
+248 2026-04-17 13:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:56:48]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 70 | Lows detected: 35
+High Sweeps: 29 | Low Sweeps: 12
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+165 2026-04-14 02:00:00        True      False  break_retest
+172 2026-04-14 09:00:00        True      False  break_retest
+173 2026-04-14 10:00:00        True      False  break_retest
+177 2026-04-14 14:00:00        True      False  break_retest
+180 2026-04-14 17:00:00        True      False  break_retest
+192 2026-04-15 05:00:00       False       True  break_retest
+216 2026-04-16 05:00:00        True      False  break_retest
+221 2026-04-16 10:00:00       False       True  break_retest
+222 2026-04-16 11:00:00       False       True  break_retest
+246 2026-04-17 11:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:58:18]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 66 | Lows detected: 45
+High Sweeps: 28 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 14:00:00        True      False  break_retest
+178 2026-04-14 15:00:00        True      False  break_retest
+200 2026-04-15 13:00:00       False       True  break_retest
+211 2026-04-16 00:00:00       False       True  break_retest
+216 2026-04-16 05:00:00        True      False  break_retest
+222 2026-04-16 11:00:00       False       True  break_retest
+223 2026-04-16 12:00:00       False       True  break_retest
+228 2026-04-16 17:00:00       False       True  break_retest
+239 2026-04-17 04:00:00       False       True  break_retest
+244 2026-04-17 09:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 14:59:48]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 47
+High Sweeps: 32 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+200 2026-04-15 09:00:00       False       True  break_retest
+201 2026-04-15 10:00:00       False       True  break_retest
+203 2026-04-15 12:00:00       False       True  break_retest
+216 2026-04-16 03:00:00        True      False  break_retest
+221 2026-04-16 08:00:00        True      False          wick
+226 2026-04-16 13:00:00       False       True          wick
+229 2026-04-16 16:00:00       False       True  break_retest
+239 2026-04-17 04:00:00       False       True          wick
+242 2026-04-17 07:00:00        True      False  break_retest
+249 2026-04-17 14:00:00        True      False          wick
+
+------------------------------------------------------
+
+[2026-04-17 15:06:49]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 70 | Lows detected: 35
+High Sweeps: 30 | Low Sweeps: 12
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+171 2026-04-14 09:00:00        True      False  break_retest
+172 2026-04-14 10:00:00        True      False  break_retest
+176 2026-04-14 14:00:00        True      False  break_retest
+179 2026-04-14 17:00:00        True      False  break_retest
+191 2026-04-15 05:00:00       False       True  break_retest
+215 2026-04-16 05:00:00        True      False  break_retest
+220 2026-04-16 10:00:00       False       True  break_retest
+221 2026-04-16 11:00:00       False       True  break_retest
+245 2026-04-17 11:00:00        True      False  break_retest
+249 2026-04-17 15:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 15:08:19]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 65 | Lows detected: 45
+High Sweeps: 28 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+176 2026-04-14 14:00:00        True      False  break_retest
+177 2026-04-14 15:00:00        True      False  break_retest
+199 2026-04-15 13:00:00       False       True  break_retest
+210 2026-04-16 00:00:00       False       True  break_retest
+215 2026-04-16 05:00:00        True      False  break_retest
+221 2026-04-16 11:00:00       False       True  break_retest
+222 2026-04-16 12:00:00       False       True  break_retest
+227 2026-04-16 17:00:00       False       True  break_retest
+238 2026-04-17 04:00:00       False       True  break_retest
+243 2026-04-17 09:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 15:09:49]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 47
+High Sweeps: 32 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+199 2026-04-15 09:00:00       False       True  break_retest
+200 2026-04-15 10:00:00       False       True  break_retest
+202 2026-04-15 12:00:00       False       True  break_retest
+215 2026-04-16 03:00:00        True      False  break_retest
+220 2026-04-16 08:00:00        True      False          wick
+225 2026-04-16 13:00:00       False       True          wick
+228 2026-04-16 16:00:00       False       True  break_retest
+238 2026-04-17 04:00:00       False       True          wick
+241 2026-04-17 07:00:00        True      False  break_retest
+248 2026-04-17 14:00:00        True      False          wick
+
+------------------------------------------------------
+
+[2026-04-17 15:18:20]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 65 | Lows detected: 45
+High Sweeps: 28 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+176 2026-04-14 14:00:00        True      False  break_retest
+177 2026-04-14 15:00:00        True      False  break_retest
+199 2026-04-15 13:00:00       False       True  break_retest
+210 2026-04-16 00:00:00       False       True  break_retest
+215 2026-04-16 05:00:00        True      False  break_retest
+221 2026-04-16 11:00:00       False       True  break_retest
+222 2026-04-16 12:00:00       False       True  break_retest
+227 2026-04-16 17:00:00       False       True  break_retest
+238 2026-04-17 04:00:00       False       True  break_retest
+243 2026-04-17 09:00:00       False       True  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 15:19:50]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 63 | Lows detected: 47
+High Sweeps: 32 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+199 2026-04-15 09:00:00       False       True  break_retest
+200 2026-04-15 10:00:00       False       True  break_retest
+202 2026-04-15 12:00:00       False       True  break_retest
+215 2026-04-16 03:00:00        True      False  break_retest
+220 2026-04-16 08:00:00        True      False          wick
+225 2026-04-16 13:00:00       False       True          wick
+228 2026-04-16 16:00:00       False       True  break_retest
+238 2026-04-17 04:00:00       False       True          wick
+241 2026-04-17 07:00:00        True      False  break_retest
+248 2026-04-17 14:00:00        True      False          wick
+
+------------------------------------------------------
+
+[2026-04-17 16:16:57]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 71 | Lows detected: 35
+High Sweeps: 31 | Low Sweeps: 12
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+171 2026-04-14 10:00:00        True      False  break_retest
+175 2026-04-14 14:00:00        True      False  break_retest
+178 2026-04-14 17:00:00        True      False  break_retest
+190 2026-04-15 05:00:00       False       True  break_retest
+214 2026-04-16 05:00:00        True      False  break_retest
+219 2026-04-16 10:00:00       False       True  break_retest
+220 2026-04-16 11:00:00       False       True  break_retest
+244 2026-04-17 11:00:00        True      False  break_retest
+248 2026-04-17 15:00:00        True      False  break_retest
+249 2026-04-17 16:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:16:58]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 64 | Lows detected: 47
+High Sweeps: 33 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+200 2026-04-15 10:00:00       False       True  break_retest
+202 2026-04-15 12:00:00       False       True  break_retest
+215 2026-04-16 03:00:00        True      False  break_retest
+220 2026-04-16 08:00:00        True      False          wick
+225 2026-04-16 13:00:00       False       True          wick
+228 2026-04-16 16:00:00       False       True  break_retest
+238 2026-04-17 04:00:00       False       True          wick
+241 2026-04-17 07:00:00        True      False  break_retest
+248 2026-04-17 14:00:00        True      False          wick
+249 2026-04-17 15:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:16:58]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 62 | Lows detected: 49
+High Sweeps: 21 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+175 2026-04-14 14:00:00       False       True  break_retest
+176 2026-04-14 15:00:00       False       True  break_retest
+200 2026-04-15 15:00:00        True      False  break_retest
+208 2026-04-15 23:00:00        True      False  break_retest
+218 2026-04-16 09:00:00       False       True  break_retest
+226 2026-04-16 17:00:00        True      False  break_retest
+236 2026-04-17 03:00:00        True      False  break_retest
+241 2026-04-17 08:00:00        True      False  break_retest
+242 2026-04-17 09:00:00        True      False  break_retest
+246 2026-04-17 13:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:26:30]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 66 | Lows detected: 45
+High Sweeps: 29 | Low Sweeps: 14
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+177 2026-04-14 15:00:00        True      False  break_retest
+199 2026-04-15 13:00:00       False       True  break_retest
+210 2026-04-16 00:00:00       False       True  break_retest
+215 2026-04-16 05:00:00        True      False  break_retest
+221 2026-04-16 11:00:00       False       True  break_retest
+222 2026-04-16 12:00:00       False       True  break_retest
+227 2026-04-16 17:00:00       False       True  break_retest
+238 2026-04-17 04:00:00       False       True  break_retest
+243 2026-04-17 09:00:00       False       True  break_retest
+249 2026-04-17 15:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:27:00]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 65 | Lows detected: 47
+High Sweeps: 34 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+201 2026-04-15 12:00:00       False       True  break_retest
+214 2026-04-16 03:00:00        True      False  break_retest
+219 2026-04-16 08:00:00        True      False          wick
+224 2026-04-16 13:00:00       False       True          wick
+227 2026-04-16 16:00:00       False       True  break_retest
+237 2026-04-17 04:00:00       False       True          wick
+240 2026-04-17 07:00:00        True      False  break_retest
+247 2026-04-17 14:00:00        True      False          wick
+248 2026-04-17 15:00:00        True      False  break_retest
+249 2026-04-17 16:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:28:31]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 71 | Lows detected: 35
+High Sweeps: 30 | Low Sweeps: 12
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+170 2026-04-14 09:00:00        True      False  break_retest
+171 2026-04-14 10:00:00        True      False  break_retest
+175 2026-04-14 14:00:00        True      False  break_retest
+178 2026-04-14 17:00:00        True      False  break_retest
+190 2026-04-15 05:00:00       False       True  break_retest
+214 2026-04-16 05:00:00        True      False  break_retest
+219 2026-04-16 10:00:00       False       True  break_retest
+220 2026-04-16 11:00:00       False       True  break_retest
+244 2026-04-17 11:00:00        True      False  break_retest
+248 2026-04-17 15:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:37:03]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 74 | Lows detected: 51
+High Sweeps: 32 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+198 2026-04-15 13:00:00       False       True  break_retest
+209 2026-04-16 00:00:00       False       True  break_retest
+214 2026-04-16 05:00:00        True      False  break_retest
+219 2026-04-16 10:00:00       False       True  break_retest
+220 2026-04-16 11:00:00       False       True  break_retest
+221 2026-04-16 12:00:00       False       True  break_retest
+226 2026-04-16 17:00:00       False       True  break_retest
+237 2026-04-17 04:00:00       False       True  break_retest
+242 2026-04-17 09:00:00       False       True  break_retest
+248 2026-04-17 15:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:37:03]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 65 | Lows detected: 47
+High Sweeps: 34 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+201 2026-04-15 12:00:00       False       True  break_retest
+214 2026-04-16 03:00:00        True      False  break_retest
+219 2026-04-16 08:00:00        True      False          wick
+224 2026-04-16 13:00:00       False       True          wick
+227 2026-04-16 16:00:00       False       True  break_retest
+237 2026-04-17 04:00:00       False       True          wick
+240 2026-04-17 07:00:00        True      False  break_retest
+247 2026-04-17 14:00:00        True      False          wick
+248 2026-04-17 15:00:00        True      False  break_retest
+249 2026-04-17 16:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:38:34]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 71 | Lows detected: 35
+High Sweeps: 30 | Low Sweeps: 12
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+170 2026-04-14 09:00:00        True      False  break_retest
+171 2026-04-14 10:00:00        True      False  break_retest
+175 2026-04-14 14:00:00        True      False  break_retest
+178 2026-04-14 17:00:00        True      False  break_retest
+190 2026-04-15 05:00:00       False       True  break_retest
+214 2026-04-16 05:00:00        True      False  break_retest
+219 2026-04-16 10:00:00       False       True  break_retest
+220 2026-04-16 11:00:00       False       True  break_retest
+244 2026-04-17 11:00:00        True      False  break_retest
+248 2026-04-17 15:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:47:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 74 | Lows detected: 51
+High Sweeps: 32 | Low Sweeps: 16
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+198 2026-04-15 13:00:00       False       True  break_retest
+209 2026-04-16 00:00:00       False       True  break_retest
+214 2026-04-16 05:00:00        True      False  break_retest
+219 2026-04-16 10:00:00       False       True  break_retest
+220 2026-04-16 11:00:00       False       True  break_retest
+221 2026-04-16 12:00:00       False       True  break_retest
+226 2026-04-16 17:00:00       False       True  break_retest
+237 2026-04-17 04:00:00       False       True  break_retest
+242 2026-04-17 09:00:00       False       True  break_retest
+248 2026-04-17 15:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+[2026-04-17 16:47:07]
+=== Real-Time HTF Sweep Detection ===
+Highs detected: 65 | Lows detected: 47
+High Sweeps: 34 | Low Sweeps: 20
+Recent Sweeps:
+                   time  high_sweep  low_sweep    sweep_type
+201 2026-04-15 12:00:00       False       True  break_retest
+214 2026-04-16 03:00:00        True      False  break_retest
+219 2026-04-16 08:00:00        True      False          wick
+224 2026-04-16 13:00:00       False       True          wick
+227 2026-04-16 16:00:00       False       True  break_retest
+237 2026-04-17 04:00:00       False       True          wick
+240 2026-04-17 07:00:00        True      False  break_retest
+247 2026-04-17 14:00:00        True      False          wick
+248 2026-04-17 15:00:00        True      False  break_retest
+249 2026-04-17 16:00:00        True      False  break_retest
+
+------------------------------------------------------
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

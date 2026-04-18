@@ -6,6 +6,7 @@ import os
 import json
 import time
 from tqdm import tqdm
+from collections import defaultdict
 
 import pyperclip
 import tkinter as tk
@@ -748,49 +749,359 @@ def run_backtest(settings):
                 f"({len(rates)/symbol_time:.2f} candles/s)", quiet=quiet_logging)
         log_info(f"Trade signals found for {symbol}: {trade_signals_found}", quiet=quiet_logging)
 
-    end_time = datetime.now()
-    duration = (end_time - start_time).total_seconds()
-    final_balance = balance
-    percentage_increase = ((final_balance - initial_balance) / initial_balance) * 100
-    win_rate = (wins / (wins + losses) * 100) if total_trades > 0 else 0
-    win_rate_with_breakeven = ((wins + breakevens) / total_trades * 100) if total_trades > 0 else 0
-    avg_rr = sum(t["rr"] for t in trade_log) / total_trades if total_trades > 0 else 0
+        end_time = datetime.now()
+        duration = (end_time - start_time).total_seconds()
+        final_balance = balance
 
-    print("\n" + "="*50)
-    print("BACKTEST SUMMARY")
-    print("="*50)
-    print(f"Period: {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}")
-    print(f"Duration: {length_days} days")
-    print(f"Symbols: {', '.join(symbols)}")
-    print(f"Initial Balance: ${initial_balance:,.2f}")
-    print(f"Final Balance: ${final_balance:,.2f}")
-    print(f"Total Profit/Loss: ${final_balance - initial_balance:,.2f}")
-    print(f"Percentage Return: {percentage_increase:.2f}%")
-    print(f"Total Trades: {total_trades}")
-    print(f"Wins: {wins}")
-    print(f"Breakevens: {breakevens}")
-    print(f"Losses: {losses}")
-    print(f"Performance Win Rate: {win_rate:.2f}%")
-    print(f"Absolute Win Rate: {win_rate_with_breakeven:.2f}%")
-    print(f"Average RR: {avg_rr:.2f}")
-    print(f"Total Pips: {total_pips:.2f}")
-    print(f"Backtest Duration: {duration:.2f} seconds ({duration/60:.2f} minutes)")
-    print("="*50)
-
-    if trade_log:
-        print("\nTRADE DETAILS:")
-        print("-" * 120)
-        print(f"{'Symbol':<8} {'Direction':<8} {'Entry':<10} {'SL':<10} {'TP':<10} {'BE':<10}  {'RR':<6} "
-              f"{'Lot':<6} {'Entry Time':<19} {'Outcome':<7} {'Pips':<8} {'Profit':<10}")
-        print("-" * 120)
+        # ── Colour helpers ────────────────────────────────────────────────────────
+        def _c(text, code): return f"\033[{code}m{text}\033[0m"
+        def grn(t):  return _c(t, "32")
+        def red(t):  return _c(t, "31")
+        def ylw(t):  return _c(t, "33")
+        def cyn(t):  return _c(t, "36")
+        def bld(t):  return _c(t, "1")
+        def dim(t):  return _c(t, "2")
+    
+        W = 66
+    
+        def hdr(title):
+            pad = (W - len(title) - 2) // 2
+            print(f"\n{'═'*W}")
+            print(f"{'═'*pad} {bld(title)} {'═'*(W - pad - len(title) - 2)}")
+            print(f"{'═'*W}")
+    
+        def sec(title):
+            print(f"\n{dim('─'*W)}")
+            print(f"  {cyn(bld(title))}")
+            print(dim('─'*W))
+    
+        def row(label, value, w=40):
+            print(f"  {label:<{w}} {value}")
+    
+        def pbar(n, total, width=20):
+            if total == 0: return dim("─" * width)
+            f = round(n / total * width)
+            return grn("█" * f) + dim("░" * (width - f))
+    
+        def pnl_c(v):  return grn(f"${v:+,.2f}") if v >= 0 else red(f"${v:+,.2f}")
+        def pct_c(v):  return grn(f"{v:+.2f}%")  if v >= 0 else red(f"{v:+.2f}%")
+        def rr_c(v, thr=0.15):
+            if v is None: return dim("N/A")
+            return (grn(f"{v:+.2f}R") if v > thr else
+                    red(f"{v:+.2f}R") if v < -thr else ylw(f"{v:+.2f}R"))
+    
+        # ── Core counts ───────────────────────────────────────────────────────────
+        BE_THR = backtest_settings.get("breakeven_rr", 0.9) * 0  # treat outcome string
+        n_w  = sum(1 for t in trade_log if t["outcome"] == "Win")
+        n_l  = sum(1 for t in trade_log if t["outcome"] == "Loss")
+        n_be = sum(1 for t in trade_log if t["outcome"] == "Breakeven")
+        total_trades = len(trade_log)
+    
+        win_rate            = n_w / (n_w + n_l) * 100 if (n_w + n_l) else 0
+        win_rate_with_be    = (n_w + n_be) / total_trades * 100 if total_trades else 0
+        percentage_increase = (final_balance - initial_balance) / initial_balance * 100
+    
+        gross_profit  = sum(t["profit"] for t in trade_log if t["profit"] > 0)
+        gross_loss    = abs(sum(t["profit"] for t in trade_log if t["profit"] < 0))
+        profit_factor = gross_profit / gross_loss if gross_loss else float("inf")
+    
+        # RR
+        rr_vals   = [t["rr"] for t in trade_log if t.get("rr") is not None]
+        win_rr    = [t["rr"] for t in trade_log if t["outcome"] == "Win"  and t.get("rr") is not None]
+        loss_rr   = [t["rr"] for t in trade_log if t["outcome"] == "Loss" and t.get("rr") is not None]
+        avg_rr    = sum(rr_vals) / len(rr_vals) if rr_vals else 0
+        max_rr    = max(rr_vals) if rr_vals else None
+        min_rr    = min(rr_vals) if rr_vals else None
+        avg_w_rr  = sum(win_rr)  / len(win_rr)  if win_rr  else None
+        avg_l_rr  = sum(loss_rr) / len(loss_rr) if loss_rr else None
+    
+        wr  = n_w / total_trades if total_trades else 0
+        lr  = n_l / total_trades if total_trades else 0
+        expectancy = (wr * (avg_w_rr or 0)) + (lr * (avg_l_rr or 0))
+    
+        # Pips
+        win_pips  = sum(t["pips"] for t in trade_log if t["outcome"] == "Win")
+        loss_pips = sum(t["pips"] for t in trade_log if t["outcome"] == "Loss")
+    
+        # Duration (minutes)
+        def trade_duration(t):
+            try:
+                et = t["entry_time"]
+                if hasattr(et, "to_pydatetime"):
+                    et = et.to_pydatetime()
+                return 0.0  # exit time not stored in trade_log — flag N/A
+            except Exception:
+                return 0.0
+        has_duration = False  # exit_time not in trade_log; skip duration stats
+    
+        # Consecutive streaks
+        def consecutive(seq):
+            if not seq: return 0, 0, 0.0, 0.0
+            runs_w, runs_l = [], []
+            cv, cl = seq[0], 1
+            for r in seq[1:]:
+                if r == cv: cl += 1
+                else:
+                    (runs_w if cv == "Win" else runs_l if cv == "Loss" else []).append(cl)
+                    cv, cl = r, 1
+            (runs_w if cv == "Win" else runs_l if cv == "Loss" else []).append(cl)
+            mw = max(runs_w) if runs_w else 0
+            ml = max(runs_l) if runs_l else 0
+            aw = sum(runs_w)/len(runs_w) if runs_w else 0.0
+            al = sum(runs_l)/len(runs_l) if runs_l else 0.0
+            return mw, ml, aw, al
+    
+        result_seq       = [t["outcome"] for t in trade_log]
+        max_cw, max_cl, avg_cw, avg_cl = consecutive(result_seq)
+    
+        # Best / worst
+        best_win   = max((t for t in trade_log if t["outcome"] == "Win"),
+                        key=lambda t: t["profit"], default=None)
+        worst_loss = min((t for t in trade_log if t["outcome"] == "Loss"),
+                        key=lambda t: t["profit"], default=None)
+    
+        # Per-symbol
+        sym_data = defaultdict(lambda: {"trades":0,"wins":0,"losses":0,"bes":0,
+                                        "profit":0.0,"pips":0.0,"rr":[]})
+        for t in trade_log:
+            s = t["symbol"]
+            sym_data[s]["trades"]  += 1
+            sym_data[s]["profit"]  += t["profit"]
+            sym_data[s]["pips"]    += t["pips"]
+            sym_data[s][{"Win":"wins","Loss":"losses","Breakeven":"bes"}[t["outcome"]]] += 1
+            if t.get("rr") is not None:
+                sym_data[s]["rr"].append(t["rr"])
+    
+        # Direction split
+        buys  = [t for t in trade_log if t["direction"] in ("Bullish","Buy")]
+        sells = [t for t in trade_log if t["direction"] in ("Bearish","Sell")]
+    
+        # Day-of-week
+        day_names = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+        day_data  = defaultdict(lambda: {"trades":0,"wins":0,"profit":0.0,"pips":0.0})
+        for t in trade_log:
+            try:
+                et = t["entry_time"]
+                if hasattr(et, "to_pydatetime"): et = et.to_pydatetime()
+                d = et.weekday()
+                day_data[d]["trades"]  += 1
+                day_data[d]["profit"]  += t["profit"]
+                day_data[d]["pips"]    += t["pips"]
+                if t["outcome"] == "Win": day_data[d]["wins"] += 1
+            except Exception: pass
+    
+        # Hour-of-day
+        hour_data = defaultdict(lambda: {"trades":0,"wins":0,"profit":0.0})
+        for t in trade_log:
+            try:
+                et = t["entry_time"]
+                if hasattr(et, "to_pydatetime"): et = et.to_pydatetime()
+                h = et.hour
+                hour_data[h]["trades"] += 1
+                hour_data[h]["profit"] += t["profit"]
+                if t["outcome"] == "Win": hour_data[h]["wins"] += 1
+            except Exception: pass
+    
+        # Session
+        SESSIONS = {
+            "Tokyo":   (0,  7),
+            "Tokyo-London": (7, 9),
+            "London":  (9,  12),
+            "London-NY": (12, 16),
+            "NY":      (16, 21),
+            "Off-session":     (21, 24),
+        }
+        def get_sess(h):
+            for name,(s,e) in SESSIONS.items():
+                if s <= h < e: return name
+            return "Off"
+        sess_data = defaultdict(lambda: {"trades":0,"wins":0,"profit":0.0,"rr":[]})
+        for t in trade_log:
+            try:
+                et = t["entry_time"]
+                if hasattr(et, "to_pydatetime"): et = et.to_pydatetime()
+                sess = get_sess(et.hour)
+                sess_data[sess]["trades"]  += 1
+                sess_data[sess]["profit"]  += t["profit"]
+                if t["outcome"] == "Win": sess_data[sess]["wins"] += 1
+                if t.get("rr") is not None: sess_data[sess]["rr"].append(t["rr"])
+            except Exception: pass
+    
+        # Monthly
+        month_data = defaultdict(lambda: {"trades":0,"wins":0,"profit":0.0})
+        for t in trade_log:
+            try:
+                et = t["entry_time"]
+                if hasattr(et, "to_pydatetime"): et = et.to_pydatetime()
+                key = et.strftime("%Y-%m")
+                month_data[key]["trades"]  += 1
+                month_data[key]["profit"]  += t["profit"]
+                if t["outcome"] == "Win": month_data[key]["wins"] += 1
+            except Exception: pass
+    
+        # Drawdown on running balance
+        run_bal = initial_balance
+        peak_bal = initial_balance
+        max_dd = 0.0
+        for t in trade_log:
+            run_bal += t["profit"]
+            if run_bal > peak_bal: peak_bal = run_bal
+            dd = peak_bal - run_bal
+            if dd > max_dd: max_dd = dd
+        max_dd_pct = max_dd / initial_balance * 100
+    
+        # Trade frequency
+        span_days = max(length_days, 1)
+        freq_day  = total_trades / span_days
+        freq_wk   = total_trades / (span_days / 7)
+        freq_mo   = total_trades / (span_days / 30.44)
+    
+        # ── PRINT ─────────────────────────────────────────────────────────────────
+        hdr("BACKTEST  —  PERFORMANCE REPORT")
+    
+        print(f"\n  {dim('Period:')}   {start_date.strftime('%Y-%m-%d')}  →  {end_date.strftime('%Y-%m-%d')}  ({length_days}d)")
+        print(f"  {dim('Symbols:')}  {', '.join(symbols)}")
+        print(f"  {dim('TF:')}       {ltf_string} → {htf_string}   |   {dim('Spread:')} {spread}   |   {dim('Leverage:')} 1:{leverage}")
+        print(f"  {dim('Runtime:')}  {duration:.1f}s  ({duration/60:.1f} min)")
+    
+        sec("OVERVIEW")
+        row("Initial Balance",    f"${initial_balance:,.2f}")
+        row("Final Balance",      (grn if final_balance >= initial_balance else red)(f"${final_balance:,.2f}"))
+        row("Net P&L",            pnl_c(final_balance - initial_balance))
+        row("Return %",           pct_c(percentage_increase))
+        row("Max Drawdown",       f"{red(f'${max_dd:,.2f}')}  ({red(f'{max_dd_pct:.2f}%')})")
+        print()
+        row("Total Trades",       str(total_trades))
+        row("Buys / Sells",       f"{len(buys)} ({len(buys)/total_trades*100:.0f}%) / {len(sells)} ({len(sells)/total_trades*100:.0f}%)" if total_trades else "N/A")
+        row("Win / BE / Loss",    f"{grn(str(n_w))} / {ylw(str(n_be))} / {red(str(n_l))}")
+        row("Win Rate (excl. BE)",f"{pbar(n_w, total_trades)}  {grn(f'{win_rate:.1f}%')}")
+        row("Win Rate (incl. BE)",f"{pbar(n_w+n_be, total_trades)}  {ylw(f'{win_rate_with_be:.1f}%')}")
+        row("Total Pips",         (grn if total_pips >= 0 else red)(f"{total_pips:+.2f} pips"))
+    
+        sec("EDGE METRICS")
+        pf_str = f"{profit_factor:.2f}" if profit_factor != float("inf") else "∞"
+        pf_note = "good" if 1.5 <= profit_factor <= 4 else ("possible overfit" if profit_factor > 4 else "poor")
+        row("Profit Factor",      (grn if profit_factor >= 1.5 else red)(pf_str) + f"  {dim('◂ ' + pf_note)}")
+        row("Expectancy / Trade", rr_c(expectancy))
+        row("Average RR",         rr_c(avg_rr))
+        row("Best RR",            rr_c(max_rr))
+        row("Worst RR",           rr_c(min_rr))
+        row("Avg Win RR",         rr_c(avg_w_rr))
+        row("Avg Loss RR",        rr_c(avg_l_rr))
+        row("Total Win Pips",     grn(f"{win_pips:+.2f}"))
+        row("Total Loss Pips",    red(f"{loss_pips:+.2f}"))
+    
+        sec("WINNERS")
+        row("Total Winners",         grn(str(n_w)))
+        if best_win:
+            row("Best Win",          grn(f"${best_win['profit']:+,.2f}") +
+                                    f"  {dim(best_win['symbol'])}  RR {rr_c(best_win.get('rr'))}")
+        row("Avg Win ($)",           grn(f"${gross_profit/n_w:,.2f}") if n_w else dim("N/A"))
+        row("Max Consecutive Wins",  grn(str(max_cw)))
+        row("Avg Consecutive Wins",  f"{avg_cw:.1f}")
+    
+        sec("LOSERS")
+        row("Total Losses",          red(str(n_l)))
+        if worst_loss:
+            row("Worst Loss",        red(f"${worst_loss['profit']:+,.2f}") +
+                                    f"  {dim(worst_loss['symbol'])}  RR {rr_c(worst_loss.get('rr'))}")
+        row("Avg Loss ($)",          red(f"${gross_loss/n_l:,.2f}") if n_l else dim("N/A"))
+        row("Max Consecutive Losses",red(str(max_cl)))
+        row("Avg Consecutive Losses",f"{avg_cl:.1f}")
+        row("Break-Evens",           ylw(str(n_be)))
+    
+        sec("TRADE FREQUENCY")
+        row("Per Day",   f"{freq_day:.2f}")
+        row("Per Week",  f"{freq_wk:.2f}")
+        row("Per Month", f"{freq_mo:.2f}")
+    
+        sec("PERFORMANCE BY SYMBOL")
+        print(f"  {'Symbol':<10} {'Trades':>6}  {'WR%':>6}  {'Avg RR':>7}  {'Pips':>8}  {'Net P&L':>12}")
+        print(f"  {dim('─'*58)}")
+        for sym, d in sorted(sym_data.items(), key=lambda x: -x[1]["profit"]):
+            wr_s   = d["wins"] / d["trades"] * 100 if d["trades"] else 0
+            ar_s   = sum(d["rr"]) / len(d["rr"]) if d["rr"] else None
+            ar_str = f"{ar_s:+.2f}R" if ar_s is not None else "  N/A"
+            pip_str = f"{d['pips']:+.1f}"
+            print(f"  {sym:<10} {d['trades']:>6}  "
+                f"{(grn if wr_s>=50 else red)(f'{wr_s:.0f}%'):>15}  "
+                f"{(grn if (ar_s or 0)>0 else red)(ar_str):>16}  "
+                f"{(grn if d['pips']>=0 else red)(pip_str):>17}  "
+                f"{pnl_c(d['profit']):>21}")
+    
+        sec("PERFORMANCE BY SESSION  (UTC)")
+        print(f"  {'Session':<10} {'Trades':>6}  {'WR%':>6}  {'Avg RR':>7}  {'Net P&L':>12}")
+        print(f"  {dim('─'*50)}")
+        for sname in ["Tokyo", "Tokyo-London","London","London-NY","NY","Off-session"]:
+            d = sess_data[sname]
+            if d["trades"] == 0: continue
+            wr_s = d["wins"] / d["trades"] * 100
+            ar_s = sum(d["rr"]) / len(d["rr"]) if d["rr"] else None
+            ar_str = f"{ar_s:+.2f}R" if ar_s is not None else "  N/A"
+            print(f"  {sname:<14} {d['trades']:>6}  "
+                f"{(grn if wr_s>=50 else red)(f'{wr_s:.0f}%'):>15}  "
+                f"{(grn if (ar_s or 0)>0 else red)(ar_str):>16}  "
+                f"{pnl_c(d['profit']):>21}")
+    
+        sec("PERFORMANCE BY DAY OF WEEK")
+        print(f"  {'Day':<12} {'Trades':>6}  {'WR%':>6}  {'Pips':>8}  {'Net P&L':>12}")
+        print(f"  {dim('─'*50)}")
+        for d_idx in range(7):
+            d = day_data[d_idx]
+            if d["trades"] == 0: continue
+            wr_d = d["wins"] / d["trades"] * 100
+            pip_str = f"{d['pips']:+.1f}"
+            print(f"  {day_names[d_idx]:<12} {d['trades']:>6}  "
+                f"{(grn if wr_d>=50 else red)(f'{wr_d:.0f}%'):>15}  "
+                f"{(grn if d['pips']>=0 else red)(pip_str):>17}  "
+                f"{pnl_c(d['profit']):>21}")
+    
+        sec("PERFORMANCE BY HOUR  (UTC, entry time)")
+        active_hours = sorted(hour_data.keys())
+        if active_hours:
+            print(f"  {'Hour':<7} {'Trades':>6}  {'WR%':>6}  {'Net P&L':>12}")
+            print(f"  {dim('─'*36)}")
+            for h in active_hours:
+                d = hour_data[h]
+                wr_h = d["wins"] / d["trades"] * 100 if d["trades"] else 0
+                print(f"  {h:02d}:00   {d['trades']:>6}  "
+                    f"{(grn if wr_h>=50 else red)(f'{wr_h:.0f}%'):>15}  "
+                    f"{pnl_c(d['profit']):>21}")
+    
+        sec("PERFORMANCE BY MONTH")
+        print(f"  {'Month':<10} {'Trades':>6}  {'WR%':>6}  {'Net P&L':>12}")
+        print(f"  {dim('─'*38)}")
+        for mo in sorted(month_data.keys()):
+            d = month_data[mo]
+            wr_m = d["wins"] / d["trades"] * 100 if d["trades"] else 0
+            print(f"  {mo:<10} {d['trades']:>6}  "
+                f"{(grn if wr_m>=50 else red)(f'{wr_m:.0f}%'):>15}  "
+                f"{pnl_c(d['profit']):>21}")
+    
+        sec("TRADE LOG")
+        print(f"  {'#':<4} {'Symbol':<8} {'Dir':<8} {'Entry':>10}  {'SL':>10}  {'TP':>10}  "
+            f"{'RR':>5}  {'Lot':>5}  {'Entry Time':<17}  {'Out':<9}  {'Pips':>7}  {'P&L':>10}")
+        print(f"  {dim('─'*120)}")
         text_to_copy = ""
-        for trade in trade_log:
-            print(f"{trade['symbol']:<8} {trade['direction']:<8} {trade['entry_price']:<10.5f} "
-                  f"{trade['sl_before_be']:<10.5f} {trade['tp_price']:<10.5f} {trade['sl_price']:<10.5f} {trade['rr']:<6.2f} "
-                  f"{trade['lot_size']:<6.2f} {str(trade['entry_time']):<19} "
-                  f"{trade['outcome']:<7} {trade['pips']:<8.2f} ${trade['profit']:<10.2f}")
-            copyable = f"    array.push(trade_data, \"{str(trade['entry_time'])}|{trade['entry_price']}|{trade['sl_price']}|{trade['tp_price']}|{trade['direction']}|{trade['breakeven_set']}|{trade['sl_before_be']}\")\n"
+        for idx, trade in enumerate(trade_log, 1):
+            out_col = grn if trade["outcome"] == "Win" else (red if trade["outcome"] == "Loss" else ylw)
+            rr_val  = f"{trade['rr']:.2f}R" if trade.get("rr") is not None else " N/A "
+            pip_str2 = f"{trade['pips']:+.2f}"
+            print(f"  {idx:<4} {trade['symbol']:<8} {trade['direction']:<8} "
+                f"{trade['entry_price']:>10.5f}  {trade['sl_before_be']:>10.5f}  {trade['tp_price']:>10.5f}  "
+                f"{rr_val:>5}  {trade['lot_size']:>5.2f}  {str(trade['entry_time'])[:16]:<17}  "
+                f"{out_col(trade['outcome']):<18}  "
+                f"{(grn if trade['pips']>=0 else red)(pip_str2):>16}  "
+                f"{pnl_c(trade['profit']):>19}")
+            copyable = (f"    array.push(trade_data, \"{str(trade['entry_time'])}|{trade['entry_price']}|"
+                        f"{trade['sl_price']}|{trade['tp_price']}|{trade['direction']}|"
+                        f"{trade['breakeven_set']}|{trade['sl_before_be']}|{trade["symbol"]}\")\n")
             text_to_copy += copyable
+    
+        print(f"\n{'═'*W}")
+        print(f"  {dim('Backtest finished:')} {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  |  "
+            f"{dim('Runtime:')} {duration:.1f}s")
+        print(f"{'═'*W}\n")
 
 
         # --- Small floating window with copy button ---
