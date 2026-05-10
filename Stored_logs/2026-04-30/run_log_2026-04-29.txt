@@ -1,0 +1,1258 @@
+[2026-04-29 08:20:37] [INFO] Initializing MT5...
+[2026-04-29 08:20:43] [SUCCESS] MT5 initialized and logged in.
+
+[2026-04-29 08:20:43] [INFO] Processing EURUSD
+[2026-04-29 08:20:43] [INFO] Processing GBPUSD
+[2026-04-29 08:20:43] [INFO] Processing XAUUSD
+[2026-04-29 08:20:43] [INFO] Processing EURGBP
+[2026-04-29 08:20:44] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:20:44] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:20:44] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.1706 | Sweep Type: break_retest | Time: 2026-04-29 06:00:00
+[2026-04-29 08:20:44] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.00 | Strength: 4 touches | Level: 4601.5100 | Sweep Type: wick | Time: 2026-04-29 03:00:00
+[2026-04-29 08:20:44] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:20:43.716904: Close 4601.12000 not below last low 4575.99000
+[2026-04-29 08:20:44] [SKIP] BoS failed for EURUSD at 2026-04-29 08:20:43.715977: Close 1.17028 not above last high 1.17185
+[2026-04-29 08:20:44] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:21:14] [INFO] Processing EURUSD
+[2026-04-29 08:21:14] [INFO] Processing EURGBP
+[2026-04-29 08:21:14] [INFO] Processing XAUUSD
+[2026-04-29 08:21:14] [INFO] Processing GBPUSD
+[2026-04-29 08:21:14] [SKIP] BoS failed for EURUSD at 2026-04-29 08:21:14.225481: Close 1.17028 not above last high 1.17185
+[2026-04-29 08:21:14] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:21:14.226281: Close 4601.12000 not below last low 1.17034
+[2026-04-29 08:21:14] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:21:14] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:21:14] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:21:44] [INFO] Processing EURUSD
+[2026-04-29 08:21:44] [INFO] Processing GBPUSD
+[2026-04-29 08:21:44] [INFO] Processing EURGBP
+[2026-04-29 08:21:44] [INFO] Processing XAUUSD
+[2026-04-29 08:21:44] [SKIP] BoS failed for EURUSD at 2026-04-29 08:21:44.396531: Close 1.17026 not above last high 1.17185
+[2026-04-29 08:21:44] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:21:44.399089: Close 4600.50000 not below last low 1.17034
+[2026-04-29 08:21:44] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:21:44] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:21:44] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:22:14] [INFO] Processing EURUSD
+[2026-04-29 08:22:14] [INFO] Processing GBPUSD
+[2026-04-29 08:22:14] [INFO] Processing EURGBP
+[2026-04-29 08:22:14] [INFO] Processing XAUUSD
+[2026-04-29 08:22:14] [SKIP] BoS failed for EURUSD at 2026-04-29 08:22:14.536680: Close 1.17026 not above last high 1.17185
+[2026-04-29 08:22:14] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:22:14.537391: Close 4600.50000 not below last low 1.17034
+[2026-04-29 08:22:14] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:22:14] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:22:14] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:22:44] [INFO] Processing EURUSD
+[2026-04-29 08:22:44] [INFO] Processing XAUUSD
+[2026-04-29 08:22:44] [INFO] Processing EURGBP
+[2026-04-29 08:22:44] [INFO] Processing GBPUSD
+[2026-04-29 08:22:44] [SKIP] BoS failed for EURUSD at 2026-04-29 08:22:44.629021: Close 1.17020 not above last high 1.17185
+[2026-04-29 08:22:44] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:22:44.631585: Close 4598.99000 not below last low 1.17034
+[2026-04-29 08:22:44] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:22:44] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:22:44] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:23:14] [INFO] Processing EURUSD
+[2026-04-29 08:23:14] [INFO] Processing GBPUSD
+[2026-04-29 08:23:14] [INFO] Processing XAUUSD
+[2026-04-29 08:23:14] [INFO] Processing EURGBP
+[2026-04-29 08:23:14] [SKIP] BoS failed for EURUSD at 2026-04-29 08:23:14.732249: Close 1.17020 not above last high 1.17185
+[2026-04-29 08:23:14] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:23:14.733627: Close 4598.99000 not below last low 1.17034
+[2026-04-29 08:23:14] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:23:14] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:23:14] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:23:44] [INFO] Processing EURUSD
+[2026-04-29 08:23:44] [INFO] Processing XAUUSD
+[2026-04-29 08:23:44] [INFO] Processing GBPUSD
+[2026-04-29 08:23:44] [INFO] Processing EURGBP
+[2026-04-29 08:23:44] [SKIP] BoS failed for EURUSD at 2026-04-29 08:23:44.825116: Close 1.17018 not above last high 1.17185
+[2026-04-29 08:23:44] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:23:44.826130: Close 4599.17000 not below last low 1.17034
+[2026-04-29 08:23:44] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:23:44] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:23:44] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:24:14] [INFO] Processing EURUSD
+[2026-04-29 08:24:14] [INFO] Processing GBPUSD
+[2026-04-29 08:24:14] [INFO] Processing XAUUSD
+[2026-04-29 08:24:14] [SKIP] BoS failed for EURUSD at 2026-04-29 08:24:14.921314: Close 1.17018 not above last high 1.17185
+[2026-04-29 08:24:14] [INFO] Processing EURGBP
+[2026-04-29 08:24:15] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:24:14.922256: Close 4599.17000 not below last low 1.17034
+[2026-04-29 08:24:15] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:24:15] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:24:15] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:24:45] [INFO] Processing EURUSD
+[2026-04-29 08:24:45] [INFO] Processing GBPUSD
+[2026-04-29 08:24:45] [INFO] Processing XAUUSD
+[2026-04-29 08:24:45] [SKIP] BoS failed for EURUSD at 2026-04-29 08:24:45.017880: Close 1.17018 not above last high 1.17185
+[2026-04-29 08:24:45] [INFO] Processing EURGBP
+[2026-04-29 08:24:45] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:24:45.019439: Close 4599.76000 not below last low 1.17007
+[2026-04-29 08:24:45] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:24:45] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:24:45] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:25:15] [INFO] Processing EURUSD
+[2026-04-29 08:25:15] [INFO] Processing GBPUSD
+[2026-04-29 08:25:15] [INFO] Processing XAUUSD
+[2026-04-29 08:25:15] [INFO] Processing EURGBP
+[2026-04-29 08:25:15] [SKIP] BoS failed for EURUSD at 2026-04-29 08:25:15.134248: Close 1.17018 not above last high 1.17185
+[2026-04-29 08:25:15] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:25:15.135184: Close 4599.76000 not below last low 1.17007
+[2026-04-29 08:25:15] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:25:15] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:25:15] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:25:45] [INFO] Processing EURUSD
+[2026-04-29 08:25:45] [INFO] Processing GBPUSD
+[2026-04-29 08:25:45] [INFO] Processing XAUUSD
+[2026-04-29 08:25:45] [INFO] Processing EURGBP
+[2026-04-29 08:25:45] [SKIP] BoS failed for EURUSD at 2026-04-29 08:25:45.231406: Close 1.17019 not above last high 1.17185
+[2026-04-29 08:25:45] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:25:45.234157: Close 4599.74000 not below last low 1.17007
+[2026-04-29 08:25:45] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:25:45] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:25:45] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:26:15] [INFO] Processing EURUSD
+[2026-04-29 08:26:15] [INFO] Processing GBPUSD
+[2026-04-29 08:26:15] [INFO] Processing XAUUSD
+[2026-04-29 08:26:15] [SKIP] BoS failed for EURUSD at 2026-04-29 08:26:15.329964: Close 1.17019 not above last high 1.17185
+[2026-04-29 08:26:15] [INFO] Processing EURGBP
+[2026-04-29 08:26:15] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:26:15.330796: Close 4599.74000 not below last low 1.17007
+[2026-04-29 08:26:15] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:26:15] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:26:15] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:26:45] [INFO] Processing EURUSD
+[2026-04-29 08:26:45] [INFO] Processing GBPUSD
+[2026-04-29 08:26:45] [INFO] Processing XAUUSD
+[2026-04-29 08:26:45] [INFO] Processing EURGBP
+[2026-04-29 08:26:45] [SKIP] BoS failed for EURUSD at 2026-04-29 08:26:45.425043: Close 1.17020 not above last high 1.17185
+[2026-04-29 08:26:45] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:26:45.427590: Close 4600.40000 not below last low 1.17007
+[2026-04-29 08:26:45] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:26:45] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:26:45] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:27:15] [INFO] Processing EURUSD
+[2026-04-29 08:27:15] [INFO] Processing GBPUSD
+[2026-04-29 08:27:15] [INFO] Processing XAUUSD
+[2026-04-29 08:27:15] [INFO] Processing EURGBP
+[2026-04-29 08:27:15] [SKIP] BoS failed for EURUSD at 2026-04-29 08:27:15.521951: Close 1.17020 not above last high 1.17185
+[2026-04-29 08:27:15] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:27:15.524351: Close 4600.40000 not below last low 1.17007
+[2026-04-29 08:27:15] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:27:15] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:27:15] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:27:45] [INFO] Processing EURUSD
+[2026-04-29 08:27:45] [INFO] Processing GBPUSD
+[2026-04-29 08:27:45] [INFO] Processing XAUUSD
+[2026-04-29 08:27:45] [INFO] Processing EURGBP
+[2026-04-29 08:27:45] [SKIP] BoS failed for EURUSD at 2026-04-29 08:27:45.619123: Close 1.17010 not above last high 1.17185
+[2026-04-29 08:27:45] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:27:45.621848: Close 4600.22000 not below last low 1.17007
+[2026-04-29 08:27:45] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:27:45] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:27:45] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:28:15] [INFO] Processing EURUSD
+[2026-04-29 08:28:15] [INFO] Processing XAUUSD
+[2026-04-29 08:28:15] [INFO] Processing GBPUSD
+[2026-04-29 08:28:15] [INFO] Processing EURGBP
+[2026-04-29 08:28:15] [SKIP] BoS failed for EURUSD at 2026-04-29 08:28:15.741368: Close 1.17010 not above last high 1.17185
+[2026-04-29 08:28:15] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:28:15.742006: Close 4600.22000 not below last low 1.17007
+[2026-04-29 08:28:15] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:28:15] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:28:15] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:28:45] [INFO] Processing EURUSD
+[2026-04-29 08:28:45] [INFO] Processing GBPUSD
+[2026-04-29 08:28:45] [INFO] Processing XAUUSD
+[2026-04-29 08:28:45] [INFO] Processing EURGBP
+[2026-04-29 08:28:45] [SKIP] BoS failed for EURUSD at 2026-04-29 08:28:45.887375: Close 1.17012 not above last high 1.17185
+[2026-04-29 08:28:45] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:28:45.888155: Close 4599.63000 not below last low 1.17007
+[2026-04-29 08:28:45] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:28:45] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:28:45] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:29:15] [INFO] Processing EURUSD
+[2026-04-29 08:29:15] [INFO] Processing GBPUSD
+[2026-04-29 08:29:15] [INFO] Processing XAUUSD
+[2026-04-29 08:29:16] [INFO] Processing EURGBP
+[2026-04-29 08:29:16] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:29:15.979847: Close 4599.63000 not below last low 1.17007
+[2026-04-29 08:29:16] [SKIP] BoS failed for EURUSD at 2026-04-29 08:29:15.979145: Close 1.17012 not above last high 1.17185
+[2026-04-29 08:29:16] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:29:16] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:29:16] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:29:46] [INFO] Processing EURUSD
+[2026-04-29 08:29:46] [INFO] Processing GBPUSD
+[2026-04-29 08:29:46] [INFO] Processing XAUUSD
+[2026-04-29 08:29:46] [INFO] Processing EURGBP
+[2026-04-29 08:29:46] [SKIP] BoS failed for EURUSD at 2026-04-29 08:29:46.072874: Close 1.17015 not above last high 1.17185
+[2026-04-29 08:29:46] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:29:46.075486: Close 4601.07000 not below last low 1.17007
+[2026-04-29 08:29:46] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:29:46] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:29:46] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:30:16] [INFO] Processing EURUSD
+[2026-04-29 08:30:16] [INFO] Processing GBPUSD
+[2026-04-29 08:30:16] [INFO] Processing XAUUSD
+[2026-04-29 08:30:16] [INFO] Processing EURGBP
+[2026-04-29 08:30:16] [SKIP] BoS failed for EURUSD at 2026-04-29 08:30:16.169313: Close 1.17015 not above last high 1.17185
+[2026-04-29 08:30:16] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:30:16.170716: Close 4601.07000 not below last low 1.17007
+[2026-04-29 08:30:16] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:30:16] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:30:16] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:30:46] [INFO] Processing EURUSD
+[2026-04-29 08:30:46] [INFO] Processing GBPUSD
+[2026-04-29 08:30:46] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-29 08:30:46] [INFO] Processing XAUUSD
+[2026-04-29 08:30:46] [INFO] Processing EURGBP
+[2026-04-29 08:30:46] [WARN] Resetting state for GBPUSD due to staleness
+[2026-04-29 08:30:46] [WARN] Resetting state for XAUUSD due to staleness
+[2026-04-29 08:30:46] [WARN] Resetting state for EURGBP due to staleness
+[2026-04-29 08:30:46] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.1706 | Sweep Type: break_retest | Time: 2026-04-29 06:00:00
+[2026-04-29 08:30:46] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:30:46] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.00 | Strength: 4 touches | Level: 4601.5100 | Sweep Type: wick | Time: 2026-04-29 03:00:00
+[2026-04-29 08:30:46] [SKIP] BoS failed for EURUSD at 2026-04-29 08:30:46.263879: Close 1.17030 not above last high 1.17167
+[2026-04-29 08:30:46] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:30:46] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:30:46.265060: Close 4599.67000 not below last low 1.17038
+[2026-04-29 08:30:46] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:31:16] [INFO] Processing EURUSD
+[2026-04-29 08:31:16] [INFO] Processing XAUUSD
+[2026-04-29 08:31:16] [INFO] Processing GBPUSD
+[2026-04-29 08:31:16] [INFO] Processing EURGBP
+[2026-04-29 08:31:16] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:31:16.484538: Close 4599.67000 not below last low 4580.38000
+[2026-04-29 08:31:16] [SKIP] BoS failed for EURUSD at 2026-04-29 08:31:16.483722: Close 1.17030 not above last high 4607.73000
+[2026-04-29 08:31:16] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:31:16] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:31:16] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:31:46] [INFO] Processing EURUSD
+[2026-04-29 08:31:46] [INFO] Processing GBPUSD
+[2026-04-29 08:31:46] [INFO] Processing XAUUSD
+[2026-04-29 08:31:46] [INFO] Processing EURGBP
+[2026-04-29 08:31:46] [SKIP] BoS failed for EURUSD at 2026-04-29 08:31:46.605198: Close 1.17013 not above last high 4607.73000
+[2026-04-29 08:31:46] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:31:46.605917: Close 4597.21000 not below last low 4580.38000
+[2026-04-29 08:31:46] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:31:46] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:31:46] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:32:16] [INFO] Processing EURUSD
+[2026-04-29 08:32:16] [INFO] Processing GBPUSD
+[2026-04-29 08:32:16] [SKIP] BoS failed for EURUSD at 2026-04-29 08:32:16.702055: Close 1.17013 not above last high 4607.73000
+[2026-04-29 08:32:16] [INFO] Processing EURGBP
+[2026-04-29 08:32:16] [INFO] Processing XAUUSD
+[2026-04-29 08:32:16] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:32:16.707079: Close 4597.21000 not below last low 4580.38000
+[2026-04-29 08:32:16] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:32:16] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:32:16] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:32:46] [INFO] Processing EURUSD
+[2026-04-29 08:32:46] [INFO] Processing GBPUSD
+[2026-04-29 08:32:46] [INFO] Processing XAUUSD
+[2026-04-29 08:32:46] [SKIP] BoS failed for EURUSD at 2026-04-29 08:32:46.796007: Close 1.17005 not above last high 4607.73000
+[2026-04-29 08:32:46] [INFO] Processing EURGBP
+[2026-04-29 08:32:46] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:32:46.797561: Close 4596.68000 not below last low 4580.38000
+[2026-04-29 08:32:46] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:32:46] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:32:46] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:33:16] [INFO] Processing EURUSD
+[2026-04-29 08:33:16] [INFO] Processing XAUUSD
+[2026-04-29 08:33:16] [INFO] Processing GBPUSD
+[2026-04-29 08:33:16] [SKIP] BoS failed for EURUSD at 2026-04-29 08:33:16.894408: Close 1.17005 not above last high 4607.73000
+[2026-04-29 08:33:16] [INFO] Processing EURGBP
+[2026-04-29 08:33:16] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:33:16.896400: Close 4596.68000 not below last low 4580.38000
+[2026-04-29 08:33:16] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:33:16] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:33:16] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:33:46] [INFO] Processing EURUSD
+[2026-04-29 08:33:46] [INFO] Processing GBPUSD
+[2026-04-29 08:33:47] [INFO] Processing XAUUSD
+[2026-04-29 08:33:47] [INFO] Processing EURGBP
+[2026-04-29 08:33:47] [SKIP] BoS failed for EURUSD at 2026-04-29 08:33:46.992277: Close 1.17005 not above last high 1.17185
+[2026-04-29 08:33:47] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:33:46.993441: Close 4596.45000 not below last low 1.17007
+[2026-04-29 08:33:47] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:33:47] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:33:47] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:34:17] [INFO] Processing EURUSD
+[2026-04-29 08:34:17] [INFO] Processing XAUUSD
+[2026-04-29 08:34:17] [INFO] Processing GBPUSD
+[2026-04-29 08:34:17] [INFO] Processing EURGBP
+[2026-04-29 08:34:17] [SKIP] BoS failed for EURUSD at 2026-04-29 08:34:17.113866: Close 1.17005 not above last high 1.17185
+[2026-04-29 08:34:17] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:34:17.114997: Close 4596.45000 not below last low 1.17007
+[2026-04-29 08:34:17] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:34:17] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:34:17] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:34:47] [INFO] Processing EURUSD
+[2026-04-29 08:34:47] [INFO] Processing GBPUSD
+[2026-04-29 08:34:47] [INFO] Processing XAUUSD
+[2026-04-29 08:34:47] [SKIP] BoS failed for EURUSD at 2026-04-29 08:34:47.205782: Close 1.16999 not above last high 1.17185
+[2026-04-29 08:34:47] [INFO] Processing EURGBP
+[2026-04-29 08:34:47] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:34:47.206682: Close 4595.86000 not below last low 1.17007
+[2026-04-29 08:34:47] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:34:47] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:34:47] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:35:17] [INFO] Processing EURUSD
+[2026-04-29 08:35:17] [INFO] Processing GBPUSD
+[2026-04-29 08:35:17] [INFO] Processing XAUUSD
+[2026-04-29 08:35:17] [INFO] Processing EURGBP
+[2026-04-29 08:35:17] [SKIP] BoS failed for EURUSD at 2026-04-29 08:35:17.312658: Close 1.16999 not above last high 1.17185
+[2026-04-29 08:35:17] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:35:17.313818: Close 4595.86000 not below last low 1.17007
+[2026-04-29 08:35:17] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:35:17] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:35:17] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:35:47] [INFO] Processing EURUSD
+[2026-04-29 08:35:47] [INFO] Processing XAUUSD
+[2026-04-29 08:35:47] [INFO] Processing GBPUSD
+[2026-04-29 08:35:47] [INFO] Processing EURGBP
+[2026-04-29 08:35:47] [SKIP] BoS failed for EURUSD at 2026-04-29 08:35:47.441134: Close 1.16981 not above last high 1.17185
+[2026-04-29 08:35:47] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:35:47.442193: Close 4595.76000 not below last low 1.17007
+[2026-04-29 08:35:47] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:35:47] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:35:47] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:36:17] [INFO] Processing EURUSD
+[2026-04-29 08:36:17] [INFO] Processing XAUUSD
+[2026-04-29 08:36:17] [INFO] Processing GBPUSD
+[2026-04-29 08:36:17] [INFO] Processing EURGBP
+[2026-04-29 08:36:17] [SKIP] BoS failed for EURUSD at 2026-04-29 08:36:17.534885: Close 1.16981 not above last high 1.17185
+[2026-04-29 08:36:17] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:36:17.535883: Close 4595.76000 not below last low 1.17007
+[2026-04-29 08:36:17] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:36:17] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:36:17] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:36:47] [INFO] Processing EURUSD
+[2026-04-29 08:36:47] [INFO] Processing GBPUSD
+[2026-04-29 08:36:47] [INFO] Processing XAUUSD
+[2026-04-29 08:36:47] [INFO] Processing EURGBP
+[2026-04-29 08:36:47] [SKIP] BoS failed for EURUSD at 2026-04-29 08:36:47.642781: Close 1.16985 not above last high 1.17167
+[2026-04-29 08:36:47] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:36:47.645260: Close 4595.93000 not below last low 1.17007
+[2026-04-29 08:36:47] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:36:47] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:36:47] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:37:17] [INFO] Processing EURUSD
+[2026-04-29 08:37:17] [INFO] Processing XAUUSD
+[2026-04-29 08:37:17] [INFO] Processing GBPUSD
+[2026-04-29 08:37:17] [SKIP] BoS failed for EURUSD at 2026-04-29 08:37:17.768025: Close 1.16985 not above last high 1.17167
+[2026-04-29 08:37:17] [INFO] Processing EURGBP
+[2026-04-29 08:37:17] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:37:17.770983: Close 4595.93000 not below last low 1.17007
+[2026-04-29 08:37:17] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:37:17] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:37:17] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:37:47] [INFO] Processing EURUSD
+[2026-04-29 08:37:47] [INFO] Processing GBPUSD
+[2026-04-29 08:37:47] [INFO] Processing XAUUSD
+[2026-04-29 08:37:47] [INFO] Processing EURGBP
+[2026-04-29 08:37:47] [SKIP] BoS failed for EURUSD at 2026-04-29 08:37:47.869080: Close 1.16985 not above last high 1.17167
+[2026-04-29 08:37:47] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:37:47.871676: Close 4595.77000 not below last low 1.17007
+[2026-04-29 08:37:47] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:37:47] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:37:47] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:38:17] [INFO] Processing EURUSD
+[2026-04-29 08:38:17] [INFO] Processing GBPUSD
+[2026-04-29 08:38:17] [INFO] Processing XAUUSD
+[2026-04-29 08:38:18] [INFO] Processing EURGBP
+[2026-04-29 08:38:18] [SKIP] BoS failed for EURUSD at 2026-04-29 08:38:17.970306: Close 1.16985 not above last high 1.17167
+[2026-04-29 08:38:18] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:38:17.971926: Close 4595.77000 not below last low 1.17007
+[2026-04-29 08:38:18] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:38:18] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:38:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:38:48] [INFO] Processing EURUSD
+[2026-04-29 08:38:48] [INFO] Processing GBPUSD
+[2026-04-29 08:38:48] [INFO] Processing XAUUSD
+[2026-04-29 08:38:48] [SKIP] BoS failed for EURUSD at 2026-04-29 08:38:48.067672: Close 1.16986 not above last high 1.17167
+[2026-04-29 08:38:48] [INFO] Processing EURGBP
+[2026-04-29 08:38:48] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:38:48.069494: Close 4594.78000 not below last low 1.17007
+[2026-04-29 08:38:48] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:38:48] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:38:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:39:18] [INFO] Processing EURUSD
+[2026-04-29 08:39:18] [INFO] Processing GBPUSD
+[2026-04-29 08:39:18] [INFO] Processing XAUUSD
+[2026-04-29 08:39:18] [SKIP] BoS failed for EURUSD at 2026-04-29 08:39:18.168784: Close 1.16986 not above last high 1.17167
+[2026-04-29 08:39:18] [INFO] Processing EURGBP
+[2026-04-29 08:39:18] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:39:18.171797: Close 4594.78000 not below last low 1.17007
+[2026-04-29 08:39:18] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:39:18] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:39:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:39:48] [INFO] Processing EURUSD
+[2026-04-29 08:39:48] [INFO] Processing GBPUSD
+[2026-04-29 08:39:48] [INFO] Processing XAUUSD
+[2026-04-29 08:39:48] [INFO] Processing EURGBP
+[2026-04-29 08:39:48] [SKIP] BoS failed for EURUSD at 2026-04-29 08:39:48.264300: Close 1.16986 not above last high 1.17167
+[2026-04-29 08:39:48] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:39:48.265324: Close 4594.88000 not below last low 1.16978
+[2026-04-29 08:39:48] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:39:48] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:39:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:40:18] [INFO] Processing EURUSD
+[2026-04-29 08:40:18] [INFO] Processing GBPUSD
+[2026-04-29 08:40:18] [INFO] Processing XAUUSD
+[2026-04-29 08:40:18] [INFO] Processing EURGBP
+[2026-04-29 08:40:18] [SKIP] BoS failed for EURUSD at 2026-04-29 08:40:18.386950: Close 1.16986 not above last high 1.17167
+[2026-04-29 08:40:18] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:40:18.389975: Close 4594.88000 not below last low 1.16978
+[2026-04-29 08:40:18] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:40:18] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:40:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:40:48] [INFO] Processing EURUSD
+[2026-04-29 08:40:48] [INFO] Processing GBPUSD
+[2026-04-29 08:40:48] [INFO] Processing XAUUSD
+[2026-04-29 08:40:48] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-29 08:40:48] [INFO] Processing EURGBP
+[2026-04-29 08:40:48] [WARN] Resetting state for GBPUSD due to staleness
+[2026-04-29 08:40:48] [WARN] Resetting state for XAUUSD due to staleness
+[2026-04-29 08:40:48] [WARN] Resetting state for EURGBP due to staleness
+[2026-04-29 08:40:48] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.1706 | Sweep Type: break_retest | Time: 2026-04-29 06:00:00
+[2026-04-29 08:40:48] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.00 | Strength: 4 touches | Level: 4601.5100 | Sweep Type: wick | Time: 2026-04-29 03:00:00
+[2026-04-29 08:40:48] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:40:48] [SKIP] BoS failed for EURUSD at 2026-04-29 08:40:48.483228: Close 1.16991 not above last high 1.17167
+[2026-04-29 08:40:48] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:40:48.485227: Close 4595.99000 not below last low 1.17038
+[2026-04-29 08:40:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:41:18] [INFO] Processing EURUSD
+[2026-04-29 08:41:18] [INFO] Processing XAUUSD
+[2026-04-29 08:41:18] [INFO] Processing GBPUSD
+[2026-04-29 08:41:18] [SKIP] BoS failed for EURUSD at 2026-04-29 08:41:18.676824: Close 1.16991 not above last high 1.17167
+[2026-04-29 08:41:18] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:41:18.679258: Close 4595.99000 not below last low 1.16978
+[2026-04-29 08:41:18] [INFO] Processing EURGBP
+[2026-04-29 08:41:18] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:41:18] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:41:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:41:48] [INFO] Processing EURUSD
+[2026-04-29 08:41:48] [INFO] Processing GBPUSD
+[2026-04-29 08:41:48] [INFO] Processing EURGBP
+[2026-04-29 08:41:48] [INFO] Processing XAUUSD
+[2026-04-29 08:41:48] [SKIP] BoS failed for EURUSD at 2026-04-29 08:41:48.770189: Close 1.16989 not above last high 1.17167
+[2026-04-29 08:41:48] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:41:48.771196: Close 4596.04000 not below last low 1.16978
+[2026-04-29 08:41:48] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:41:48] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:41:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:42:18] [INFO] Processing EURUSD
+[2026-04-29 08:42:18] [INFO] Processing GBPUSD
+[2026-04-29 08:42:18] [INFO] Processing XAUUSD
+[2026-04-29 08:42:18] [SKIP] BoS failed for EURUSD at 2026-04-29 08:42:18.866087: Close 1.16989 not above last high 1.17167
+[2026-04-29 08:42:18] [INFO] Processing EURGBP
+[2026-04-29 08:42:18] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:42:18.869071: Close 4596.04000 not below last low 1.16978
+[2026-04-29 08:42:18] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:42:18] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:42:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:42:48] [INFO] Processing EURUSD
+[2026-04-29 08:42:48] [INFO] Processing GBPUSD
+[2026-04-29 08:42:48] [INFO] Processing XAUUSD
+[2026-04-29 08:42:48] [INFO] Processing EURGBP
+[2026-04-29 08:42:49] [SKIP] BoS failed for EURUSD at 2026-04-29 08:42:48.960142: Close 1.16996 not above last high 1.17167
+[2026-04-29 08:42:49] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:42:48.960983: Close 4597.19000 not below last low 1.17007
+[2026-04-29 08:42:49] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:42:49] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:42:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:43:19] [INFO] Processing EURUSD
+[2026-04-29 08:43:19] [INFO] Processing GBPUSD
+[2026-04-29 08:43:19] [INFO] Processing XAUUSD
+[2026-04-29 08:43:19] [SKIP] BoS failed for EURUSD at 2026-04-29 08:43:19.080431: Close 1.16996 not above last high 1.17167
+[2026-04-29 08:43:19] [INFO] Processing EURGBP
+[2026-04-29 08:43:19] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:43:19.081895: Close 4597.19000 not below last low 1.17007
+[2026-04-29 08:43:19] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:43:19] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:43:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:43:49] [INFO] Processing EURUSD
+[2026-04-29 08:43:49] [INFO] Processing GBPUSD
+[2026-04-29 08:43:49] [INFO] Processing EURGBP
+[2026-04-29 08:43:49] [SKIP] BoS failed for EURUSD at 2026-04-29 08:43:49.176631: Close 1.16996 not above last high 1.17167
+[2026-04-29 08:43:49] [INFO] Processing XAUUSD
+[2026-04-29 08:43:49] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:43:49.179400: Close 4596.96000 not below last low 1.17007
+[2026-04-29 08:43:49] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:43:49] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:43:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:44:19] [INFO] Processing EURUSD
+[2026-04-29 08:44:19] [INFO] Processing GBPUSD
+[2026-04-29 08:44:19] [INFO] Processing EURGBP
+[2026-04-29 08:44:19] [SKIP] BoS failed for EURUSD at 2026-04-29 08:44:19.277040: Close 1.16996 not above last high 1.17167
+[2026-04-29 08:44:19] [INFO] Processing XAUUSD
+[2026-04-29 08:44:19] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:44:19.279096: Close 4596.96000 not below last low 1.17007
+[2026-04-29 08:44:19] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:44:19] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:44:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:44:49] [INFO] Processing EURUSD
+[2026-04-29 08:44:49] [INFO] Processing GBPUSD
+[2026-04-29 08:44:49] [INFO] Processing XAUUSD
+[2026-04-29 08:44:49] [SKIP] BoS failed for EURUSD at 2026-04-29 08:44:49.375255: Close 1.17004 not above last high 1.17167
+[2026-04-29 08:44:49] [INFO] Processing EURGBP
+[2026-04-29 08:44:49] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:44:49] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:44:49.377930: Close 4598.95000 not below last low 1.17007
+[2026-04-29 08:44:49] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:44:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:45:19] [INFO] Processing EURUSD
+[2026-04-29 08:45:19] [INFO] Processing GBPUSD
+[2026-04-29 08:45:19] [INFO] Processing XAUUSD
+[2026-04-29 08:45:19] [SKIP] BoS failed for EURUSD at 2026-04-29 08:45:19.474371: Close 1.17004 not above last high 1.17167
+[2026-04-29 08:45:19] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:45:19.476775: Close 4598.95000 not below last low 1.17007
+[2026-04-29 08:45:19] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:45:19] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:45:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:45:49] [INFO] Processing EURUSD
+[2026-04-29 08:45:49] [INFO] Processing GBPUSD
+[2026-04-29 08:45:49] [INFO] Processing XAUUSD
+[2026-04-29 08:45:49] [SKIP] BoS failed for EURUSD at 2026-04-29 08:45:49.569769: Close 1.17005 not above last high 1.17167
+[2026-04-29 08:45:49] [INFO] Processing EURGBP
+[2026-04-29 08:45:49] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:45:49] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:45:49.574252: Close 4599.42000 not below last low 1.16975
+[2026-04-29 08:45:49] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:45:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:46:19] [INFO] Processing EURUSD
+[2026-04-29 08:46:19] [INFO] Processing GBPUSD
+[2026-04-29 08:46:19] [INFO] Processing XAUUSD
+[2026-04-29 08:46:19] [INFO] Processing EURGBP
+[2026-04-29 08:46:19] [SKIP] BoS failed for EURUSD at 2026-04-29 08:46:19.689382: Close 1.17005 not above last high 1.17167
+[2026-04-29 08:46:19] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:46:19.701777: Close 4599.42000 not below last low 1.16975
+[2026-04-29 08:46:19] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:46:19] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:46:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:46:49] [INFO] Processing EURUSD
+[2026-04-29 08:46:49] [INFO] Processing GBPUSD
+[2026-04-29 08:46:49] [INFO] Processing XAUUSD
+[2026-04-29 08:46:49] [INFO] Processing EURGBP
+[2026-04-29 08:46:49] [SKIP] BoS failed for EURUSD at 2026-04-29 08:46:49.795159: Close 1.17009 not above last high 1.17167
+[2026-04-29 08:46:49] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:46:49.797987: Close 4600.76000 not below last low 1.16975
+[2026-04-29 08:46:49] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:46:49] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:46:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:47:19] [INFO] Processing EURUSD
+[2026-04-29 08:47:19] [INFO] Processing GBPUSD
+[2026-04-29 08:47:19] [INFO] Processing XAUUSD
+[2026-04-29 08:47:19] [INFO] Processing EURGBP
+[2026-04-29 08:47:19] [SKIP] BoS failed for EURUSD at 2026-04-29 08:47:19.894348: Close 1.17009 not above last high 1.17167
+[2026-04-29 08:47:19] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:47:19.897460: Close 4600.76000 not below last low 1.16975
+[2026-04-29 08:47:19] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:47:19] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:47:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:47:50] [INFO] Processing EURUSD
+[2026-04-29 08:47:50] [INFO] Processing GBPUSD
+[2026-04-29 08:47:50] [INFO] Processing XAUUSD
+[2026-04-29 08:47:50] [INFO] Processing EURGBP
+[2026-04-29 08:47:50] [SKIP] BoS failed for EURUSD at 2026-04-29 08:47:49.997880: Close 1.17011 not above last high 1.17167
+[2026-04-29 08:47:50] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:47:50.000316: Close 4601.12000 not below last low 1.16975
+[2026-04-29 08:47:50] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:47:50] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:47:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:48:20] [INFO] Processing EURUSD
+[2026-04-29 08:48:20] [INFO] Processing GBPUSD
+[2026-04-29 08:48:20] [INFO] Processing XAUUSD
+[2026-04-29 08:48:20] [INFO] Processing EURGBP
+[2026-04-29 08:48:20] [SKIP] BoS failed for EURUSD at 2026-04-29 08:48:20.097713: Close 1.17011 not above last high 1.17167
+[2026-04-29 08:48:20] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:48:20.100442: Close 4601.12000 not below last low 1.16975
+[2026-04-29 08:48:20] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:48:20] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:48:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:48:50] [INFO] Processing EURUSD
+[2026-04-29 08:48:50] [INFO] Processing GBPUSD
+[2026-04-29 08:48:50] [INFO] Processing XAUUSD
+[2026-04-29 08:48:50] [INFO] Processing EURGBP
+[2026-04-29 08:48:50] [SKIP] BoS failed for EURUSD at 2026-04-29 08:48:50.194373: Close 1.17006 not above last high 1.17167
+[2026-04-29 08:48:50] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:48:50.196959: Close 4600.34000 not below last low 1.16975
+[2026-04-29 08:48:50] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:48:50] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:48:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:49:20] [INFO] Processing EURUSD
+[2026-04-29 08:49:20] [INFO] Processing GBPUSD
+[2026-04-29 08:49:20] [INFO] Processing XAUUSD
+[2026-04-29 08:49:20] [SKIP] BoS failed for EURUSD at 2026-04-29 08:49:20.320021: Close 1.17006 not above last high 1.17167
+[2026-04-29 08:49:20] [INFO] Processing EURGBP
+[2026-04-29 08:49:20] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:49:20.322763: Close 4600.34000 not below last low 1.16975
+[2026-04-29 08:49:20] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:49:20] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:49:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:49:50] [INFO] Processing EURUSD
+[2026-04-29 08:49:50] [INFO] Processing GBPUSD
+[2026-04-29 08:49:50] [INFO] Processing XAUUSD
+[2026-04-29 08:49:50] [INFO] Processing EURGBP
+[2026-04-29 08:49:50] [SKIP] BoS failed for EURUSD at 2026-04-29 08:49:50.418090: Close 1.17004 not above last high 1.17167
+[2026-04-29 08:49:50] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:49:50.420921: Close 4599.60000 not below last low 1.16975
+[2026-04-29 08:49:50] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:49:50] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:49:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:50:20] [INFO] Processing EURUSD
+[2026-04-29 08:50:20] [INFO] Processing GBPUSD
+[2026-04-29 08:50:20] [INFO] Processing XAUUSD
+[2026-04-29 08:50:20] [INFO] Processing EURGBP
+[2026-04-29 08:50:20] [SKIP] BoS failed for EURUSD at 2026-04-29 08:50:20.518389: Close 1.17004 not above last high 1.17167
+[2026-04-29 08:50:20] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:50:20.521362: Close 4599.60000 not below last low 1.16975
+[2026-04-29 08:50:20] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:50:20] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:50:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:50:50] [INFO] Processing EURUSD
+[2026-04-29 08:50:50] [INFO] Processing GBPUSD
+[2026-04-29 08:50:50] [INFO] Processing XAUUSD
+[2026-04-29 08:50:50] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-29 08:50:50] [INFO] Processing EURGBP
+[2026-04-29 08:50:50] [WARN] Resetting state for XAUUSD due to staleness
+[2026-04-29 08:50:50] [WARN] Resetting state for GBPUSD due to staleness
+[2026-04-29 08:50:50] [WARN] Resetting state for EURGBP due to staleness
+[2026-04-29 08:50:50] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.1706 | Sweep Type: break_retest | Time: 2026-04-29 06:00:00
+[2026-04-29 08:50:50] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:50:50] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:50:50] [SKIP] BoS failed for EURUSD at 2026-04-29 08:50:50.616600: Close 1.16999 not above last high 1.17167
+[2026-04-29 08:50:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.00 | Strength: 4 touches | Level: 4601.5100 | Sweep Type: wick | Time: 2026-04-29 03:00:00
+[2026-04-29 08:50:50] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:50:50.619107: Close 4600.79000 not below last low 1.17038
+[2026-04-29 08:50:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:51:20] [INFO] Processing EURUSD
+[2026-04-29 08:51:20] [INFO] Processing GBPUSD
+[2026-04-29 08:51:20] [INFO] Processing XAUUSD
+[2026-04-29 08:51:20] [INFO] Processing EURGBP
+[2026-04-29 08:51:20] [SKIP] BoS failed for EURUSD at 2026-04-29 08:51:20.809474: Close 1.16999 not above last high 1.17167
+[2026-04-29 08:51:20] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:51:20.810225: Close 4600.79000 not below last low 1.16975
+[2026-04-29 08:51:20] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:51:20] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:51:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:51:50] [INFO] Processing EURUSD
+[2026-04-29 08:51:50] [INFO] Processing GBPUSD
+[2026-04-29 08:51:50] [INFO] Processing EURGBP
+[2026-04-29 08:51:50] [INFO] Processing XAUUSD
+[2026-04-29 08:51:50] [SKIP] BoS failed for EURUSD at 2026-04-29 08:51:50.900514: Close 1.17008 not above last high 1.17167
+[2026-04-29 08:51:51] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:51:50.901266: Close 4602.34000 not below last low 1.16975
+[2026-04-29 08:51:51] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:51:51] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:51:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:52:21] [INFO] Processing EURUSD
+[2026-04-29 08:52:21] [INFO] Processing GBPUSD
+[2026-04-29 08:52:21] [INFO] Processing XAUUSD
+[2026-04-29 08:52:21] [SKIP] BoS failed for EURUSD at 2026-04-29 08:52:21.022761: Close 1.17008 not above last high 1.17167
+[2026-04-29 08:52:21] [INFO] Processing EURGBP
+[2026-04-29 08:52:21] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:52:21] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:52:21.025436: Close 4602.34000 not below last low 1.16975
+[2026-04-29 08:52:21] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:52:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:52:51] [INFO] Processing EURUSD
+[2026-04-29 08:52:51] [INFO] Processing GBPUSD
+[2026-04-29 08:52:51] [INFO] Processing XAUUSD
+[2026-04-29 08:52:51] [INFO] Processing EURGBP
+[2026-04-29 08:52:51] [SKIP] BoS failed for EURUSD at 2026-04-29 08:52:51.118510: Close 1.17010 not above last high 1.17167
+[2026-04-29 08:52:51] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:52:51.120667: Close 4601.32000 not below last low 1.16975
+[2026-04-29 08:52:51] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:52:51] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:52:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:53:21] [INFO] Processing EURUSD
+[2026-04-29 08:53:21] [INFO] Processing GBPUSD
+[2026-04-29 08:53:21] [INFO] Processing XAUUSD
+[2026-04-29 08:53:21] [SKIP] BoS failed for EURUSD at 2026-04-29 08:53:21.218324: Close 1.17010 not above last high 1.17167
+[2026-04-29 08:53:21] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:53:21.221213: Close 4601.32000 not below last low 1.16975
+[2026-04-29 08:53:21] [INFO] Processing EURGBP
+[2026-04-29 08:53:21] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:53:21] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:53:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:53:51] [INFO] Processing EURUSD
+[2026-04-29 08:53:51] [INFO] Processing GBPUSD
+[2026-04-29 08:53:51] [INFO] Processing EURGBP
+[2026-04-29 08:53:51] [INFO] Processing XAUUSD
+[2026-04-29 08:53:51] [SKIP] BoS failed for EURUSD at 2026-04-29 08:53:51.318976: Close 1.17006 not above last high 1.17167
+[2026-04-29 08:53:51] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:53:51.319802: Close 4599.17000 not below last low 1.16975
+[2026-04-29 08:53:51] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:53:51] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:53:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:54:21] [INFO] Processing EURUSD
+[2026-04-29 08:54:21] [INFO] Processing GBPUSD
+[2026-04-29 08:54:21] [INFO] Processing XAUUSD
+[2026-04-29 08:54:21] [SKIP] BoS failed for EURUSD at 2026-04-29 08:54:21.413134: Close 1.17006 not above last high 1.17167
+[2026-04-29 08:54:21] [INFO] Processing EURGBP
+[2026-04-29 08:54:21] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:54:21.416076: Close 4599.17000 not below last low 1.16975
+[2026-04-29 08:54:21] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:54:21] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:54:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:54:51] [INFO] Processing EURUSD
+[2026-04-29 08:54:51] [INFO] Processing XAUUSD
+[2026-04-29 08:54:51] [INFO] Processing GBPUSD
+[2026-04-29 08:54:51] [INFO] Processing EURGBP
+[2026-04-29 08:54:51] [SKIP] BoS failed for EURUSD at 2026-04-29 08:54:51.511150: Close 1.17010 not above last high 1.17167
+[2026-04-29 08:54:51] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:54:51.513461: Close 4597.78000 not below last low 4580.38000
+[2026-04-29 08:54:51] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:54:51] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:54:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:55:21] [INFO] Processing EURUSD
+[2026-04-29 08:55:21] [INFO] Processing XAUUSD
+[2026-04-29 08:55:21] [INFO] Processing GBPUSD
+[2026-04-29 08:55:21] [INFO] Processing EURGBP
+[2026-04-29 08:55:21] [SKIP] BoS failed for EURUSD at 2026-04-29 08:55:21.658220: Close 1.17010 not above last high 4607.73000
+[2026-04-29 08:55:21] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:55:21.661343: Close 4597.78000 not below last low 4580.38000
+[2026-04-29 08:55:21] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:55:21] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:55:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:55:51] [INFO] Processing EURUSD
+[2026-04-29 08:55:51] [INFO] Processing GBPUSD
+[2026-04-29 08:55:51] [SKIP] BoS failed for EURUSD at 2026-04-29 08:55:51.755017: Close 1.17016 not above last high 4607.73000
+[2026-04-29 08:55:51] [INFO] Processing XAUUSD
+[2026-04-29 08:55:51] [INFO] Processing EURGBP
+[2026-04-29 08:55:51] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:55:51.756057: Close 4595.35000 not below last low 4580.38000
+[2026-04-29 08:55:51] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:55:51] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:55:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:56:21] [INFO] Processing EURUSD
+[2026-04-29 08:56:21] [INFO] Processing GBPUSD
+[2026-04-29 08:56:21] [INFO] Processing EURGBP
+[2026-04-29 08:56:21] [INFO] Processing XAUUSD
+[2026-04-29 08:56:21] [SKIP] BoS failed for EURUSD at 2026-04-29 08:56:21.850500: Close 1.17016 not above last high 4607.73000
+[2026-04-29 08:56:21] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:56:21.853425: Close 4595.35000 not below last low 4580.38000
+[2026-04-29 08:56:21] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:56:21] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:56:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:56:51] [INFO] Processing EURUSD
+[2026-04-29 08:56:51] [INFO] Processing GBPUSD
+[2026-04-29 08:56:51] [INFO] Processing EURGBP
+[2026-04-29 08:56:51] [INFO] Processing XAUUSD
+[2026-04-29 08:56:52] [SKIP] BoS failed for EURUSD at 2026-04-29 08:56:51.953595: Close 1.17011 not above last high 4607.73000
+[2026-04-29 08:56:52] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:56:51.954591: Close 4594.17000 not below last low 4580.38000
+[2026-04-29 08:56:52] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:56:52] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:56:52] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:57:22] [INFO] Processing EURUSD
+[2026-04-29 08:57:22] [INFO] Processing GBPUSD
+[2026-04-29 08:57:22] [INFO] Processing XAUUSD
+[2026-04-29 08:57:22] [INFO] Processing EURGBP
+[2026-04-29 08:57:22] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:57:22.051886: Close 4594.17000 not below last low 4580.38000
+[2026-04-29 08:57:22] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:57:22] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:57:22] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:57:52] [INFO] Processing EURUSD
+[2026-04-29 08:57:52] [INFO] Processing GBPUSD
+[2026-04-29 08:57:52] [INFO] Processing XAUUSD
+[2026-04-29 08:57:52] [INFO] Processing EURGBP
+[2026-04-29 08:57:52] [SKIP] BoS failed for EURUSD at 2026-04-29 08:57:52.147741: Close 1.17012 not above last high 1.17167
+[2026-04-29 08:57:52] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:57:52.150666: Close 4593.75000 not below last low 1.16975
+[2026-04-29 08:57:52] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:57:52] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:57:52] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:58:22] [INFO] Processing EURUSD
+[2026-04-29 08:58:22] [INFO] Processing GBPUSD
+[2026-04-29 08:58:22] [INFO] Processing XAUUSD
+[2026-04-29 08:58:22] [SKIP] BoS failed for EURUSD at 2026-04-29 08:58:22.276905: Close 1.17012 not above last high 1.17167
+[2026-04-29 08:58:22] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:58:22.279711: Close 4593.75000 not below last low 1.16975
+[2026-04-29 08:58:22] [INFO] Processing EURGBP
+[2026-04-29 08:58:22] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:58:22] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:58:22] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:58:52] [INFO] Processing EURUSD
+[2026-04-29 08:58:52] [INFO] Processing GBPUSD
+[2026-04-29 08:58:52] [INFO] Processing EURGBP
+[2026-04-29 08:58:52] [SKIP] BoS failed for EURUSD at 2026-04-29 08:58:52.372943: Close 1.17013 not above last high 1.17167
+[2026-04-29 08:58:52] [INFO] Processing XAUUSD
+[2026-04-29 08:58:52] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:58:52.375238: Close 4592.41000 not below last low 1.16975
+[2026-04-29 08:58:52] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:58:52] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:58:52] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:59:22] [INFO] Processing EURUSD
+[2026-04-29 08:59:22] [INFO] Processing GBPUSD
+[2026-04-29 08:59:22] [INFO] Processing XAUUSD
+[2026-04-29 08:59:22] [INFO] Processing EURGBP
+[2026-04-29 08:59:22] [SKIP] BoS failed for EURUSD at 2026-04-29 08:59:22.469862: Close 1.17013 not above last high 1.17167
+[2026-04-29 08:59:22] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:59:22.471929: Close 4592.41000 not below last low 1.16975
+[2026-04-29 08:59:22] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:59:22] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:59:22] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 08:59:52] [INFO] Processing EURUSD
+[2026-04-29 08:59:52] [INFO] Processing GBPUSD
+[2026-04-29 08:59:52] [INFO] Processing XAUUSD
+[2026-04-29 08:59:52] [INFO] Processing EURGBP
+[2026-04-29 08:59:52] [SKIP] BoS failed for EURUSD at 2026-04-29 08:59:52.574348: Close 1.17008 not above last high 1.17167
+[2026-04-29 08:59:52] [SKIP] BoS failed for XAUUSD at 2026-04-29 08:59:52.577528: Close 4592.51000 not below last low 1.16975
+[2026-04-29 08:59:52] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 08:59:52] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 08:59:52] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:00:22] [INFO] Processing EURUSD
+[2026-04-29 09:00:22] [INFO] Processing GBPUSD
+[2026-04-29 09:00:22] [INFO] Processing XAUUSD
+[2026-04-29 09:00:22] [SKIP] BoS failed for EURUSD at 2026-04-29 09:00:22.672933: Close 1.17008 not above last high 1.17167
+[2026-04-29 09:00:22] [INFO] Processing EURGBP
+[2026-04-29 09:00:22] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:00:22.677588: Close 4592.51000 not below last low 1.16975
+[2026-04-29 09:00:22] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:00:22] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:00:22] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:00:52] [INFO] Processing EURUSD
+[2026-04-29 09:00:52] [INFO] Processing GBPUSD
+[2026-04-29 09:00:52] [INFO] Processing XAUUSD
+[2026-04-29 09:00:52] [INFO] Processing EURGBP
+[2026-04-29 09:00:52] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-29 09:00:52] [WARN] Resetting state for GBPUSD due to staleness
+[2026-04-29 09:00:52] [WARN] Resetting state for EURGBP due to staleness
+[2026-04-29 09:00:52] [WARN] Resetting state for XAUUSD due to staleness
+[2026-04-29 09:00:52] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:00:52] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.1706 | Sweep Type: break_retest | Time: 2026-04-29 06:00:00
+[2026-04-29 09:00:52] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bearish | Score: 1.00 | Strength: 4 touches | Level: 4601.5100 | Sweep Type: wick | Time: 2026-04-29 03:00:00
+[2026-04-29 09:00:52] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:00:52] [SKIP] BoS failed for EURUSD at 2026-04-29 09:00:52.764948: Close 1.17027 not above last high 1.17167
+[2026-04-29 09:00:52] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:00:52.765598: Close 4594.15000 not below last low 1.16975
+[2026-04-29 09:00:52] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:01:22] [INFO] Processing EURUSD
+[2026-04-29 09:01:22] [INFO] Processing GBPUSD
+[2026-04-29 09:01:22] [INFO] Processing XAUUSD
+[2026-04-29 09:01:23] [INFO] Processing EURGBP
+[2026-04-29 09:01:23] [SKIP] BoS failed for EURUSD at 2026-04-29 09:01:22.952587: Close 1.17027 not above last high 1.17167
+[2026-04-29 09:01:23] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:01:22.955747: Close 4594.15000 not below last low 1.16975
+[2026-04-29 09:01:23] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:01:23] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:01:23] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:01:53] [INFO] Processing EURUSD
+[2026-04-29 09:01:53] [INFO] Processing GBPUSD
+[2026-04-29 09:01:53] [INFO] Processing XAUUSD
+[2026-04-29 09:01:53] [INFO] Processing EURGBP
+[2026-04-29 09:01:53] [SKIP] BoS failed for EURUSD at 2026-04-29 09:01:53.074474: Close 1.17015 not above last high 1.17167
+[2026-04-29 09:01:53] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:01:53.076422: Close 4597.73000 not below last low 1.16975
+[2026-04-29 09:01:53] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:01:53] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:01:53] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:02:23] [INFO] Processing EURUSD
+[2026-04-29 09:02:23] [INFO] Processing GBPUSD
+[2026-04-29 09:02:23] [INFO] Processing XAUUSD
+[2026-04-29 09:02:23] [SKIP] BoS failed for EURUSD at 2026-04-29 09:02:23.173403: Close 1.17015 not above last high 1.17167
+[2026-04-29 09:02:23] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:02:23.175897: Close 4597.73000 not below last low 1.16975
+[2026-04-29 09:02:23] [INFO] Processing EURGBP
+[2026-04-29 09:02:23] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:02:23] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:02:23] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:02:53] [INFO] Processing EURUSD
+[2026-04-29 09:02:53] [INFO] Processing GBPUSD
+[2026-04-29 09:02:53] [INFO] Processing XAUUSD
+[2026-04-29 09:02:53] [SKIP] BoS failed for EURUSD at 2026-04-29 09:02:53.271411: Close 1.17036 not above last high 1.17167
+[2026-04-29 09:02:53] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:02:53.272268: Close 4597.04000 not below last low 1.16975
+[2026-04-29 09:02:53] [INFO] Processing EURGBP
+[2026-04-29 09:02:53] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:02:53] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:02:53] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:03:23] [INFO] Processing EURUSD
+[2026-04-29 09:03:23] [INFO] Processing GBPUSD
+[2026-04-29 09:03:23] [INFO] Processing XAUUSD
+[2026-04-29 09:03:23] [INFO] Processing EURGBP
+[2026-04-29 09:03:23] [SKIP] BoS failed for EURUSD at 2026-04-29 09:03:23.367831: Close 1.17036 not above last high 1.17167
+[2026-04-29 09:03:23] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:03:23.370393: Close 4597.04000 not below last low 1.16975
+[2026-04-29 09:03:23] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:03:23] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:03:23] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:03:53] [INFO] Processing EURUSD
+[2026-04-29 09:03:53] [INFO] Processing GBPUSD
+[2026-04-29 09:03:53] [INFO] Processing XAUUSD
+[2026-04-29 09:03:53] [INFO] Processing EURGBP
+[2026-04-29 09:03:53] [SKIP] BoS failed for EURUSD at 2026-04-29 09:03:53.462915: Close 1.17024 not above last high 1.17167
+[2026-04-29 09:03:53] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:03:53.463759: Close 4596.97000 not below last low 1.16975
+[2026-04-29 09:03:53] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:03:53] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:03:53] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:04:23] [INFO] Processing EURUSD
+[2026-04-29 09:04:23] [INFO] Processing GBPUSD
+[2026-04-29 09:04:23] [INFO] Processing XAUUSD
+[2026-04-29 09:04:23] [INFO] Processing EURGBP
+[2026-04-29 09:04:23] [SKIP] BoS failed for EURUSD at 2026-04-29 09:04:23.584905: Close 1.17024 not above last high 1.17167
+[2026-04-29 09:04:23] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:04:23.588298: Close 4596.97000 not below last low 1.16975
+[2026-04-29 09:04:23] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:04:23] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:04:23] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:04:53] [INFO] Processing EURUSD
+[2026-04-29 09:04:53] [INFO] Processing GBPUSD
+[2026-04-29 09:04:53] [INFO] Processing XAUUSD
+[2026-04-29 09:04:53] [INFO] Processing EURGBP
+[2026-04-29 09:04:53] [SKIP] BoS failed for EURUSD at 2026-04-29 09:04:53.679018: Close 1.17026 not above last high 1.17167
+[2026-04-29 09:04:53] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:04:53.681806: Close 4597.21000 not below last low 1.16975
+[2026-04-29 09:04:53] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:04:53] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:04:53] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:05:23] [INFO] Processing EURUSD
+[2026-04-29 09:05:23] [INFO] Processing GBPUSD
+[2026-04-29 09:05:23] [INFO] Processing XAUUSD
+[2026-04-29 09:05:23] [INFO] Processing EURGBP
+[2026-04-29 09:05:23] [SKIP] BoS failed for EURUSD at 2026-04-29 09:05:23.782053: Close 1.17026 not above last high 1.17167
+[2026-04-29 09:05:23] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:05:23.783191: Close 4597.21000 not below last low 1.16975
+[2026-04-29 09:05:23] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:05:23] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:05:23] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:05:53] [INFO] Processing EURUSD
+[2026-04-29 09:05:53] [INFO] Processing GBPUSD
+[2026-04-29 09:05:53] [INFO] Processing EURGBP
+[2026-04-29 09:05:53] [INFO] Processing XAUUSD
+[2026-04-29 09:05:53] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:05:53.878016: Close 4597.19000 not below last low 1.16975
+[2026-04-29 09:05:53] [SKIP] BoS failed for EURUSD at 2026-04-29 09:05:53.876598: Close 1.17031 not above last high 1.17167
+[2026-04-29 09:05:53] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:05:53] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:05:53] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:06:23] [INFO] Processing EURUSD
+[2026-04-29 09:06:23] [INFO] Processing GBPUSD
+[2026-04-29 09:06:24] [INFO] Processing EURGBP
+[2026-04-29 09:06:24] [INFO] Processing XAUUSD
+[2026-04-29 09:06:24] [SKIP] BoS failed for EURUSD at 2026-04-29 09:06:23.973264: Close 1.17031 not above last high 1.17167
+[2026-04-29 09:06:24] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:06:23.976066: Close 4597.19000 not below last low 1.16975
+[2026-04-29 09:06:24] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:06:24] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:06:24] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:06:54] [INFO] Processing EURUSD
+[2026-04-29 09:06:54] [INFO] Processing GBPUSD
+[2026-04-29 09:06:54] [INFO] Processing XAUUSD
+[2026-04-29 09:06:54] [INFO] Processing EURGBP
+[2026-04-29 09:06:54] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:06:54.078209: Close 4596.85000 not below last low 1.16975
+[2026-04-29 09:06:54] [SKIP] BoS failed for EURUSD at 2026-04-29 09:06:54.073126: Close 1.17022 not above last high 1.17167
+[2026-04-29 09:06:54] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:06:54] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:06:54] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:07:24] [INFO] Processing EURUSD
+[2026-04-29 09:07:24] [INFO] Processing GBPUSD
+[2026-04-29 09:07:24] [INFO] Processing XAUUSD
+[2026-04-29 09:07:24] [INFO] Processing EURGBP
+[2026-04-29 09:07:24] [SKIP] BoS failed for EURUSD at 2026-04-29 09:07:24.195874: Close 1.17022 not above last high 1.17167
+[2026-04-29 09:07:24] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:07:24.197524: Close 4596.85000 not below last low 1.16975
+[2026-04-29 09:07:24] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:07:24] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:07:24] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:07:54] [INFO] Processing EURUSD
+[2026-04-29 09:07:54] [INFO] Processing GBPUSD
+[2026-04-29 09:07:54] [INFO] Processing EURGBP
+[2026-04-29 09:07:54] [SKIP] BoS failed for EURUSD at 2026-04-29 09:07:54.291807: Close 1.17022 not above last high 1.17167
+[2026-04-29 09:07:54] [INFO] Processing XAUUSD
+[2026-04-29 09:07:54] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:07:54.293651: Close 4592.75000 not below last low 1.16975
+[2026-04-29 09:07:54] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:07:54] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:07:54] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:08:24] [INFO] Processing EURUSD
+[2026-04-29 09:08:24] [INFO] Processing GBPUSD
+[2026-04-29 09:08:24] [SKIP] BoS failed for EURUSD at 2026-04-29 09:08:24.385107: Close 1.17022 not above last high 1.17167
+[2026-04-29 09:08:24] [INFO] Processing XAUUSD
+[2026-04-29 09:08:24] [INFO] Processing EURGBP
+[2026-04-29 09:08:24] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:08:24.389676: Close 4592.75000 not below last low 1.16975
+[2026-04-29 09:08:24] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:08:24] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:08:24] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:08:54] [INFO] Processing EURUSD
+[2026-04-29 09:08:54] [INFO] Processing GBPUSD
+[2026-04-29 09:08:54] [INFO] Processing XAUUSD
+[2026-04-29 09:08:54] [INFO] Processing EURGBP
+[2026-04-29 09:08:54] [SKIP] BoS failed for EURUSD at 2026-04-29 09:08:54.477514: Close 1.17016 not above last high 1.17167
+[2026-04-29 09:08:54] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:08:54.479617: Close 4593.92000 not below last low 1.16975
+[2026-04-29 09:08:54] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:08:54] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:08:54] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:09:24] [INFO] Processing EURUSD
+[2026-04-29 09:09:24] [INFO] Processing GBPUSD
+[2026-04-29 09:09:24] [INFO] Processing XAUUSD
+[2026-04-29 09:09:24] [INFO] Processing EURGBP
+[2026-04-29 09:09:24] [SKIP] BoS failed for EURUSD at 2026-04-29 09:09:24.574937: Close 1.17016 not above last high 1.17167
+[2026-04-29 09:09:24] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:09:24.576138: Close 4593.92000 not below last low 1.16975
+[2026-04-29 09:09:24] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:09:24] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:09:24] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 09:09:54] [INFO] Processing EURUSD
+[2026-04-29 09:09:54] [INFO] Processing GBPUSD
+[2026-04-29 09:09:54] [INFO] Processing XAUUSD
+[2026-04-29 09:09:54] [INFO] Processing EURGBP
+[2026-04-29 09:09:54] [SKIP] BoS failed for EURUSD at 2026-04-29 09:09:54.679977: Close 1.17009 not above last high 1.17167
+[2026-04-29 09:09:54] [SKIP] BoS failed for XAUUSD at 2026-04-29 09:09:54.682820: Close 4592.90000 not below last low 1.16975
+[2026-04-29 09:09:54] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 09:09:54] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 09:09:54] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:49:06] [INFO] Processing EURUSD
+[2026-04-29 15:49:06] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-29 15:49:08] [INFO] Processing GBPUSD
+[2026-04-29 15:49:08] [INFO] Processing XAUUSD
+[2026-04-29 15:49:08] [INFO] Processing EURGBP
+[2026-04-29 15:49:08] [WARN] Resetting state for GBPUSD due to staleness
+[2026-04-29 15:49:08] [WARN] Resetting state for EURGBP due to staleness
+[2026-04-29 15:49:08] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.1706 | Sweep Type: break_retest | Time: 2026-04-29 06:00:00
+[2026-04-29 15:49:08] [WARN] Resetting state for XAUUSD due to staleness
+[2026-04-29 15:49:08] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:49:08] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:49:08] [SKIP] BoS failed for EURUSD at 2026-04-29 15:49:06.409118: Close 1.16988 not above last high 1.17097
+[2026-04-29 15:49:08] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.75 | Strength: 2 touches | Level: 4551.5100 | Sweep Type: wick | Time: 2026-04-29 15:00:00
+[2026-04-29 15:49:08] [SKIP] BoS failed for XAUUSD at 2026-04-29 15:49:08.436939: Close 4556.73000 not above last high 1.17097
+[2026-04-29 15:49:08] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:49:38] [INFO] Processing EURUSD
+[2026-04-29 15:49:38] [INFO] Processing GBPUSD
+[2026-04-29 15:49:38] [INFO] Processing XAUUSD
+[2026-04-29 15:49:38] [INFO] Processing EURGBP
+[2026-04-29 15:49:39] [SKIP] BoS failed for EURUSD at 2026-04-29 15:49:38.940352: Close 1.16988 not above last high 1.17097
+[2026-04-29 15:49:39] [SKIP] BoS failed for XAUUSD at 2026-04-29 15:49:38.941923: Close 4556.73000 not above last high 1.17097
+[2026-04-29 15:49:39] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:49:39] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:49:39] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:50:09] [INFO] Processing EURUSD
+[2026-04-29 15:50:09] [INFO] Processing GBPUSD
+[2026-04-29 15:50:09] [INFO] Processing XAUUSD
+[2026-04-29 15:50:09] [INFO] Processing EURGBP
+[2026-04-29 15:50:09] [SKIP] BoS failed for EURUSD at 2026-04-29 15:50:09.060050: Close 1.16990 not above last high 1.17097
+[2026-04-29 15:50:09] [SKIP] BoS failed for XAUUSD at 2026-04-29 15:50:09.061158: Close 4555.90000 not above last high 1.17097
+[2026-04-29 15:50:09] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:50:09] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:50:09] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:50:39] [INFO] Processing EURUSD
+[2026-04-29 15:50:39] [INFO] Processing GBPUSD
+[2026-04-29 15:50:39] [INFO] Processing XAUUSD
+[2026-04-29 15:50:39] [SKIP] BoS failed for EURUSD at 2026-04-29 15:50:39.161889: Close 1.16990 not above last high 1.17097
+[2026-04-29 15:50:39] [INFO] Processing EURGBP
+[2026-04-29 15:50:39] [SKIP] BoS failed for XAUUSD at 2026-04-29 15:50:39.164258: Close 4555.90000 not above last high 1.17097
+[2026-04-29 15:50:39] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:50:39] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:50:39] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:51:09] [INFO] Processing EURUSD
+[2026-04-29 15:51:09] [INFO] Processing GBPUSD
+[2026-04-29 15:51:09] [INFO] Processing XAUUSD
+[2026-04-29 15:51:09] [INFO] Processing EURGBP
+[2026-04-29 15:51:09] [SKIP] BoS failed for EURUSD at 2026-04-29 15:51:09.252492: Close 1.16976 not above last high 1.17097
+[2026-04-29 15:51:09] [INFO] BoS confirmed for XAUUSD: Bullish break above 1.17097
+[2026-04-29 15:51:09] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:51:09] [INFO] Adaptive risk for XAUUSD: 1.13% (ATR factor: 1.13)
+[2026-04-29 15:51:09] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:51:09] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-29 15:51:09.253228: Risk=1.13%
+[2026-04-29 15:51:09] [INFO] Entry price set for XAUUSD: 4553.86000
+[2026-04-29 15:51:09] [INFO] Fixed SL for XAUUSD: 4547.86000 (6 pips)
+[2026-04-29 15:51:09] [INFO] Calculated TP for XAUUSD: 4571.86000 (RR=3.00)
+[2026-04-29 15:51:09] [INFO] Fixed RR TP for XAUUSD: 4571.86000, RR=3.00
+[2026-04-29 15:51:09] [TRADE] XAUUSD | Bullish @ 4553.86000 | SL: 4547.86000 | TP: 4571.86000 | Lot: 0.09
+[2026-04-29 15:51:09] [INFO] Execution mode for XAUUSD: Unknown
+[2026-04-29 15:51:09] [WARN] Preferred fill type IOC not supported for XAUUSD. Falling back to FOK
+[2026-04-29 15:51:09] [SUCCESS] Order placed on XAUUSD: Bullish 0.09 lots @ 4554.03000, SL=4547.86000, TP=4571.86000, Filling=FOK
+[2026-04-29 15:51:09] [SUCCESS] Trade executed on XAUUSD
+[2026-04-29 15:51:09] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:51:39] [INFO] Processing EURUSD
+[2026-04-29 15:51:39] [INFO] Processing XAUUSD
+[2026-04-29 15:51:39] [INFO] Processing GBPUSD
+[2026-04-29 15:51:39] [SKIP] BoS failed for EURUSD at 2026-04-29 15:51:39.509840: Close 1.16976 not above last high 1.17097
+[2026-04-29 15:51:39] [INFO] Processing EURGBP
+[2026-04-29 15:51:39] [SKIP] Cooldown active for XAUUSD: 59.5min remaining
+[2026-04-29 15:51:39] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:51:39] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:51:39] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:52:09] [INFO] Processing EURUSD
+[2026-04-29 15:52:09] [INFO] Processing GBPUSD
+[2026-04-29 15:52:09] [INFO] Processing XAUUSD
+[2026-04-29 15:52:09] [SKIP] BoS failed for EURUSD at 2026-04-29 15:52:09.621149: Close 1.16941 not above last high 1.17097
+[2026-04-29 15:52:09] [INFO] Processing EURGBP
+[2026-04-29 15:52:09] [SKIP] Cooldown active for XAUUSD: 59.0min remaining
+[2026-04-29 15:52:09] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:52:09] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:52:09] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:52:39] [INFO] Processing EURUSD
+[2026-04-29 15:52:39] [INFO] Processing GBPUSD
+[2026-04-29 15:52:39] [INFO] Processing XAUUSD
+[2026-04-29 15:52:39] [INFO] Processing EURGBP
+[2026-04-29 15:52:39] [SKIP] Cooldown active for XAUUSD: 58.5min remaining
+[2026-04-29 15:52:39] [SKIP] BoS failed for EURUSD at 2026-04-29 15:52:39.707622: Close 1.16941 not above last high 1.17097
+[2026-04-29 15:52:39] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:52:39] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:52:39] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:53:09] [INFO] Processing EURUSD
+[2026-04-29 15:53:09] [INFO] Processing GBPUSD
+[2026-04-29 15:53:09] [INFO] Processing EURGBP
+[2026-04-29 15:53:09] [INFO] Processing XAUUSD
+[2026-04-29 15:53:09] [SKIP] BoS failed for EURUSD at 2026-04-29 15:53:09.818033: Close 1.16959 not above last high 1.17097
+[2026-04-29 15:53:09] [SKIP] Cooldown active for XAUUSD: 58.0min remaining
+[2026-04-29 15:53:09] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:53:09] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:53:09] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:53:39] [INFO] Processing EURUSD
+[2026-04-29 15:53:39] [INFO] Processing GBPUSD
+[2026-04-29 15:53:39] [INFO] Processing EURGBP
+[2026-04-29 15:53:39] [INFO] Processing XAUUSD
+[2026-04-29 15:53:39] [SKIP] BoS failed for EURUSD at 2026-04-29 15:53:39.932889: Close 1.16959 not above last high 1.17097
+[2026-04-29 15:53:40] [SKIP] Cooldown active for XAUUSD: 57.5min remaining
+[2026-04-29 15:53:40] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:53:40] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:53:40] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:54:10] [INFO] Processing EURUSD
+[2026-04-29 15:54:10] [INFO] Processing GBPUSD
+[2026-04-29 15:54:10] [INFO] Processing XAUUSD
+[2026-04-29 15:54:10] [SKIP] BoS failed for EURUSD at 2026-04-29 15:54:10.049820: Close 1.16972 not above last high 1.17097
+[2026-04-29 15:54:10] [INFO] Processing EURGBP
+[2026-04-29 15:54:10] [SKIP] Cooldown active for XAUUSD: 57.0min remaining
+[2026-04-29 15:54:10] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:54:10] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:54:10] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:54:40] [INFO] Processing EURUSD
+[2026-04-29 15:54:40] [INFO] Processing GBPUSD
+[2026-04-29 15:54:40] [INFO] Processing EURGBP
+[2026-04-29 15:54:40] [SKIP] BoS failed for EURUSD at 2026-04-29 15:54:40.198560: Close 1.16972 not above last high 1.17097
+[2026-04-29 15:54:40] [INFO] Processing XAUUSD
+[2026-04-29 15:54:40] [SKIP] Cooldown active for XAUUSD: 56.5min remaining
+[2026-04-29 15:54:40] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:54:40] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:54:40] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:55:10] [INFO] Processing EURUSD
+[2026-04-29 15:55:10] [INFO] Processing GBPUSD
+[2026-04-29 15:55:10] [INFO] Processing XAUUSD
+[2026-04-29 15:55:10] [INFO] Processing EURGBP
+[2026-04-29 15:55:10] [SKIP] Cooldown active for XAUUSD: 56.0min remaining
+[2026-04-29 15:55:10] [SKIP] BoS failed for EURUSD at 2026-04-29 15:55:10.314755: Close 1.16959 not above last high 1.17097
+[2026-04-29 15:55:10] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:55:10] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:55:10] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:55:40] [INFO] Processing EURUSD
+[2026-04-29 15:55:40] [INFO] Processing GBPUSD
+[2026-04-29 15:55:40] [INFO] Processing XAUUSD
+[2026-04-29 15:55:40] [INFO] Processing EURGBP
+[2026-04-29 15:55:40] [SKIP] BoS failed for EURUSD at 2026-04-29 15:55:40.437217: Close 1.16959 not above last high 1.17097
+[2026-04-29 15:55:40] [SKIP] Cooldown active for XAUUSD: 55.5min remaining
+[2026-04-29 15:55:40] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:55:40] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:55:40] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:56:10] [INFO] Processing EURUSD
+[2026-04-29 15:56:10] [INFO] Processing GBPUSD
+[2026-04-29 15:56:10] [INFO] Processing XAUUSD
+[2026-04-29 15:56:10] [INFO] Processing EURGBP
+[2026-04-29 15:56:10] [SKIP] BoS failed for EURUSD at 2026-04-29 15:56:10.528375: Close 1.16961 not above last high 1.17097
+[2026-04-29 15:56:10] [SKIP] Cooldown active for XAUUSD: 55.0min remaining
+[2026-04-29 15:56:10] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:56:10] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:56:10] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:56:40] [INFO] Processing EURUSD
+[2026-04-29 15:56:40] [INFO] Processing GBPUSD
+[2026-04-29 15:56:40] [INFO] Processing EURGBP
+[2026-04-29 15:56:40] [INFO] Processing XAUUSD
+[2026-04-29 15:56:40] [SKIP] Cooldown active for XAUUSD: 54.5min remaining
+[2026-04-29 15:56:40] [SKIP] BoS failed for EURUSD at 2026-04-29 15:56:40.625728: Close 1.16961 not above last high 1.17097
+[2026-04-29 15:56:40] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:56:40] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:56:40] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:57:10] [INFO] Processing EURUSD
+[2026-04-29 15:57:10] [INFO] Processing GBPUSD
+[2026-04-29 15:57:10] [INFO] Processing XAUUSD
+[2026-04-29 15:57:10] [INFO] Processing EURGBP
+[2026-04-29 15:57:10] [SKIP] Cooldown active for XAUUSD: 54.0min remaining
+[2026-04-29 15:57:10] [SKIP] BoS failed for EURUSD at 2026-04-29 15:57:10.714507: Close 1.16970 not above last high 1.17097
+[2026-04-29 15:57:10] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:57:10] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:57:10] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:57:40] [INFO] Processing EURUSD
+[2026-04-29 15:57:40] [INFO] Processing GBPUSD
+[2026-04-29 15:57:40] [INFO] Processing XAUUSD
+[2026-04-29 15:57:40] [INFO] Processing EURGBP
+[2026-04-29 15:57:40] [SKIP] BoS failed for EURUSD at 2026-04-29 15:57:40.824982: Close 1.16970 not above last high 1.17097
+[2026-04-29 15:57:40] [SKIP] Cooldown active for XAUUSD: 53.5min remaining
+[2026-04-29 15:57:40] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:57:40] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:57:40] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:58:10] [INFO] Processing EURUSD
+[2026-04-29 15:58:10] [INFO] Processing GBPUSD
+[2026-04-29 15:58:10] [INFO] Processing XAUUSD
+[2026-04-29 15:58:10] [INFO] Processing EURGBP
+[2026-04-29 15:58:10] [SKIP] BoS failed for EURUSD at 2026-04-29 15:58:10.912696: Close 1.16975 not above last high 1.17097
+[2026-04-29 15:58:10] [SKIP] Cooldown active for XAUUSD: 53.0min remaining
+[2026-04-29 15:58:10] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:58:10] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:58:10] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:58:41] [INFO] Processing EURUSD
+[2026-04-29 15:58:41] [INFO] Processing GBPUSD
+[2026-04-29 15:58:41] [INFO] Processing XAUUSD
+[2026-04-29 15:58:41] [INFO] Processing EURGBP
+[2026-04-29 15:58:41] [SKIP] Cooldown active for XAUUSD: 52.5min remaining
+[2026-04-29 15:58:41] [SKIP] BoS failed for EURUSD at 2026-04-29 15:58:41.001205: Close 1.16975 not above last high 1.17097
+[2026-04-29 15:58:41] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:58:41] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:58:41] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:59:11] [INFO] Processing EURUSD
+[2026-04-29 15:59:11] [INFO] Processing GBPUSD
+[2026-04-29 15:59:11] [INFO] Processing XAUUSD
+[2026-04-29 15:59:11] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-29 15:59:11] [SKIP] Cooldown active for XAUUSD: 52.0min remaining
+[2026-04-29 15:59:11] [WARN] Resetting state for GBPUSD due to staleness
+[2026-04-29 15:59:11] [INFO] Processing EURGBP
+[2026-04-29 15:59:11] [WARN] Resetting state for EURGBP due to staleness
+[2026-04-29 15:59:11] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.1706 | Sweep Type: break_retest | Time: 2026-04-29 06:00:00
+[2026-04-29 15:59:11] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:59:11] [SKIP] BoS failed for EURUSD at 2026-04-29 15:59:11.095407: Close 1.16985 not above last high 1.17097
+[2026-04-29 15:59:11] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:59:11] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 15:59:41] [INFO] Processing EURUSD
+[2026-04-29 15:59:41] [INFO] Processing GBPUSD
+[2026-04-29 15:59:41] [INFO] Processing EURGBP
+[2026-04-29 15:59:41] [INFO] Processing XAUUSD
+[2026-04-29 15:59:41] [SKIP] Cooldown active for XAUUSD: 51.5min remaining
+[2026-04-29 15:59:41] [SKIP] BoS failed for EURUSD at 2026-04-29 15:59:41.246989: Close 1.16985 not above last high 1.17097
+[2026-04-29 15:59:41] [SKIP] No new unprocessed HTF sweeps found for GBPUSD
+[2026-04-29 15:59:41] [SKIP] No new unprocessed HTF sweeps found for EURGBP
+[2026-04-29 15:59:41] [INFO] 30 seconds until next strategy run...
+
+[2026-04-29 16:00:11] [INFO] Outside trading session hours or news event. Sleeping...

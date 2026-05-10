@@ -1,0 +1,13 @@
+[2026-04-30 07:58:06] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.00 | Strength: 6 touches | Level: 1.3495 | Sweep Type: break_retest | Time: 2026-04-29 16:00:00
+[2026-04-30 07:58:06] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 1.00 | Strength: 4 touches | Level: 1.1693 | Sweep Type: break_retest | Time: 2026-04-29 16:00:00
+[2026-04-30 07:58:06] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.75 | Strength: 2 touches | Level: 4551.5100 | Sweep Type: break_retest | Time: 2026-04-29 15:00:00
+[2026-04-30 13:35:55] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 0.60 | Strength: 1 touches | Level: 1.1697 | Sweep Type: break_retest | Time: 2026-04-30 13:00:00
+[2026-04-30 13:35:55] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3468 | Sweep Type: break_retest | Time: 2026-04-30 07:00:00
+[2026-04-30 13:36:56] [SUCCESS] BoS confirmed for GBPUSD at 2026-04-30 13:36:56.164241: Risk=1.18%
+[2026-04-30 13:36:56] [TRADE] GBPUSD | Bullish @ 1.35153 | SL: 1.35093 | TP: 1.35333 | Lot: 0.94
+[2026-04-30 13:36:56] [SUCCESS] Trade executed on GBPUSD
+[2026-04-30 13:37:57] [SUCCESS] BoS confirmed for EURUSD at 2026-04-30 13:37:57.297717: Risk=1.25%
+[2026-04-30 13:37:57] [TRADE] EURUSD | Bearish @ 1.17040 | SL: 1.17100 | TP: 1.16860 | Lot: 1.00
+[2026-04-30 13:37:57] [SUCCESS] Trade executed on EURUSD
+[2026-04-30 15:37:02] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 0.60 | Strength: 1 touches | Level: 1.1697 | Sweep Type: break_retest | Time: 2026-04-30 13:00:00
+[2026-04-30 15:37:02] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3468 | Sweep Type: break_retest | Time: 2026-04-30 07:00:00

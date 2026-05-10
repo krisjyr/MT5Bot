@@ -8,7 +8,6 @@ import time
 symbol_info_cache = {}
 
 def validate_order_parameters(symbol, lot, sl, tp):
-    """Validate order parameters to prevent invalid orders."""
     if lot <= 0:
         return False, "Invalid lot size"
     if sl <= 0 or tp <= 0:
@@ -28,7 +27,6 @@ def validate_order_parameters(symbol, lot, sl, tp):
     return True, "Valid parameters"
 
 def is_filling_type_allowed(symbol, fill_type):
-    """Check if the specified filling mode is allowed for the symbol."""
     filling = int(mt5.symbol_info(symbol).filling_mode)
     return (filling & fill_type) == fill_type
 
@@ -38,7 +36,6 @@ def get_valid_fill_type(symbol, preferred_fill_type):
     FILLING_FOK = mt5.ORDER_FILLING_FOK
     FILLING_IOC = mt5.ORDER_FILLING_IOC
     
-    """Get a valid fill type supported by the broker for the symbol."""
     symbol_info = symbol_info_cache.get(symbol)
     if not symbol_info:
         symbol_info = mt5.symbol_info(symbol)
@@ -101,7 +98,6 @@ def get_valid_fill_type(symbol, preferred_fill_type):
     return None, None
 
 def send_order(symbol, lot, direction, sl, tp, magic, max_retries=3):
-    """Send trade order with dynamic fill type selection and retries."""
     try:
         # Load settings for preferred fill type
         config = load_settings("settings.json")

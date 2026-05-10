@@ -7,7 +7,6 @@ from utils.logger import log_debug
 
 @dataclass
 class SwingLevel:
-    """Store swing level information - optimized for real-time"""
     price: float
     index: int
     timestamp: pd.Timestamp
@@ -19,22 +18,17 @@ class SwingLevel:
     mitigated: bool = False    # Level fully mitigated / taken
 
 
-class EnhancedHTFSweepDetector:
+class HTFSweepDetector:
     def __init__(
         self,
-        swing_strength: int = 5,                    # Left bars only for real-time responsiveness
+        swing_strength: int = 5,                    # Left bars only cause in live there is no future
         sweep_mode: str = 'Wicks + Outbreaks & Retest',
         swing_lookback: int = 1500,
         liquidity_zone_pct: float = 0.001,
         min_sweep_wicksize_pct: float = 0.001,
         require_close_inside: bool = True,
     ):
-        """
-        Real-time optimized HTF Liquidity Sweep Detector (LuxAlgo style)
-        
-        - Designed for live trading: detects swings and sweeps as soon as possible
-        - No delayed right-bar confirmation
-        """
+
         self.swing_strength = swing_strength
         self.sweep_mode = sweep_mode
         self.swing_lookback = swing_lookback
@@ -50,7 +44,6 @@ class EnhancedHTFSweepDetector:
         self.swing_lows: Dict[int, SwingLevel] = {}
 
     def _is_swing_high(self, highs: np.ndarray, idx: int) -> bool:
-        """Real-time swing high: only left side confirmation"""
         if idx < self.swing_strength:
             return False
         center = highs[idx]
@@ -58,7 +51,6 @@ class EnhancedHTFSweepDetector:
         return np.all(center > left)
 
     def _is_swing_low(self, lows: np.ndarray, idx: int) -> bool:
-        """Real-time swing low: only left side confirmation"""
         if idx < self.swing_strength:
             return False
         center = lows[idx]
@@ -66,7 +58,6 @@ class EnhancedHTFSweepDetector:
         return np.all(center < left)
 
     def detect_swings(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Detect swings using left-side only (real-time friendly)"""
         df = df.copy()
         df['swing_high'] = False
         df['swing_low'] = False
@@ -115,7 +106,6 @@ class EnhancedHTFSweepDetector:
         return touches
 
     def detect_sweeps(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Real-time sweep detection logic"""
         df = df.copy()
         df['high_sweep'] = False
         df['low_sweep'] = False
@@ -141,7 +131,7 @@ class EnhancedHTFSweepDetector:
             curr_close = closes[i]
             curr_open = opens[i]
 
-            # === Swing Highs (Bearish Liquidity - swept from above) ===
+            # Swing Highs (Bearish Liquidity - swept from above)
             active_highs = [
                 (idx, level) for idx, level in self.swing_highs.items()
                 if idx < i and not level.swept and not level.mitigated and (i - idx) <= self.swing_lookback
@@ -192,7 +182,7 @@ class EnhancedHTFSweepDetector:
                         level.sweep_index = i
                         level.mitigated = True
 
-            # === Swing Lows (Bullish Liquidity - swept from below) ===
+            # Swing Lows (Bullish Liquidity - swept from below)
             active_lows = [
                 (idx, level) for idx, level in self.swing_lows.items()
                 if idx < i and not level.swept and not level.mitigated and (i - idx) <= self.swing_lookback
@@ -235,7 +225,7 @@ class EnhancedHTFSweepDetector:
                         touches = self._count_touches(highs, lows, level_price, latest_idx, i, False)
                         level.touches = max(level.touches, touches)
                         df.at[i, 'low_sweep'] = True
-                        df.at[i, 'low_sweep_strength'] = touches          # ← ADD THIS
+                        df.at[i, 'low_sweep_strength'] = touches
                         df.at[i, 'swept_low_level'] = level_price
                         df.at[i, 'sweep_type'] = 'break_retest'
                         df.at[i, 'sweep_time'] = df.index[i]
@@ -246,7 +236,6 @@ class EnhancedHTFSweepDetector:
         return df
 
     def add_liquidity_metrics(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Optional: distance to active liquidity levels"""
         df = df.copy()
         df['dist_to_high_liquidity'] = np.nan
         df['dist_to_low_liquidity'] = np.nan
@@ -269,7 +258,6 @@ class EnhancedHTFSweepDetector:
         return df
 
     def run(self, df: pd.DataFrame, add_metrics: bool = True, debug: bool = False) -> pd.DataFrame:
-        """Run the real-time sweep detector"""
         # Reset state for fresh run
         self.swing_highs = {}
         self.swing_lows = {}
@@ -291,7 +279,6 @@ class EnhancedHTFSweepDetector:
         return df
 
     def get_active_liquidity_levels(self, df: pd.DataFrame, current_idx: int) -> Dict:
-        """Get currently active (unswept) liquidity levels"""
         unswept_highs = [
             {'price': level.price, 'index': idx, 'touches': level.touches}
             for idx, level in self.swing_highs.items()

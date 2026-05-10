@@ -1,0 +1,4 @@
+[2026-04-19 21:52:00] [INFO] Initializing MT5...
+[2026-04-19 21:52:00] [SUCCESS] MT5 initialized and logged in.
+
+[2026-04-19 21:52:00] [WARN] Weekend detected. No trading activity.

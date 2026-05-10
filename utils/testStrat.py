@@ -11,14 +11,12 @@ from collections import defaultdict
 import pyperclip
 import tkinter as tk
 
-# Add necessary imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config.loader import load_settings
 from utils.logger import log_info, log_success, log_warning, log_error, log_skip, log_trade
 from utils.timeframes import timeframe_map
 from core.risk_manager import calculate_position_size
 
-# Import strategy components
 try:
     from strategy import process_symbol, data_cache
     import strategy
@@ -26,12 +24,9 @@ except ImportError as e:
     print(f"Warning: Could not import some strategy components: {e}")
     data_cache = {}
     strategy = None
-
-# Initialize symbol_states dictionary
 symbol_states = {}
 
 class BacktestSymbolState:
-    """Extended SymbolState for backtest with timeout functionality."""
     def __init__(self):
         self.reset()
     
@@ -50,27 +45,24 @@ class BacktestSymbolState:
         self.rr = None
         self.last_updated = datetime.now()
         self.htf_signal_time = None
-        self.htf_attempts = 0 # delete if not needed
-        self.max_attempts = 4 # delete if not needed
+        self.htf_attempts = 0 # gotta delete if i removed it. dont remember
+        self.max_attempts = 4 # gotta delete if i removed it. dont remember
         self.timeout_minutes = 20
         self._previous_sweep_state = False
         self._previous_fvg_state = False
         self._previous_bos_state = False
-        self.processed_sweep_times = set()  # Store timestamps of processed sweeps
+        self.processed_sweep_times = set()  # this stores timestamps of processed sweeps :D
     
     def is_stale(self, timeout=10):
         return datetime.now() - self.last_updated > timedelta(minutes=timeout)
     
     def has_processed_sweep(self, sweep_time):
-        """Check if we've already processed a sweep at this time."""
         return sweep_time in self.processed_sweep_times
     
     def mark_sweep_processed(self, sweep_time):
-        """Mark a sweep as processed."""
         self.processed_sweep_times.add(sweep_time)
     
     def update(self):
-        """Override update to handle HTF timeout logic."""
         self.last_updated = datetime.now()
         current_time = getattr(self, '_current_backtest_time', datetime.now())
         
@@ -94,21 +86,20 @@ class BacktestSymbolState:
         self._previous_fvg_state = self.fvg_tapped
         self._previous_bos_state = self.bos_confirmed
     
-    # In check_htf_timeout, remove the attempt count limit entirely
     def check_htf_timeout(self, current_time):
         if not self.sweep_confirmed or not self.htf_signal_time:
             return False
         time_elapsed = (current_time - self.htf_signal_time).total_seconds() / 60
-        # Only timeout based on time, not attempt count
+        
+        # just timeout check
         if time_elapsed > self.timeout_minutes:
             return True
         return False
     
     def set_backtest_time(self, current_time):
-        """Set the current backtest time for timeout calculations."""
         self._current_backtest_time = current_time
 
-# Mapping of MT5 timeframes to minutes
+# Mapping of all MT5 timeframes in minutes ;)
 TIMEFRAME_TO_MINUTES = {
     mt5.TIMEFRAME_M1: 1,
     mt5.TIMEFRAME_M3: 3,
@@ -123,8 +114,7 @@ TIMEFRAME_TO_MINUTES = {
 }
 
 def get_timeframe_minutes(timeframe):
-    """Convert MT5 timeframe constant to minutes."""
-    return TIMEFRAME_TO_MINUTES.get(timeframe, 60)  # Default to H1 if unknown
+    return TIMEFRAME_TO_MINUTES.get(timeframe, 60)  # Defaults to H1 if unknown
 
 
 def fetch_htf_data_direct(symbol, htf_timeframe, end_time, num_candles=200):
@@ -133,12 +123,12 @@ def fetch_htf_data_direct(symbol, htf_timeframe, end_time, num_candles=200):
             log_error("MT5 initialization failed for HTF data fetch", quiet=True)
             return None
 
-        # Convert end_time to a naive UTC datetime — MT5 expects UTC
+        # conver end_time to a UTC datetime cause MT5 expects it
         if isinstance(end_time, pd.Timestamp):
             if end_time.tzinfo is not None:
                 dt = end_time.tz_convert('UTC').tz_localize(None).to_pydatetime()
             else:
-                dt = end_time.to_pydatetime()  # assume already UTC
+                dt = end_time.to_pydatetime()  # i assume that its probably already UTC
         else:
             dt = end_time
 
@@ -168,17 +158,6 @@ def fetch_htf_data_direct(symbol, htf_timeframe, end_time, num_candles=200):
         return None
 
 def aggregate_candles_to_timeframe(candles, target_timeframe_minutes, current_time):
-    """
-    Aggregate candles to a target timeframe.
-    
-    Args:
-        candles: List of candle dictionaries with 'time', 'open', 'high', 'low', 'close', 'tick_volume'
-        target_timeframe_minutes: Target timeframe in minutes
-        current_time: Current timestamp to avoid future candles
-    
-    Returns:
-        List of aggregated candles
-    """
     if not candles or target_timeframe_minutes <= 0:
         return []
     
@@ -193,22 +172,23 @@ def aggregate_candles_to_timeframe(candles, target_timeframe_minutes, current_ti
         if candle_time > current_time:
             break
         
-        # Calculate period start for this candle
-        if target_timeframe_minutes >= 1440:  # Daily or higher
+        # Calculate period start for this candle but ong i dont remember what this does tbh but
+        # i understand that it is here to get correct timeframes
+        if target_timeframe_minutes >= 1440:  # this is daily
             period_start = candle_time.replace(hour=0, minute=0, second=0, microsecond=0)
-            if target_timeframe_minutes == 10080:  # Weekly
+            if target_timeframe_minutes == 10080:  # this is weekly
                 period_start = period_start - pd.Timedelta(days=period_start.dayofweek)
-            elif target_timeframe_minutes == 43200:  # Monthly
+            elif target_timeframe_minutes == 43200:  # this is monthly
                 period_start = period_start.replace(day=1)
-        elif target_timeframe_minutes >= 60:  # Hourly
+        elif target_timeframe_minutes >= 60:  # this is hourly
             hours_to_align = target_timeframe_minutes // 60
             aligned_hour = (candle_time.hour // hours_to_align) * hours_to_align
             period_start = candle_time.replace(hour=aligned_hour, minute=0, second=0, microsecond=0)
-        else:  # Minutes
+        else:  # this is minute-based timeframe
             aligned_minute = (candle_time.minute // target_timeframe_minutes) * target_timeframe_minutes
             period_start = candle_time.replace(minute=aligned_minute, second=0, microsecond=0)
         
-        # Initialize first period
+        # Initialize first period.
         if current_period_start is None:
             current_period_start = period_start
         
@@ -228,7 +208,7 @@ def aggregate_candles_to_timeframe(candles, target_timeframe_minutes, current_ti
                 }
                 aggregated.append(aggregated_candle)
             
-            # Start new period
+            # Start new period. haha period get it?
             current_period_start = period_start
             current_period_candles = [candle]
     
@@ -248,7 +228,6 @@ def aggregate_candles_to_timeframe(candles, target_timeframe_minutes, current_ti
 
 
 def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_timeframe):
-    """Prepare historical HTF and LTF data for backtest at specific timestamp."""
     try:
         current_time = pd.Timestamp(rates[current_index]["time"], unit="s")
         
@@ -256,37 +235,36 @@ def prepare_historical_data(symbol, rates, current_index, ltf_timeframe, htf_tim
         ltf_start = max(0, current_index - 99)
         ltf_data = rates[ltf_start:current_index + 1]
         
-        # Get timeframe intervals in minutes
+        # timeframe intervals in minutes
         ltf_minutes = get_timeframe_minutes(ltf_timeframe)
         htf_minutes = get_timeframe_minutes(htf_timeframe)
         
-        # Validate that HTF is actually higher than LTF
+        # Make sure HTF is actually higher than LTF
         if htf_minutes <= ltf_minutes:
             log_error(f"HTF ({htf_minutes}m) must be greater than LTF ({ltf_minutes}m) for {symbol}", quiet=True)
             return {
-                'htf_data': [],  # Return empty list instead of None
+                'htf_data': [],
                 'ltf_data': ltf_data,
                 'current_time': current_time
             }
         
-        # Calculate minimum LTF candles needed for HTF aggregation
+        # Calculate minimum LTF candles needed for HTF so about 24h of candles
         candles_per_htf = htf_minutes // ltf_minutes if ltf_minutes > 0 else 1
         min_ltf_candles_needed = candles_per_htf * 24
         
-        # Calculate how many historical candles we can safely use
+        # how many historical candles we can use
         total_ltf_candles = len(rates)
         
         #print(f"LTF: {ltf_minutes}m, HTF: {htf_minutes}m candles_per_htf: {candles_per_htf}, min_ltf_needed: {min_ltf_candles_needed}, total_available: {total_ltf_candles} current_index: {current_index}")
         
+        # this happens when not enough candles
         if total_ltf_candles < min_ltf_candles_needed:
-            # Not enough data yet - return empty HTF data
             return {
                 'htf_data': [],  # Return empty list instead of None
                 'ltf_data': ltf_data,
                 'current_time': current_time
             }
         
-        # Prepare HTF data
         # Fetch HTF data directly from MT5
         htf_data = fetch_htf_data_direct(symbol, htf_timeframe, current_time, num_candles=(total_ltf_candles // candles_per_htf)+50)
         if htf_data is None:
@@ -327,25 +305,6 @@ def load_settings():
         log_error(f"Error loading settings: {str(e)}", quiet=True)
         return None
 
-def create_simplified_strategy_settings(original_settings):
-    """Create simplified settings for more reliable backtest results."""
-    simplified = original_settings.copy()
-    if "timeframes" not in simplified:
-        simplified["timeframes"] = {"htf": "H1", "ltf": "M1"}
-    if "risk_percent" not in simplified:
-        simplified["risk_percent"] = 2.0
-    simplified["use_sweep_filter"] = False
-    simplified["confirm_bos"] = False
-    simplified["use_ltf_reversal"] = False
-    simplified["use_news_filter"] = False
-    simplified["use_rsi_filter"] = False
-    simplified["use_daily_bias"] = False
-    simplified["use_consolidation_filter"] = False
-    simplified["use_volatility_filter"] = False
-    simplified["min_fvg_size"] = 3.0 if "XAU" in simplified.get("backtest", {}).get("symbols", []) else 0.3
-    simplified["use_fvg_entry"] = True
-    return simplified
-
 def pips_to_price(symbol: str, pips: float) -> float:
     symbol = symbol.upper()
     if symbol.startswith("XAU"):
@@ -357,19 +316,6 @@ def pips_to_price(symbol: str, pips: float) -> float:
     return pips * 0.0001
 
 def simulate_breakeven_in_backtest(trade, current_price, breakeven_rr=0.9, breakeven_offset_rr=0.1, symbol=None):
-    """
-    Simulate breakeven behavior during backtest.
-    Returns updated stop loss if breakeven should trigger.
-    
-    Args:
-        trade: Active trade dictionary with entry_price, sl_price, direction, etc.
-        current_price: Current market price
-        breakeven_rr: RR threshold to trigger breakeven
-        breakeven_offset_rr: RR offset for new SL
-    
-    Returns:
-        Updated stop loss price or None if no change
-    """
     if trade.get("breakeven_set", False):
         return None  # Already moved to breakeven
     
@@ -390,7 +336,6 @@ def simulate_breakeven_in_backtest(trade, current_price, breakeven_rr=0.9, break
     
     # Check if breakeven threshold reached
     if current_rr >= breakeven_rr:
-        # Calculate new breakeven stop loss
         offset = pips_to_price(symbol, risk_distance * breakeven_offset_rr)
         
         if direction == "Bullish":
@@ -405,7 +350,6 @@ def simulate_breakeven_in_backtest(trade, current_price, breakeven_rr=0.9, break
     return None
 
 def run_backtest(settings):
-    """Run backtest for given date range and settings."""
     global symbol_states
     
     if not mt5.initialize(login=settings["credentials"]["username"], 
@@ -415,7 +359,6 @@ def run_backtest(settings):
         log_error("MT5 initialization failed", quiet=True)
         return None
 
-    # Clear all caches to prevent stale data
     data_cache.clear()
     
     TIMEFRAME_MAP = {
@@ -432,8 +375,6 @@ def run_backtest(settings):
     }
     
     backtest_settings = settings["backtest"]
-    strategy_settings = create_simplified_strategy_settings(settings)
-    strategy_settings.update(backtest_settings)
     symbols = backtest_settings["symbols"]
     ltf_string = backtest_settings["timeframes"]["ltf"]
     htf_string = backtest_settings["timeframes"]["htf"]
@@ -503,8 +444,8 @@ def run_backtest(settings):
 
         #for i in range(min_start_index, len(rates)):
         for i in range(0, len(rates)):
-            strategy_settings["current_time"] = pd.Timestamp(rates[i]["time"], unit="s")
-            current_date = strategy_settings["current_time"].date()
+            backtest_settings["current_time"] = pd.Timestamp(rates[i]["time"], unit="s")
+            current_date = backtest_settings["current_time"].date()
             if current_date not in daily_trade_counts[symbol]:
                 daily_trade_counts[symbol][current_date] = 0
             if daily_trade_counts[symbol][current_date] >= max_trades_per_day:
@@ -517,7 +458,6 @@ def run_backtest(settings):
                 low = rates[i]["low"]
                 current_price = rates[i]["close"]
                 
-                # === BREAKEVEN SIMULATION (NEW) ===
                 if backtest_settings.get("use_breakeven", False) and not trade.get("breakeven_set", False):
                     new_sl = simulate_breakeven_in_backtest(
                         trade,
@@ -533,10 +473,8 @@ def run_backtest(settings):
                                 quiet=quiet_logging)
                         trade["sl_price"] = new_sl
                         trade["breakeven_set"] = True
-                        # Recalculate SL distance for proper pip accounting
                         entry_price = trade["entry_price"]
                         trade["sl_distance"] = abs(entry_price - new_sl) / trade["pip_size"]
-                # === END BREAKEVEN SIMULATION ===
                 
                 spread_offset = pips_to_price(symbol, spread)
                 
@@ -577,7 +515,7 @@ def run_backtest(settings):
             if symbol not in active_trades:
                 try:
                     state = symbol_states[symbol]
-                    current_time = strategy_settings["current_time"]
+                    current_time = backtest_settings["current_time"]
                     state.set_backtest_time(current_time)
                     state.update()
                     
@@ -607,7 +545,6 @@ def run_backtest(settings):
                     
                     backtest_data = prepare_historical_data(symbol, rates, i, ltf_timeframe, htf_timeframe)
                     
-                    # Validate backtest data
                     if not backtest_data:
                         log_warning(f"No backtest data returned for {symbol} at index {i}", quiet=quiet_logging)
                         progress_bar.update(1)
@@ -616,16 +553,12 @@ def run_backtest(settings):
                     ltf_data = backtest_data.get('ltf_data')
                     htf_data = backtest_data.get('htf_data')
                     
-                    # Validate LTF data
                     if ltf_data is None or len(ltf_data) == 0:
                         log_warning(f"Invalid LTF data for {symbol} at index {i}", quiet=quiet_logging)
                         progress_bar.update(1)
                         continue
                 
-                    # Validate HTF data - Skip if not enough HTF candles yet
                     if htf_data is None or len(htf_data) < 24:
-                        # Don't log every time - this is expected at the start
-                        #if i == min_start_index:
                         if i == 0:
                             log_info(f"Waiting for sufficient HTF data for {symbol} (have {len(htf_data) if htf_data else 0}/24 candles)", 
                                     quiet=quiet_logging)
@@ -636,7 +569,7 @@ def run_backtest(settings):
                     strategy.symbol_states[symbol] = symbol_states[symbol]
                     
                     try:
-                        success, adjusted_risk = process_symbol(symbol, strategy_settings, 
+                        success, adjusted_risk = process_symbol(symbol, backtest_settings, 
                                                               quiet=quiet_logging, backtest=True,
                                                               backtest_data=backtest_data)
                     except Exception as process_error:
@@ -645,7 +578,7 @@ def run_backtest(settings):
                         progress_bar.update(1)
                         continue
                     
-                    # Check processing time again
+                    # Check processing time (again)
                     if time.time() - start_processing_time > MAX_PROCESSING_TIME:
                         log_warning(f"Processing timeout after process_symbol for {symbol}, skipping trade setup", quiet=quiet_logging)
                         progress_bar.update(1)
@@ -676,7 +609,6 @@ def run_backtest(settings):
                         
                         take_profit = getattr(state, 'take_profit', None)
                         
-                        print(f"Debug: entry_price={entry_price}, direction={direction}, stop_loss={stop_loss}, take_profit={take_profit}, adjusted_risk={adjusted_risk}")
                         if not take_profit:
                             sl_distance = abs(entry_price - stop_loss)
                             take_profit = (entry_price + (sl_distance * minimum_rr) if direction == "Bullish"
@@ -714,7 +646,7 @@ def run_backtest(settings):
                                 "tp_price": take_profit,
                                 "rr": tp_distance / sl_distance if sl_distance > 0 else minimum_rr,
                                 "lot_size": lot_size,
-                                "entry_time": strategy_settings["current_time"],
+                                "entry_time": backtest_settings["current_time"],
                                 "pip_value": pip_value,
                                 "pip_size": pip_size,
                                 "sl_distance": sl_distance,
@@ -732,13 +664,13 @@ def run_backtest(settings):
                     progress_bar.close()
                     break
                 except Exception as e:
-                    log_error(f"Error processing {symbol} at {strategy_settings.get('current_time', 'unknown')} (line {e.__traceback__.tb_lineno}): {str(e)}", 
+                    log_error(f"Error processing {symbol} at {backtest_settings.get('current_time', 'unknown')} (line {e.__traceback__.tb_lineno}): {str(e)}", 
                              quiet=quiet_logging)
                     # Continue processing instead of breaking
                     
             progress_bar.update(1)
             
-        # Handle early termination gracefully
+        # Handle early termination
         if 'KeyboardInterrupt' in str(locals().get('e', '')):
             log_info(f"Backtest interrupted for {symbol}", quiet=quiet_logging)
             break
@@ -822,17 +754,7 @@ def run_backtest(settings):
         # Pips
         win_pips  = sum(t["pips"] for t in trade_log if t["outcome"] == "Win")
         loss_pips = sum(t["pips"] for t in trade_log if t["outcome"] == "Loss")
-    
-        # Duration (minutes)
-        def trade_duration(t):
-            try:
-                et = t["entry_time"]
-                if hasattr(et, "to_pydatetime"):
-                    et = et.to_pydatetime()
-                return 0.0  # exit time not stored in trade_log — flag N/A
-            except Exception:
-                return 0.0
-        has_duration = False  # exit_time not in trade_log; skip duration stats
+
     
         # Consecutive streaks
         def consecutive(seq):
@@ -1104,7 +1026,7 @@ def run_backtest(settings):
         print(f"{'═'*W}\n")
 
 
-        # --- Small floating window with copy button ---
+        # copy window
         root = tk.Tk()
         root.title("Copy Trade Data")
         root.geometry("230x80")

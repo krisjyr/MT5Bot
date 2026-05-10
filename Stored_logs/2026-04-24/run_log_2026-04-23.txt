@@ -1,0 +1,1130 @@
+[2026-04-23 11:34:03] [INFO] Initializing MT5...
+[2026-04-23 11:34:03] [SUCCESS] MT5 initialized and logged in.
+
+[2026-04-23 11:34:03] [SUCCESS] Breakeven set for EURGBP (ticket 56362867233): Entry=0.86765, New SL=0.86759 (0.1R offset), Current RR=1.53
+[2026-04-23 11:34:03] [SUCCESS] Breakeven set for GBPUSD (ticket 56362920225): Entry=1.34880, New SL=1.34887 (0.1R offset), Current RR=1.70
+[2026-04-23 11:34:03] [INFO] Breakeven set for 2 position(s)
+[2026-04-23 11:34:03] [INFO] Processing EURUSD
+[2026-04-23 11:34:03] [INFO] Processing GBPUSD
+[2026-04-23 11:34:03] [INFO] Processing XAUUSD
+[2026-04-23 11:34:03] [INFO] Processing EURGBP
+[2026-04-23 11:34:04] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 1.1702 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 11:34:04] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.3492 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 11:34:04] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.00 | Strength: 4 touches | Level: 0.8676 | Sweep Type: break_retest | Time: 2026-04-23 08:00:00
+[2026-04-23 11:34:04] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 4694.1400 | Sweep Type: wick | Time: 2026-04-23 08:00:00
+[2026-04-23 11:34:04] [SKIP] BoS failed for EURUSD at 2026-04-23 11:34:03.712229: Close 1.17009 not above last high 1.17119
+[2026-04-23 11:34:04] [INFO] BoS confirmed for GBPUSD: Bullish break above 1.34995
+[2026-04-23 11:34:04] [INFO] BoS confirmed for EURGBP: Bearish break below 0.86719
+[2026-04-23 11:34:04] [SKIP] BoS failed for XAUUSD at 2026-04-23 11:34:03.714069: Close 4711.80000 not above last high 4724.78000
+[2026-04-23 11:34:04] [INFO] Adaptive risk for GBPUSD: 1.25% (ATR factor: 1.45)
+[2026-04-23 11:34:04] [INFO] Adaptive risk for EURGBP: 1.25% (ATR factor: 1.74)
+[2026-04-23 11:34:04] [SUCCESS] BoS confirmed for GBPUSD at 2026-04-23 11:34:03.713136: Risk=1.25%
+[2026-04-23 11:34:04] [SUCCESS] BoS confirmed for EURGBP at 2026-04-23 11:34:03.731469: Risk=1.25%
+[2026-04-23 11:34:04] [INFO] Entry price set for GBPUSD: 1.35000
+[2026-04-23 11:34:04] [INFO] Entry price set for EURGBP: 0.86670
+[2026-04-23 11:34:04] [INFO] Fixed SL for GBPUSD: 1.34940 (6 pips)
+[2026-04-23 11:34:04] [INFO] Fixed SL for EURGBP: 0.86730 (6 pips)
+[2026-04-23 11:34:04] [INFO] Calculated TP for GBPUSD: 1.35180 (RR=3.00)
+[2026-04-23 11:34:04] [INFO] Calculated TP for EURGBP: 0.86490 (RR=3.00)
+[2026-04-23 11:34:04] [INFO] Fixed RR TP for GBPUSD: 1.35180, RR=3.00
+[2026-04-23 11:34:04] [INFO] Fixed RR TP for EURGBP: 0.86490, RR=3.00
+[2026-04-23 11:34:04] [TRADE] GBPUSD | Bullish @ 1.35000 | SL: 1.34940 | TP: 1.35180 | Lot: 1.00
+[2026-04-23 11:34:04] [TRADE] EURGBP | Bearish @ 0.86670 | SL: 0.86730 | TP: 0.86490 | Lot: 1.00
+[2026-04-23 11:34:04] [INFO] Execution mode for GBPUSD: Unknown
+[2026-04-23 11:34:04] [INFO] Execution mode for EURGBP: Unknown
+[2026-04-23 11:34:04] [WARN] Preferred fill type IOC not supported for GBPUSD. Falling back to FOK
+[2026-04-23 11:34:04] [WARN] Preferred fill type IOC not supported for EURGBP. Falling back to FOK
+[2026-04-23 11:34:05] [SUCCESS] Order placed on GBPUSD: Bullish 1.00 lots @ 1.35006, SL=1.34940, TP=1.35180, Filling=FOK
+[2026-04-23 11:34:05] [SUCCESS] Order placed on EURGBP: Bearish 1.00 lots @ 0.86670, SL=0.86730, TP=0.86490, Filling=FOK
+[2026-04-23 11:34:05] [SUCCESS] Trade executed on GBPUSD
+[2026-04-23 11:34:05] [SUCCESS] Trade executed on EURGBP
+[2026-04-23 11:34:05] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:34:35] [INFO] Processing EURUSD
+[2026-04-23 11:34:35] [INFO] Processing GBPUSD
+[2026-04-23 11:34:35] [INFO] Processing XAUUSD
+[2026-04-23 11:34:35] [INFO] Processing EURGBP
+[2026-04-23 11:34:35] [SKIP] Cooldown active for GBPUSD: 59.5min remaining
+[2026-04-23 11:34:35] [SKIP] Cooldown active for EURGBP: 59.5min remaining
+[2026-04-23 11:34:35] [SKIP] BoS failed for EURUSD at 2026-04-23 11:34:35.075494: Close 1.17009 not above last high 1.17119
+[2026-04-23 11:34:35] [INFO] BoS confirmed for XAUUSD: Bullish break above 1.17119
+[2026-04-23 11:34:35] [INFO] Adaptive risk for XAUUSD: 1.01% (ATR factor: 1.01)
+[2026-04-23 11:34:35] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-23 11:34:35.077170: Risk=1.01%
+[2026-04-23 11:34:35] [INFO] Entry price set for XAUUSD: 4711.80000
+[2026-04-23 11:34:35] [INFO] Fixed SL for XAUUSD: 4705.80000 (6 pips)
+[2026-04-23 11:34:35] [INFO] Calculated TP for XAUUSD: 4729.80000 (RR=3.00)
+[2026-04-23 11:34:35] [INFO] Fixed RR TP for XAUUSD: 4729.80000, RR=3.00
+[2026-04-23 11:34:35] [TRADE] XAUUSD | Bullish @ 4711.80000 | SL: 4705.80000 | TP: 4729.80000 | Lot: 0.08
+[2026-04-23 11:34:35] [INFO] Execution mode for XAUUSD: Unknown
+[2026-04-23 11:34:35] [WARN] Preferred fill type IOC not supported for XAUUSD. Falling back to FOK
+[2026-04-23 11:34:35] [SUCCESS] Order placed on XAUUSD: Bullish 0.08 lots @ 4711.74000, SL=4705.80000, TP=4729.80000, Filling=FOK
+[2026-04-23 11:34:35] [SUCCESS] Trade executed on XAUUSD
+[2026-04-23 11:34:35] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:35:05] [INFO] Processing EURUSD
+[2026-04-23 11:35:05] [INFO] Processing XAUUSD
+[2026-04-23 11:35:05] [INFO] Processing GBPUSD
+[2026-04-23 11:35:05] [INFO] Processing EURGBP
+[2026-04-23 11:35:05] [SKIP] BoS failed for EURUSD at 2026-04-23 11:35:05.375227: Close 1.17013 not above last high 1.17119
+[2026-04-23 11:35:05] [SKIP] Cooldown active for GBPUSD: 59.0min remaining
+[2026-04-23 11:35:05] [SKIP] Cooldown active for XAUUSD: 59.5min remaining
+[2026-04-23 11:35:05] [SKIP] Cooldown active for EURGBP: 59.0min remaining
+[2026-04-23 11:35:05] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:35:35] [INFO] Processing EURUSD
+[2026-04-23 11:35:35] [INFO] Processing GBPUSD
+[2026-04-23 11:35:35] [INFO] Processing XAUUSD
+[2026-04-23 11:35:35] [INFO] Processing EURGBP
+[2026-04-23 11:35:35] [SKIP] Cooldown active for GBPUSD: 58.5min remaining
+[2026-04-23 11:35:35] [SKIP] BoS failed for EURUSD at 2026-04-23 11:35:35.404553: Close 1.17013 not above last high 1.17119
+[2026-04-23 11:35:35] [SKIP] Cooldown active for EURGBP: 58.5min remaining
+[2026-04-23 11:35:35] [SKIP] Cooldown active for XAUUSD: 59.0min remaining
+[2026-04-23 11:35:35] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:36:05] [INFO] Processing EURUSD
+[2026-04-23 11:36:05] [INFO] Processing GBPUSD
+[2026-04-23 11:36:05] [INFO] Processing XAUUSD
+[2026-04-23 11:36:05] [SKIP] Cooldown active for GBPUSD: 58.0min remaining
+[2026-04-23 11:36:05] [INFO] Processing EURGBP
+[2026-04-23 11:36:05] [SKIP] Cooldown active for XAUUSD: 58.5min remaining
+[2026-04-23 11:36:05] [SKIP] BoS failed for EURUSD at 2026-04-23 11:36:05.448740: Close 1.17017 not above last high 1.17119
+[2026-04-23 11:36:05] [SKIP] Cooldown active for EURGBP: 58.0min remaining
+[2026-04-23 11:36:05] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:36:35] [INFO] Processing EURUSD
+[2026-04-23 11:36:35] [INFO] Processing GBPUSD
+[2026-04-23 11:36:35] [INFO] Processing EURGBP
+[2026-04-23 11:36:35] [SKIP] Cooldown active for GBPUSD: 57.5min remaining
+[2026-04-23 11:36:35] [INFO] Processing XAUUSD
+[2026-04-23 11:36:35] [SKIP] BoS failed for EURUSD at 2026-04-23 11:36:35.550102: Close 1.17017 not above last high 1.17119
+[2026-04-23 11:36:35] [SKIP] Cooldown active for EURGBP: 57.5min remaining
+[2026-04-23 11:36:35] [SKIP] Cooldown active for XAUUSD: 58.0min remaining
+[2026-04-23 11:36:35] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:37:05] [INFO] Processing EURUSD
+[2026-04-23 11:37:05] [INFO] Processing GBPUSD
+[2026-04-23 11:37:05] [INFO] Processing XAUUSD
+[2026-04-23 11:37:05] [INFO] Processing EURGBP
+[2026-04-23 11:37:05] [SKIP] Cooldown active for GBPUSD: 57.0min remaining
+[2026-04-23 11:37:05] [SKIP] BoS failed for EURUSD at 2026-04-23 11:37:05.580506: Close 1.17006 not above last high 1.17119
+[2026-04-23 11:37:05] [SKIP] Cooldown active for XAUUSD: 57.5min remaining
+[2026-04-23 11:37:05] [SKIP] Cooldown active for EURGBP: 57.0min remaining
+[2026-04-23 11:37:05] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:37:35] [INFO] Processing EURUSD
+[2026-04-23 11:37:35] [INFO] Processing GBPUSD
+[2026-04-23 11:37:35] [INFO] Processing XAUUSD
+[2026-04-23 11:37:35] [INFO] Processing EURGBP
+[2026-04-23 11:37:35] [SKIP] Cooldown active for GBPUSD: 56.5min remaining
+[2026-04-23 11:37:35] [SKIP] BoS failed for EURUSD at 2026-04-23 11:37:35.622030: Close 1.17006 not above last high 1.17119
+[2026-04-23 11:37:35] [SKIP] Cooldown active for XAUUSD: 57.0min remaining
+[2026-04-23 11:37:35] [SKIP] Cooldown active for EURGBP: 56.5min remaining
+[2026-04-23 11:37:35] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:38:05] [INFO] Processing EURUSD
+[2026-04-23 11:38:05] [INFO] Processing GBPUSD
+[2026-04-23 11:38:05] [INFO] Processing XAUUSD
+[2026-04-23 11:38:05] [INFO] Processing EURGBP
+[2026-04-23 11:38:05] [SKIP] Cooldown active for GBPUSD: 56.0min remaining
+[2026-04-23 11:38:05] [SKIP] BoS failed for EURUSD at 2026-04-23 11:38:05.663773: Close 1.16980 not above last high 1.17119
+[2026-04-23 11:38:05] [SKIP] Cooldown active for XAUUSD: 56.5min remaining
+[2026-04-23 11:38:05] [SKIP] Cooldown active for EURGBP: 56.0min remaining
+[2026-04-23 11:38:05] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:38:35] [INFO] Processing EURUSD
+[2026-04-23 11:38:35] [INFO] Processing GBPUSD
+[2026-04-23 11:38:35] [INFO] Processing XAUUSD
+[2026-04-23 11:38:35] [INFO] Processing EURGBP
+[2026-04-23 11:38:35] [SKIP] Cooldown active for GBPUSD: 55.5min remaining
+[2026-04-23 11:38:35] [SKIP] Cooldown active for EURGBP: 55.5min remaining
+[2026-04-23 11:38:35] [SKIP] Cooldown active for XAUUSD: 56.0min remaining
+[2026-04-23 11:38:35] [SKIP] BoS failed for EURUSD at 2026-04-23 11:38:35.714070: Close 1.16980 not above last high 1.17119
+[2026-04-23 11:38:35] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:39:05] [INFO] Processing EURUSD
+[2026-04-23 11:39:05] [INFO] Processing GBPUSD
+[2026-04-23 11:39:05] [INFO] Processing XAUUSD
+[2026-04-23 11:39:05] [INFO] Processing EURGBP
+[2026-04-23 11:39:05] [SKIP] Cooldown active for GBPUSD: 55.0min remaining
+[2026-04-23 11:39:05] [SKIP] Cooldown active for XAUUSD: 55.5min remaining
+[2026-04-23 11:39:05] [SKIP] Cooldown active for EURGBP: 55.0min remaining
+[2026-04-23 11:39:05] [SKIP] BoS failed for EURUSD at 2026-04-23 11:39:05.759150: Close 1.16978 not above last high 1.17119
+[2026-04-23 11:39:05] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:39:35] [INFO] Processing EURUSD
+[2026-04-23 11:39:35] [INFO] Processing GBPUSD
+[2026-04-23 11:39:36] [INFO] Processing XAUUSD
+[2026-04-23 11:39:36] [INFO] Processing EURGBP
+[2026-04-23 11:39:36] [SKIP] Cooldown active for GBPUSD: 54.5min remaining
+[2026-04-23 11:39:36] [SKIP] BoS failed for EURUSD at 2026-04-23 11:39:35.984791: Close 1.16978 not above last high 1.17119
+[2026-04-23 11:39:36] [SKIP] Cooldown active for XAUUSD: 55.0min remaining
+[2026-04-23 11:39:36] [SKIP] Cooldown active for EURGBP: 54.5min remaining
+[2026-04-23 11:39:36] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:40:06] [INFO] Processing EURUSD
+[2026-04-23 11:40:06] [INFO] Processing XAUUSD
+[2026-04-23 11:40:06] [INFO] Processing GBPUSD
+[2026-04-23 11:40:06] [INFO] Processing EURGBP
+[2026-04-23 11:40:06] [SKIP] Cooldown active for XAUUSD: 54.5min remaining
+[2026-04-23 11:40:06] [SKIP] BoS failed for EURUSD at 2026-04-23 11:40:06.024326: Close 1.16983 not above last high 1.17119
+[2026-04-23 11:40:06] [SKIP] Cooldown active for GBPUSD: 54.0min remaining
+[2026-04-23 11:40:06] [SKIP] Cooldown active for EURGBP: 54.0min remaining
+[2026-04-23 11:40:06] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:40:36] [INFO] Processing EURUSD
+[2026-04-23 11:40:36] [INFO] Processing GBPUSD
+[2026-04-23 11:40:36] [INFO] Processing XAUUSD
+[2026-04-23 11:40:36] [INFO] Processing EURGBP
+[2026-04-23 11:40:36] [SKIP] BoS failed for EURUSD at 2026-04-23 11:40:36.046127: Close 1.16983 not above last high 1.17119
+[2026-04-23 11:40:36] [SKIP] Cooldown active for GBPUSD: 53.5min remaining
+[2026-04-23 11:40:36] [SKIP] Cooldown active for XAUUSD: 54.0min remaining
+[2026-04-23 11:40:36] [SKIP] Cooldown active for EURGBP: 53.5min remaining
+[2026-04-23 11:40:36] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:41:06] [INFO] Processing EURUSD
+[2026-04-23 11:41:06] [INFO] Processing GBPUSD
+[2026-04-23 11:41:06] [INFO] Processing XAUUSD
+[2026-04-23 11:41:06] [INFO] Processing EURGBP
+[2026-04-23 11:41:06] [SKIP] Cooldown active for GBPUSD: 53.0min remaining
+[2026-04-23 11:41:06] [SKIP] Cooldown active for XAUUSD: 53.5min remaining
+[2026-04-23 11:41:06] [SKIP] BoS failed for EURUSD at 2026-04-23 11:41:06.070741: Close 1.16974 not above last high 1.17119
+[2026-04-23 11:41:06] [SKIP] Cooldown active for EURGBP: 53.0min remaining
+[2026-04-23 11:41:06] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:41:36] [INFO] Processing EURUSD
+[2026-04-23 11:41:36] [INFO] Processing GBPUSD
+[2026-04-23 11:41:36] [INFO] Processing XAUUSD
+[2026-04-23 11:41:36] [SKIP] BoS failed for EURUSD at 2026-04-23 11:41:36.091490: Close 1.16974 not above last high 1.17119
+[2026-04-23 11:41:36] [SKIP] Cooldown active for GBPUSD: 52.5min remaining
+[2026-04-23 11:41:36] [INFO] Processing EURGBP
+[2026-04-23 11:41:36] [SKIP] Cooldown active for XAUUSD: 53.0min remaining
+[2026-04-23 11:41:36] [SKIP] Cooldown active for EURGBP: 52.5min remaining
+[2026-04-23 11:41:36] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:42:06] [INFO] Processing EURUSD
+[2026-04-23 11:42:06] [INFO] Processing GBPUSD
+[2026-04-23 11:42:06] [INFO] Processing XAUUSD
+[2026-04-23 11:42:06] [INFO] Processing EURGBP
+[2026-04-23 11:42:06] [SKIP] Cooldown active for XAUUSD: 52.5min remaining
+[2026-04-23 11:42:06] [SKIP] Cooldown active for GBPUSD: 52.0min remaining
+[2026-04-23 11:42:06] [SKIP] Cooldown active for EURGBP: 52.0min remaining
+[2026-04-23 11:42:06] [SKIP] BoS failed for EURUSD at 2026-04-23 11:42:06.113580: Close 1.16991 not above last high 1.17119
+[2026-04-23 11:42:06] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:42:36] [INFO] Processing EURUSD
+[2026-04-23 11:42:36] [INFO] Processing GBPUSD
+[2026-04-23 11:42:36] [INFO] Processing XAUUSD
+[2026-04-23 11:42:36] [INFO] Processing EURGBP
+[2026-04-23 11:42:36] [SKIP] BoS failed for EURUSD at 2026-04-23 11:42:36.256343: Close 1.16991 not above last high 1.17119
+[2026-04-23 11:42:36] [SKIP] Cooldown active for XAUUSD: 52.0min remaining
+[2026-04-23 11:42:36] [SKIP] Cooldown active for GBPUSD: 51.5min remaining
+[2026-04-23 11:42:36] [SKIP] Cooldown active for EURGBP: 51.5min remaining
+[2026-04-23 11:42:36] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:43:06] [INFO] Processing EURUSD
+[2026-04-23 11:43:06] [INFO] Processing GBPUSD
+[2026-04-23 11:43:06] [INFO] Processing XAUUSD
+[2026-04-23 11:43:06] [INFO] Processing EURGBP
+[2026-04-23 11:43:06] [SKIP] BoS failed for EURUSD at 2026-04-23 11:43:06.279773: Close 1.17000 not above last high 1.17119
+[2026-04-23 11:43:06] [SKIP] Cooldown active for GBPUSD: 51.0min remaining
+[2026-04-23 11:43:06] [SKIP] Cooldown active for XAUUSD: 51.5min remaining
+[2026-04-23 11:43:06] [SKIP] Cooldown active for EURGBP: 51.0min remaining
+[2026-04-23 11:43:06] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:43:36] [INFO] Processing EURUSD
+[2026-04-23 11:43:36] [INFO] Processing GBPUSD
+[2026-04-23 11:43:36] [INFO] Processing XAUUSD
+[2026-04-23 11:43:36] [INFO] Processing EURGBP
+[2026-04-23 11:43:36] [SKIP] BoS failed for EURUSD at 2026-04-23 11:43:36.307632: Close 1.17000 not above last high 1.17119
+[2026-04-23 11:43:36] [SKIP] Cooldown active for GBPUSD: 50.5min remaining
+[2026-04-23 11:43:36] [SKIP] Cooldown active for EURGBP: 50.5min remaining
+[2026-04-23 11:43:36] [SKIP] Cooldown active for XAUUSD: 51.0min remaining
+[2026-04-23 11:43:36] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:44:06] [INFO] Processing EURUSD
+[2026-04-23 11:44:06] [INFO] Processing GBPUSD
+[2026-04-23 11:44:06] [INFO] Processing XAUUSD
+[2026-04-23 11:44:06] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-23 11:44:06] [SKIP] Cooldown active for GBPUSD: 50.0min remaining
+[2026-04-23 11:44:06] [INFO] Processing EURGBP
+[2026-04-23 11:44:06] [SKIP] Cooldown active for XAUUSD: 50.5min remaining
+[2026-04-23 11:44:06] [SKIP] Cooldown active for EURGBP: 50.0min remaining
+[2026-04-23 11:44:06] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 1.1702 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 11:44:06] [SKIP] BoS failed for EURUSD at 2026-04-23 11:44:06.341338: Close 1.16986 not above last high 1.17119
+[2026-04-23 11:44:06] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 11:44:36] [INFO] Processing EURUSD
+[2026-04-23 11:44:36] [INFO] Processing GBPUSD
+[2026-04-23 11:44:36] [INFO] Processing XAUUSD
+[2026-04-23 11:44:36] [INFO] Processing EURGBP
+[2026-04-23 11:44:36] [SKIP] BoS failed for EURUSD at 2026-04-23 11:44:36.551160: Close 1.16986 not above last high 1.17119
+[2026-04-23 11:44:36] [SKIP] Cooldown active for GBPUSD: 49.5min remaining
+[2026-04-23 11:44:36] [SKIP] Cooldown active for XAUUSD: 50.0min remaining
+[2026-04-23 11:44:36] [SKIP] Cooldown active for EURGBP: 49.5min remaining
+[2026-04-23 11:44:36] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:14:53] [INFO] Processing EURUSD
+[2026-04-23 12:14:53] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-23 12:14:53] [INFO] Processing GBPUSD
+[2026-04-23 12:14:53] [INFO] Processing XAUUSD
+[2026-04-23 12:14:53] [INFO] Processing EURGBP
+[2026-04-23 12:14:53] [SKIP] Cooldown active for GBPUSD: 19.2min remaining
+[2026-04-23 12:14:53] [SKIP] Cooldown active for EURGBP: 19.2min remaining
+[2026-04-23 12:14:53] [SKIP] Cooldown active for XAUUSD: 19.7min remaining
+[2026-04-23 12:14:53] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 1.1702 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 12:14:53] [SKIP] BoS failed for EURUSD at 2026-04-23 12:14:53.542745: Close 1.16967 not above last high 1.17119
+[2026-04-23 12:14:53] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:15:23] [INFO] Processing EURUSD
+[2026-04-23 12:15:23] [INFO] Processing GBPUSD
+[2026-04-23 12:15:23] [INFO] Processing XAUUSD
+[2026-04-23 12:15:23] [INFO] Processing EURGBP
+[2026-04-23 12:15:23] [SKIP] Cooldown active for GBPUSD: 18.7min remaining
+[2026-04-23 12:15:23] [SKIP] BoS failed for EURUSD at 2026-04-23 12:15:23.807890: Close 1.16967 not above last high 1.17119
+[2026-04-23 12:15:23] [SKIP] Cooldown active for EURGBP: 18.7min remaining
+[2026-04-23 12:15:23] [SKIP] Cooldown active for XAUUSD: 19.2min remaining
+[2026-04-23 12:15:23] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:15:53] [INFO] Processing EURUSD
+[2026-04-23 12:15:53] [INFO] Processing GBPUSD
+[2026-04-23 12:15:53] [INFO] Processing XAUUSD
+[2026-04-23 12:15:53] [INFO] Processing EURGBP
+[2026-04-23 12:15:53] [SKIP] Cooldown active for GBPUSD: 18.2min remaining
+[2026-04-23 12:15:53] [SKIP] Cooldown active for XAUUSD: 18.7min remaining
+[2026-04-23 12:15:54] [SKIP] Cooldown active for EURGBP: 18.2min remaining
+[2026-04-23 12:15:54] [SKIP] BoS failed for EURUSD at 2026-04-23 12:15:53.858082: Close 1.16952 not above last high 1.17119
+[2026-04-23 12:15:54] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:16:24] [INFO] Processing EURUSD
+[2026-04-23 12:16:24] [INFO] Processing GBPUSD
+[2026-04-23 12:16:24] [INFO] Processing XAUUSD
+[2026-04-23 12:16:24] [INFO] Processing EURGBP
+[2026-04-23 12:16:24] [SKIP] Cooldown active for GBPUSD: 17.7min remaining
+[2026-04-23 12:16:24] [SKIP] BoS failed for EURUSD at 2026-04-23 12:16:24.102886: Close 1.16952 not above last high 1.17119
+[2026-04-23 12:16:24] [SKIP] Cooldown active for XAUUSD: 18.2min remaining
+[2026-04-23 12:16:24] [SKIP] Cooldown active for EURGBP: 17.7min remaining
+[2026-04-23 12:16:24] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:22:57] [INFO] Processing EURUSD
+[2026-04-23 12:22:57] [INFO] Processing GBPUSD
+[2026-04-23 12:22:57] [INFO] Processing EURGBP
+[2026-04-23 12:22:57] [INFO] Processing XAUUSD
+[2026-04-23 12:22:57] [SKIP] Cooldown active for GBPUSD: 11.1min remaining
+[2026-04-23 12:22:57] [SKIP] BoS failed for EURUSD at 2026-04-23 12:22:57.278317: Close 1.16975 not above last high 1.17119
+[2026-04-23 12:22:57] [SKIP] Cooldown active for EURGBP: 11.1min remaining
+[2026-04-23 12:22:57] [SKIP] Cooldown active for XAUUSD: 11.6min remaining
+[2026-04-23 12:22:57] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:23:27] [INFO] Processing EURUSD
+[2026-04-23 12:23:27] [INFO] Processing GBPUSD
+[2026-04-23 12:23:27] [INFO] Processing EURGBP
+[2026-04-23 12:23:27] [INFO] Processing XAUUSD
+[2026-04-23 12:23:27] [SKIP] Cooldown active for GBPUSD: 10.6min remaining
+[2026-04-23 12:23:27] [SKIP] BoS failed for EURUSD at 2026-04-23 12:23:27.344243: Close 1.16975 not above last high 1.17119
+[2026-04-23 12:23:27] [SKIP] Cooldown active for EURGBP: 10.6min remaining
+[2026-04-23 12:23:27] [SKIP] Cooldown active for XAUUSD: 11.1min remaining
+[2026-04-23 12:23:27] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:23:57] [INFO] Processing EURUSD
+[2026-04-23 12:23:57] [INFO] Processing GBPUSD
+[2026-04-23 12:23:57] [INFO] Processing XAUUSD
+[2026-04-23 12:23:57] [INFO] Processing EURGBP
+[2026-04-23 12:23:57] [SKIP] BoS failed for EURUSD at 2026-04-23 12:23:57.376956: Close 1.16965 not above last high 1.17119
+[2026-04-23 12:23:57] [SKIP] Cooldown active for GBPUSD: 10.1min remaining
+[2026-04-23 12:23:57] [SKIP] Cooldown active for XAUUSD: 10.6min remaining
+[2026-04-23 12:23:57] [SKIP] Cooldown active for EURGBP: 10.1min remaining
+[2026-04-23 12:23:57] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:24:27] [INFO] Processing EURUSD
+[2026-04-23 12:24:27] [INFO] Processing GBPUSD
+[2026-04-23 12:24:27] [INFO] Processing XAUUSD
+[2026-04-23 12:24:27] [INFO] Processing EURGBP
+[2026-04-23 12:24:27] [SKIP] Cooldown active for GBPUSD: 9.6min remaining
+[2026-04-23 12:24:27] [SKIP] BoS failed for EURUSD at 2026-04-23 12:24:27.424457: Close 1.16965 not above last high 1.17119
+[2026-04-23 12:24:27] [SKIP] Cooldown active for XAUUSD: 10.1min remaining
+[2026-04-23 12:24:27] [SKIP] Cooldown active for EURGBP: 9.6min remaining
+[2026-04-23 12:24:27] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:24:57] [INFO] Processing EURUSD
+[2026-04-23 12:24:57] [INFO] Processing GBPUSD
+[2026-04-23 12:24:57] [INFO] Processing XAUUSD
+[2026-04-23 12:24:57] [INFO] Processing EURGBP
+[2026-04-23 12:24:57] [SKIP] Cooldown active for GBPUSD: 9.1min remaining
+[2026-04-23 12:24:57] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-23 12:24:57] [SKIP] Cooldown active for XAUUSD: 9.6min remaining
+[2026-04-23 12:24:57] [SKIP] Cooldown active for EURGBP: 9.1min remaining
+[2026-04-23 12:24:57] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 1.1702 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 12:24:57] [SKIP] BoS failed for EURUSD at 2026-04-23 12:24:57.440650: Close 1.16962 not above last high 1.17119
+[2026-04-23 12:24:57] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:26:14] [INFO] Processing EURUSD
+[2026-04-23 12:26:14] [INFO] Processing GBPUSD
+[2026-04-23 12:26:14] [INFO] Processing XAUUSD
+[2026-04-23 12:26:14] [SKIP] BoS failed for EURUSD at 2026-04-23 12:26:14.320699: Close 1.16965 not above last high 1.17119
+[2026-04-23 12:26:14] [INFO] Processing EURGBP
+[2026-04-23 12:26:14] [SKIP] Cooldown active for GBPUSD: 7.8min remaining
+[2026-04-23 12:26:14] [SKIP] Cooldown active for XAUUSD: 8.3min remaining
+[2026-04-23 12:26:14] [SKIP] Cooldown active for EURGBP: 7.8min remaining
+[2026-04-23 12:26:14] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:26:44] [INFO] Processing GBPUSD
+[2026-04-23 12:26:44] [INFO] Processing XAUUSD
+[2026-04-23 12:26:44] [INFO] Processing EURGBP
+[2026-04-23 12:26:44] [SKIP] Cooldown active for GBPUSD: 7.3min remaining
+[2026-04-23 12:26:44] [SKIP] Cooldown active for XAUUSD: 7.8min remaining
+[2026-04-23 12:26:44] [SKIP] BoS failed for EURUSD at 2026-04-23 12:26:44.400668: Close 1.16965 not above last high 1.17119
+[2026-04-23 12:26:44] [SKIP] Cooldown active for EURGBP: 7.3min remaining
+[2026-04-23 12:26:44] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:27:14] [INFO] Processing EURUSD
+[2026-04-23 12:27:14] [INFO] Processing GBPUSD
+[2026-04-23 12:27:14] [INFO] Processing XAUUSD
+[2026-04-23 12:27:14] [INFO] Processing EURGBP
+[2026-04-23 12:27:14] [SKIP] Cooldown active for GBPUSD: 6.8min remaining
+[2026-04-23 12:27:14] [SKIP] Cooldown active for XAUUSD: 7.3min remaining
+[2026-04-23 12:27:14] [SKIP] Cooldown active for EURGBP: 6.8min remaining
+[2026-04-23 12:27:14] [SKIP] BoS failed for EURUSD at 2026-04-23 12:27:14.468329: Close 1.16966 not above last high 1.17119
+[2026-04-23 12:27:14] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:27:44] [INFO] Processing EURUSD
+[2026-04-23 12:27:44] [INFO] Processing GBPUSD
+[2026-04-23 12:27:44] [INFO] Processing XAUUSD
+[2026-04-23 12:27:44] [SKIP] Cooldown active for GBPUSD: 6.3min remaining
+[2026-04-23 12:27:44] [INFO] Processing EURGBP
+[2026-04-23 12:27:44] [SKIP] BoS failed for EURUSD at 2026-04-23 12:27:44.757617: Close 1.16966 not above last high 1.17119
+[2026-04-23 12:27:44] [SKIP] Cooldown active for XAUUSD: 6.8min remaining
+[2026-04-23 12:27:44] [SKIP] Cooldown active for EURGBP: 6.3min remaining
+[2026-04-23 12:27:44] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:28:14] [INFO] Processing EURUSD
+[2026-04-23 12:28:14] [INFO] Processing GBPUSD
+[2026-04-23 12:28:14] [INFO] Processing XAUUSD
+[2026-04-23 12:28:14] [INFO] Processing EURGBP
+[2026-04-23 12:28:14] [SKIP] Cooldown active for GBPUSD: 5.8min remaining
+[2026-04-23 12:28:14] [SKIP] Cooldown active for XAUUSD: 6.3min remaining
+[2026-04-23 12:28:14] [SKIP] BoS failed for EURUSD at 2026-04-23 12:28:14.806900: Close 1.16960 not above last high 1.17119
+[2026-04-23 12:28:14] [SKIP] Cooldown active for EURGBP: 5.8min remaining
+[2026-04-23 12:28:14] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:28:44] [INFO] Processing EURUSD
+[2026-04-23 12:28:44] [INFO] Processing GBPUSD
+[2026-04-23 12:28:44] [INFO] Processing XAUUSD
+[2026-04-23 12:28:44] [INFO] Processing EURGBP
+[2026-04-23 12:28:44] [SKIP] Cooldown active for GBPUSD: 5.3min remaining
+[2026-04-23 12:28:44] [SKIP] BoS failed for EURUSD at 2026-04-23 12:28:44.844376: Close 1.16960 not above last high 1.17119
+[2026-04-23 12:28:44] [SKIP] Cooldown active for XAUUSD: 5.8min remaining
+[2026-04-23 12:28:44] [SKIP] Cooldown active for EURGBP: 5.3min remaining
+[2026-04-23 12:28:44] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:29:14] [INFO] Processing EURUSD
+[2026-04-23 12:29:14] [INFO] Processing GBPUSD
+[2026-04-23 12:29:14] [INFO] Processing XAUUSD
+[2026-04-23 12:29:14] [INFO] Processing EURGBP
+[2026-04-23 12:29:14] [SKIP] Cooldown active for GBPUSD: 4.8min remaining
+[2026-04-23 12:29:14] [SKIP] BoS failed for EURUSD at 2026-04-23 12:29:14.882845: Close 1.16940 not above last high 1.17119
+[2026-04-23 12:29:14] [SKIP] Cooldown active for XAUUSD: 5.3min remaining
+[2026-04-23 12:29:14] [SKIP] Cooldown active for EURGBP: 4.8min remaining
+[2026-04-23 12:29:14] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:29:44] [INFO] Processing EURUSD
+[2026-04-23 12:29:44] [INFO] Processing GBPUSD
+[2026-04-23 12:29:44] [INFO] Processing XAUUSD
+[2026-04-23 12:29:44] [SKIP] Cooldown active for GBPUSD: 4.3min remaining
+[2026-04-23 12:29:44] [INFO] Processing EURGBP
+[2026-04-23 12:29:44] [SKIP] BoS failed for EURUSD at 2026-04-23 12:29:44.922932: Close 1.16940 not above last high 1.17119
+[2026-04-23 12:29:44] [SKIP] Cooldown active for XAUUSD: 4.8min remaining
+[2026-04-23 12:29:44] [SKIP] Cooldown active for EURGBP: 4.3min remaining
+[2026-04-23 12:29:44] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:30:14] [INFO] Processing EURUSD
+[2026-04-23 12:30:14] [INFO] Processing GBPUSD
+[2026-04-23 12:30:14] [INFO] Processing EURGBP
+[2026-04-23 12:30:15] [INFO] Processing XAUUSD
+[2026-04-23 12:30:15] [SKIP] Cooldown active for GBPUSD: 3.8min remaining
+[2026-04-23 12:30:15] [SKIP] Cooldown active for EURGBP: 3.8min remaining
+[2026-04-23 12:30:15] [SKIP] Cooldown active for XAUUSD: 4.3min remaining
+[2026-04-23 12:30:15] [SKIP] BoS failed for EURUSD at 2026-04-23 12:30:14.959213: Close 1.16957 not above last high 1.17119
+[2026-04-23 12:30:15] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:30:45] [INFO] Processing EURUSD
+[2026-04-23 12:30:45] [INFO] Processing GBPUSD
+[2026-04-23 12:30:45] [INFO] Processing XAUUSD
+[2026-04-23 12:30:45] [INFO] Processing EURGBP
+[2026-04-23 12:30:45] [SKIP] Cooldown active for GBPUSD: 3.3min remaining
+[2026-04-23 12:30:45] [SKIP] BoS failed for EURUSD at 2026-04-23 12:30:45.095534: Close 1.16957 not above last high 1.17119
+[2026-04-23 12:30:45] [SKIP] Cooldown active for XAUUSD: 3.8min remaining
+[2026-04-23 12:30:45] [SKIP] Cooldown active for EURGBP: 3.3min remaining
+[2026-04-23 12:30:45] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:31:15] [INFO] Processing EURUSD
+[2026-04-23 12:31:15] [INFO] Processing GBPUSD
+[2026-04-23 12:31:15] [INFO] Processing XAUUSD
+[2026-04-23 12:31:15] [INFO] Processing EURGBP
+[2026-04-23 12:31:15] [SKIP] Cooldown active for GBPUSD: 2.8min remaining
+[2026-04-23 12:31:15] [SKIP] BoS failed for EURUSD at 2026-04-23 12:31:15.130402: Close 1.16950 not above last high 1.17119
+[2026-04-23 12:31:15] [SKIP] Cooldown active for XAUUSD: 3.3min remaining
+[2026-04-23 12:31:15] [SKIP] Cooldown active for EURGBP: 2.8min remaining
+[2026-04-23 12:31:15] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:31:45] [INFO] Processing EURUSD
+[2026-04-23 12:31:45] [INFO] Processing GBPUSD
+[2026-04-23 12:31:45] [INFO] Processing XAUUSD
+[2026-04-23 12:31:45] [INFO] Processing EURGBP
+[2026-04-23 12:31:45] [SKIP] Cooldown active for GBPUSD: 2.3min remaining
+[2026-04-23 12:31:45] [SKIP] BoS failed for EURUSD at 2026-04-23 12:31:45.162400: Close 1.16950 not above last high 1.17119
+[2026-04-23 12:31:45] [SKIP] Cooldown active for EURGBP: 2.3min remaining
+[2026-04-23 12:31:45] [SKIP] Cooldown active for XAUUSD: 2.8min remaining
+[2026-04-23 12:31:45] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:32:49] [INFO] Processing EURUSD
+[2026-04-23 12:32:49] [SKIP] BoS failed for EURUSD at 2026-04-23 12:32:49.585731: Close 1.16956 not above last high 1.17119
+[2026-04-23 12:32:49] [INFO] Processing GBPUSD
+[2026-04-23 12:32:49] [SKIP] Cooldown active for GBPUSD: 1.3min remaining
+[2026-04-23 12:32:49] [INFO] Processing EURGBP
+[2026-04-23 12:32:49] [INFO] Processing XAUUSD
+[2026-04-23 12:32:49] [SKIP] Cooldown active for EURGBP: 1.3min remaining
+[2026-04-23 12:32:49] [SKIP] Cooldown active for XAUUSD: 1.8min remaining
+[2026-04-23 12:32:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:33:19] [INFO] Processing EURUSD
+[2026-04-23 12:33:19] [INFO] Processing XAUUSD
+[2026-04-23 12:33:19] [INFO] Processing GBPUSD
+[2026-04-23 12:33:19] [INFO] Processing EURGBP
+[2026-04-23 12:33:19] [SKIP] Cooldown active for XAUUSD: 1.3min remaining
+[2026-04-23 12:33:19] [SKIP] BoS failed for EURUSD at 2026-04-23 12:33:19.618505: Close 1.16956 not above last high 1.17119
+[2026-04-23 12:33:19] [SKIP] Cooldown active for EURGBP: 0.8min remaining
+[2026-04-23 12:33:19] [SKIP] Cooldown active for GBPUSD: 0.8min remaining
+[2026-04-23 12:33:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:33:49] [INFO] Processing EURUSD
+[2026-04-23 12:33:49] [INFO] Processing XAUUSD
+[2026-04-23 12:33:49] [INFO] Processing EURGBP
+[2026-04-23 12:33:49] [INFO] Processing GBPUSD
+[2026-04-23 12:33:49] [SKIP] Cooldown active for EURGBP: 0.3min remaining
+[2026-04-23 12:33:49] [SKIP] Cooldown active for XAUUSD: 0.8min remaining
+[2026-04-23 12:33:49] [SKIP] Cooldown active for GBPUSD: 0.3min remaining
+[2026-04-23 12:33:49] [SKIP] BoS failed for EURUSD at 2026-04-23 12:33:49.656887: Close 1.16954 not above last high 1.17119
+[2026-04-23 12:33:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:34:19] [INFO] Processing EURUSD
+[2026-04-23 12:34:19] [INFO] Processing XAUUSD
+[2026-04-23 12:34:19] [INFO] Processing EURGBP
+[2026-04-23 12:34:19] [SKIP] BoS failed for EURUSD at 2026-04-23 12:34:19.979099: Close 1.16954 not above last high 1.17119
+[2026-04-23 12:34:19] [SKIP] Cooldown active for XAUUSD: 0.3min remaining
+[2026-04-23 12:34:20] [WARN] Resetting state for GBPUSD due to staleness
+[2026-04-23 12:34:20] [WARN] Resetting state for EURGBP due to staleness
+[2026-04-23 12:34:20] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 1.00 | Strength: 10 touches | Level: 1.3492 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 12:34:20] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 1.00 | Strength: 4 touches | Level: 0.8676 | Sweep Type: break_retest | Time: 2026-04-23 08:00:00
+[2026-04-23 12:34:20] [SKIP] BoS failed for GBPUSD at 2026-04-23 12:34:19.980198: Close 1.35025 not above last high 1.35074
+[2026-04-23 12:34:20] [SKIP] BoS failed for EURGBP at 2026-04-23 12:34:19.992765: Close 0.86619 not below last low 1.34811
+[2026-04-23 12:34:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:34:50] [INFO] Processing EURUSD
+[2026-04-23 12:34:50] [INFO] Processing GBPUSD
+[2026-04-23 12:34:50] [INFO] Processing XAUUSD
+[2026-04-23 12:34:50] [SKIP] BoS failed for EURUSD at 2026-04-23 12:34:50.627420: Close 1.16957 not above last high 1.17119
+[2026-04-23 12:34:50] [INFO] Processing EURGBP
+[2026-04-23 12:34:50] [INFO] BoS confirmed for GBPUSD: Bullish break above 1.17119
+[2026-04-23 12:34:50] [WARN] Resetting state for XAUUSD due to staleness
+[2026-04-23 12:34:50] [INFO] Adaptive risk for GBPUSD: 1.14% (ATR factor: 1.14)
+[2026-04-23 12:34:50] [SKIP] BoS failed for EURGBP at 2026-04-23 12:34:50.643273: Close 0.86619 not below last low 1.16930
+[2026-04-23 12:34:50] [SUCCESS] BoS confirmed for GBPUSD at 2026-04-23 12:34:50.628012: Risk=1.14%
+[2026-04-23 12:34:50] [SUCCESS] Sweep confirmed on HTF for XAUUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 4694.1400 | Sweep Type: wick | Time: 2026-04-23 08:00:00
+[2026-04-23 12:34:50] [INFO] Entry price set for GBPUSD: 1.35025
+[2026-04-23 12:34:50] [INFO] Fixed SL for GBPUSD: 1.34965 (6 pips)
+[2026-04-23 12:34:50] [SKIP] BoS failed for XAUUSD at 2026-04-23 12:34:50.628975: Close 4701.26000 not above last high 1.35074
+[2026-04-23 12:34:50] [INFO] Calculated TP for GBPUSD: 1.35205 (RR=3.00)
+[2026-04-23 12:34:50] [INFO] Fixed RR TP for GBPUSD: 1.35205, RR=3.00
+[2026-04-23 12:34:50] [TRADE] GBPUSD | Bullish @ 1.35025 | SL: 1.34965 | TP: 1.35205 | Lot: 0.94
+[2026-04-23 12:34:50] [INFO] Execution mode for GBPUSD: Unknown
+[2026-04-23 12:34:50] [WARN] Preferred fill type IOC not supported for GBPUSD. Falling back to FOK
+[2026-04-23 12:34:50] [SUCCESS] Order placed on GBPUSD: Bullish 0.94 lots @ 1.35030, SL=1.34965, TP=1.35205, Filling=FOK
+[2026-04-23 12:34:50] [SUCCESS] Trade executed on GBPUSD
+[2026-04-23 12:34:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:35:20] [INFO] Processing EURUSD
+[2026-04-23 12:35:20] [INFO] Processing GBPUSD
+[2026-04-23 12:35:20] [INFO] Processing XAUUSD
+[2026-04-23 12:35:20] [SKIP] Cooldown active for GBPUSD: 59.5min remaining
+[2026-04-23 12:35:20] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-23 12:35:20] [INFO] Processing EURGBP
+[2026-04-23 12:35:20] [SKIP] BoS failed for XAUUSD at 2026-04-23 12:35:20.937186: Close 4701.26000 not above last high 1.17119
+[2026-04-23 12:35:21] [SKIP] BoS failed for EURGBP at 2026-04-23 12:35:20.954966: Close 0.86617 not below last low 1.16930
+[2026-04-23 12:35:21] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 1.1702 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 12:35:21] [SKIP] BoS failed for EURUSD at 2026-04-23 12:35:20.934154: Close 1.16957 not above last high 1.35074
+[2026-04-23 12:35:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:35:51] [INFO] Processing EURUSD
+[2026-04-23 12:35:51] [INFO] Processing GBPUSD
+[2026-04-23 12:35:51] [SKIP] Cooldown active for GBPUSD: 59.0min remaining
+[2026-04-23 12:35:51] [INFO] Processing XAUUSD
+[2026-04-23 12:35:51] [INFO] Processing EURGBP
+[2026-04-23 12:35:51] [SKIP] BoS failed for EURUSD at 2026-04-23 12:35:51.283263: Close 1.16955 not above last high 1.17119
+[2026-04-23 12:35:51] [INFO] BoS confirmed for XAUUSD: Bullish break above 1.17119
+[2026-04-23 12:35:51] [SKIP] BoS failed for EURGBP at 2026-04-23 12:35:51.296028: Close 0.86617 not below last low 1.16930
+[2026-04-23 12:35:51] [INFO] Adaptive risk for XAUUSD: 0.94% (ATR factor: 0.94)
+[2026-04-23 12:35:51] [SUCCESS] BoS confirmed for XAUUSD at 2026-04-23 12:35:51.285619: Risk=0.94%
+[2026-04-23 12:35:51] [INFO] Entry price set for XAUUSD: 4702.62000
+[2026-04-23 12:35:51] [INFO] Fixed SL for XAUUSD: 4696.62000 (6 pips)
+[2026-04-23 12:35:51] [INFO] Calculated TP for XAUUSD: 4720.62000 (RR=3.00)
+[2026-04-23 12:35:51] [INFO] Fixed RR TP for XAUUSD: 4720.62000, RR=3.00
+[2026-04-23 12:35:51] [TRADE] XAUUSD | Bullish @ 4702.62000 | SL: 4696.62000 | TP: 4720.62000 | Lot: 0.08
+[2026-04-23 12:35:51] [INFO] Execution mode for XAUUSD: Unknown
+[2026-04-23 12:35:51] [WARN] Preferred fill type IOC not supported for XAUUSD. Falling back to FOK
+[2026-04-23 12:35:51] [SUCCESS] Order placed on XAUUSD: Bullish 0.08 lots @ 4702.79000, SL=4696.62000, TP=4720.62000, Filling=FOK
+[2026-04-23 12:35:51] [SUCCESS] Trade executed on XAUUSD
+[2026-04-23 12:35:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:36:21] [INFO] Processing EURUSD
+[2026-04-23 12:36:21] [INFO] Processing GBPUSD
+[2026-04-23 12:36:21] [INFO] Processing XAUUSD
+[2026-04-23 12:36:21] [SKIP] BoS failed for EURUSD at 2026-04-23 12:36:21.609544: Close 1.16955 not above last high 1.17119
+[2026-04-23 12:36:21] [INFO] Processing EURGBP
+[2026-04-23 12:36:21] [SKIP] Cooldown active for GBPUSD: 58.5min remaining
+[2026-04-23 12:36:21] [SKIP] Cooldown active for XAUUSD: 59.5min remaining
+[2026-04-23 12:36:21] [INFO] BoS confirmed for EURGBP: Bearish break below 0.86609
+[2026-04-23 12:36:21] [INFO] Adaptive risk for EURGBP: 1.25% (ATR factor: 1.31)
+[2026-04-23 12:36:21] [SUCCESS] BoS confirmed for EURGBP at 2026-04-23 12:36:21.624080: Risk=1.25%
+[2026-04-23 12:36:21] [INFO] Entry price set for EURGBP: 0.86602
+[2026-04-23 12:36:21] [INFO] Fixed SL for EURGBP: 0.86662 (6 pips)
+[2026-04-23 12:36:21] [INFO] Calculated TP for EURGBP: 0.86422 (RR=3.00)
+[2026-04-23 12:36:21] [INFO] Fixed RR TP for EURGBP: 0.86422, RR=3.00
+[2026-04-23 12:36:21] [TRADE] EURGBP | Bearish @ 0.86602 | SL: 0.86662 | TP: 0.86422 | Lot: 1.03
+[2026-04-23 12:36:21] [INFO] Execution mode for EURGBP: Unknown
+[2026-04-23 12:36:21] [WARN] Preferred fill type IOC not supported for EURGBP. Falling back to FOK
+[2026-04-23 12:36:21] [SUCCESS] Order placed on EURGBP: Bearish 1.03 lots @ 0.86602, SL=0.86662, TP=0.86422, Filling=FOK
+[2026-04-23 12:36:21] [SUCCESS] Trade executed on EURGBP
+[2026-04-23 12:36:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:36:51] [INFO] Processing EURUSD
+[2026-04-23 12:36:51] [INFO] Processing GBPUSD
+[2026-04-23 12:36:51] [INFO] Processing XAUUSD
+[2026-04-23 12:36:51] [INFO] Processing EURGBP
+[2026-04-23 12:36:51] [SKIP] Cooldown active for GBPUSD: 58.0min remaining
+[2026-04-23 12:36:51] [SKIP] BoS failed for EURUSD at 2026-04-23 12:36:51.884101: Close 1.16952 not above last high 0.86787
+[2026-04-23 12:36:51] [SKIP] Cooldown active for EURGBP: 59.5min remaining
+[2026-04-23 12:36:51] [SKIP] Cooldown active for XAUUSD: 59.0min remaining
+[2026-04-23 12:36:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:37:21] [INFO] Processing EURUSD
+[2026-04-23 12:37:21] [INFO] Processing GBPUSD
+[2026-04-23 12:37:21] [INFO] Processing XAUUSD
+[2026-04-23 12:37:21] [INFO] Processing EURGBP
+[2026-04-23 12:37:21] [SKIP] BoS failed for EURUSD at 2026-04-23 12:37:21.920334: Close 1.16952 not above last high 0.86787
+[2026-04-23 12:37:21] [SKIP] Cooldown active for GBPUSD: 57.5min remaining
+[2026-04-23 12:37:21] [SKIP] Cooldown active for XAUUSD: 58.5min remaining
+[2026-04-23 12:37:21] [SKIP] Cooldown active for EURGBP: 59.0min remaining
+[2026-04-23 12:37:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:37:51] [INFO] Processing EURUSD
+[2026-04-23 12:37:51] [INFO] Processing GBPUSD
+[2026-04-23 12:37:51] [INFO] Processing XAUUSD
+[2026-04-23 12:37:51] [INFO] Processing EURGBP
+[2026-04-23 12:37:51] [SKIP] BoS failed for EURUSD at 2026-04-23 12:37:51.955603: Close 1.16936 not above last high 0.86787
+[2026-04-23 12:37:51] [SKIP] Cooldown active for GBPUSD: 57.0min remaining
+[2026-04-23 12:37:51] [SKIP] Cooldown active for XAUUSD: 58.0min remaining
+[2026-04-23 12:37:51] [SKIP] Cooldown active for EURGBP: 58.5min remaining
+[2026-04-23 12:37:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:43:47] [INFO] Processing EURUSD
+[2026-04-23 12:43:47] [INFO] Processing GBPUSD
+[2026-04-23 12:43:47] [INFO] Processing XAUUSD
+[2026-04-23 12:43:47] [SKIP] BoS failed for EURUSD at 2026-04-23 12:43:47.209427: Close 1.16937 not above last high 0.86787
+[2026-04-23 12:43:47] [SKIP] Cooldown active for GBPUSD: 51.1min remaining
+[2026-04-23 12:43:47] [INFO] Processing EURGBP
+[2026-04-23 12:43:47] [SKIP] Cooldown active for XAUUSD: 52.1min remaining
+[2026-04-23 12:43:47] [SKIP] Cooldown active for EURGBP: 52.6min remaining
+[2026-04-23 12:43:47] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:44:17] [INFO] Processing EURUSD
+[2026-04-23 12:44:17] [INFO] Processing GBPUSD
+[2026-04-23 12:44:17] [INFO] Processing XAUUSD
+[2026-04-23 12:44:17] [INFO] Processing EURGBP
+[2026-04-23 12:44:17] [SKIP] BoS failed for EURUSD at 2026-04-23 12:44:17.304860: Close 1.16937 not above last high 0.86787
+[2026-04-23 12:44:17] [SKIP] Cooldown active for GBPUSD: 50.6min remaining
+[2026-04-23 12:44:17] [SKIP] Cooldown active for EURGBP: 52.1min remaining
+[2026-04-23 12:44:17] [SKIP] Cooldown active for XAUUSD: 51.6min remaining
+[2026-04-23 12:44:17] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:44:47] [INFO] Processing EURUSD
+[2026-04-23 12:44:47] [INFO] Processing GBPUSD
+[2026-04-23 12:44:47] [INFO] Processing XAUUSD
+[2026-04-23 12:44:47] [INFO] Processing EURGBP
+[2026-04-23 12:44:47] [SKIP] Cooldown active for XAUUSD: 51.1min remaining
+[2026-04-23 12:44:47] [SKIP] Cooldown active for GBPUSD: 50.1min remaining
+[2026-04-23 12:44:47] [SKIP] Cooldown active for EURGBP: 51.6min remaining
+[2026-04-23 12:44:47] [SKIP] BoS failed for EURUSD at 2026-04-23 12:44:47.352142: Close 1.16961 not above last high 1.17119
+[2026-04-23 12:44:47] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:45:17] [INFO] Processing EURUSD
+[2026-04-23 12:45:17] [INFO] Processing GBPUSD
+[2026-04-23 12:45:17] [INFO] Processing XAUUSD
+[2026-04-23 12:45:17] [INFO] Processing EURGBP
+[2026-04-23 12:45:17] [SKIP] BoS failed for EURUSD at 2026-04-23 12:45:17.596765: Close 1.16961 not above last high 1.17119
+[2026-04-23 12:45:17] [SKIP] Cooldown active for XAUUSD: 50.6min remaining
+[2026-04-23 12:45:17] [SKIP] Cooldown active for GBPUSD: 49.6min remaining
+[2026-04-23 12:45:17] [SKIP] Cooldown active for EURGBP: 51.1min remaining
+[2026-04-23 12:45:17] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:45:47] [INFO] Processing EURUSD
+[2026-04-23 12:45:47] [INFO] Processing GBPUSD
+[2026-04-23 12:45:47] [INFO] Processing XAUUSD
+[2026-04-23 12:45:47] [INFO] Processing EURGBP
+[2026-04-23 12:45:47] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-23 12:45:47] [SKIP] Cooldown active for XAUUSD: 50.1min remaining
+[2026-04-23 12:45:47] [SKIP] Cooldown active for GBPUSD: 49.1min remaining
+[2026-04-23 12:45:47] [SKIP] Cooldown active for EURGBP: 50.6min remaining
+[2026-04-23 12:45:47] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 1.1702 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 12:45:47] [SKIP] BoS failed for EURUSD at 2026-04-23 12:45:47.629092: Close 1.16957 not above last high 1.17119
+[2026-04-23 12:45:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:46:18] [INFO] Processing EURUSD
+[2026-04-23 12:46:18] [INFO] Processing GBPUSD
+[2026-04-23 12:46:18] [INFO] Processing XAUUSD
+[2026-04-23 12:46:18] [INFO] Processing EURGBP
+[2026-04-23 12:46:18] [SKIP] Cooldown active for GBPUSD: 48.5min remaining
+[2026-04-23 12:46:18] [SKIP] Cooldown active for XAUUSD: 49.6min remaining
+[2026-04-23 12:46:18] [SKIP] Cooldown active for EURGBP: 50.1min remaining
+[2026-04-23 12:46:18] [SKIP] BoS failed for EURUSD at 2026-04-23 12:46:18.007287: Close 1.16957 not above last high 1.17119
+[2026-04-23 12:46:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:46:48] [INFO] Processing EURUSD
+[2026-04-23 12:46:48] [INFO] Processing GBPUSD
+[2026-04-23 12:46:48] [INFO] Processing XAUUSD
+[2026-04-23 12:46:48] [INFO] Processing EURGBP
+[2026-04-23 12:46:48] [SKIP] Cooldown active for GBPUSD: 48.0min remaining
+[2026-04-23 12:46:48] [SKIP] BoS failed for EURUSD at 2026-04-23 12:46:48.157835: Close 1.16945 not above last high 1.17119
+[2026-04-23 12:46:48] [SKIP] Cooldown active for XAUUSD: 49.1min remaining
+[2026-04-23 12:46:48] [SKIP] Cooldown active for EURGBP: 49.6min remaining
+[2026-04-23 12:46:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:47:18] [INFO] Processing EURUSD
+[2026-04-23 12:47:18] [INFO] Processing GBPUSD
+[2026-04-23 12:47:18] [INFO] Processing XAUUSD
+[2026-04-23 12:47:18] [INFO] Processing EURGBP
+[2026-04-23 12:47:18] [SKIP] BoS failed for EURUSD at 2026-04-23 12:47:18.197923: Close 1.16945 not above last high 1.17119
+[2026-04-23 12:47:18] [SKIP] Cooldown active for GBPUSD: 47.5min remaining
+[2026-04-23 12:47:18] [SKIP] Cooldown active for XAUUSD: 48.6min remaining
+[2026-04-23 12:47:18] [SKIP] Cooldown active for EURGBP: 49.1min remaining
+[2026-04-23 12:47:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:47:48] [INFO] Processing EURUSD
+[2026-04-23 12:47:48] [INFO] Processing GBPUSD
+[2026-04-23 12:47:48] [INFO] Processing XAUUSD
+[2026-04-23 12:47:48] [INFO] Processing EURGBP
+[2026-04-23 12:47:48] [SKIP] BoS failed for EURUSD at 2026-04-23 12:47:48.229097: Close 1.16924 not above last high 1.17119
+[2026-04-23 12:47:48] [SKIP] Cooldown active for XAUUSD: 48.1min remaining
+[2026-04-23 12:47:48] [SKIP] Cooldown active for GBPUSD: 47.0min remaining
+[2026-04-23 12:47:48] [SKIP] Cooldown active for EURGBP: 48.6min remaining
+[2026-04-23 12:47:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:48:18] [INFO] Processing EURUSD
+[2026-04-23 12:48:18] [INFO] Processing GBPUSD
+[2026-04-23 12:48:18] [INFO] Processing XAUUSD
+[2026-04-23 12:48:18] [INFO] Processing EURGBP
+[2026-04-23 12:48:18] [SKIP] Cooldown active for GBPUSD: 46.5min remaining
+[2026-04-23 12:48:18] [SKIP] BoS failed for EURUSD at 2026-04-23 12:48:18.256354: Close 1.16924 not above last high 1.17119
+[2026-04-23 12:48:18] [SKIP] Cooldown active for XAUUSD: 47.6min remaining
+[2026-04-23 12:48:18] [SKIP] Cooldown active for EURGBP: 48.1min remaining
+[2026-04-23 12:48:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:48:48] [INFO] Processing EURUSD
+[2026-04-23 12:48:48] [INFO] Processing GBPUSD
+[2026-04-23 12:48:48] [INFO] Processing XAUUSD
+[2026-04-23 12:48:48] [INFO] Processing EURGBP
+[2026-04-23 12:48:48] [SKIP] Cooldown active for XAUUSD: 47.1min remaining
+[2026-04-23 12:48:48] [SKIP] Cooldown active for GBPUSD: 46.0min remaining
+[2026-04-23 12:48:48] [SKIP] Cooldown active for EURGBP: 47.6min remaining
+[2026-04-23 12:48:48] [SKIP] BoS failed for EURUSD at 2026-04-23 12:48:48.299571: Close 1.16926 not above last high 1.17119
+[2026-04-23 12:48:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:49:18] [INFO] Processing EURUSD
+[2026-04-23 12:49:18] [INFO] Processing XAUUSD
+[2026-04-23 12:49:18] [INFO] Processing GBPUSD
+[2026-04-23 12:49:18] [SKIP] Cooldown active for XAUUSD: 46.6min remaining
+[2026-04-23 12:49:18] [INFO] Processing EURGBP
+[2026-04-23 12:49:18] [SKIP] BoS failed for EURUSD at 2026-04-23 12:49:18.578075: Close 1.16926 not above last high 1.17119
+[2026-04-23 12:49:18] [SKIP] Cooldown active for GBPUSD: 45.5min remaining
+[2026-04-23 12:49:18] [SKIP] Cooldown active for EURGBP: 47.1min remaining
+[2026-04-23 12:49:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:49:48] [INFO] Processing EURUSD
+[2026-04-23 12:49:48] [INFO] Processing GBPUSD
+[2026-04-23 12:49:48] [INFO] Processing XAUUSD
+[2026-04-23 12:49:48] [INFO] Processing EURGBP
+[2026-04-23 12:49:48] [SKIP] Cooldown active for GBPUSD: 45.0min remaining
+[2026-04-23 12:49:48] [SKIP] Cooldown active for XAUUSD: 46.0min remaining
+[2026-04-23 12:49:48] [SKIP] BoS failed for EURUSD at 2026-04-23 12:49:48.617747: Close 1.16920 not above last high 1.17119
+[2026-04-23 12:49:48] [SKIP] Cooldown active for EURGBP: 46.6min remaining
+[2026-04-23 12:49:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:50:18] [INFO] Processing EURUSD
+[2026-04-23 12:50:18] [INFO] Processing XAUUSD
+[2026-04-23 12:50:18] [INFO] Processing GBPUSD
+[2026-04-23 12:50:18] [INFO] Processing EURGBP
+[2026-04-23 12:50:18] [SKIP] Cooldown active for XAUUSD: 45.5min remaining
+[2026-04-23 12:50:18] [SKIP] BoS failed for EURUSD at 2026-04-23 12:50:18.652731: Close 1.16920 not above last high 1.17119
+[2026-04-23 12:50:18] [SKIP] Cooldown active for GBPUSD: 44.5min remaining
+[2026-04-23 12:50:18] [SKIP] Cooldown active for EURGBP: 46.1min remaining
+[2026-04-23 12:50:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:50:48] [INFO] Processing EURUSD
+[2026-04-23 12:50:48] [INFO] Processing GBPUSD
+[2026-04-23 12:50:48] [INFO] Processing XAUUSD
+[2026-04-23 12:50:48] [INFO] Processing EURGBP
+[2026-04-23 12:50:48] [SKIP] Cooldown active for GBPUSD: 44.0min remaining
+[2026-04-23 12:50:48] [SKIP] BoS failed for EURUSD at 2026-04-23 12:50:48.688017: Close 1.16929 not above last high 1.17119
+[2026-04-23 12:50:48] [SKIP] Cooldown active for EURGBP: 45.6min remaining
+[2026-04-23 12:50:48] [SKIP] Cooldown active for XAUUSD: 45.0min remaining
+[2026-04-23 12:50:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:51:18] [INFO] Processing EURUSD
+[2026-04-23 12:51:18] [INFO] Processing GBPUSD
+[2026-04-23 12:51:18] [INFO] Processing XAUUSD
+[2026-04-23 12:51:18] [INFO] Processing EURGBP
+[2026-04-23 12:51:18] [SKIP] Cooldown active for GBPUSD: 43.5min remaining
+[2026-04-23 12:51:18] [SKIP] BoS failed for EURUSD at 2026-04-23 12:51:18.727872: Close 1.16929 not above last high 1.17119
+[2026-04-23 12:51:18] [SKIP] Cooldown active for XAUUSD: 44.5min remaining
+[2026-04-23 12:51:18] [SKIP] Cooldown active for EURGBP: 45.1min remaining
+[2026-04-23 12:51:18] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:51:48] [INFO] Processing EURUSD
+[2026-04-23 12:51:48] [INFO] Processing GBPUSD
+[2026-04-23 12:51:48] [INFO] Processing XAUUSD
+[2026-04-23 12:51:48] [INFO] Processing EURGBP
+[2026-04-23 12:51:48] [SKIP] Cooldown active for GBPUSD: 43.0min remaining
+[2026-04-23 12:51:48] [SKIP] Cooldown active for XAUUSD: 44.0min remaining
+[2026-04-23 12:51:48] [SKIP] Cooldown active for EURGBP: 44.5min remaining
+[2026-04-23 12:51:48] [SKIP] BoS failed for EURUSD at 2026-04-23 12:51:48.764330: Close 1.16931 not above last high 1.17119
+[2026-04-23 12:51:48] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:52:18] [INFO] Processing EURUSD
+[2026-04-23 12:52:19] [INFO] Processing XAUUSD
+[2026-04-23 12:52:19] [INFO] Processing EURGBP
+[2026-04-23 12:52:19] [INFO] Processing GBPUSD
+[2026-04-23 12:52:19] [SKIP] BoS failed for EURUSD at 2026-04-23 12:52:18.991805: Close 1.16931 not above last high 1.17119
+[2026-04-23 12:52:19] [SKIP] Cooldown active for XAUUSD: 43.5min remaining
+[2026-04-23 12:52:19] [SKIP] Cooldown active for EURGBP: 44.0min remaining
+[2026-04-23 12:52:19] [SKIP] Cooldown active for GBPUSD: 42.5min remaining
+[2026-04-23 12:52:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:52:49] [INFO] Processing EURUSD
+[2026-04-23 12:52:49] [INFO] Processing XAUUSD
+[2026-04-23 12:52:49] [INFO] Processing GBPUSD
+[2026-04-23 12:52:49] [INFO] Processing EURGBP
+[2026-04-23 12:52:49] [SKIP] BoS failed for EURUSD at 2026-04-23 12:52:49.041924: Close 1.16935 not above last high 1.17119
+[2026-04-23 12:52:49] [SKIP] Cooldown active for GBPUSD: 42.0min remaining
+[2026-04-23 12:52:49] [SKIP] Cooldown active for XAUUSD: 43.0min remaining
+[2026-04-23 12:52:49] [SKIP] Cooldown active for EURGBP: 43.5min remaining
+[2026-04-23 12:52:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:53:19] [INFO] Processing EURUSD
+[2026-04-23 12:53:19] [INFO] Processing GBPUSD
+[2026-04-23 12:53:19] [INFO] Processing XAUUSD
+[2026-04-23 12:53:19] [INFO] Processing EURGBP
+[2026-04-23 12:53:19] [SKIP] Cooldown active for GBPUSD: 41.5min remaining
+[2026-04-23 12:53:19] [SKIP] BoS failed for EURUSD at 2026-04-23 12:53:19.087936: Close 1.16935 not above last high 1.17119
+[2026-04-23 12:53:19] [SKIP] Cooldown active for XAUUSD: 42.5min remaining
+[2026-04-23 12:53:19] [SKIP] Cooldown active for EURGBP: 43.0min remaining
+[2026-04-23 12:53:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:53:49] [INFO] Processing EURUSD
+[2026-04-23 12:53:49] [INFO] Processing GBPUSD
+[2026-04-23 12:53:49] [INFO] Processing XAUUSD
+[2026-04-23 12:53:49] [INFO] Processing EURGBP
+[2026-04-23 12:53:49] [SKIP] Cooldown active for GBPUSD: 41.0min remaining
+[2026-04-23 12:53:49] [SKIP] BoS failed for EURUSD at 2026-04-23 12:53:49.143535: Close 1.16944 not above last high 1.17119
+[2026-04-23 12:53:49] [SKIP] Cooldown active for EURGBP: 42.5min remaining
+[2026-04-23 12:53:49] [SKIP] Cooldown active for XAUUSD: 42.0min remaining
+[2026-04-23 12:53:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:54:19] [INFO] Processing EURUSD
+[2026-04-23 12:54:19] [INFO] Processing GBPUSD
+[2026-04-23 12:54:19] [INFO] Processing XAUUSD
+[2026-04-23 12:54:19] [SKIP] Cooldown active for GBPUSD: 40.5min remaining
+[2026-04-23 12:54:19] [INFO] Processing EURGBP
+[2026-04-23 12:54:19] [SKIP] BoS failed for EURUSD at 2026-04-23 12:54:19.211283: Close 1.16944 not above last high 1.17119
+[2026-04-23 12:54:19] [SKIP] Cooldown active for EURGBP: 42.0min remaining
+[2026-04-23 12:54:19] [SKIP] Cooldown active for XAUUSD: 41.5min remaining
+[2026-04-23 12:54:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:54:49] [INFO] Processing EURUSD
+[2026-04-23 12:54:49] [INFO] Processing GBPUSD
+[2026-04-23 12:54:49] [INFO] Processing XAUUSD
+[2026-04-23 12:54:49] [INFO] Processing EURGBP
+[2026-04-23 12:54:49] [SKIP] Cooldown active for GBPUSD: 40.0min remaining
+[2026-04-23 12:54:49] [SKIP] Cooldown active for EURGBP: 41.5min remaining
+[2026-04-23 12:54:49] [SKIP] Cooldown active for XAUUSD: 41.0min remaining
+[2026-04-23 12:54:49] [SKIP] BoS failed for EURUSD at 2026-04-23 12:54:49.275824: Close 1.16943 not above last high 1.17119
+[2026-04-23 12:54:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:55:19] [INFO] Processing EURUSD
+[2026-04-23 12:55:19] [INFO] Processing GBPUSD
+[2026-04-23 12:55:19] [INFO] Processing XAUUSD
+[2026-04-23 12:55:19] [INFO] Processing EURGBP
+[2026-04-23 12:55:19] [SKIP] BoS failed for EURUSD at 2026-04-23 12:55:19.581878: Close 1.16943 not above last high 1.17119
+[2026-04-23 12:55:19] [SKIP] Cooldown active for GBPUSD: 39.5min remaining
+[2026-04-23 12:55:19] [SKIP] Cooldown active for XAUUSD: 40.5min remaining
+[2026-04-23 12:55:19] [SKIP] Cooldown active for EURGBP: 41.0min remaining
+[2026-04-23 12:55:19] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:55:49] [INFO] Processing EURUSD
+[2026-04-23 12:55:49] [INFO] Processing GBPUSD
+[2026-04-23 12:55:49] [INFO] Processing XAUUSD
+[2026-04-23 12:55:49] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-23 12:55:49] [INFO] Processing EURGBP
+[2026-04-23 12:55:49] [SKIP] Cooldown active for GBPUSD: 39.0min remaining
+[2026-04-23 12:55:49] [SKIP] Cooldown active for EURGBP: 40.5min remaining
+[2026-04-23 12:55:49] [SKIP] Cooldown active for XAUUSD: 40.0min remaining
+[2026-04-23 12:55:49] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.90 | Strength: 3 touches | Level: 1.1702 | Sweep Type: wick | Time: 2026-04-23 03:00:00
+[2026-04-23 12:55:49] [SKIP] BoS failed for EURUSD at 2026-04-23 12:55:49.631455: Close 1.16956 not above last high 1.17119
+[2026-04-23 12:55:49] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:56:19] [INFO] Processing EURUSD
+[2026-04-23 12:56:20] [INFO] Processing GBPUSD
+[2026-04-23 12:56:20] [INFO] Processing XAUUSD
+[2026-04-23 12:56:20] [SKIP] BoS failed for EURUSD at 2026-04-23 12:56:19.975801: Close 1.16956 not above last high 1.17119
+[2026-04-23 12:56:20] [INFO] Processing EURGBP
+[2026-04-23 12:56:20] [SKIP] Cooldown active for XAUUSD: 39.5min remaining
+[2026-04-23 12:56:20] [SKIP] Cooldown active for GBPUSD: 38.5min remaining
+[2026-04-23 12:56:20] [SKIP] Cooldown active for EURGBP: 40.0min remaining
+[2026-04-23 12:56:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:56:50] [INFO] Processing EURUSD
+[2026-04-23 12:56:50] [INFO] Processing GBPUSD
+[2026-04-23 12:56:50] [INFO] Processing EURGBP
+[2026-04-23 12:56:50] [INFO] Processing XAUUSD
+[2026-04-23 12:56:50] [SKIP] BoS failed for EURUSD at 2026-04-23 12:56:50.043189: Close 1.16964 not above last high 1.17119
+[2026-04-23 12:56:50] [SKIP] Cooldown active for GBPUSD: 38.0min remaining
+[2026-04-23 12:56:50] [SKIP] Cooldown active for XAUUSD: 39.0min remaining
+[2026-04-23 12:56:50] [SKIP] Cooldown active for EURGBP: 39.5min remaining
+[2026-04-23 12:56:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:57:20] [INFO] Processing EURUSD
+[2026-04-23 12:57:20] [INFO] Processing GBPUSD
+[2026-04-23 12:57:20] [INFO] Processing XAUUSD
+[2026-04-23 12:57:20] [INFO] Processing EURGBP
+[2026-04-23 12:57:20] [SKIP] BoS failed for EURUSD at 2026-04-23 12:57:20.078411: Close 1.16964 not above last high 1.17119
+[2026-04-23 12:57:20] [SKIP] Cooldown active for GBPUSD: 37.5min remaining
+[2026-04-23 12:57:20] [SKIP] Cooldown active for EURGBP: 39.0min remaining
+[2026-04-23 12:57:20] [SKIP] Cooldown active for XAUUSD: 38.5min remaining
+[2026-04-23 12:57:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:57:50] [INFO] Processing EURUSD
+[2026-04-23 12:57:50] [INFO] Processing GBPUSD
+[2026-04-23 12:57:50] [INFO] Processing XAUUSD
+[2026-04-23 12:57:50] [SKIP] Cooldown active for XAUUSD: 38.0min remaining
+[2026-04-23 12:57:50] [SKIP] Cooldown active for GBPUSD: 37.0min remaining
+[2026-04-23 12:57:50] [SKIP] Cooldown active for EURGBP: 38.5min remaining
+[2026-04-23 12:57:50] [SKIP] BoS failed for EURUSD at 2026-04-23 12:57:50.126762: Close 1.16950 not above last high 1.17119
+[2026-04-23 12:57:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:58:20] [INFO] Processing EURUSD
+[2026-04-23 12:58:20] [INFO] Processing GBPUSD
+[2026-04-23 12:58:20] [INFO] Processing XAUUSD
+[2026-04-23 12:58:20] [INFO] Processing EURGBP
+[2026-04-23 12:58:20] [SKIP] BoS failed for EURUSD at 2026-04-23 12:58:20.398930: Close 1.16950 not above last high 1.17119
+[2026-04-23 12:58:20] [SKIP] Cooldown active for GBPUSD: 36.5min remaining
+[2026-04-23 12:58:20] [SKIP] Cooldown active for EURGBP: 38.0min remaining
+[2026-04-23 12:58:20] [SKIP] Cooldown active for XAUUSD: 37.5min remaining
+[2026-04-23 12:58:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:58:50] [INFO] Processing EURUSD
+[2026-04-23 12:58:50] [INFO] Processing GBPUSD
+[2026-04-23 12:58:50] [INFO] Processing XAUUSD
+[2026-04-23 12:58:50] [INFO] Processing EURGBP
+[2026-04-23 12:58:50] [SKIP] Cooldown active for GBPUSD: 36.0min remaining
+[2026-04-23 12:58:50] [SKIP] Cooldown active for XAUUSD: 37.0min remaining
+[2026-04-23 12:58:50] [SKIP] Cooldown active for EURGBP: 37.5min remaining
+[2026-04-23 12:58:50] [SKIP] BoS failed for EURUSD at 2026-04-23 12:58:50.450596: Close 1.16930 not above last high 1.17119
+[2026-04-23 12:58:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:59:20] [INFO] Processing EURUSD
+[2026-04-23 12:59:20] [INFO] Processing GBPUSD
+[2026-04-23 12:59:20] [INFO] Processing XAUUSD
+[2026-04-23 12:59:20] [INFO] Processing EURGBP
+[2026-04-23 12:59:20] [SKIP] Cooldown active for GBPUSD: 35.5min remaining
+[2026-04-23 12:59:20] [SKIP] BoS failed for EURUSD at 2026-04-23 12:59:20.561341: Close 1.16930 not above last high 1.17119
+[2026-04-23 12:59:20] [SKIP] Cooldown active for XAUUSD: 36.5min remaining
+[2026-04-23 12:59:20] [SKIP] Cooldown active for EURGBP: 37.0min remaining
+[2026-04-23 12:59:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 12:59:50] [INFO] Processing EURUSD
+[2026-04-23 12:59:50] [INFO] Processing GBPUSD
+[2026-04-23 12:59:50] [INFO] Processing XAUUSD
+[2026-04-23 12:59:50] [SKIP] BoS failed for EURUSD at 2026-04-23 12:59:50.613547: Close 1.16935 not above last high 1.17119
+[2026-04-23 12:59:50] [SKIP] Cooldown active for GBPUSD: 35.0min remaining
+[2026-04-23 12:59:50] [SKIP] Cooldown active for XAUUSD: 36.0min remaining
+[2026-04-23 12:59:50] [SKIP] Cooldown active for EURGBP: 36.5min remaining
+[2026-04-23 12:59:50] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:00:20] [INFO] Processing EURUSD
+[2026-04-23 13:00:20] [INFO] Processing GBPUSD
+[2026-04-23 13:00:20] [SKIP] Cooldown active for GBPUSD: 34.5min remaining
+[2026-04-23 13:00:20] [INFO] Processing XAUUSD
+[2026-04-23 13:00:20] [INFO] Processing EURGBP
+[2026-04-23 13:00:20] [SKIP] BoS failed for EURUSD at 2026-04-23 13:00:20.677601: Close 1.16935 not above last high 1.17119
+[2026-04-23 13:00:20] [SKIP] Cooldown active for XAUUSD: 35.5min remaining
+[2026-04-23 13:00:20] [SKIP] Cooldown active for EURGBP: 36.0min remaining
+[2026-04-23 13:00:20] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:00:50] [INFO] Processing EURUSD
+[2026-04-23 13:00:50] [INFO] Processing GBPUSD
+[2026-04-23 13:00:50] [INFO] Processing XAUUSD
+[2026-04-23 13:00:50] [INFO] Processing EURGBP
+[2026-04-23 13:00:50] [SKIP] Cooldown active for XAUUSD: 35.0min remaining
+[2026-04-23 13:00:50] [SKIP] Cooldown active for GBPUSD: 34.0min remaining
+[2026-04-23 13:00:50] [SKIP] Cooldown active for EURGBP: 35.5min remaining
+[2026-04-23 13:00:50] [SKIP] BoS failed for EURUSD at 2026-04-23 13:00:50.729213: Close 1.16947 not above last high 1.17119
+[2026-04-23 13:00:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:01:21] [INFO] Processing EURUSD
+[2026-04-23 13:01:21] [INFO] Processing GBPUSD
+[2026-04-23 13:01:21] [INFO] Processing XAUUSD
+[2026-04-23 13:01:21] [INFO] Processing EURGBP
+[2026-04-23 13:01:21] [SKIP] Cooldown active for XAUUSD: 34.5min remaining
+[2026-04-23 13:01:21] [SKIP] Cooldown active for GBPUSD: 33.5min remaining
+[2026-04-23 13:01:21] [SKIP] BoS failed for EURUSD at 2026-04-23 13:01:21.007920: Close 1.16947 not above last high 1.17119
+[2026-04-23 13:01:21] [SKIP] Cooldown active for EURGBP: 35.0min remaining
+[2026-04-23 13:01:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:01:51] [INFO] Processing EURUSD
+[2026-04-23 13:01:51] [INFO] Processing GBPUSD
+[2026-04-23 13:01:51] [INFO] Processing XAUUSD
+[2026-04-23 13:01:51] [SKIP] Cooldown active for GBPUSD: 33.0min remaining
+[2026-04-23 13:01:51] [INFO] Processing EURGBP
+[2026-04-23 13:01:51] [SKIP] BoS failed for EURUSD at 2026-04-23 13:01:51.051888: Close 1.16944 not above last high 1.17119
+[2026-04-23 13:01:51] [SKIP] Cooldown active for EURGBP: 34.5min remaining
+[2026-04-23 13:01:51] [SKIP] Cooldown active for XAUUSD: 34.0min remaining
+[2026-04-23 13:01:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:02:21] [INFO] Processing EURUSD
+[2026-04-23 13:02:21] [INFO] Processing GBPUSD
+[2026-04-23 13:02:21] [INFO] Processing XAUUSD
+[2026-04-23 13:02:21] [INFO] Processing EURGBP
+[2026-04-23 13:02:21] [SKIP] Cooldown active for GBPUSD: 32.5min remaining
+[2026-04-23 13:02:21] [SKIP] BoS failed for EURUSD at 2026-04-23 13:02:21.087087: Close 1.16944 not above last high 1.17119
+[2026-04-23 13:02:21] [SKIP] Cooldown active for XAUUSD: 33.5min remaining
+[2026-04-23 13:02:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:02:51] [INFO] Processing EURUSD
+[2026-04-23 13:02:51] [INFO] Processing GBPUSD
+[2026-04-23 13:02:51] [INFO] Processing XAUUSD
+[2026-04-23 13:02:51] [INFO] Processing EURGBP
+[2026-04-23 13:02:51] [SKIP] Cooldown active for XAUUSD: 33.0min remaining
+[2026-04-23 13:02:51] [SKIP] BoS failed for EURUSD at 2026-04-23 13:02:51.147903: Close 1.16940 not above last high 1.17119
+[2026-04-23 13:02:51] [SKIP] Cooldown active for GBPUSD: 32.0min remaining
+[2026-04-23 13:02:51] [SKIP] Cooldown active for EURGBP: 33.5min remaining
+[2026-04-23 13:02:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:03:21] [INFO] Processing EURUSD
+[2026-04-23 13:03:21] [INFO] Processing GBPUSD
+[2026-04-23 13:03:21] [INFO] Processing EURGBP
+[2026-04-23 13:03:21] [SKIP] Cooldown active for GBPUSD: 31.5min remaining
+[2026-04-23 13:03:21] [INFO] Processing XAUUSD
+[2026-04-23 13:03:21] [SKIP] BoS failed for EURUSD at 2026-04-23 13:03:21.218651: Close 1.16940 not above last high 1.17119
+[2026-04-23 13:03:21] [SKIP] Cooldown active for EURGBP: 33.0min remaining
+[2026-04-23 13:03:21] [SKIP] Cooldown active for XAUUSD: 32.5min remaining
+[2026-04-23 13:03:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:03:51] [INFO] Processing EURUSD
+[2026-04-23 13:03:51] [INFO] Processing GBPUSD
+[2026-04-23 13:03:51] [INFO] Processing XAUUSD
+[2026-04-23 13:03:51] [INFO] Processing EURGBP
+[2026-04-23 13:03:51] [SKIP] Cooldown active for GBPUSD: 31.0min remaining
+[2026-04-23 13:03:51] [SKIP] Cooldown active for XAUUSD: 32.0min remaining
+[2026-04-23 13:03:51] [SKIP] Cooldown active for EURGBP: 32.5min remaining
+[2026-04-23 13:03:51] [SKIP] BoS failed for EURUSD at 2026-04-23 13:03:51.272754: Close 1.16936 not above last high 1.17119
+[2026-04-23 13:03:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:04:21] [INFO] Processing EURUSD
+[2026-04-23 13:04:21] [INFO] Processing GBPUSD
+[2026-04-23 13:04:21] [INFO] Processing EURGBP
+[2026-04-23 13:04:21] [INFO] Processing XAUUSD
+[2026-04-23 13:04:21] [SKIP] BoS failed for EURUSD at 2026-04-23 13:04:21.487965: Close 1.16936 not above last high 1.17119
+[2026-04-23 13:04:21] [SKIP] Cooldown active for GBPUSD: 30.5min remaining
+[2026-04-23 13:04:21] [SKIP] Cooldown active for EURGBP: 32.0min remaining
+[2026-04-23 13:04:21] [SKIP] Cooldown active for XAUUSD: 31.5min remaining
+[2026-04-23 13:04:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:04:51] [INFO] Processing EURUSD
+[2026-04-23 13:04:51] [INFO] Processing GBPUSD
+[2026-04-23 13:04:51] [INFO] Processing XAUUSD
+[2026-04-23 13:04:51] [SKIP] Cooldown active for GBPUSD: 30.0min remaining
+[2026-04-23 13:04:51] [SKIP] BoS failed for EURUSD at 2026-04-23 13:04:51.552162: Close 1.16930 not above last high 1.17119
+[2026-04-23 13:04:51] [SKIP] Cooldown active for XAUUSD: 31.0min remaining
+[2026-04-23 13:04:51] [SKIP] Cooldown active for EURGBP: 31.5min remaining
+[2026-04-23 13:04:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:05:21] [INFO] Processing EURUSD
+[2026-04-23 13:05:21] [INFO] Processing XAUUSD
+[2026-04-23 13:05:21] [INFO] Processing GBPUSD
+[2026-04-23 13:05:21] [INFO] Processing EURGBP
+[2026-04-23 13:05:21] [SKIP] Cooldown active for GBPUSD: 29.5min remaining
+[2026-04-23 13:05:21] [SKIP] Cooldown active for XAUUSD: 30.5min remaining
+[2026-04-23 13:05:21] [SKIP] BoS failed for EURUSD at 2026-04-23 13:05:21.598108: Close 1.16930 not above last high 1.17119
+[2026-04-23 13:05:21] [SKIP] Cooldown active for EURGBP: 31.0min remaining
+[2026-04-23 13:05:21] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:05:51] [INFO] Processing EURUSD
+[2026-04-23 13:05:51] [INFO] Processing GBPUSD
+[2026-04-23 13:05:51] [INFO] Processing XAUUSD
+[2026-04-23 13:05:51] [WARN] Resetting state for EURUSD due to staleness
+[2026-04-23 13:05:51] [INFO] Processing EURGBP
+[2026-04-23 13:05:51] [SKIP] Cooldown active for GBPUSD: 29.0min remaining
+[2026-04-23 13:05:51] [SKIP] Cooldown active for XAUUSD: 30.0min remaining
+[2026-04-23 13:05:51] [SKIP] Cooldown active for EURGBP: 30.5min remaining
+[2026-04-23 13:05:51] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-23 13:05:51] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:06:21] [INFO] Processing EURUSD
+[2026-04-23 13:06:21] [INFO] Processing EURGBP
+[2026-04-23 13:06:21] [INFO] Processing GBPUSD
+[2026-04-23 13:06:21] [INFO] Processing XAUUSD
+[2026-04-23 13:06:21] [SKIP] Cooldown active for EURGBP: 30.0min remaining
+[2026-04-23 13:06:22] [SKIP] Cooldown active for GBPUSD: 28.5min remaining
+[2026-04-23 13:06:22] [SKIP] Cooldown active for XAUUSD: 29.5min remaining
+[2026-04-23 13:06:22] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-23 13:06:22] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:06:52] [INFO] Processing EURUSD
+[2026-04-23 13:06:52] [INFO] Processing GBPUSD
+[2026-04-23 13:06:52] [INFO] Processing EURGBP
+[2026-04-23 13:06:52] [INFO] Processing XAUUSD
+[2026-04-23 13:06:52] [SKIP] Cooldown active for GBPUSD: 28.0min remaining
+[2026-04-23 13:06:52] [SKIP] Cooldown active for EURGBP: 29.5min remaining
+[2026-04-23 13:06:52] [SKIP] Cooldown active for XAUUSD: 29.0min remaining
+[2026-04-23 13:06:52] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-23 13:06:52] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:07:22] [INFO] Processing EURUSD
+[2026-04-23 13:07:22] [INFO] Processing GBPUSD
+[2026-04-23 13:07:22] [INFO] Processing XAUUSD
+[2026-04-23 13:07:22] [SKIP] Cooldown active for GBPUSD: 27.5min remaining
+[2026-04-23 13:07:22] [INFO] Processing EURGBP
+[2026-04-23 13:07:22] [SKIP] Cooldown active for XAUUSD: 28.5min remaining
+[2026-04-23 13:07:22] [SKIP] Cooldown active for EURGBP: 29.0min remaining
+[2026-04-23 13:07:22] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-23 13:07:22] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:07:52] [INFO] Processing EURUSD
+[2026-04-23 13:07:52] [INFO] Processing GBPUSD
+[2026-04-23 13:07:52] [INFO] Processing XAUUSD
+[2026-04-23 13:07:53] [INFO] Processing EURGBP
+[2026-04-23 13:07:53] [SKIP] Cooldown active for GBPUSD: 27.0min remaining
+[2026-04-23 13:07:53] [SKIP] Cooldown active for XAUUSD: 28.0min remaining
+[2026-04-23 13:07:53] [SKIP] Cooldown active for EURGBP: 28.5min remaining
+[2026-04-23 13:07:53] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-23 13:07:53] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 13:08:23] [INFO] Processing EURUSD
+[2026-04-23 13:08:23] [INFO] Processing GBPUSD
+[2026-04-23 13:08:23] [INFO] Processing XAUUSD
+[2026-04-23 13:08:23] [INFO] Processing EURGBP
+[2026-04-23 13:08:23] [SKIP] Cooldown active for GBPUSD: 26.5min remaining
+[2026-04-23 13:08:23] [SKIP] Cooldown active for XAUUSD: 27.5min remaining
+[2026-04-23 13:08:23] [SKIP] Cooldown active for EURGBP: 28.0min remaining
+[2026-04-23 13:08:23] [SKIP] No new unprocessed HTF sweeps found for EURUSD
+[2026-04-23 13:08:23] [INFO] 30 seconds until next strategy run...
+
+[2026-04-23 21:26:42] [INFO] Outside trading session hours or news event. Sleeping...

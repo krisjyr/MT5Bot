@@ -1,8 +1,3 @@
-"""
-statistics.py — MT5 Live Trade History Statistics Viewer
-Fetches closed deal history from MetaTrader 5 and prints a full performance report.
-"""
-
 import MetaTrader5 as mt5
 from datetime import datetime, timedelta, timezone
 from collections import defaultdict
@@ -214,7 +209,6 @@ def fetch_trades(lookback_days=LOOKBACK_DAYS, magic=MAGIC_NUMBER):
             "close_dt":  close_dt,
             "duration":  duration,   # minutes
         })
-        print(i)
     return trades, account
 
 # ── Copy Window ──────────────────────────────────────────────────────────────
@@ -452,27 +446,27 @@ def compute_and_print(trades, account):
 
     # ── Trade Frequency ──────────────────────────────────────────────────────
     section("TRADE FREQUENCY")
-    row("Per Day",    f"{freq_day:.2f}")
-    row("Per Week",   f"{freq_wk:.2f}")
-    row("Per Month",  f"{freq_mo:.2f}")
+    row("Per Day Avg",    f"{freq_day:.2f}")
+    row("Per Week Avg",   f"{freq_wk:.2f}")
+    row("Per Month Avg",  f"{freq_mo:.2f}")
 
     # ── By Symbol ────────────────────────────────────────────────────────────
     section("PERFORMANCE BY SYMBOL")
-    print(f"  {'Symbol':<10} {'Trades':>6}  {'WR%':>6}  {'Avg RR':>7}  {'Net P&L':>12}")
-    print(f"  {dim('─'*52)}")
+    print(f"  {'Symbol':<10} {'Trades':>6}  {'Wins':>6}  {'Losses':>6}  {'WR%':>6}  {'Avg RR':>7}  {'Net P&L':>12}")
+    print(f"  {dim('─'*63)}")
     for sym, d in sorted(sym_data.items(), key=lambda x: -x[1]["pnl"]):
         wr_s  = d["wins"] / d["trades"] * 100 if d["trades"] else 0
         ar_s  = sum(d["rr"]) / len(d["rr"]) if d["rr"] else None
         pnl_s = d["pnl"]
         ar_str = f"{ar_s:+.2f}R" if ar_s is not None else "  N/A"
         wr_str = f"{wr_s:.0f}%"
-        print(f"  {sym:<10} {d['trades']:>6}  {(green if wr_s>=50 else red)(wr_str):>15}  "
+        print(f"  {sym:<10} {d['trades']:>6}  {d['wins']:>6}  {d['losses']:>6}  {(green if wr_s>=50 else red)(wr_str):>15}  "
               f"{(green if (ar_s or 0)>0 else red)(ar_str):>16}  "
               f"{pnl_color(pnl_s):>21}")
 
     # ── By Session ───────────────────────────────────────────────────────────
     section("PERFORMANCE BY SESSION  (UTC)")
-    print(f"  {'Session':<10} {'Trades':>6}  {'WR%':>6}  {'Avg RR':>7}  {'Net P&L':>12}  {'P&L%':>7}")
+    print(f"  {'Session':<14} {'Trades':>6}  {'WR%':>6}  {'Avg RR':>7}  {'Net P&L':>12}  {'P&L%':>7}")
     print(f"  {dim('─'*60)}")
     base_bal = (balance - total_pnl) if balance else None
     for sess_name in ["Tokyo", "Tokyo-London","London","London-NY","NY","Off-session"]:

@@ -7,7 +7,6 @@ from utils.logger import log_info, log_error, log_warning
 liquidity_cache = {}
 
 def calculate_stop_loss(symbol, entry_price, direction, fixed_sl_enabled, default_sl_pips):
-    """Calculate stop loss based on fixed or dynamic settings."""
     if fixed_sl_enabled:
         # Use fixed pip-based stop loss
         symbol_info = mt5.symbol_info(symbol)
@@ -33,12 +32,10 @@ def calculate_stop_loss(symbol, entry_price, direction, fixed_sl_enabled, defaul
         log_info(f"Fixed SL for {symbol}: {stop_loss:.5f} ({default_sl_pips} pips)")
         return round(stop_loss, digits)
     else:
-        # Dynamic SL will be calculated elsewhere (e.g., ATR-based, structure-based)
-        # This function returns None to indicate dynamic calculation is needed
+        # Dynamic SL is calculated in startegy rn based on structure/ATR, so just returning None here
         return None
     
 def calculate_take_profit(symbol, entry_price, stop_loss, direction, rr_ratio):
-    """Calculate take profit based on stop loss and risk-reward ratio."""
     symbol_info = mt5.symbol_info(symbol)
     if not symbol_info:
         log_error(f"Cannot get symbol info for {symbol}")
@@ -57,7 +54,6 @@ def calculate_take_profit(symbol, entry_price, stop_loss, direction, rr_ratio):
     return round(take_profit, digits)
 
 def get_high_liquidity_points(symbol, current_price, direction, tf_data, quiet=False):
-    """Identify high-liquidity points (support/resistance) efficiently."""
     try:
         # Validate data
         df = pd.DataFrame(tf_data)
@@ -65,7 +61,7 @@ def get_high_liquidity_points(symbol, current_price, direction, tf_data, quiet=F
             log_error(f"Insufficient data for {symbol}: {len(df)} candles", quiet=quiet)
             return None
         
-        # Calculate pivot points (vectorized)
+        # Calculate pivot points (vectorized for performance (suggested by claude))
         window = 5
         df['high_pivot'] = df['high'].rolling(window=window, center=True).max()
         df['low_pivot'] = df['low'].rolling(window=window, center=True).min()
@@ -101,18 +97,7 @@ def get_high_liquidity_points(symbol, current_price, direction, tf_data, quiet=F
         return None
 
 def process_trade_data(symbol, state, settings, tf_data=None, quiet=False):
-    """
-    Process trade data to set stop-loss and take-profit.
-    
-    Args:
-        symbol: Trading symbol
-        state: Trade state object with entry_price, direction, etc.
-        settings: Strategy settings dictionary
-        tf_data: Timeframe data for liquidity analysis
-        quiet: Suppress non-critical logs
-    """
     try:
-        # Extract settings
         dynamic_rr = settings.get("dynamic_rr", False)
         fixed_sl = settings.get("fixed_stop_loss", False)
         min_rr = settings.get("minimum_rr", 3.0)
@@ -124,7 +109,7 @@ def process_trade_data(symbol, state, settings, tf_data=None, quiet=False):
             log_error(f"Entry price is None for {symbol}", quiet=quiet)
             return False
         
-        # Step 1: Calculate Stop Loss
+        # Calculate Stop Loss
         if fixed_sl:
             # Use fixed pip-based stop loss
             state.stop_loss = calculate_stop_loss(
@@ -143,7 +128,7 @@ def process_trade_data(symbol, state, settings, tf_data=None, quiet=False):
                 log_error(f"Dynamic SL not set for {symbol}", quiet=quiet)
                 return False
         
-        # Step 2: Calculate Take Profit
+        # Calculate Take Profit
         if dynamic_rr and tf_data is not None:
             # Try to find liquidity-based target
             liquidity_target = get_high_liquidity_points(

@@ -1,0 +1,44 @@
+[2026-04-21 08:02:10] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bearish | Score: 0.60 | Strength: 1 touches | Level: 1.1782 | Sweep Type: break_retest | Time: 2026-04-20 18:00:00
+[2026-04-21 08:02:10] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bearish | Score: 0.60 | Strength: 1 touches | Level: 1.3536 | Sweep Type: break_retest | Time: 2026-04-20 18:00:00
+[2026-04-21 08:02:10] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 0.8701 | Sweep Type: break_retest | Time: 2026-04-20 16:00:00
+[2026-04-21 08:11:14] [SUCCESS] BoS confirmed for EURGBP at 2026-04-21 08:11:13.967351: Risk=0.91%
+[2026-04-21 08:11:14] [TRADE] EURGBP | Bullish @ 0.87128 | SL: 0.87068 | TP: 0.87308 | Lot: 0.78
+[2026-04-21 08:11:14] [SUCCESS] Trade executed on EURGBP
+[2026-04-21 08:12:14] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 08:22:20] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 08:32:26] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 08:42:31] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 08:52:36] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 09:02:41] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 09:04:42] [SUCCESS] BoS confirmed for GBPUSD at 2026-04-21 09:04:42.186504: Risk=1.84%
+[2026-04-21 09:04:42] [TRADE] GBPUSD | Bullish @ 1.35266 | SL: 1.35206 | TP: 1.35446 | Lot: 1.56
+[2026-04-21 09:04:42] [SUCCESS] Trade executed on GBPUSD
+[2026-04-21 09:11:15] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8710 | Sweep Type: break_retest | Time: 2026-04-21 03:00:00
+[2026-04-21 09:11:15] [SUCCESS] BoS confirmed for EURGBP at 2026-04-21 09:11:15.459290: Risk=2.00%
+[2026-04-21 09:11:15] [TRADE] EURGBP | Bearish @ 0.87057 | SL: 0.87117 | TP: 0.86877 | Lot: 1.70
+[2026-04-21 09:11:16] [SUCCESS] Trade executed on EURGBP
+[2026-04-21 09:32:43] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 09:32:43] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8710 | Sweep Type: break_retest | Time: 2026-04-21 03:00:00
+[2026-04-21 09:33:44] [SUCCESS] BoS confirmed for EURGBP at 2026-04-21 09:33:43.649043: Risk=2.00%
+[2026-04-21 09:33:44] [TRADE] EURGBP | Bearish @ 0.87070 | SL: 0.87130 | TP: 0.86890 | Lot: 1.67
+[2026-04-21 09:33:44] [SUCCESS] Trade executed on EURGBP
+[2026-04-21 09:37:46] [SUCCESS] Sweep confirmed on HTF for EURUSD | Type: Bullish | Score: 0.75 | Strength: 2 touches | Level: 1.1772 | Sweep Type: break_retest | Time: 2026-04-21 09:00:00
+[2026-04-21 09:39:47] [SUCCESS] BoS confirmed for GBPUSD at 2026-04-21 09:39:47.309187: Risk=2.00%
+[2026-04-21 09:39:47] [TRADE] GBPUSD | Bullish @ 1.35211 | SL: 1.35151 | TP: 1.35391 | Lot: 1.67
+[2026-04-21 09:49:50] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 09:59:55] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 10:09:58] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 10:20:01] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 10:30:04] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 10:34:06] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8710 | Sweep Type: break_retest | Time: 2026-04-21 03:00:00
+[2026-04-21 10:36:06] [SUCCESS] BoS confirmed for EURGBP at 2026-04-21 10:36:06.604441: Risk=1.49%
+[2026-04-21 10:36:06] [TRADE] EURGBP | Bearish @ 0.87085 | SL: 0.87145 | TP: 0.86905 | Lot: 1.24
+[2026-04-21 10:40:08] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 10:46:10] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8710 | Sweep Type: break_retest | Time: 2026-04-21 03:00:00
+[2026-04-21 10:50:11] [SUCCESS] BoS confirmed for EURGBP at 2026-04-21 10:50:11.290555: Risk=1.57%
+[2026-04-21 10:50:11] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3522 | Sweep Type: break_retest | Time: 2026-04-21 05:00:00
+[2026-04-21 10:50:11] [TRADE] EURGBP | Bearish @ 0.87075 | SL: 0.87135 | TP: 0.86895 | Lot: 1.31
+[2026-04-21 11:00:14] [SUCCESS] Sweep confirmed on HTF for GBPUSD | Type: Bullish | Score: 0.60 | Strength: 1 touches | Level: 1.3514 | Sweep Type: break_retest | Time: 2026-04-21 10:00:00
+[2026-04-21 11:00:14] [SUCCESS] Sweep confirmed on HTF for EURGBP | Type: Bearish | Score: 0.90 | Strength: 3 touches | Level: 0.8710 | Sweep Type: break_retest | Time: 2026-04-21 03:00:00
+[2026-04-21 11:02:15] [SUCCESS] BoS confirmed for EURGBP at 2026-04-21 11:02:15.370686: Risk=1.69%
+[2026-04-21 11:02:15] [TRADE] EURGBP | Bearish @ 0.87092 | SL: 0.87152 | TP: 0.86912 | Lot: 1.41

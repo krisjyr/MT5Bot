@@ -8,8 +8,7 @@ from utils.logger import log_info, log_success, log_warning, log_error, log_skip
 from core.risk_manager import calculate_position_size
 from utils.timeframes import timeframe_map
 from core.order_manager import send_order
-from core.htf_detect import EnhancedHTFSweepDetector
-from core.fvg_detect import find_fvg_multi_tf_safe, detect_fvg_across_timeframes, calculate_average_range
+from core.htf_detect import HTFSweepDetector
 from core.bos_detect import adaptive_risk_bos, confirm_break_of_structure
 from core.rr_processing import process_trade_data
 from core.breakeven_manager import check_and_set_breakeven, cleanup_closed_positions
@@ -45,15 +44,12 @@ class SymbolState:
         self.last_updated = datetime.now()
         
     def has_processed_sweep(self, sweep_time):
-        """Check if we've already processed a sweep at this time."""
         return sweep_time in self.processed_sweep_times
     
     def mark_sweep_processed(self, sweep_time):
-        """Mark a sweep as processed."""
         self.processed_sweep_times.add(sweep_time)
 
 def fetch_data(symbol, timeframe, candles):
-    """Fetch and cache data for a symbol and timeframe."""
     cache_key = f"{symbol}_{timeframe}"
     if cache_key in data_cache:
         cached_data, timestamp = data_cache[cache_key]
@@ -64,8 +60,8 @@ def fetch_data(symbol, timeframe, candles):
         data_cache[cache_key] = (data, datetime.now())
     return data
 
+# got this with help of ai cause i was lazy :p
 def calculate_atr(data, period=14):
-    """Calculate ATR for volatility filtering and position sizing."""
     df = pd.DataFrame(data)
     high_low = df['high'] - df['low']
     high_close = abs(df['high'] - df['close'].shift())
@@ -74,16 +70,17 @@ def calculate_atr(data, period=14):
     true_range = ranges.max(axis=1)
     return true_range.rolling(window=period).mean().iloc[-1]
 
-def find_liquidity_zone(data, direction):
-    """Mock liquidity zone detection (assumes rr_processing.py handles actual logic)."""
-    df = pd.DataFrame(data)
-    if direction == "Bullish":
-        return df['high'].rolling(window=50).max().iloc[-1]
-    else:
-        return df['low'].rolling(window=50).min().iloc[-1]
+def calculate_average_range(candles):
+    if len(candles) < 2:
+        return 0
+        
+    ranges = []
+    for candle in candles:
+        ranges.append(candle['high'] - candle['low'])
+        
+    return sum(ranges) / len(ranges)
 
 def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=None):
-    """Process a single symbol with all enhancements."""
     tf = settings["timeframes"]
     risk = settings["risk_percent"]
     default_sl_pips = settings.get("default_stop_loss_pips", 500)
@@ -142,15 +139,12 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
             log_error(f"Failed to fetch HTF data for {symbol}", quiet=quiet)
             return False, 0.0
 
-    # Convert HTF data to DataFrame
     df_htf = pd.DataFrame(htf_data)
     
-    # Handle time conversion based on data structure
     if 'time' not in df_htf.columns:
         log_error(f"HTF data missing 'time' column for {symbol}", quiet=quiet)
         return False, 0.0
     
-    # Convert time to datetime if not already
     if not pd.api.types.is_datetime64_any_dtype(df_htf['time']):
         df_htf['time'] = pd.to_datetime(df_htf['time'], unit='s')
 
@@ -158,22 +152,19 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
     if use_volatility_filter:
         atr = calculate_atr(htf_data)
         avg_range = calculate_average_range(htf_data)
+
         if atr < avg_range * 0.5:
             log_skip(f"Low volatility on {symbol} (ATR: {atr:.5f})", quiet=quiet)
             return False, 0.0
     else:
         atr = calculate_atr(htf_data)
         avg_range = calculate_average_range(htf_data)
-
-    # Dynamic swing strength
-    swing_strength = 1 if atr > avg_range else 2
+        
+    swing_strength = 4 if atr > avg_range else 5
 
     if use_sweep and not state.sweep_confirmed:
-        # Dynamic swing strength based on volatility
-        swing_strength = 4 if atr > avg_range else 5
         
-        # Initialize enhanced detector (LuxAlgo-style logic)
-        htf_sweeper = EnhancedHTFSweepDetector(
+        htf_sweeper = HTFSweepDetector(
             swing_strength=swing_strength,
             sweep_mode='Wicks + Outbreaks & Retest',   # or 'Only Wicks' / 'Only Outbreaks & Retest'
             swing_lookback=1500,
@@ -183,7 +174,7 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         )
         
         try:
-            df_htf = htf_sweeper.run(df_htf, add_metrics=True, debug=True)  # Set debug=True only when needed
+            df_htf = htf_sweeper.run(df_htf, add_metrics=True, debug=False)  # Set debug=True only when needed
         except Exception as e:
             log_error(f"Sweep detection failed for {symbol}: {str(e)}", quiet=quiet)
             return False, 0.0
@@ -224,7 +215,7 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
                     sweep_type = "Bullish"
                     sweep_dir = "low"
                 
-                # Score calculation (improved: strength 1 now gives meaningful score)
+                # Score calculation
                 htf_score = min(0.45 + strength * 0.15, 1.0)
                 
                 if htf_score > 0.45:        # Slightly raised to avoid very weak signals
@@ -271,79 +262,6 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         if ltf_data is None or len(ltf_data) < 10:
             log_error(f"Failed to fetch LTF data for {symbol}", quiet=quiet)
             return False, 0.0
-
-    #Commented out
-    """
-    # FVG detection with RSI momentum
-    if use_fvg and not state.fvg_tapped:
-        if use_rsi_filter:
-            rsi = calculate_rsi(ltf_data)
-            if (state.direction == "Bullish" and rsi < min_rsi) or (state.direction == "Bearish" and rsi > max_rsi):
-                log_skip(f"RSI momentum invalid for {symbol}: RSI={rsi:.2f}", quiet=quiet)
-                return False, 0.0
-
-        state.fvg = find_fvg_multi_tf_safe(
-            symbol=symbol,
-            min_size=pips_to_price(symbol, min_fvg_size),
-            timeframes=[tf["ltf"], tf["htf"]],  # Limit to M5 and H1 for speed
-            candles_to_fetch=100,
-            timeframe_map=timeframe_map,
-            mt5_module=mt5,
-            min_gap_percentage=0.02,
-            direction=state.direction,
-            debug=False
-        )
-        if not state.fvg:
-            log_skip(f"No suitable FVG found for {symbol}", quiet=quiet)
-            return False, 0.0
-
-        if state.direction != state.fvg['type']:
-            log_warning(f"Direction mismatch for {symbol}: HTF {state.direction} vs FVG {state.fvg['type']}", quiet=quiet)
-            return False, 0.0
-        
-        if state.fvg:
-            log_success(f"FVG found for {symbol}: {state.fvg['low']:.5f} - {state.fvg['high']:.5f} | Type: {state.fvg['type']} | Timeframe: {state.fvg['timeframe']}", tradelog=True, quiet=quiet)
-
-        # Volume confirmation (less restrictive for backtest)
-        recent_data = ltf_data[-5:]
-        avg_volume = sum(c['tick_volume'] for c in recent_data) / len(recent_data)
-        volume_threshold = 0.5  # Lowered for backtest
-        volume_threshold *= (0.7 if current_time.hour < 2 or current_time.hour > 22 else 1.0)  # Off-hours adjustment
-        if recent_data[-1]['tick_volume'] < avg_volume * volume_threshold:
-            log_skip(f"Insufficient volume for FVG on {symbol}: Last={recent_data[-1]['tick_volume']}, Avg={avg_volume:.2f}, Threshold={volume_threshold:.2f}", quiet=quiet)
-            return False, 0.0
-        log_info(f"Volume confirmed for {symbol}: Last={recent_data[-1]['tick_volume']}, Avg={avg_volume:.2f}, Threshold={volume_threshold:.2f}", quiet=quiet)
-
-        if sl_under_fvg:
-            sl_pips = pips_to_price(symbol, fvg_sl_offset)
-            state.stop_loss = state.fvg['low'] - sl_pips if state.direction == "Bullish" else state.fvg['high'] + sl_pips
-            log_success(f"FVG SL set for {symbol}: SL={state.stop_loss:.5f}", tradelog=True, quiet=quiet)
-
-        tapped = detect_fvg_across_timeframes(symbol, tf, state.fvg, mt5, timeframe_map)
-        if tapped:
-            state.fvg_tapped = True
-            state.update()
-            log_success(f"FVG tapped on {symbol}: {state.fvg['low']:.5f} - {state.fvg['high']:.5f} | Type: {state.fvg['type']} | Timeframe: {state.fvg['timeframe']}", tradelog=True, quiet=quiet)
-        else:
-            log_skip(f"FVG not tapped on {symbol}", quiet=quiet)
-            return False, 0.0
-        
-
-    
-
-    # Price validation
-    if state.fvg_tapped:
-        current_price = ltf_data[-1]['close']
-        if state.direction == "Bullish" and (current_price < state.fvg['low'] or current_price < state.stop_loss):
-            log_warning(f"FVG or SL broken for {symbol}: Price: {current_price:.5f} | FVG: {state.fvg['low']:.5f} | SL: {state.stop_loss:.5f}", quiet=quiet)
-            state.reset()
-            return False, 0.0
-        if state.direction == "Bearish" and (current_price > state.fvg['high'] or current_price > state.stop_loss):
-            log_warning(f"FVG or SL broken for {symbol}: Price: {current_price:.5f} | FVG: {state.fvg['high']:.5f} | SL: {state.stop_loss:.5f}", quiet=quiet)
-            state.reset()
-            return False, 0.0
-            """
-    # until here
 
     # Adaptive BoS confirmation
     if confirm_bos and not state.bos_confirmed:
@@ -403,7 +321,7 @@ def process_symbol(symbol, settings, quiet=False, backtest=False, backtest_data=
         log_error(f"Failed to process trade data for {symbol}", quiet=quiet)
         return False, 0.0
     
- # Validate trade parameters
+    # Validate trade parameters
     if state.entry_price is None or state.stop_loss is None or state.take_profit is None:
         log_error(f"Invalid trade parameters for {symbol}: entry={state.entry_price}, sl={state.stop_loss}, tp={state.take_profit}", quiet=quiet)
         return False, 0.0
@@ -487,34 +405,6 @@ def strategy_run(settings):
                     return True, True
 
     return trade_count >= max_trade_count, total_risk >= max_risk_per_day
-
-def detect_ltf_reversal(data, direction, fvg_sl):
-    """Detect reversal with engulfing or pin bar patterns."""
-    last = data[-1]
-    prev = data[-2]
-
-    # Engulfing pattern
-    if direction == "Bullish":
-        if (last['close'] > last['open'] and prev['close'] < prev['open'] and
-            last['close'] > prev['open'] and last['open'] < prev['close']):
-            return last['close'], fvg_sl, "Bullish"
-    elif direction == "Bearish":
-        if (last['close'] < last['open'] and prev['close'] > prev['open'] and
-            last['close'] < prev['open'] and last['open'] > prev['close']):
-            return last['close'], fvg_sl, "Bearish"
-
-    # Pin bar pattern
-    body = abs(last['open'] - last['close'])
-    upper_wick = last['high'] - max(last['open'], last['close'])
-    lower_wick = min(last['open'], last['close']) - last['low']
-    total_range = last['high'] - last['low']
-    
-    if direction == "Bullish" and lower_wick > 2 * body and upper_wick < body and total_range > 0:
-        return last['close'], fvg_sl, "Bullish"
-    elif direction == "Bearish" and upper_wick > 2 * body and lower_wick < body and total_range > 0:
-        return last['close'], fvg_sl, "Bearish"
-
-    return None, None, None
 
 def pips_to_price(symbol: str, pips: float) -> float:
     symbol = symbol.upper()

@@ -9,7 +9,6 @@ import MetaTrader5 as mt5
 from utils.timeframes import timeframe_map
 
 def is_within_session(now, start_str, end_str, symbols, news_buffer_minutes=30):
-    """Check if current time is within trading session and not near high-impact news."""
     start_h, start_m = map(int, start_str.split(":"))
     end_h, end_m = map(int, end_str.split(":"))
     session_start = now.replace(hour=start_h, minute=start_m, second=0, microsecond=0)
@@ -20,7 +19,6 @@ def is_within_session(now, start_str, end_str, symbols, news_buffer_minutes=30):
     return session_start <= now <= session_end
 
 def clear_caches():
-    """Clear data and news caches daily."""
     from strategy import data_cache
     data_cache.clear()
     log_info("Cleared data, news, and swing caches for new trading day")

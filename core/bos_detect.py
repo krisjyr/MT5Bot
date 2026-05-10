@@ -6,7 +6,6 @@ from utils.logger import log_info, log_skip
 swing_cache = {}
 
 def calculate_swing_points(data, window=5, strength=2):
-    """Detect swing highs/lows by checking n bars on each side."""
     cache_key = f"{window}_{strength}_{data[0]['time']}_{data[-1]['time']}_{len(data)}"
     if cache_key in swing_cache:
         return swing_cache[cache_key]
@@ -40,7 +39,6 @@ def calculate_swing_points(data, window=5, strength=2):
     return swings
 
 def confirm_break_of_structure(data, direction, symbol, swing_strength=1):
-    #Confirm BoS with vectorized operations.
     try:
         df = pd.DataFrame(data)
         swings = calculate_swing_points(data, window=20, strength=swing_strength)
@@ -63,7 +61,7 @@ def confirm_break_of_structure(data, direction, symbol, swing_strength=1):
                 result['reason'] = "No recent swing highs"
         elif direction == "Bearish":
             if not recent_lows.empty:
-                last_low = recent_lows['low'].min()
+                last_low = recent_lows['low'].min() # problem is lows. it took a super old low as recent low.
                 if last_candle['close'] < last_low and last_candle['close'] < last_candle['open']:
                     result['confirmed'] = True
                     log_info(f"BoS confirmed for {symbol}: Bearish break below {last_low:.5f}")
@@ -80,7 +78,6 @@ def confirm_break_of_structure(data, direction, symbol, swing_strength=1):
 
 
 def adaptive_risk_bos(data, direction, symbol, base_risk, min_risk, max_risk, swing_strength=2):
-    """Adaptive BoS with dynamic risk based on market structure."""
     try:
         result = confirm_break_of_structure(data, direction, symbol, swing_strength)
         if result['confirmed']:
